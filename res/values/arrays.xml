@@ -141,25 +141,4 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <item type="array" name="APKTOOL_DUMMY_1" />
-    <item type="array" name="APKTOOL_DUMMY_2" />
-    <item type="array" name="APKTOOL_DUMMY_6" />
-    <item type="array" name="APKTOOL_DUMMY_7" />
-    <item type="array" name="APKTOOL_DUMMY_8" />
-    <item type="array" name="APKTOOL_DUMMY_9" />
-    <item type="array" name="APKTOOL_DUMMY_a" />
-    <item type="array" name="APKTOOL_DUMMY_b" />
-    <item type="array" name="APKTOOL_DUMMY_c" />
-    <item type="array" name="APKTOOL_DUMMY_d" />
-    <item type="array" name="APKTOOL_DUMMY_10" />
-    <item type="array" name="APKTOOL_DUMMY_15" />
-    <item type="array" name="APKTOOL_DUMMY_16" />
-    <item type="array" name="APKTOOL_DUMMY_17" />
-    <item type="array" name="APKTOOL_DUMMY_18" />
-    <item type="array" name="APKTOOL_DUMMY_19" />
-    <item type="array" name="APKTOOL_DUMMY_1a" />
-    <item type="array" name="APKTOOL_DUMMY_1b" />
-    <item type="array" name="APKTOOL_DUMMY_1e" />
-    <item type="array" name="APKTOOL_DUMMY_1f" />
-    <item type="array" name="APKTOOL_DUMMY_20" />
 </resources>
