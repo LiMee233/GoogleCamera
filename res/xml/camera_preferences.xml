@@ -60,30 +60,4 @@
         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_video_camera_back_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/setting_camera_video" android:key="pref_video_quality_ultra_key" android:summary="@string/pref_video_ultra_high_summary" android:defaultValue="false" />
         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_video_stable_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_video_stabilization" android:key="pref_video_stabilization_key" android:defaultValue="false" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_setting_about">
-        <PreferenceScreen android:icon="@drawable/ic_about_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_about_title" android:key="pref_category_about">
-            <Preference android:icon="@drawable/iconcamera" android:enabled="false" android:layout="@layout/preference_about" android:key="pref_about_info_icon" />
-            <ListPreference android:enabled="false" android:entries="@array/version_entries" android:layout="@layout/preference_about_info" android:title="@string/pref_mod_name" android:key="pref_about_info" android:summary="@string/pref_mod_version" android:defaultValue="0" android:entryValues="@array/version_entryvalues" />
-            <Preference android:icon="@drawable/quantum_gm_ic_photo_camera_gm_grey_24" android:layout="@layout/preference_updates" android:title="@string/pref_based_title" android:key="pref_category_about_based" android:summary="7.3.020.296349306">
-                <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera" />
-            </Preference>
-            <Preference android:icon="@drawable/ic_dev_24" android:layout="@layout/preference_updates" android:title="@string/blog_title" android:key="pref_category_about_dev_me" android:summary="@string/blog_info">
-                <intent android:action="android.intent.action.VIEW" android:data="http://thedise.ru/" />
-            </Preference>
-            <Preference android:icon="@drawable/ic_charity_24" android:layout="@layout/preference_updates" android:title="@string/pref_dev_title" android:key="pref_category_about_dev" android:summary="@string/pref_dev_name">
-                <intent android:action="android.intent.action.VIEW" android:data="https://www.celsoazevedo.com/files/android/google-camera/developers/" />
-            </Preference>
-            <Preference android:icon="@drawable/ic_translate_24" android:enabled="false" android:layout="@layout/preference_updates" android:title="@string/pref_translators_title" android:key="pref_category_about_translators" android:summary="@string/pref_translators_summary">
-                <intent android:action="android.intent.action.VIEW" android:data="\#" />
-            </Preference>
-            <Preference android:icon="@drawable/ic_donut_24" android:layout="@layout/preference_updates" android:title="@string/pref_donate_title" android:key="pref_category_about_dev" android:summary="@string/pref_donate_summary">
-                <intent android:action="android.intent.action.VIEW" android:data="http://thedise.ru/donuts/" />
-            </Preference>
-            <Preference android:icon="@drawable/ic_update_24" android:layout="@layout/preference_updates" android:title="@string/pref_update_title" android:key="pref_category_about_updates" android:summary="@string/pref_update_summary" />
-            <Preference android:enabled="false" android:layout="@layout/preference_version" android:title="@string/pref_made" android:key="pref_category_about_made" />
-        </PreferenceScreen>
-        <Preference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:layout="@layout/hide" android:title="@string/setting_google_feedback" android:key="pref_launch_feedback" />
-        <Preference android:icon="@drawable/quantum_gm_ic_help_outline_gm_grey_24" android:layout="@layout/hide" android:title="@string/setting_google_help" android:key="pref_launch_help" />
-        <PreferenceScreen android:icon="@drawable/quantum_gm_ic_developer_mode_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_developer_settings" android:key="pref_category_developer" />
-    </PreferenceCategory>
 </PreferenceScreen>

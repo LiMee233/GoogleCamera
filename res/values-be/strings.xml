@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">Раздзяляльнасць фота камеры</string>
     <string name="setting_camera_video">Відэа ультравысокай раздзяляльнасці (4K)</string>
     <string name="setting_general">Агульныя</string>
-    <string name="setting_google_feedback">Адправіць водгук</string>
-    <string name="setting_google_help">Даведка</string>
-    <string name="setting_google_help_and_feedback">Даведка і водгукі</string>
+    <string name="">Адправіць водгук</string>
     <string name="setting_grid_mode">Тып сеткі</string>
     <string name="setting_off">Выключыць</string>
     <string name="settings_open_desc">Адкрыць налады</string>
@@ -484,18 +482,6 @@
     <string name="zoom_minus_desc">Паменшыць</string>
     <string name="zoom_plus_desc">Павялічыць</string>
     <string name="hdr_processing">"Немагчыма пераключыць аб'ектыў. Ідзе апрацоўка фота. Паспрабуйце потым."</string>
-    <string name="pref_about_title">Аб праграме</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">вер. %s</string>
-    <string name="pref_made">Зроблена з ❤ ад Dise</string>
-    <string name="pref_based_title">Заснавана на Google Камеры</string>
-    <string name="pref_dev_title">Дзякуй усім моддерам за дапамогу і падтрымку</string>
-    <string name="blog_title">Вядучы распрацоўшчык</string>
-    <string name="blog_info">Дзмітрый Гаўрылаў aka the_dise</string>
-    <string name="pref_update_title">Праверыць абнаўленні</string>
-    <string name="pref_update_summary">Праверце наяўнасць стабільных абнаўленняў і змяненняў у іх</string>
-    <string name="pref_donate_title">Падтрымка</string>
-    <string name="pref_donate_summary">Калі вы лічыце, што я заслугоўваю аплаты за сваю працу, вы можаце адправіць трохі грошай</string>
     <string name="pref_track_focus_title">Адсочванне фокусу</string>
     <string name="pref_track_focus_summary">"Фокус будзе прывязаны да аб'екта, на які вы націснеце"</string>
     <string name="pref_pzoom_title">Адключыць зум ў партрэтным рэжыме</string>
@@ -541,5 +527,4 @@
     <string name="aux_summary">"Дазваляе актываваць шырокавугольным, макра, тэлеаб'ектывы і зум-аб'ектывы"</string>
     <string name="pref_hex_title">Адключыць Hexagon DSP</string>
     <string name="pref_hex_summary">Адключэнне Hexagon DSP павысіць прадукцыйнасць для слабых смартфонаў</string>
-    <string name="pref_translators_title">Дзякуй за дапамогу ў перакладзе налад</string>
 </resources>

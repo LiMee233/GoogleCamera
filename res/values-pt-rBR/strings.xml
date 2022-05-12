@@ -403,9 +403,7 @@ Ocupa menos memória"</string>
     <string name="setting_camera_photo">Resolução de fotos da câmera</string>
     <string name="setting_camera_video">Vídeo com resolução ultra HD (4K)</string>
     <string name="setting_general">Gerais</string>
-    <string name="setting_google_feedback">Enviar feedback</string>
-    <string name="setting_google_help">Ajuda</string>
-    <string name="setting_google_help_and_feedback">Ajuda e feedback</string>
+    <string name="">Enviar feedback</string>
     <string name="setting_grid_mode">Modo grade</string>
     <string name="setting_off">Desativado</string>
     <string name="settings_open_desc">Abrir configurações</string>
@@ -493,18 +491,6 @@ Ocupa menos memória"</string>
     <string name="zoom_minus_desc">Diminuir zoom</string>
     <string name="zoom_plus_desc">Aumentar zoom</string>
     <string name="hdr_processing">Não foi possível trocar a lente. Há uma foto sendo processada. Tente novamente mais tarde.</string>
-    <string name="pref_about_title">Sobre o app</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">ver. %s</string>
-    <string name="pref_made">Feito com ❤ por Dise</string>
-    <string name="pref_based_title">Baseado na Google Câmera</string>
-    <string name="pref_dev_title">Obrigado a todos os modders por compartilhar e apoiar</string>
-    <string name="blog_title">Desenvolver-chefe</string>
-    <string name="blog_info">Dmitry Gavrilov conhecido como the_dise</string>
-    <string name="pref_update_title">Verificar por atualizações</string>
-    <string name="pref_update_summary">Verifique por atualizações estáveis e changelog</string>
-    <string name="pref_donate_title">Doar</string>
-    <string name="pref_donate_summary">Se você acha que eu mereço ser pago pelo meu trabalho, você pode deixar algum dinheiro aqui</string>
     <string name="pref_track_focus_title">Rastreamento de Foco</string>
     <string name="pref_track_focus_summary">O foco será fixado ao sujeito ou objeto que você tocar</string>
     <string name="pref_pzoom_title">Desativar o zoom no modo Retrato</string>
@@ -550,5 +536,4 @@ Ocupa menos memória"</string>
     <string name="aux_summary">Permite que você ative a lente grande angular, macro, telefoto e zoom</string>
     <string name="pref_hex_title">Desativar o Hexagon DSP</string>
     <string name="pref_hex_summary">Desativar o Hexagon DSP melhorará a performance em smartphones mais fracos</string>
-    <string name="pref_translators_title">Obrigado pela ajuda na tradução das configurações</string>
 </resources>

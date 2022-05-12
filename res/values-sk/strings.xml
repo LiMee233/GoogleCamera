@@ -404,9 +404,7 @@ Keď časté tváre vypnete, údaje tvárí sa odstránia.
     <string name="setting_camera_photo">Rozlíšenie fotiek z fotoaparátu</string>
     <string name="setting_camera_video">Veľmi vysoké rozlíšenie videa (4K)</string>
     <string name="setting_general">Všeobecné</string>
-    <string name="setting_google_feedback">Odoslať spätnú väzbu</string>
-    <string name="setting_google_help">Pomocník</string>
-    <string name="setting_google_help_and_feedback">Pomocník a spätná väzba</string>
+    <string name="">Odoslať spätnú väzbu</string>
     <string name="setting_grid_mode">Typ mriežky</string>
     <string name="setting_off">Vypnuté</string>
     <string name="settings_open_desc">Otvoriť nastavenia</string>

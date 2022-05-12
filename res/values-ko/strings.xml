@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">카메라 사진 해상도</string>
     <string name="setting_camera_video">초고화질 동영상(4K)</string>
     <string name="setting_general">기본 설정</string>
-    <string name="setting_google_feedback">의견 보내기</string>
-    <string name="setting_google_help">도움말</string>
-    <string name="setting_google_help_and_feedback">고객센터</string>
+    <string name="">의견 보내기</string>
     <string name="setting_grid_mode">그리드 유형</string>
     <string name="setting_off">사용 안함</string>
     <string name="settings_open_desc">설정 열기</string>

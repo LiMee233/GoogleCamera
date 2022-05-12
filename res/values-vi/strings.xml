@@ -404,9 +404,7 @@ Bạn có thể dùng tính năng Khuôn mặt quen thuộc khi mở Máy ảnh 
     <string name="setting_camera_photo">Độ phân giải ảnh của máy ảnh</string>
     <string name="setting_camera_video">Video độ phân giải siêu cao (4K)</string>
     <string name="setting_general">Chung</string>
-    <string name="setting_google_feedback">Gửi phản hồi</string>
-    <string name="setting_google_help">Trợ giúp</string>
-    <string name="setting_google_help_and_feedback">Trợ giúp và phản hồi</string>
+    <string name="">Gửi phản hồi</string>
     <string name="setting_grid_mode">Loại lưới</string>
     <string name="setting_off">Đang tắt</string>
     <string name="settings_open_desc">Mở phần cài đặt</string>
@@ -494,18 +492,6 @@ Bạn có thể dùng tính năng Khuôn mặt quen thuộc khi mở Máy ảnh 
     <string name="zoom_minus_desc">Thu nhỏ</string>
     <string name="zoom_plus_desc">Phóng to</string>
     <string name="hdr_processing">Không thể đổi ống kính. Có ảnh đang được xử lý. Thử lại sau</string>
-    <string name="pref_about_title">Thông tin</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">Bản %s</string>
-    <string name="pref_made">Được làm ❤ bởi Dise</string>
-    <string name="pref_based_title">Dựa trên Google Camera</string>
-    <string name="pref_dev_title">Cảm ơn các modders đã chia sẻ và hỗ trợ</string>
-    <string name="blog_title">Developer chính</string>
-    <string name="blog_info">Dmitry Gavrilov aka the_dise</string>
-    <string name="pref_update_title">Kiểm tra cập nhật</string>
-    <string name="pref_update_summary">Kiểm tra bản ổn định và những thay đổi</string>
-    <string name="pref_donate_title">Ủng hộ</string>
-    <string name="pref_donate_summary">Nếu bạn nghĩ tôi xứng đáng, hãy ủng hộ tiền ở đây</string>
     <string name="pref_track_focus_title">Theo dõi đối tượng</string>
     <string name="pref_track_focus_summary">Đối tượng bạn chọn sẽ được theo dõi</string>
     <string name="pref_pzoom_title">Tắt zoom trong chụp chân dung</string>
@@ -551,5 +537,4 @@ Bạn có thể dùng tính năng Khuôn mặt quen thuộc khi mở Máy ảnh 
     <string name="aux_summary">Cho phép bạn kích hoạt lens góc rộng, macro, telephoto và zoom</string>
     <string name="pref_hex_title">Tắt Hexagon DSP</string>
     <string name="pref_hex_summary">Tắt Hexagon DSP sẽ cải thiện hiệu năng cho những điện thoại yếu</string>
-    <string name="pref_translators_title">Cảm ơn sự giúp đỡ phiên dịch phần cài đặt</string>
 </resources>

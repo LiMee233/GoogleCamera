@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">ຄວາມລະອຽດກ້ອງ</string>
     <string name="setting_camera_video">ວິດີໂອຄວາມລະອຽດສູງທີ່ສຸດ (4K)</string>
     <string name="setting_general">ທົ່ວໄປ</string>
-    <string name="setting_google_feedback">ສົ່ງຄຳຕິຊົມ</string>
-    <string name="setting_google_help">ຊ່ວຍເຫຼືອ</string>
-    <string name="setting_google_help_and_feedback">ຊ່ວຍ​ເຫຼືອ &amp; ຄຳ​ຕິ​ຊົມ</string>
+    <string name="">ສົ່ງຄຳຕິຊົມ</string>
     <string name="setting_grid_mode">ປະເພດເສັ້ນ</string>
     <string name="setting_off">ປິດ</string>
     <string name="settings_open_desc">ເປີດການຕັ້ງຄ່າ</string>

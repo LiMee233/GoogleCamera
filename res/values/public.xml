@@ -100,8 +100,6 @@
     <public type="array" name="pref_awb_entryvalues" id="0x7f030025" />
     <public type="array" name="pref_maxexpsec_entries" id="0x7f030028" />
     <public type="array" name="pref_maxexpsec_entryvalues" id="0x7f030029" />
-    <public type="array" name="version_entries" id="0x7f03002a" />
-    <public type="array" name="version_entryvalues" id="0x7f03002b" />
     <public type="array" name="pref_ehn_awb_entries" id="0x7f03002c" />
     <public type="array" name="pref_ehn_awb_entryvalues" id="0x7f03002d" />
     <public type="array" name="pref_focus_sec_entries" id="0x7f03002e" />
@@ -2006,10 +2004,8 @@
     <public type="drawable" name="quantum_gm_ic_camera_front_black_24" id="0x7f0801e2" />
     <public type="drawable" name="quantum_gm_ic_center_focus_strong_white_24" id="0x7f0801e3" />
     <public type="drawable" name="quantum_gm_ic_clear_grey600_36" id="0x7f0801e4" />
-    <public type="drawable" name="quantum_gm_ic_developer_mode_gm_grey_24" id="0x7f0801e6" />
     <public type="drawable" name="quantum_gm_ic_face_black_24" id="0x7f0801e8" />
     <public type="drawable" name="quantum_gm_ic_fast_forward_vd_theme_24" id="0x7f0801ea" />
-    <public type="drawable" name="quantum_gm_ic_feedback_gm_grey_24" id="0x7f0801eb" />
     <public type="drawable" name="quantum_gm_ic_flash_auto_white_24" id="0x7f0801ed" />
     <public type="drawable" name="quantum_gm_ic_flash_off_white_24" id="0x7f0801ee" />
     <public type="drawable" name="quantum_gm_ic_flash_on_white_24" id="0x7f0801ef" />
@@ -2061,8 +2057,6 @@
     <public type="drawable" name="quantum_ic_motion_photos_off_white_24" id="0x7f080238" />
     <public type="drawable" name="quantum_ic_motion_photos_on_white_24" id="0x7f080239" />
     <public type="drawable" name="quantum_ic_panorama_photosphere_white_24" id="0x7f08023c" />
-    <public type="drawable" name="ic_translate_24" id="0x7f08023f" />
-    <public type="drawable" name="quantum_gm_ic_help_outline_gm_grey_24" id="0x7f080240" />
     <public type="drawable" name="quantum_ic_photosphere_white_24" id="0x7f080241" />
     <public type="drawable" name="quantum_ic_pause_white_24" id="0x7f080242" />
     <public type="drawable" name="rounded_rect_grey_bottom" id="0x7f080245" />
@@ -2094,7 +2088,6 @@
     <public type="drawable" name="viewfinder_rounded_background" id="0x7f080265" />
     <public type="drawable" name="quantum_ic_photosphere_white_18" id="0x7f080266" />
     <public type="drawable" name="quantum_ic_play_arrow_white_24" id="0x7f080267" />
-    <public type="drawable" name="ic_about_24" id="0x7f08026c" />
     <public type="drawable" name="ic_arrow_24" id="0x7f08026e" />
     <public type="drawable" name="quantum_gm_ic_astrophoto_white_24" id="0x7f08026f" />
     <public type="drawable" name="quantum_gm_ic_google_awb_off_white_24" id="0x7f080270" />
@@ -2102,16 +2095,12 @@
     <public type="drawable" name="quantum_gm_ic_google_awb_on_white_24" id="0x7f080272" />
     <public type="drawable" name="quantum_gm_ic_astrophoto_off_white_24" id="0x7f080273" />
     <public type="drawable" name="ic_astro_24" id="0x7f080275" />
-    <public type="drawable" name="ic_charity_24" id="0x7f08027c" />
-    <public type="drawable" name="ic_dev_24" id="0x7f08027e" />
     <public type="drawable" name="ic_donate_24" id="0x7f08027f" />
-    <public type="drawable" name="ic_donut_24" id="0x7f080280" />
     <public type="drawable" name="ic_frames_24" id="0x7f080281" />
     <public type="drawable" name="ic_motion_24" id="0x7f08028a" />
     <public type="drawable" name="ic_motion_circle_24" id="0x7f08028b" />
     <public type="drawable" name="ic_motion_red_24" id="0x7f08028c" />
     <public type="drawable" name="ic_pzoom_24" id="0x7f08028e" />
-    <public type="drawable" name="ic_update_24" id="0x7f080296" />
     <public type="drawable" name="iconcamera" id="0x7f080297" />
     <public type="drawable" name="ics_blank" id="0x7f080298" />
     <public type="drawable" name="quantum_gm_ic_ai_awb_auto_white_24" id="0x7f0802a1" />
@@ -3153,7 +3142,6 @@
     <public type="string" name="pref_category_advanced" id="0x7f1302b1" />
     <public type="string" name="pref_depth_every_photo_summary" id="0x7f1302b3" />
     <public type="string" name="pref_depth_every_photo_title" id="0x7f1302b4" />
-    <public type="string" name="pref_developer_settings" id="0x7f1302b5" />
     <public type="string" name="pref_dnd_access_needed_title" id="0x7f1302b6" />
     <public type="string" name="pref_gestures_summary" id="0x7f1302ba" />
     <public type="string" name="pref_hdr_plus_control_summary" id="0x7f1302bb" />
@@ -3198,9 +3186,7 @@
     <public type="string" name="setting_camera_photo" id="0x7f13030b" />
     <public type="string" name="setting_camera_video" id="0x7f13030c" />
     <public type="string" name="setting_general" id="0x7f13030e" />
-    <public type="string" name="setting_google_feedback" id="0x7f13030f" />
-    <public type="string" name="setting_google_help" id="0x7f130310" />
-    <public type="string" name="setting_google_help_and_feedback" id="0x7f130311" />
+    <public type="string" name="" id="0x7f13030f" />
     <public type="string" name="setting_grid_mode" id="0x7f130312" />
     <public type="string" name="setting_off" id="0x7f130316" />
     <public type="string" name="settings_open_desc" id="0x7f13031f" />
@@ -3287,20 +3273,6 @@
     <public type="string" name="zoom_minus_desc" id="0x7f1303a8" />
     <public type="string" name="zoom_plus_desc" id="0x7f1303a9" />
     <public type="string" name="hdr_processing" id="0x7f1303b0" />
-    <public type="string" name="pref_version" id="0x7f1303b1" />
-    <public type="string" name="pref_about_title" id="0x7f1303b2" />
-    <public type="string" name="pref_mod_name" id="0x7f1303b3" />
-    <public type="string" name="pref_mod_version" id="0x7f1303b4" />
-    <public type="string" name="pref_made" id="0x7f1303b5" />
-    <public type="string" name="pref_based_title" id="0x7f1303b6" />
-    <public type="string" name="pref_dev_title" id="0x7f1303b7" />
-    <public type="string" name="pref_dev_name" id="0x7f1303b8" />
-    <public type="string" name="blog_title" id="0x7f1303b9" />
-    <public type="string" name="blog_info" id="0x7f1303ba" />
-    <public type="string" name="pref_update_title" id="0x7f1303bb" />
-    <public type="string" name="pref_update_summary" id="0x7f1303bc" />
-    <public type="string" name="pref_donate_title" id="0x7f1303bd" />
-    <public type="string" name="pref_donate_summary" id="0x7f1303be" />
     <public type="string" name="pref_track_focus_title" id="0x7f1303c0" />
     <public type="string" name="pref_track_focus_summary" id="0x7f1303c1" />
     <public type="string" name="pref_pzoom_title" id="0x7f1303c9" />
@@ -3346,8 +3318,6 @@
     <public type="string" name="aux_summary" id="0x7f13043b" />
     <public type="string" name="pref_hex_title" id="0x7f13043e" />
     <public type="string" name="pref_hex_summary" id="0x7f13043f" />
-    <public type="string" name="pref_translators_title" id="0x7f130440" />
-    <public type="string" name="pref_translators_summary" id="0x7f130441" />
     <public type="string" name="pref_version_number" id="0x7f130442" />
     <public type="string" name="pref_lib_title" id="0x7f130443" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f140000" />

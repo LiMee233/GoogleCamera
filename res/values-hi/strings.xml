@@ -402,9 +402,7 @@
     <string name="setting_camera_photo">फ़ोटो के लिए कैमरे का रिज़ॉल्यूशन</string>
     <string name="setting_camera_video">अल्ट्रा हाई रिज़ॉल्यूशन वीडियो (4K)</string>
     <string name="setting_general">सामान्य</string>
-    <string name="setting_google_feedback">फ़ीडबैक भेजें</string>
-    <string name="setting_google_help">सहायता</string>
-    <string name="setting_google_help_and_feedback">सहायता और फ़ीडबैक</string>
+    <string name="">फ़ीडबैक भेजें</string>
     <string name="setting_grid_mode">ग्रिड के प्रकार</string>
     <string name="setting_off">बंद</string>
     <string name="settings_open_desc">सेटिंग खोलें</string>
@@ -492,18 +490,6 @@
     <string name="zoom_minus_desc">ज़ूम घटाएं</string>
     <string name="zoom_plus_desc">ज़ूम बढ़ाएं</string>
     <string name="hdr_processing">लेंस स्विच करने में असमर्थ, फोटो प्रोसेसिंग हो रहा, बाद में पुन: प्रयास करें</string>
-    <string name="pref_about_title">ऐप के बारे में</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">वर्जन</string>
-    <string name="pref_made">डाइज द्वारा ♥️ से बनाया गया</string>
-    <string name="pref_based_title">गूगल कैमरा पर आधारित</string>
-    <string name="pref_dev_title">साझा व सपोर्ट करने के लिए सभी को धन्यवाद</string>
-    <string name="blog_title">मुख्य डेवलपर</string>
-    <string name="blog_info">दिमित्री गवरिलोव उर्फ ​​the_dise</string>
-    <string name="pref_update_title">अपडेट्स जांचे</string>
-    <string name="pref_update_summary">स्थिर अपडेट्स व बदलाव देखे</string>
-    <string name="pref_donate_title">दान करें</string>
-    <string name="pref_donate_summary">यदि आपको लगता है कि मैं अपने काम के लिए भुगतान करने के लायक हूं, तो आप यहां कुछ पैसे छोड़ सकते हैं</string>
     <string name="pref_track_focus_title">फोकस ट्रैकिंग</string>
     <string name="pref_track_focus_summary">आपके द्वारा टैप किए गए विषय पर फोकस संलग्न किया जाएगा</string>
     <string name="pref_pzoom_title">पोर्ट्रेट मोड में ज़ूम बंद करे</string>
@@ -549,5 +535,4 @@
     <string name="aux_summary">यह आपको वाइड एंगल, मैक्रो, टेलीफोटो व ज़ूम लेंसेस को सक्षम करने की सुविधा देता हैं</string>
     <string name="pref_hex_title">हेक्सागन DSP अक्षम करे</string>
     <string name="pref_hex_summary">हेक्सागोन DSP को अक्षम करने से कमजोर स्मार्टफोन के प्रदर्शन में सुधार होगा</string>
-    <string name="pref_translators_title">सेटिंग्स का अनुवाद करने में मदद के लिए धन्यवाद</string>
 </resources>

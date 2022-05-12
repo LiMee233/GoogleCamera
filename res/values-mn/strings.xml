@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">Камерын зургийн нягтрал</string>
     <string name="setting_camera_video">Хэт өндөр нягтралтай видео (4000)</string>
     <string name="setting_general">Ерөнхий</string>
-    <string name="setting_google_feedback">Санал хүсэлт илгээх</string>
-    <string name="setting_google_help">Тусламж</string>
-    <string name="setting_google_help_and_feedback">Тусламж &amp; санал хүсэлт</string>
+    <string name="">Санал хүсэлт илгээх</string>
     <string name="setting_grid_mode">Торны төрөл</string>
     <string name="setting_off">Идэвхгүй</string>
     <string name="settings_open_desc">Тохиргоог нээх</string>

@@ -397,9 +397,7 @@ Poznata lica će biti dostupna kada otvorite Kameru sa zaključanog ekrana."</st
     <string name="setting_camera_photo">Rezolucija fotografije kamere</string>
     <string name="setting_camera_video">Videozapis ultra visoke rezolucije (4K)</string>
     <string name="setting_general">Općenito</string>
-    <string name="setting_google_feedback">Slanje povratnih informacija</string>
-    <string name="setting_google_help">Pomoć</string>
-    <string name="setting_google_help_and_feedback">Pomoć i povratne informacije</string>
+    <string name="">Slanje povratnih informacija</string>
     <string name="setting_grid_mode">Mrežni prikaz</string>
     <string name="setting_off">Isključeno</string>
     <string name="settings_open_desc">Otvori postavke</string>

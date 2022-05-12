@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">Ανάλυση φωτογραφιών κάμερας</string>
     <string name="setting_camera_video">Βίντεο εξαιρετικά υψηλής ανάλυσης (4K)</string>
     <string name="setting_general">Γενικές</string>
-    <string name="setting_google_feedback">Αποστολή σχολίων</string>
-    <string name="setting_google_help">Βοήθεια</string>
-    <string name="setting_google_help_and_feedback">Βοήθεια και σχόλια</string>
+    <string name="">Αποστολή σχολίων</string>
     <string name="setting_grid_mode">Τύπος πλέγματος</string>
     <string name="setting_off">Απενεργοποιημ.</string>
     <string name="settings_open_desc">Άνοιγμα ρυθμίσεων</string>

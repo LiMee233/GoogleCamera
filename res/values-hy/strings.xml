@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">Տեսախցիկի լուսանկարների լուծաչափը</string>
     <string name="setting_camera_video">Գերբարձր լուծաչափով տեսանյութ (4K)</string>
     <string name="setting_general">Ընդհանուր</string>
-    <string name="setting_google_feedback">Կարծիք հայտնել</string>
-    <string name="setting_google_help">Օգնություն</string>
-    <string name="setting_google_help_and_feedback">Օգնություն և հետադարձ կապ</string>
+    <string name="">Կարծիք հայտնել</string>
     <string name="setting_grid_mode">Ցանցի տիպը</string>
     <string name="setting_off">Անջատ.</string>
     <string name="settings_open_desc">Բացել կարգավորումները</string>

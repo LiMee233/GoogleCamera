@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">רזולוציה של תמונות מהמצלמה</string>
     <string name="setting_camera_video">‏סרטון ברזולוציה גבוהה במיוחד (4K)</string>
     <string name="setting_general">כללי</string>
-    <string name="setting_google_feedback">שליחת משוב</string>
-    <string name="setting_google_help">עזרה</string>
-    <string name="setting_google_help_and_feedback">עזרה ומשוב</string>
+    <string name="">שליחת משוב</string>
     <string name="setting_grid_mode">סוג רשת</string>
     <string name="setting_off">כבוי</string>
     <string name="settings_open_desc">פתח הגדרות</string>

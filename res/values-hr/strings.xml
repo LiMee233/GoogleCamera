@@ -404,9 +404,7 @@ Poznata lica bit će dostupna kad otvorite Fotoaparat na zaključanom zaslonu."<
     <string name="setting_camera_photo">Razlučivost fotografije fotoaparata</string>
     <string name="setting_camera_video">Videozapis ultravisoke razlučivosti (4K)</string>
     <string name="setting_general">Općenito</string>
-    <string name="setting_google_feedback">Slanje povratnih informacija</string>
-    <string name="setting_google_help">Pomoć</string>
-    <string name="setting_google_help_and_feedback">Pomoć i povratne inf.</string>
+    <string name="">Slanje povratnih informacija</string>
     <string name="setting_grid_mode">Vrsta rešetke</string>
     <string name="setting_off">Isključeno</string>
     <string name="settings_open_desc">Otvaranje postavki</string>

@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">ਕੈਮਰਾ ਫ਼ੋਟੋ ਰੈਜ਼ੋਲਿਊਸ਼ਨ</string>
     <string name="setting_camera_video">ਅਲਟ੍ਰਾ-ਹਾਈ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਵੀਡੀਓ (4K)</string>
     <string name="setting_general">ਆਮ</string>
-    <string name="setting_google_feedback">ਵਿਚਾਰ ਭੇਜੋ</string>
-    <string name="setting_google_help">ਮਦਦ</string>
-    <string name="setting_google_help_and_feedback">ਮਦਦ ਅਤੇ ਵਿਚਾਰ</string>
+    <string name="">ਵਿਚਾਰ ਭੇਜੋ</string>
     <string name="setting_grid_mode">ਗਰਿੱਡ ਕਿਸਮ</string>
     <string name="setting_off">ਬੰਦ</string>
     <string name="settings_open_desc">ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ</string>

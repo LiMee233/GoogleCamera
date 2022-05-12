@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">دقة صور الكاميرا</string>
     <string name="setting_camera_video">‏الفيديو فائق الدقة (4K)</string>
     <string name="setting_general">إعدادات عامّة</string>
-    <string name="setting_google_feedback">إرسال تعليقات</string>
-    <string name="setting_google_help">مساعدة</string>
-    <string name="setting_google_help_and_feedback">المساعدة والتعليقات</string>
+    <string name="">إرسال تعليقات</string>
     <string name="setting_grid_mode">نوع الشبكة</string>
     <string name="setting_off">إيقاف</string>
     <string name="settings_open_desc">فتح الإعدادات</string>
@@ -491,19 +489,6 @@
     <string name="zoom_minus_desc">تصغير</string>
     <string name="zoom_plus_desc">تكبير</string>
     <string name="hdr_processing">"غير قادر على تبديل العدسة.  يتم معالجة الصور.  حاول مرة أخرى في وقت لاحق."</string>
-    <string name="pref_about_title">حول التطبيق</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">"اصدار  %s"</string>
-    <string name="pref_made">معدلة من طرف ⁦♥️⁩ Dise</string>
-    <string name="pref_based_title">مبني على غوغل كاميرا</string>
-    <string name="pref_dev_title">شكرا لجميع الوسطاء للمشاركة والدعم</string>
-    <string name="blog_title">المطور الرئيسي</string>
-    <string name="blog_info">"ديمتري جافريلوف الملقب بـ
- the_dise"</string>
-    <string name="pref_update_title">تحقق من وجود تحديثات</string>
-    <string name="pref_update_summary">تحقق من وجود تحديثات ثابتة وقائمة التغيير</string>
-    <string name="pref_donate_title">تبرع</string>
-    <string name="pref_donate_summary">تعتقد أنني أستحق أن أتقاضى أجرًا مقابل عملي ، يمكنك ترك بعض المال هنا</string>
     <string name="pref_track_focus_title">تتبع التركيز</string>
     <string name="pref_track_focus_summary">سيتم إرفاق التركيز على الموضوع الذي تنقر عليه</string>
     <string name="pref_pzoom_title">تعطيل التكبير في الوضع العمودي</string>
@@ -549,5 +534,4 @@
     <string name="aux_summary">يتيح لك تنشيط عدسات ذات زاوية واسعة ، ماكرو ، تقريب ، وزووم</string>
     <string name="pref_hex_title">تعطيل DSP السداسي</string>
     <string name="pref_hex_summary">"سيؤدي تعطيل  DSP السداسي إلى تحسين الأداء للهواتف الذكية الضعيفة"</string>
-    <string name="pref_translators_title">شكرا للمساعدة في ترجمة الإعدادات</string>
 </resources>

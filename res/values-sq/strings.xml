@@ -397,9 +397,7 @@ Kur çaktivizon \"Fytyrat e shpeshta\", të dhënat e fytyrave do të fshihen.
     <string name="setting_camera_photo">Rezolucioni i fotografisë së kamerës</string>
     <string name="setting_camera_video">Video me rezolucion ultra të lartë (4K)</string>
     <string name="setting_general">Të përgjithshme</string>
-    <string name="setting_google_feedback">Dërgo komentin</string>
-    <string name="setting_google_help">Ndihma</string>
-    <string name="setting_google_help_and_feedback">Ndihma dhe komentet</string>
+    <string name="">Dërgo komentin</string>
     <string name="setting_grid_mode">Lloji i rrjetës</string>
     <string name="setting_off">Joaktiv</string>
     <string name="settings_open_desc">Hap \"Cilësimet\"</string>
@@ -484,18 +482,6 @@ Kur çaktivizon \"Fytyrat e shpeshta\", të dhënat e fytyrave do të fshihen.
     <string name="zoom_minus_desc">Zvogëlo</string>
     <string name="zoom_plus_desc">Zmadho</string>
     <string name="hdr_processing">E pamundur te ndryshosh lentet. Nje foto eshe duke u perpunuar</string>
-    <string name="pref_about_title">Rreth app</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">ver.%s</string>
-    <string name="pref_made">E ber me ❤️ nga Dise</string>
-    <string name="pref_based_title">E bazuar ne Google Camera</string>
-    <string name="pref_dev_title">Faleminderit te gjith modifikueseve per shperndarjen dhe suportin</string>
-    <string name="blog_title">Zbuluesi kryesor</string>
-    <string name="blog_info">Dmitry Gavrilov aka the_dise</string>
-    <string name="pref_update_title">Kontrollo per perditesime</string>
-    <string name="pref_update_summary">Kontrollo per perditesime te qendrueshme dhe ndryshime</string>
-    <string name="pref_donate_title">Dhuro</string>
-    <string name="pref_donate_summary">Nese mendoni qe une duhet te paguhem per punen time ju mund te dhuroni disa para ketu</string>
     <string name="pref_track_focus_title">Gjurmimi i Fokusimit</string>
     <string name="pref_track_focus_summary">Fokusimi do te ngjitet te subjekti qe ju do te prekni</string>
     <string name="pref_pzoom_title">Caktivizo afrimin ne modalitet portreti</string>
@@ -542,5 +528,4 @@ Aktivizuar nga perzgjedhjet e menus"</string>
     <string name="aux_summary">Ju lejon ju te aktivizoni lentet e kendit te gjere,makro,telefoto dhe lentet e afrimit</string>
     <string name="pref_hex_title">Caktivizo Gjashtekendeshin DSP</string>
     <string name="pref_hex_summary">Caktivizimi i Gjashtekendeshit DSP do te rrisi performancen per telefonat e dobet</string>
-    <string name="pref_translators_title">Faleminderit per ndihmen ne perkthimin e cilesimeve</string>
 </resources>

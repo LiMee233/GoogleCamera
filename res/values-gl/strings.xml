@@ -397,9 +397,7 @@ A función Caras frecuentes estará dispoñible ao abrir a aplicación Cámara d
     <string name="setting_camera_photo">Resolución das fotos da cámara</string>
     <string name="setting_camera_video">Vídeo de ultraalta resolución (4K)</string>
     <string name="setting_general">Xeral</string>
-    <string name="setting_google_feedback">Enviar comentarios</string>
-    <string name="setting_google_help">Axuda</string>
-    <string name="setting_google_help_and_feedback">Axuda e comentarios</string>
+    <string name="">Enviar comentarios</string>
     <string name="setting_grid_mode">Tipo de grade</string>
     <string name="setting_off">Desactivada</string>
     <string name="settings_open_desc">Abrir configuración</string>

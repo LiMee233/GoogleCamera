@@ -398,9 +398,7 @@ Ubuso obuvamile buzotholakala uma uvula ikhamera kusukela ekukhiyeni isikrini."<
     <string name="setting_camera_photo">Ukulungiswa kwesithombe sekhamera</string>
     <string name="setting_camera_video">Ividiyo yesilungiselelo esiphezulu kakhulu (i-4K)</string>
     <string name="setting_general">Okuvamile</string>
-    <string name="setting_google_feedback">Thumela impendulo</string>
-    <string name="setting_google_help">Usizo</string>
-    <string name="setting_google_help_and_feedback">Usizo nempendulo</string>
+    <string name="">Thumela impendulo</string>
     <string name="setting_grid_mode">Uhlobo lwe-Grid</string>
     <string name="setting_off">Kucishile</string>
     <string name="settings_open_desc">Vula izilungiselelo</string>

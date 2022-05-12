@@ -404,9 +404,7 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="setting_camera_photo">Kamera felbontása fényképezéskor</string>
     <string name="setting_camera_video">UHD felbontású videó (4K)</string>
     <string name="setting_general">Általános</string>
-    <string name="setting_google_feedback">Visszajelzés küldése</string>
-    <string name="setting_google_help">Súgó</string>
-    <string name="setting_google_help_and_feedback">Súgó és visszajelzés</string>
+    <string name="">Visszajelzés küldése</string>
     <string name="setting_grid_mode">Rács típusa</string>
     <string name="setting_off">Ki</string>
     <string name="settings_open_desc">Beállítások megnyitása</string>
@@ -491,18 +489,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="zoom_minus_desc">Kicsinyítés</string>
     <string name="zoom_plus_desc">Nagyítás</string>
     <string name="hdr_processing">Nem lehet lencsét váltani. Van egy fényképfeldolgozás. Próbáld újra később.</string>
-    <string name="pref_about_title">Az alkalmazásról</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">verzió %s</string>
-    <string name="pref_made">Készült ❤ Dise-től</string>
-    <string name="pref_based_title">A Google Kamera alapján</string>
-    <string name="pref_dev_title">Köszönet minden moderátornak a megosztásért és a támogatásért</string>
-    <string name="blog_title">Vezető fejlesztő</string>
-    <string name="blog_info">Dmitry Gavrilov, más néven the_dise</string>
-    <string name="pref_update_title">Frissítések keresése</string>
-    <string name="pref_update_summary">Ellenőrizze a stabil frissítéseket és a változási naplót</string>
-    <string name="pref_donate_title">Támogatás</string>
-    <string name="pref_donate_summary">Ha úgy gondolja, hogy Megérdemlem, hogy fizessenek a munkámért, itt hagyhat pénzt</string>
     <string name="pref_track_focus_title">Fókuszkövetés</string>
     <string name="pref_track_focus_summary">A fókuszt az a tárgyhoz rögzíti, amelyre rákattint</string>
     <string name="pref_pzoom_title">Kapcsolja ki a zoomot portré módban</string>
@@ -548,5 +534,4 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="aux_summary">lehetővé teszi széles látószögű, makró, teleobjektív és zoom objektívek aktiválását</string>
     <string name="pref_hex_title">A Hexagon DSP letiltása</string>
     <string name="pref_hex_summary">A Hexagon DSP letiltása növeli a gyenge okostelefonok teljesítményét</string>
-    <string name="pref_translators_title">Köszönjük a segítségét a beállítások fordításában</string>
 </resources>

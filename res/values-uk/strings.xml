@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">Роздільна здатність фотографій камери</string>
     <string name="setting_camera_video">Відео з надвисокою роздільною здатністю (4K)</string>
     <string name="setting_general">Загальні налаштування</string>
-    <string name="setting_google_feedback">Надіслати відгук</string>
-    <string name="setting_google_help">Довідка</string>
-    <string name="setting_google_help_and_feedback">Довідка й відгуки</string>
+    <string name="">Надіслати відгук</string>
     <string name="setting_grid_mode">Тип сітки</string>
     <string name="setting_off">Вимкнено</string>
     <string name="settings_open_desc">Відкрити налаштування</string>
@@ -491,18 +489,6 @@
     <string name="zoom_minus_desc">Віддалити</string>
     <string name="zoom_plus_desc">Наблизити</string>
     <string name="hdr_processing">"Не можу перемкнути об'єктив. Зараз оброблюється фото. Спробуйте пізніше."</string>
-    <string name="pref_about_title">Про додаток</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">вер. %s</string>
-    <string name="pref_made">Зроблено з ❤ від Дайсу</string>
-    <string name="pref_based_title">На основі Google Камери</string>
-    <string name="pref_dev_title">Дякую всім модерам за поширення та підтримку</string>
-    <string name="blog_title">Головний розробник</string>
-    <string name="blog_info">Дмитро Гаврилов aka the_dise</string>
-    <string name="pref_update_title">Перевірити на наявність оновлень</string>
-    <string name="pref_update_summary">Перевірити на наявність оновлень та списку змін</string>
-    <string name="pref_donate_title">Підтримати</string>
-    <string name="pref_donate_summary">Якщо ви думаєте, що я заслужив оплату своєї роботи, ви можете відіслати мені трохи грошей тут</string>
     <string name="pref_track_focus_title">Відслідковування фокусу</string>
     <string name="pref_track_focus_summary">"Фокус буде прикріпленний до об'єкту, на який ви натисните"</string>
     <string name="pref_pzoom_title">Вимкнути приближення в портретному режимі</string>
@@ -547,5 +533,4 @@
     <string name="aux_summary">"Дає змогу ввімкнути ширококутовий, макро та телефото об'єктиви"</string>
     <string name="pref_hex_title">Відключити Hexagon DSP</string>
     <string name="pref_hex_summary">Відключення Hexagon DSP підвищить продуктивність для слабких смартфонів</string>
-    <string name="pref_translators_title">Дякую за допомогу в перекладі налаштувань</string>
 </resources>

@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">Резолуција на камерата за фотографии</string>
     <string name="setting_camera_video">Видео со ултра висока резолуција (4K)</string>
     <string name="setting_general">Општи</string>
-    <string name="setting_google_feedback">Испратете повратни информации</string>
-    <string name="setting_google_help">Помош</string>
-    <string name="setting_google_help_and_feedback">Помош и повратни информации</string>
+    <string name="">Испратете повратни информации</string>
     <string name="setting_grid_mode">Тип табела</string>
     <string name="setting_off">Исклучено</string>
     <string name="settings_open_desc">Отвори поставки</string>

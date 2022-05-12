@@ -398,9 +398,7 @@
     <string name="setting_camera_photo">ക്യാമറ ഫോട്ടോ റെസല്യൂഷൻ</string>
     <string name="setting_camera_video">അൾട്രാ ഹൈ റെസല്യൂഷൻ വീഡിയോ (4K)</string>
     <string name="setting_general">പൊതുവായത്</string>
-    <string name="setting_google_feedback">ഫീഡ്‌ബാക്ക് അയയ്‌ക്കുക</string>
-    <string name="setting_google_help">സഹായം</string>
-    <string name="setting_google_help_and_feedback">സഹായവും പ്രതികരണവും</string>
+    <string name="">ഫീഡ്‌ബാക്ക് അയയ്‌ക്കുക</string>
     <string name="setting_grid_mode">ഗ്രിഡ് തരം</string>
     <string name="setting_off">ഓഫാണ്</string>
     <string name="settings_open_desc">ക്രമീകരണം തുറക്കുക</string>

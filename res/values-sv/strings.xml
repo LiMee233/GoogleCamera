@@ -404,9 +404,7 @@ Du får åtkomst till Bekanta ansikten genom att öppna Kamera på låsskärmen.
     <string name="setting_camera_photo">Fotoupplösning för kameran</string>
     <string name="setting_camera_video">Video i ultrahög upplösning (4K)</string>
     <string name="setting_general">Allmänt</string>
-    <string name="setting_google_feedback">Skicka feedback</string>
-    <string name="setting_google_help">Hjälp</string>
-    <string name="setting_google_help_and_feedback">Hjälp och feedback</string>
+    <string name="">Skicka feedback</string>
     <string name="setting_grid_mode">Typ av rutnät</string>
     <string name="setting_off">Inaktiverad</string>
     <string name="settings_open_desc">Öppna inställningarna</string>

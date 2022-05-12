@@ -404,9 +404,7 @@ Als je 'Vaak gefotografeerde gezichten' uitschakelt, worden de gegevens over gez
     <string name="setting_camera_photo">Fotoresolutie camera</string>
     <string name="setting_camera_video">Video met ultrahoge resolutie (4K)</string>
     <string name="setting_general">Algemeen</string>
-    <string name="setting_google_feedback">Feedback verzenden</string>
-    <string name="setting_google_help">Hulp</string>
-    <string name="setting_google_help_and_feedback">Hulp en feedback</string>
+    <string name="">Feedback verzenden</string>
     <string name="setting_grid_mode">Rastertype</string>
     <string name="setting_off">Uit</string>
     <string name="settings_open_desc">Instellingen openen</string>

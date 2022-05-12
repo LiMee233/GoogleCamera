@@ -398,9 +398,7 @@
     <string name="setting_camera_photo">కెమెరా ఫోటో రిజల్యూషన్</string>
     <string name="setting_camera_video">అల్ట్రా-హై రిజల్యూషన్ వీడియో (4K)</string>
     <string name="setting_general">సాధారణం</string>
-    <string name="setting_google_feedback">అభిప్రాయాన్ని పంపు</string>
-    <string name="setting_google_help">సహాయం</string>
-    <string name="setting_google_help_and_feedback">సహాయం &amp; అభిప్రాయం</string>
+    <string name="">అభిప్రాయాన్ని పంపు</string>
     <string name="setting_grid_mode">గ్రిడ్ రకం</string>
     <string name="setting_off">ఆఫ్‌లో ఉంది</string>
     <string name="settings_open_desc">సెట్టింగ్‌లను తెరవండి</string>

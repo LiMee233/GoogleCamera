@@ -535,8 +535,6 @@
 
 .field public static final pref_depth_every_photo_title:I = 0x7f1302b4
 
-.field public static final pref_developer_settings:I = 0x7f1302b5
-
 .field public static final pref_dnd_access_needed_title:I = 0x7f1302b6
 
 .field public static final pref_exposure_default:I = 0x7f1302b7
@@ -641,11 +639,9 @@
 
 .field public static final setting_general:I = 0x7f13030e
 
-.field public static final setting_google_feedback:I = 0x7f13030f
+.field public static final :I = 0x7f13030f
 
-.field public static final setting_google_help:I = 0x7f130310
 
-.field public static final setting_google_help_and_feedback:I = 0x7f130311
 
 .field public static final setting_grid_mode:I = 0x7f130312
 

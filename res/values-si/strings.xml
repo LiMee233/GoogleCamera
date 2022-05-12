@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">කැමරා ඡායාරූප විභේදනය</string>
     <string name="setting_camera_video">අති-අධි විභේදන වීඩියෝව (4K)</string>
     <string name="setting_general">පොදු</string>
-    <string name="setting_google_feedback">ප්‍රතිපෝෂණය යවන්න</string>
-    <string name="setting_google_help">උදවු</string>
-    <string name="setting_google_help_and_feedback">උදව් සහ ප්‍රතිපෝෂණ</string>
+    <string name="">ප්‍රතිපෝෂණය යවන්න</string>
     <string name="setting_grid_mode">ජාල වර්ගය</string>
     <string name="setting_off">අක්‍රිය කරන්න</string>
     <string name="settings_open_desc">සැකසීම් විවෘත කරන්න</string>

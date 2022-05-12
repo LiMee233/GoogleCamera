@@ -403,9 +403,7 @@ L'option Visages fréquents sera accessible lorsque vous ouvrez l'appareil photo
     <string name="setting_camera_photo">"Résolution d'image de l'appareil photo"</string>
     <string name="setting_camera_video">Vidéo en ultra-haute résolution (4K)</string>
     <string name="setting_general">Paramètres généraux</string>
-    <string name="setting_google_feedback">Envoyer des commentaires</string>
-    <string name="setting_google_help">Aide</string>
-    <string name="setting_google_help_and_feedback">Aide et commentaires</string>
+    <string name="">Envoyer des commentaires</string>
     <string name="setting_grid_mode">Type de grille</string>
     <string name="setting_off">Désactivé</string>
     <string name="settings_open_desc">Ouvrir les paramètres</string>

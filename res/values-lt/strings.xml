@@ -404,9 +404,7 @@ Funkcija „Pažįstami veidai“ bus pasiekiama, kai atidarysite Fotoaparatą i
     <string name="setting_camera_photo">Fotoaparato nuotraukų skyra</string>
     <string name="setting_camera_video">Itin aukštos kokybės vaizdo įrašas (4K)</string>
     <string name="setting_general">Bendrieji</string>
-    <string name="setting_google_feedback">Siųsti atsiliepimą</string>
-    <string name="setting_google_help">Pagalba</string>
-    <string name="setting_google_help_and_feedback">Pagalba ir atsiliepimai</string>
+    <string name="">Siųsti atsiliepimą</string>
     <string name="setting_grid_mode">Tinklelio tipas</string>
     <string name="setting_off">Išjungta</string>
     <string name="settings_open_desc">Atidaryti nustatymus</string>

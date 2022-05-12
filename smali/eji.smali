@@ -307,21 +307,6 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_4
-    iget-object v0, p0, Leji;->l:Lchh;
-
-    invoke-interface {v0}, Lchh;->f()Z
-
-    move-result v0
-
-    if-nez v0, :cond_5
-
-    iget-object v0, p0, Leji;->t:Ljava/util/List;
-
-    const-string v1, "pref_category_developer"
-
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_5
     if-nez v4, :cond_6
 
     iget-object v0, p0, Leji;->t:Ljava/util/List;

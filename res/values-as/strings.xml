@@ -397,9 +397,7 @@ Frequent Faceৰ ডেটা কেৱল এই ডিভাইচটোতহ
     <string name="setting_camera_photo">কেমেৰাৰ ফট’ ৰিজলিউশ্বন</string>
     <string name="setting_camera_video">আল্ট্ৰা হাই ৰিজ’লিউশ্বন ভিডিঅ’ (4K)</string>
     <string name="setting_general">সাধাৰণ</string>
-    <string name="setting_google_feedback">আপোনাৰ প্ৰতিক্ৰিয়া পঠিয়াওক</string>
-    <string name="setting_google_help">সহায়</string>
-    <string name="setting_google_help_and_feedback">সহায় আৰু মতামত</string>
+    <string name="">আপোনাৰ প্ৰতিক্ৰিয়া পঠিয়াওক</string>
     <string name="setting_grid_mode">গ্ৰিডৰ প্ৰকাৰ</string>
     <string name="setting_off">অফ হৈ আছে</string>
     <string name="settings_open_desc">ছেটিংসমূহ খোলক</string>

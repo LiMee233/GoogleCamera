@@ -398,9 +398,7 @@ Frequent Faces-এর ডেটা শুধুমাত্র এই ডিভ�
     <string name="setting_camera_photo">ক্যামেরা ফটোর রেজোলিউশন</string>
     <string name="setting_camera_video">আল্ট্রা-হাই রেজোলিউশন ভিডিও (4K)</string>
     <string name="setting_general">সাধারণ</string>
-    <string name="setting_google_feedback">মতামত জানান</string>
-    <string name="setting_google_help">সহায়তা</string>
-    <string name="setting_google_help_and_feedback">সহায়তা ও মতামত</string>
+    <string name="">মতামত জানান</string>
     <string name="setting_grid_mode">গ্রিডের ধরন</string>
     <string name="setting_off">বন্ধ করুন</string>
     <string name="settings_open_desc">সেটিংস খুলুন</string>

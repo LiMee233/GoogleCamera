@@ -397,9 +397,7 @@ Ohiko aurpegiak eginbidea erabilgarri egongo da kamera pantaila blokeatutik irek
     <string name="setting_camera_photo">Kamerako argazkien bereizmena</string>
     <string name="setting_camera_video">Oso bereizmen handiko bideoa (4K)</string>
     <string name="setting_general">Ezarpen orokorrak</string>
-    <string name="setting_google_feedback">Bidali oharrak</string>
-    <string name="setting_google_help">Laguntza</string>
-    <string name="setting_google_help_and_feedback">Laguntza eta iritziak</string>
+    <string name="">Bidali oharrak</string>
     <string name="setting_grid_mode">Sareta mota</string>
     <string name="setting_off">Desaktibatuta</string>
     <string name="settings_open_desc">Ireki ezarpenak</string>

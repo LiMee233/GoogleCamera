@@ -398,9 +398,7 @@ Algeng andlit verða tiltæk þegar þú opnar myndavélina af lásskjánum."</s
     <string name="setting_camera_photo">Upplausn mynda í myndavél</string>
     <string name="setting_camera_video">Myndskeið með háskerpu (4K)</string>
     <string name="setting_general">Almennt</string>
-    <string name="setting_google_feedback">Senda ábendingu</string>
-    <string name="setting_google_help">Hjálp</string>
-    <string name="setting_google_help_and_feedback">Hjálp og ábendingar</string>
+    <string name="">Senda ábendingu</string>
     <string name="setting_grid_mode">Tafla</string>
     <string name="setting_off">Slökkt</string>
     <string name="settings_open_desc">Opna stillingar</string>

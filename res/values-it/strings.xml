@@ -404,9 +404,7 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="setting_camera_photo">Risoluzione foto della fotocamera</string>
     <string name="setting_camera_video">Video Ultra HD (4K)</string>
     <string name="setting_general">Generali</string>
-    <string name="setting_google_feedback">Invia feedback</string>
-    <string name="setting_google_help">Guida</string>
-    <string name="setting_google_help_and_feedback">Guida e feedback</string>
+    <string name="">Invia feedback</string>
     <string name="setting_grid_mode">Tipo di griglia</string>
     <string name="setting_off">OFF</string>
     <string name="settings_open_desc">Apri impostazioni</string>
@@ -494,18 +492,6 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="zoom_minus_desc">Diminuisci lo zoom</string>
     <string name="zoom_plus_desc">Aumenta lo zoom</string>
     <string name="hdr_processing">Impossibile cambiare obiettivo, una foto è in fase di elaborazione. Prova più tardi.</string>
-    <string name="pref_about_title">"Riguardo l'app"</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">v %s</string>
-    <string name="pref_made">Fatta con il ❤ da Dise</string>
-    <string name="pref_based_title">Basata sulla Google Camera</string>
-    <string name="pref_dev_title">Grazie a tutti i modder per il supporto e la condivisione</string>
-    <string name="blog_title">Sviluppatore</string>
-    <string name="blog_info">Dmitry Gavrilov alias the_dise</string>
-    <string name="pref_update_title">Controlla aggiornamenti</string>
-    <string name="pref_update_summary">Cerca aggiornamenti e controlla il changelog</string>
-    <string name="pref_donate_title">Donazione</string>
-    <string name="pref_donate_summary">Se pensi che meriti di essere supportato per quello che faccio, puoi offrirmi qualcosa</string>
     <string name="pref_track_focus_title">Focus Tracking</string>
     <string name="pref_track_focus_summary">Mette a fuoco il soggetto su cui clicchi</string>
     <string name="pref_pzoom_title">Disabilita lo zoom nella modalità Ritratto</string>
@@ -551,5 +537,4 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="aux_summary">Permette di attivare gli obiettivi ausiliari: grandangolo, macro, teleobiettivo e zoom</string>
     <string name="pref_hex_title">Disabilita Hexagon DSP</string>
     <string name="pref_hex_summary">Disabilitare Hexagon DSP migliorerà le prestazioni degli smartphone di fascia bassa</string>
-    <string name="pref_translators_title">Grazie per aver tradotto le impostazioni</string>
 </resources>

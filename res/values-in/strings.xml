@@ -398,9 +398,7 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="setting_camera_photo">Resolusi foto kamera</string>
     <string name="setting_camera_video">Video resolusi sangat tinggi (4K)</string>
     <string name="setting_general">Umum</string>
-    <string name="setting_google_feedback">Kirim masukan</string>
-    <string name="setting_google_help">Bantuan</string>
-    <string name="setting_google_help_and_feedback">Bantuan &amp; masukan</string>
+    <string name="">Kirim masukan</string>
     <string name="setting_grid_mode">Jenis petak</string>
     <string name="setting_off">Nonaktif</string>
     <string name="settings_open_desc">Buka setelan</string>
@@ -488,18 +486,6 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="zoom_minus_desc">Perkecil</string>
     <string name="zoom_plus_desc">Perbesar</string>
     <string name="hdr_processing">Tidak dapat mengganti lensa. Sedang memproses foto. Coba lagi nanti.</string>
-    <string name="pref_about_title">Tentang aplikasi</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">ver. %s</string>
-    <string name="pref_made">Dibuat dengan ❤ oleh Dise</string>
-    <string name="pref_based_title">Berdasarkan pada Google Camera</string>
-    <string name="pref_dev_title">Terima kasih pada semua modders untuk berbagi dan dukungan</string>
-    <string name="blog_title">Pengembang utama</string>
-    <string name="blog_info">Dmitry Gavrilov alias the_dise</string>
-    <string name="pref_update_title">Periksa pembaruan</string>
-    <string name="pref_update_summary">Periksa pembaruan stabil dan changelog</string>
-    <string name="pref_donate_title">Menyumbang</string>
-    <string name="pref_donate_summary">Jika Anda pikir saya layak dibayar untuk pekerjaan saya, Anda dapat meninggalkan sejumlah uang di sini</string>
     <string name="pref_track_focus_title">Pelacakan Fokus</string>
     <string name="pref_track_focus_summary">Fokus akan dilampirkan pada subjek yang Anda ketuk</string>
     <string name="pref_pzoom_title">Nonaktifkan zoom dalam mode Portrait</string>
@@ -545,5 +531,4 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="aux_summary">Mengizinkan anda untuk mengaktifkan lensa sudut lebar, makro, telefoto, dan zoom</string>
     <string name="pref_hex_title">Nonaktifkan Hexagon DSP</string>
     <string name="pref_hex_summary">Menonaktifkan Hexagon DSP akan meningkatkan performa pada smartphone yang lemah</string>
-    <string name="pref_translators_title">Terima kasih atas bantuannya menerjemahkan pengaturan</string>
 </resources>

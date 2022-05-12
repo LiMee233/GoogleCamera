@@ -397,9 +397,7 @@ Kada isključite Česta lica, podaci o licima se brišu.
     <string name="setting_camera_photo">Rezolucija slike kamere</string>
     <string name="setting_camera_video">Ultravisoka rezolucija videa (4K)</string>
     <string name="setting_general">Opšta</string>
-    <string name="setting_google_feedback">Pošalji povratne informacije</string>
-    <string name="setting_google_help">Pomoć</string>
-    <string name="setting_google_help_and_feedback">Pomoć i povr. informacije</string>
+    <string name="">Pošalji povratne informacije</string>
     <string name="setting_grid_mode">Tip koordinatne mreže</string>
     <string name="setting_off">Isključeno</string>
     <string name="settings_open_desc">Otvori podešavanja</string>

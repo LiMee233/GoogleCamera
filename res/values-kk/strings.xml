@@ -397,9 +397,7 @@ Camera қолданбасын құлыптаулы экраннан ашқанд
     <string name="setting_camera_photo">Камера фотосуретінің ажыратымдылығы</string>
     <string name="setting_camera_video">Ажыратымдылығы аса жоғары бейне (4K)</string>
     <string name="setting_general">Жалпы</string>
-    <string name="setting_google_feedback">Пікір жіберу</string>
-    <string name="setting_google_help">Анықтама</string>
-    <string name="setting_google_help_and_feedback">Анықтама және пікір</string>
+    <string name="">Пікір жіберу</string>
     <string name="setting_grid_mode">Тор түрі</string>
     <string name="setting_off">Өшірулі</string>
     <string name="settings_open_desc">Параметрлерді ашу</string>

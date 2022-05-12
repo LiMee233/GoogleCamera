@@ -339,9 +339,7 @@
     <string name="setting_camera_photo">[Çåméŕå þĥöţö ŕéšöļûţîöñ one two three]</string>
     <string name="setting_camera_video">[Ûļţŕå-ĥîĝĥ ŕéšöļûţîöñ vîðéö (4Ķ) one two three four five six seven]</string>
     <string name="setting_general">[Ĝéñéŕåļ one]</string>
-    <string name="setting_google_feedback">[Šéñð ƒééðбåçķ one two]</string>
-    <string name="setting_google_help">[Ĥéļþ one]</string>
-    <string name="setting_google_help_and_feedback">[Ĥéļþ &amp; ƒééðбåçķ one two]</string>
+    <string name="">[Šéñð ƒééðбåçķ one two]</string>
     <string name="setting_grid_mode">[Ĝŕîð ţýþé one two]</string>
     <string name="setting_off">[Öƒƒ one]</string>
     <string name="settings_open_desc">[Öþéñ šéţţîñĝš one two]</string>

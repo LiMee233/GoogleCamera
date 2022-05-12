@@ -398,9 +398,7 @@
     <string name="setting_camera_photo">کیمرے کے فوٹو کا ریزولیوشن</string>
     <string name="setting_camera_video">‏الٹرا ہائی ریزولیوشن والی ویڈیو (4K)</string>
     <string name="setting_general">عام</string>
-    <string name="setting_google_feedback">تاثرات بھیجیں</string>
-    <string name="setting_google_help">مدد</string>
-    <string name="setting_google_help_and_feedback">مدد اور تاثرات</string>
+    <string name="">تاثرات بھیجیں</string>
     <string name="setting_grid_mode">گرڈ کی قسم</string>
     <string name="setting_off">آف</string>
     <string name="settings_open_desc">ترتیبات کھولیں</string>

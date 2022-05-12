@@ -403,9 +403,7 @@ La funció Cares freqüents estarà disponible quan obris la càmera des de la p
     <string name="setting_camera_photo">Resolució de les fotos de la càmera</string>
     <string name="setting_camera_video">"Vídeo d'ultra alta definició (4K)"</string>
     <string name="setting_general">General</string>
-    <string name="setting_google_feedback">Envia suggeriments</string>
-    <string name="setting_google_help">Ajuda</string>
-    <string name="setting_google_help_and_feedback">Ajuda i suggeriments</string>
+    <string name="">Envia suggeriments</string>
     <string name="setting_grid_mode">Tipus de quadrícula</string>
     <string name="setting_off">Desactivat</string>
     <string name="settings_open_desc">Obre la configuració</string>

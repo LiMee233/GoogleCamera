@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">相機相片解像度</string>
     <string name="setting_camera_video">超高解像度影片 (4K)</string>
     <string name="setting_general">一般</string>
-    <string name="setting_google_feedback">傳送意見</string>
-    <string name="setting_google_help">說明</string>
-    <string name="setting_google_help_and_feedback">說明和意見反映</string>
+    <string name="">傳送意見</string>
     <string name="setting_grid_mode">網格類型</string>
     <string name="setting_off">關閉</string>
     <string name="settings_open_desc">開啟設定</string>

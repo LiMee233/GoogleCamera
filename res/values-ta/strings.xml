@@ -398,9 +398,7 @@
     <string name="setting_camera_photo">கேமரா படத் தெளிவுத்திறன்</string>
     <string name="setting_camera_video">மிக உயர்ந்த தெளிவுத்திறன் கொண்ட வீடியோ (4K)</string>
     <string name="setting_general">பொது</string>
-    <string name="setting_google_feedback">கருத்து அனுப்பு</string>
-    <string name="setting_google_help">உதவி</string>
-    <string name="setting_google_help_and_feedback">உதவி &amp; கருத்து</string>
+    <string name="">கருத்து அனுப்பு</string>
     <string name="setting_grid_mode">கட்ட வகை</string>
     <string name="setting_off">ஆஃப்</string>
     <string name="settings_open_desc">அமைப்புகளைத் திறக்கும்</string>

@@ -404,9 +404,7 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="setting_camera_photo">Camera photo resolution</string>
     <string name="setting_camera_video">Ultra-high-resolution video (4K)</string>
     <string name="setting_general">General</string>
-    <string name="setting_google_feedback">Send feedback</string>
-    <string name="setting_google_help">Help</string>
-    <string name="setting_google_help_and_feedback">Help and feedback</string>
+    <string name="">Send feedback</string>
     <string name="setting_grid_mode">Grid type</string>
     <string name="setting_off">Off</string>
     <string name="settings_open_desc">Open settings</string>

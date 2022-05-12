@@ -398,9 +398,7 @@ Kipengele cha Nyuso Zinazojulikana kitapatikana utakapofungua Kamera kwenye skri
     <string name="setting_camera_photo">Ubora wa picha ya kamera</string>
     <string name="setting_camera_video">Video ya ubora wa juu sana (4K)</string>
     <string name="setting_general">Ya Jumla</string>
-    <string name="setting_google_feedback">Tuma maoni</string>
-    <string name="setting_google_help">Usaidizi</string>
-    <string name="setting_google_help_and_feedback">Usaidizi na maoni</string>
+    <string name="">Tuma maoni</string>
     <string name="setting_grid_mode">Aina ya gridi</string>
     <string name="setting_off">Imezimwa</string>
     <string name="settings_open_desc">Fungua mipangilio</string>

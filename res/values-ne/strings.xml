@@ -397,9 +397,7 @@ Frequent Faces को डेटा यस यन्त्रमा मात्�
     <string name="setting_camera_photo">क्यामेराको तस्बिरको रिजोल्युसन</string>
     <string name="setting_camera_video">अति-उच्च गुणस्तरको भिडियो (4K)</string>
     <string name="setting_general">सामान्य</string>
-    <string name="setting_google_feedback">प्रतिक्रिया पठाउनुहोस्</string>
-    <string name="setting_google_help">मद्दत</string>
-    <string name="setting_google_help_and_feedback">मद्दत र प्रतिक्रिया</string>
+    <string name="">प्रतिक्रिया पठाउनुहोस्</string>
     <string name="setting_grid_mode">ग्रिडको प्रकार</string>
     <string name="setting_off">बन्द</string>
     <string name="settings_open_desc">सेटिङहरू खोल्नुहोस</string>

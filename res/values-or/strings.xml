@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">କ୍ୟାମେରା ଫଟୋ ରିଜୋଲ୍ୟୁସନ୍</string>
     <string name="setting_camera_video">ଅଲ୍ଟ୍ରା-ହାଇ ରିଜୋଲ୍ୟୁସନ୍ ଭିଡିଓ (4K)</string>
     <string name="setting_general">ସାଧାରଣ</string>
-    <string name="setting_google_feedback">ମତାମତ ପଠାନ୍ତୁ</string>
-    <string name="setting_google_help">ସହାୟତା</string>
-    <string name="setting_google_help_and_feedback">ସହାୟତା ଓ ମତାମତ</string>
+    <string name="">ମତାମତ ପଠାନ୍ତୁ</string>
     <string name="setting_grid_mode">ଗ୍ରିଡ୍ ପ୍ରକାର</string>
     <string name="setting_off">ଅଫ୍</string>
     <string name="settings_open_desc">ସେଟିଙ୍ଗକୁ ଖୋଲନ୍ତୁ</string>

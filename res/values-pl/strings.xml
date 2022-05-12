@@ -404,9 +404,7 @@ Funkcja Znajome twarze będzie dostępna, gdy otworzysz Aparat z ekranu blokady
     <string name="setting_camera_photo">Rozdzielczość zdjęcia z aparatu</string>
     <string name="setting_camera_video">Nagrywanie w ultrawysokiej rozdzielczości (4K)</string>
     <string name="setting_general">Ogólne</string>
-    <string name="setting_google_feedback">Prześlij opinię</string>
-    <string name="setting_google_help">Pomoc</string>
-    <string name="setting_google_help_and_feedback">Pomoc i opinie</string>
+    <string name="">Prześlij opinię</string>
     <string name="setting_grid_mode">Typ siatki</string>
     <string name="setting_off">Wyłączono</string>
     <string name="settings_open_desc">Otwórz ustawienia</string>
@@ -494,18 +492,6 @@ Funkcja Znajome twarze będzie dostępna, gdy otworzysz Aparat z ekranu blokady
     <string name="zoom_minus_desc">Pomniejsz</string>
     <string name="zoom_plus_desc">Powiększ</string>
     <string name="hdr_processing">Nie udało się zmienić soczewki. Zdjęcie jest przetwarzane. Spróbuj ponownie później.</string>
-    <string name="pref_about_title">O aplikacji</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">wer. %s</string>
-    <string name="pref_made">Stworzony z ♥️ przez Dise</string>
-    <string name="pref_based_title">Bazowany na Aparacie Google</string>
-    <string name="pref_dev_title">Dziękuję wszystkim modderom za udostępnianie i wsparcie</string>
-    <string name="blog_title">Główny deweloper</string>
-    <string name="blog_info">Dmitry Gavrilov aka the_dise</string>
-    <string name="pref_update_title">Sprawdź aktualizacje</string>
-    <string name="pref_update_summary">Sprawdź stabilną aktualizację i listę zmian</string>
-    <string name="pref_donate_title">Wesprzyj</string>
-    <string name="pref_donate_summary">Jeśli myślisz że zasłużyłem aby dostać pieniądze za moją pracę, możesz zostawić trochę pieniędzy tutaj</string>
     <string name="pref_track_focus_title">Śledzenie fokusu</string>
     <string name="pref_track_focus_summary">Fokus będzie podążał za obiektem na który naciśniesz</string>
     <string name="pref_pzoom_title">Wyłącz przybliżenie w trybie portretowym</string>
@@ -551,5 +537,4 @@ Funkcja Znajome twarze będzie dostępna, gdy otworzysz Aparat z ekranu blokady
     <string name="aux_summary">Umożliwia aktywację obiektywów szerokokątnych, makro, teleobiektywów i zoomów</string>
     <string name="pref_hex_title">Wyłącz Hexagon DSP</string>
     <string name="pref_hex_summary">Wyłączenie Hexagon DSP poprawi wydajność dla słabszych smartfonów</string>
-    <string name="pref_translators_title">Dziękuję za pomoc w tłumaczeniu ustawień</string>
 </resources>

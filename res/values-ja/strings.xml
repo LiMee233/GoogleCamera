@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">カメラの写真解像度</string>
     <string name="setting_camera_video">超高解像度動画（4K）</string>
     <string name="setting_general">全般</string>
-    <string name="setting_google_feedback">フィードバックを送信</string>
-    <string name="setting_google_help">ヘルプ</string>
-    <string name="setting_google_help_and_feedback">ヘルプとフィードバック</string>
+    <string name="">フィードバックを送信</string>
     <string name="setting_grid_mode">グリッドの種類</string>
     <string name="setting_off">OFF</string>
     <string name="settings_open_desc">設定を開く</string>
@@ -494,18 +492,6 @@
     <string name="zoom_minus_desc">縮小</string>
     <string name="zoom_plus_desc">拡大</string>
     <string name="hdr_processing">撮影中はレンズの前面背面変更できません。後でトライしてください。</string>
-    <string name="pref_about_title">アプリについて</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">%s バージョン</string>
-    <string name="pref_made">Made with ❤ by Dise</string>
-    <string name="pref_based_title">Google カメラに基づく</string>
-    <string name="pref_dev_title">共有とサポートに協力してくれた全ての方々に感謝を</string>
-    <string name="blog_title">筆頭開発者</string>
-    <string name="blog_info">the_dise こと Dmitry Gavrilov</string>
-    <string name="pref_update_title">アップデート確認</string>
-    <string name="pref_update_summary">安定版アップデートと変更点の確認</string>
-    <string name="pref_donate_title">寄付</string>
-    <string name="pref_donate_summary">有料に値すると思われたら、こちらにお願いします。</string>
     <string name="pref_track_focus_title">フォーカス追跡</string>
     <string name="pref_track_focus_summary">タップした被写体に焦点を合わせます。</string>
     <string name="pref_pzoom_title">ポートレートモードでのズームを無効化する。</string>
@@ -551,5 +537,4 @@
     <string name="aux_summary">広角、マクロ、望遠、そしてズームの有効化を許可する</string>
     <string name="pref_hex_title">Hexagon DSP を無効化</string>
     <string name="pref_hex_summary">Hexagon DSP を無効化すると、低機能スマートフォンのパフォーマンスを改善します。</string>
-    <string name="pref_translators_title">翻訳を助けてくれてありがとう。</string>
 </resources>

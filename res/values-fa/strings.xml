@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">وضوح دوربین عکاسی</string>
     <string name="setting_camera_video">‏ویدیویی با وضوح فوق‌العاده بالا (4K)</string>
     <string name="setting_general">موارد کلی</string>
-    <string name="setting_google_feedback">ارسال بازخورد</string>
-    <string name="setting_google_help">راهنما</string>
-    <string name="setting_google_help_and_feedback">راهنما و بازخورد</string>
+    <string name="">ارسال بازخورد</string>
     <string name="setting_grid_mode">نوع شبکه</string>
     <string name="setting_off">غیرفعال</string>
     <string name="settings_open_desc">باز کردن تنظیمات</string>

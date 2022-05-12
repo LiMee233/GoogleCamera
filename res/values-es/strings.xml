@@ -404,9 +404,7 @@ La función Caras frecuentes se mostrará al abrir la cámara desde la pantalla 
     <string name="setting_camera_photo">Resolución de la cámara de fotos</string>
     <string name="setting_camera_video">Vídeo de ultraalta resolución (4K)</string>
     <string name="setting_general">General</string>
-    <string name="setting_google_feedback">Enviar comentarios</string>
-    <string name="setting_google_help">Ayuda</string>
-    <string name="setting_google_help_and_feedback">Ayuda y sugerencias</string>
+    <string name="">Enviar comentarios</string>
     <string name="setting_grid_mode">Tipo de cuadrícula</string>
     <string name="setting_off">Desactivado</string>
     <string name="settings_open_desc">Abrir ajustes</string>
@@ -494,18 +492,6 @@ La función Caras frecuentes se mostrará al abrir la cámara desde la pantalla 
     <string name="zoom_minus_desc">Reducir</string>
     <string name="zoom_plus_desc">Ampliar</string>
     <string name="hdr_processing">No se puede cambiar el lente. Una foto se está procesando. Inténtelo más tarde.</string>
-    <string name="pref_about_title">Acerca de esta app</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">ver. %s</string>
-    <string name="pref_made">Hecho con ❤ por Dise</string>
-    <string name="pref_based_title">Basado en la Cámara de Google</string>
-    <string name="pref_dev_title">Gracias a todos los modders por compartir y apoyar</string>
-    <string name="blog_title">Desarrollador principal</string>
-    <string name="blog_info">Dmitry Gavrilov alias the_dise</string>
-    <string name="pref_update_title">Verificar actualizaciones</string>
-    <string name="pref_update_summary">Buscar actualizaciones estables y últimos cambios</string>
-    <string name="pref_donate_title">Donar</string>
-    <string name="pref_donate_summary">Si piensas que merezco recibir dinero por mi trabajo, puedes donarme algo de dinero aquí</string>
     <string name="pref_track_focus_title">Seguimiento de enfoque</string>
     <string name="pref_track_focus_summary">El enfoque será fijado en el sujeto que has tocado</string>
     <string name="pref_pzoom_title">Desactivar zoom en modo retrato</string>
@@ -551,5 +537,4 @@ La función Caras frecuentes se mostrará al abrir la cámara desde la pantalla 
     <string name="aux_summary">Te permite activar los lentes de gran angular, macro, teleobjetivo y zoom</string>
     <string name="pref_hex_title">Desactivar Hexagon DSP</string>
     <string name="pref_hex_summary">Deshabilitar Hexagon DSP mejorará el rendimiento en smartphones de bajo rendimiento</string>
-    <string name="pref_translators_title">Gracias por ayudar en traducir las opciones</string>
 </resources>

@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">Раздел. способност на снимка с камерата</string>
     <string name="setting_camera_video">Видео със свръхвисока разделителна способност (4K)</string>
     <string name="setting_general">Общи</string>
-    <string name="setting_google_feedback">Изпращане на отзив</string>
-    <string name="setting_google_help">Помощ</string>
-    <string name="setting_google_help_and_feedback">Помощ и отзиви</string>
+    <string name="">Изпращане на отзив</string>
     <string name="setting_grid_mode">Тип табличен режим</string>
     <string name="setting_off">Изключено</string>
     <string name="settings_open_desc">Отваряне на настройките</string>

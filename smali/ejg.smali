@@ -756,8 +756,6 @@
 
     invoke-virtual {v0, v3}, Lejg;->addPreferencesFromResource(I)V
 
-    invoke-static/range {p0 .. p0}, Lcom/dmgc/ota/OTAUtils;->hookPreference(Landroid/preference/PreferenceFragment;)V
-
     const-string v3, "prefscreen_top"
 
     invoke-virtual {v0, v3}, Lejg;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
@@ -1000,29 +998,6 @@
     goto :goto_2
 
     :cond_5
-    nop
-
-    const-string v4, "pref_category_developer"
-
-    invoke-interface {v1, v4}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v5
-
-    if-nez v5, :cond_6
-
-    invoke-virtual {v0, v4}, Lejg;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v4
-
-    check-cast v4, Landroid/preference/PreferenceScreen;
-
-    iget-object v5, v0, Lejg;->a:Leji;
-
-    iget-object v5, v5, Leji;->b:Lcpf;
-
-    invoke-virtual {v5, v4}, Lcpf;->a(Landroid/preference/PreferenceScreen;)V
-
-    :cond_6
     nop
 
     const-string v4, "pref_category_social_share"
@@ -2164,10 +2139,6 @@
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
 
-    const-string v1, "pref_category_about"
-
-    invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
-
     const-string v1, "pref_category_advanced"
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
@@ -2175,10 +2146,6 @@
     const-string v1, "pref_category_gestures"
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
-
-    const-string v2, "pref_category_developer"
-
-    invoke-direct {p0, v2}, Lejg;->b(Ljava/lang/String;)V
 
     const-string v2, "pref_category_social_share"
 
@@ -2503,30 +2470,6 @@
     aget-object v2, v3, v2
 
     invoke-virtual {v1, v2}, Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    new-instance v2, Leja;
-
-    invoke-direct {v2, p0}, Leja;-><init>(Lejg;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
-
-    const-string v1, "pref_launch_help"
-
-    invoke-virtual {p0, v1}, Lejg;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Lejb;
-
-    invoke-direct {v2, v0}, Lejb;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    const-string v1, "pref_launch_feedback"
-
-    invoke-virtual {p0, v1}, Lejg;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
 
     new-instance v2, Lejc;
 

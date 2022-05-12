@@ -404,9 +404,7 @@ Tutut kasvot ovat saatavilla, kun avaat Kameran lukitusnäytöltä."</string>
     <string name="setting_camera_photo">Kameran kuvien resoluutio</string>
     <string name="setting_camera_video">Erittäin korkearesoluutioinen video (4K)</string>
     <string name="setting_general">Yleiset</string>
-    <string name="setting_google_feedback">Lähetä palautetta</string>
-    <string name="setting_google_help">Ohje</string>
-    <string name="setting_google_help_and_feedback">Ohje ja palaute</string>
+    <string name="">Lähetä palautetta</string>
     <string name="setting_grid_mode">Ruudukkotyyppi</string>
     <string name="setting_off">Pois käytöstä</string>
     <string name="settings_open_desc">Avaa asetukset</string>

@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">Разрешение камеры (фото)</string>
     <string name="setting_camera_video">Видео со сверхвысоким разрешением (4K)</string>
     <string name="setting_general">Общие</string>
-    <string name="setting_google_feedback">Отправить отзыв</string>
-    <string name="setting_google_help">Справка</string>
-    <string name="setting_google_help_and_feedback">Справка/отзыв</string>
+    <string name="">Отправить отзыв</string>
     <string name="setting_grid_mode">Тип сетки</string>
     <string name="setting_off">Отключено</string>
     <string name="settings_open_desc">Открыть настройки</string>
@@ -493,18 +491,6 @@
     <string name="zoom_ffc_wide_tooltip">Уменьшите масштаб, чтобы расширить кадр</string>
     <string name="zoom_minus_desc">Уменьшить</string>
     <string name="zoom_plus_desc">Увеличить</string>
-    <string name="pref_about_title">О приложении</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">вер. %s</string>
-    <string name="pref_made">Сделано с ❤ от Дайса</string>
-    <string name="pref_based_title">Основано на Google Камера</string>
-    <string name="pref_dev_title">Спасибо всем моддерам за помощь и поддержку</string>
-    <string name="blog_title">Ведущий разработчик</string>
-    <string name="blog_info">Дмитрий Гаврилов aka the_dise</string>
-    <string name="pref_update_title">Проверить обновления</string>
-    <string name="pref_update_summary">Проверьте наличие стабильных обновлений и изменений в них</string>
-    <string name="pref_donate_title">Пожертвование</string>
-    <string name="pref_donate_summary">Если вы считаете, что я заслуживаю оплаты за свою работу, вы можете отправить немного денег</string>
     <string name="pref_track_focus_title">Отслеживание фокуса</string>
     <string name="pref_track_focus_summary">Фокус будет привязан к объекту, на который вы нажмете</string>
     <string name="pref_pzoom_title">Отключить зум в портретном режиме</string>
@@ -546,5 +532,4 @@
     <string name="aux_summary">Позволяет активировать широкоугольные, макро, телеобъективы и зум-объективы</string>
     <string name="pref_hex_title">Отключить Hexagon DSP</string>
     <string name="pref_hex_summary">Отключение Hexagon DSP повысит производительность для слабых смартфонов</string>
-    <string name="pref_translators_title">Спасибо за помощь в переводе настроек</string>
 </resources>

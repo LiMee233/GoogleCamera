@@ -397,9 +397,7 @@ Tanish yuzlar funksiyasi ekran qulfidan ochilgan Kamera ilovasida ham ishlaydi."
     <string name="setting_camera_photo">Kamera sigʻimi (fotosurat)</string>
     <string name="setting_camera_video">Ultra-yuqori tiniqlikdagi video (4K)</string>
     <string name="setting_general">Umumiy</string>
-    <string name="setting_google_feedback">Fikr-mulohaza</string>
-    <string name="setting_google_help">Yordam</string>
-    <string name="setting_google_help_and_feedback">Yordam va fikr-mulohaza</string>
+    <string name="">Fikr-mulohaza</string>
     <string name="setting_grid_mode">Katakchalar</string>
     <string name="setting_off">Yoqilmagan</string>
     <string name="settings_open_desc">Sozlamalarni ochish</string>

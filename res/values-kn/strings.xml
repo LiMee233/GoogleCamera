@@ -398,9 +398,7 @@ Frequent Faces ಆಯ್ಕೆಯನ್ನು ನೀವು ಆಫ್ ಮಾಡ�
     <string name="setting_camera_photo">ಕ್ಯಾಮರಾ ಫೋಟೋ ರೆಸಲ್ಯೂಷನ್</string>
     <string name="setting_camera_video">ಅಲ್ಟ್ರಾ ಹೈ ರೆಸಲ್ಯೂಷನ್‌‌ ವೀಡಿಯೊ (4K)</string>
     <string name="setting_general">ಸಾಮಾನ್ಯ</string>
-    <string name="setting_google_feedback">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
-    <string name="setting_google_help">ಸಹಾಯ</string>
-    <string name="setting_google_help_and_feedback">ಸಹಾಯ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
     <string name="setting_grid_mode">ಗ್ರಿಡ್ ಪ್ರಕಾರ</string>
     <string name="setting_off">ಆಫ್ ಆಗಿದೆ</string>
     <string name="settings_open_desc">ಸೆಟ್ಟಿಂಗ್‍ಗಳನ್ನು ತೆರೆಯಿರಿ</string>

@@ -398,9 +398,7 @@ Funktsioon Sagedased näod on saadaval, kui avate kaamera lukustuskuval."</strin
     <string name="setting_camera_photo">Kaamera foto eraldusvõime</string>
     <string name="setting_camera_video">Ülikõrge eraldusvõimega video (4K)</string>
     <string name="setting_general">Üldine</string>
-    <string name="setting_google_feedback">Tagasiside saatmine</string>
-    <string name="setting_google_help">Abi</string>
-    <string name="setting_google_help_and_feedback">Abi ja tagasiside</string>
+    <string name="">Tagasiside saatmine</string>
     <string name="setting_grid_mode">Võrgustiku tüüp</string>
     <string name="setting_off">Väljas</string>
     <string name="settings_open_desc">Seadete avamine</string>

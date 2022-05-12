@@ -404,9 +404,7 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="setting_camera_photo">Fotoauflösung der Kamera</string>
     <string name="setting_camera_video">Ultrahohe Videoauflösung (4K)</string>
     <string name="setting_general">Allgemein</string>
-    <string name="setting_google_feedback">Feedback geben</string>
-    <string name="setting_google_help">Hilfe</string>
-    <string name="setting_google_help_and_feedback">Hilfe &amp; Feedback</string>
+    <string name="">Feedback geben</string>
     <string name="setting_grid_mode">Rastertyp</string>
     <string name="setting_off">Aus</string>
     <string name="settings_open_desc">Einstellungen öffnen</string>
@@ -494,18 +492,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="zoom_minus_desc">Herauszoomen</string>
     <string name="zoom_plus_desc">Heranzoomen</string>
     <string name="hdr_processing">Objektiv nicht anwählbar: Processing läuft. Versuche es erneut.</string>
-    <string name="pref_about_title">Über</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">Ver. %s</string>
-    <string name="pref_made">Made with ❤ by Dise</string>
-    <string name="pref_based_title">Google Camera basiert</string>
-    <string name="pref_dev_title">"Dank an alle Modder für's Sharing und den Support"</string>
-    <string name="blog_title">Hauptdev.</string>
-    <string name="blog_info">Dmitry Gavrilov aka the_dise</string>
-    <string name="pref_update_title">Updates suchen</string>
-    <string name="pref_update_summary">Auf Stable-Updates/Changelog prüfen</string>
-    <string name="pref_donate_title">Spende</string>
-    <string name="pref_donate_summary">Wenn Du findest, dass ich für meine Arbeit Anerkennung verdiene, spende hier</string>
     <string name="pref_track_focus_title">Focus Tracking</string>
     <string name="pref_track_focus_summary">Focus bleibt auf angetipptem Objekt</string>
     <string name="pref_pzoom_title">Zoom im Portrait mode deakt.</string>
@@ -551,5 +537,4 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="aux_summary">Erlaubt das Aktivieren der verschiedenen Kameratypen</string>
     <string name="pref_hex_title">Hexagon DSP aus</string>
     <string name="pref_hex_summary">Hexagon DSP belastet Performance schwächerer Smartphones</string>
-    <string name="pref_translators_title">Dank für die Übersetzung der Einstellungen</string>
 </resources>

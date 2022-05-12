@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">კამერის ფოტოების გარჩევადობა</string>
     <string name="setting_camera_video">ულტრამაღალი გარჩევადობის ვიდეო (4K)</string>
     <string name="setting_general">ძირითადი</string>
-    <string name="setting_google_feedback">გამოხმაურება</string>
-    <string name="setting_google_help">დახმარება</string>
-    <string name="setting_google_help_and_feedback">დახმარება &amp; გამოხმაურება</string>
+    <string name="">გამოხმაურება</string>
     <string name="setting_grid_mode">ბადის ტიპი</string>
     <string name="setting_off">გამორთული</string>
     <string name="settings_open_desc">პარამეტრების გახსნა</string>

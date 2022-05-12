@@ -404,9 +404,7 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="setting_camera_photo">"Résolution de l'appareil photo"</string>
     <string name="setting_camera_video">Vidéo ultra-haute résolution (4K)</string>
     <string name="setting_general">Général</string>
-    <string name="setting_google_feedback">Envoyer des commentaires</string>
-    <string name="setting_google_help">Aide</string>
-    <string name="setting_google_help_and_feedback">Aide et commentaires</string>
+    <string name="">Envoyer des commentaires</string>
     <string name="setting_grid_mode">Type de grille</string>
     <string name="setting_off">Désactivé</string>
     <string name="settings_open_desc">Ouvrir les paramètres</string>
@@ -494,18 +492,6 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="zoom_minus_desc">Faire un zoom arrière</string>
     <string name="zoom_plus_desc">Faire un zoom avant</string>
     <string name="hdr_processing">"Impossible de changer d'objectif. Une image est en court de traitement. Essayez plus tard."</string>
-    <string name="pref_about_title">"A propos de l'application"</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">ver. %s</string>
-    <string name="pref_made">Fait avec ❤ par Dise</string>
-    <string name="pref_based_title">Basé depuis la caméra Google</string>
-    <string name="pref_dev_title">Merci a tous les moddeurs pour leur partage et leur soutien</string>
-    <string name="blog_title">Développeur principal</string>
-    <string name="blog_info">Dmitry Gavrilov aka the_dise</string>
-    <string name="pref_update_title">Vérifier les mises à jour</string>
-    <string name="pref_update_summary">Vérifier les mises à jour stable et le journal des modifications</string>
-    <string name="pref_donate_title">Faire un don</string>
-    <string name="pref_donate_summary">"Si vous pensez que mon travail mérite d'être rémunéré, vous pouvez faire un don ici"</string>
     <string name="pref_track_focus_title">Suivi du focus</string>
     <string name="pref_track_focus_summary">Le focus suivra le sujet sur lequel vous tapez</string>
     <string name="pref_pzoom_title">Désactiver le zoom en mode Portrait</string>
@@ -551,5 +537,4 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="aux_summary">"Vous permet d'activer un objectif grand angle, macro, téléobjectif et zoom"</string>
     <string name="pref_hex_title">Désactiver Hexagone DSP</string>
     <string name="pref_hex_summary">La désactivation de Hexagon DSP améliorera les performances des smartphones faibles</string>
-    <string name="pref_translators_title">"Merci de l'aide à la traduction"</string>
 </resources>

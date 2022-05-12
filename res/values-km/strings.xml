@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">កម្រិតច្បាស់​នៃរូបថត​ដោយកាមេរ៉ា</string>
     <string name="setting_camera_video">វីដេអូ​ដែលមាន​កម្រិត​ច្បាស់​ខ្ពស់បំផុត (4K)</string>
     <string name="setting_general">ទូទៅ</string>
-    <string name="setting_google_feedback">ផ្ញើ​មតិកែលម្អ</string>
-    <string name="setting_google_help">ជំនួយ</string>
-    <string name="setting_google_help_and_feedback">ជំនួយ និងមតិកែលម្អ</string>
+    <string name="">ផ្ញើ​មតិកែលម្អ</string>
     <string name="setting_grid_mode">ប្រភេទក្រឡា</string>
     <string name="setting_off">បិទ</string>
     <string name="settings_open_desc">បើក​ការ​កំណត់</string>

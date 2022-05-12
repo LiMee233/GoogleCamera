@@ -403,9 +403,7 @@
     <string name="setting_camera_photo">分辨率</string>
     <string name="setting_camera_video">4K 分辨率</string>
     <string name="setting_general">常规</string>
-    <string name="setting_google_feedback">发送反馈</string>
-    <string name="setting_google_help">帮助</string>
-    <string name="setting_google_help_and_feedback">帮助和反馈</string>
+    <string name="">发送反馈</string>
     <string name="setting_grid_mode">参考线</string>
     <string name="setting_off">关闭</string>
     <string name="settings_open_desc">打开设置</string>
@@ -493,18 +491,6 @@
     <string name="zoom_minus_desc">缩小</string>
     <string name="zoom_plus_desc">放大</string>
     <string name="hdr_processing">无法切换镜头，正在处理照片，请稍后再试。</string>
-    <string name="pref_about_title">关于 APP</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">版本. %s</string>
-    <string name="pref_made">由 Dise 精❤制作</string>
-    <string name="pref_based_title">基于官方谷歌相机</string>
-    <string name="pref_dev_title">特此鸣谢</string>
-    <string name="blog_title">主要开发者</string>
-    <string name="blog_info">Dmitry Gavrilov 又名 the_dise</string>
-    <string name="pref_update_title">检查更新</string>
-    <string name="pref_update_summary">检查稳定版本更新和更新日志</string>
-    <string name="pref_donate_title">捐赠</string>
-    <string name="pref_donate_summary">如果你认为我的工作应该获得报酬，你可以在这里给我捐赠以支持。</string>
     <string name="pref_track_focus_title">焦点追踪</string>
     <string name="pref_track_focus_summary">焦点将附着在你点击的对象上</string>
     <string name="pref_pzoom_title">禁用变焦(人像模式)</string>
@@ -550,5 +536,4 @@
     <string name="aux_summary">允许激活广角、微距、长焦和变焦镜头</string>
     <string name="pref_hex_title">禁用 Hexagon DSP</string>
     <string name="pref_hex_summary">禁用 Hexagon DSP 可以提高低端机性能。</string>
-    <string name="pref_translators_title">特此鸣谢</string>
 </resources>

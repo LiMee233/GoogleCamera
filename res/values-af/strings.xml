@@ -398,9 +398,7 @@ Bekende Gesigte sal beskikbaar wees wanneer jy Kamera van die sluitskerm af oopm
     <string name="setting_camera_photo">Kamerafotoresolusie</string>
     <string name="setting_camera_video">Video met ultrahoë resolusie (4K)</string>
     <string name="setting_general">Algemeen</string>
-    <string name="setting_google_feedback">Stuur terugvoer</string>
-    <string name="setting_google_help">Hulp</string>
-    <string name="setting_google_help_and_feedback">Hulp en terugvoer</string>
+    <string name="">Stuur terugvoer</string>
     <string name="setting_grid_mode">Roostertipe</string>
     <string name="setting_off">Af</string>
     <string name="settings_open_desc">Maak instellings oop</string>

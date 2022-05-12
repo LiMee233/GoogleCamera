@@ -404,9 +404,7 @@ Kendte ansigter er tilgængelig, når du åbner kameraet fra låseskærmen."</st
     <string name="setting_camera_photo">Billedopløsning for kamera</string>
     <string name="setting_camera_video">Video i ultrahøj opløsning (4K)</string>
     <string name="setting_general">Generelt</string>
-    <string name="setting_google_feedback">Send feedback</string>
-    <string name="setting_google_help">Hjælp</string>
-    <string name="setting_google_help_and_feedback">Hjælp og feedback</string>
+    <string name="">Send feedback</string>
     <string name="setting_grid_mode">Gittertype</string>
     <string name="setting_off">Fra</string>
     <string name="settings_open_desc">Åbn Indstillinger</string>

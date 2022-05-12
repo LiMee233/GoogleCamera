@@ -404,9 +404,7 @@ Rostros frecuentes también estará disponible cuando abras la Cámara desde la 
     <string name="setting_camera_photo">Resolución de las fotos de la cámara</string>
     <string name="setting_camera_video">Videos en ultra alta resolución (4K)</string>
     <string name="setting_general">General</string>
-    <string name="setting_google_feedback">Enviar comentarios</string>
-    <string name="setting_google_help">Ayuda</string>
-    <string name="setting_google_help_and_feedback">Ayuda y comentarios</string>
+    <string name="">Enviar comentarios</string>
     <string name="setting_grid_mode">Cuadrícula</string>
     <string name="setting_off">Desactivada</string>
     <string name="settings_open_desc">Abrir configuración</string>

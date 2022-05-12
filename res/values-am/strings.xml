@@ -398,9 +398,7 @@
     <string name="setting_camera_photo">የካሜራ ፎቶ ጥራት</string>
     <string name="setting_camera_video">የልዕለ-ከፍተኛ ጥራት ቪዲዮ (4K)</string>
     <string name="setting_general">አጠቃላይ</string>
-    <string name="setting_google_feedback">ግብረመልስ ይላኩ</string>
-    <string name="setting_google_help">እገዛ</string>
-    <string name="setting_google_help_and_feedback">እገዛ እና ግብረመልስ</string>
+    <string name="">ግብረመልስ ይላኩ</string>
     <string name="setting_grid_mode">የፍርግርግ ዓይነት</string>
     <string name="setting_off">ጠፍቷል</string>
     <string name="settings_open_desc">ቅንብሮችን ክፈት</string>

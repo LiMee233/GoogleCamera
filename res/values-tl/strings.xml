@@ -404,9 +404,7 @@ Magiging available ang Mga Pamilyar na Mukha kapag binuksan mo ang Camera mula s
     <string name="setting_camera_photo">Resolution ng larawan mula sa camera</string>
     <string name="setting_camera_video">Ultra-high resolution na video (4K)</string>
     <string name="setting_general">Pangkalahatan</string>
-    <string name="setting_google_feedback">Magpadala ng feedback</string>
-    <string name="setting_google_help">Tulong</string>
-    <string name="setting_google_help_and_feedback">Tulong at feedback</string>
+    <string name="">Magpadala ng feedback</string>
     <string name="setting_grid_mode">Uri ng grid</string>
     <string name="setting_off">Naka-off</string>
     <string name="settings_open_desc">Buksan ang mga setting</string>

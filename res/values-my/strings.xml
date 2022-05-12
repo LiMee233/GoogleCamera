@@ -397,9 +397,7 @@
     <string name="setting_camera_photo">ကင်မရာဓာတ်ပုံ ပုံရိပ်ပြတ်သားကိန်း</string>
     <string name="setting_camera_video">ပုံရိပ်ပြတ်သားကိန်း အလွန်မြင့်သည့် ဗီဒီယို (4K)</string>
     <string name="setting_general">အထွေထွေ</string>
-    <string name="setting_google_feedback">အကြံပြုချက်ကို ပို့ပါ</string>
-    <string name="setting_google_help">အကူအညီ</string>
-    <string name="setting_google_help_and_feedback">အကူအညီနှင့် အကြံပြုချက်</string>
+    <string name="">အကြံပြုချက်ကို ပို့ပါ</string>
     <string name="setting_grid_mode">လေးထောင့်ကွက် ပုံစံ</string>
     <string name="setting_off">ပိတ်</string>
     <string name="settings_open_desc">ဆက်တင်းကိုဖွင့်ရန်</string>

@@ -404,9 +404,7 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="setting_camera_photo">Kamera fotoğraf çözünürlüğü</string>
     <string name="setting_camera_video">Ultra yüksek çözünürlüklü video (4K)</string>
     <string name="setting_general">Genel</string>
-    <string name="setting_google_feedback">Geri bildirim gönder</string>
-    <string name="setting_google_help">Yardım</string>
-    <string name="setting_google_help_and_feedback">Yardım ve geri bildirim</string>
+    <string name="">Geri bildirim gönder</string>
     <string name="setting_grid_mode">Tablo türü</string>
     <string name="setting_off">Kapalı</string>
     <string name="settings_open_desc">Ayarları aç</string>
@@ -494,18 +492,6 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="zoom_minus_desc">Uzaklaştır</string>
     <string name="zoom_plus_desc">Yakınlaştır</string>
     <string name="hdr_processing">Lens değiştirilemiyor. İşlenen bir fotoğraf var. Daha sonra tekrar deneyin.</string>
-    <string name="pref_about_title">Uygulama hakkında</string>
-    <string name="pref_mod_name">DMGC</string>
-    <string name="pref_mod_version">sürüm %s</string>
-    <string name="pref_made">Dise ❤ tarafından yapılmıştır</string>
-    <string name="pref_based_title">Google Kameraya Dayalı</string>
-    <string name="pref_dev_title">Paylaşım ve destek için tüm modderlere teşekkürler</string>
-    <string name="blog_title">Baş geliştirici</string>
-    <string name="blog_info">Dmitry Gavrilov diğer adıyla the_dise</string>
-    <string name="pref_update_title">Güncellemeleri kontrol et</string>
-    <string name="pref_update_summary">Kararlı güncellemeleri ve değişiklik günlüğünü kontrol edin</string>
-    <string name="pref_donate_title">Bağış</string>
-    <string name="pref_donate_summary">İşim için ödeme almayı hak ettiğimi düşünüyorsanız, burada biraz para bırakabilirsiniz</string>
     <string name="pref_track_focus_title">Odak Takibi</string>
     <string name="pref_track_focus_summary">Odak dokunduğunuz konuya eklenecek</string>
     <string name="pref_pzoom_title">Portre modunda yakınlaştırmayı devre dışı bırak</string>
@@ -551,5 +537,4 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="aux_summary">Geniş açılı, makro, telefoto ve zoom lensleri etkinleştirmenizi sağlar</string>
     <string name="pref_hex_title">"Hexagon DSP'yi devre dışı bırak"</string>
     <string name="pref_hex_summary">"Hexagon DSP'yi devre dışı bırakmak zayıf akıllı telefonlar için performansı artıracaktır"</string>
-    <string name="pref_translators_title">Ayarları çevirme konusunda yardım için teşekkürler</string>
 </resources>

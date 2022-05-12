@@ -404,9 +404,7 @@
     <string name="setting_camera_photo">Резолуција слике камере</string>
     <string name="setting_camera_video">Ултрависока резолуција видеа (4K)</string>
     <string name="setting_general">Општа</string>
-    <string name="setting_google_feedback">Пошаљи повратне информације</string>
-    <string name="setting_google_help">Помоћ</string>
-    <string name="setting_google_help_and_feedback">Помоћ и повр. информације</string>
+    <string name="">Пошаљи повратне информације</string>
     <string name="setting_grid_mode">Тип координатне мреже</string>
     <string name="setting_off">Искључено</string>
     <string name="settings_open_desc">Отвори подешавања</string>

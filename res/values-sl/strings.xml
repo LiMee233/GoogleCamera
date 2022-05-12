@@ -404,9 +404,7 @@ Funkcija pogostih obrazov je na voljo, ko na zaklenjenem zaslonu odprete Fotoapa
     <string name="setting_camera_photo">Ločljivost fotografij fotoaparata</string>
     <string name="setting_camera_video">Videoposnetek ultra visoke ločljivosti (4K)</string>
     <string name="setting_general">Splošno</string>
-    <string name="setting_google_feedback">Pošlji povratne informacije</string>
-    <string name="setting_google_help">Pomoč</string>
-    <string name="setting_google_help_and_feedback">Pomoč in povratne informacije</string>
+    <string name="">Pošlji povratne informacije</string>
     <string name="setting_grid_mode">Vrsta mreže</string>
     <string name="setting_off">Izklopljeno</string>
     <string name="settings_open_desc">Odpri nastavitve</string>

@@ -398,9 +398,7 @@ Frequent Faces डेटा फक्त या डिव्हाइसवर �
     <string name="setting_camera_photo">कॅमेरा फोटो रिझोल्युशन</string>
     <string name="setting_camera_video">अल्ट्रा-हाय रिझाेल्युशन व्हिडिओ (4K)</string>
     <string name="setting_general">सामान्य</string>
-    <string name="setting_google_feedback">अभिप्राय पाठवा</string>
-    <string name="setting_google_help">मदत</string>
-    <string name="setting_google_help_and_feedback">मदत आणि अभिप्राय</string>
+    <string name="">अभिप्राय पाठवा</string>
     <string name="setting_grid_mode">ग्रिड प्रकार</string>
     <string name="setting_off">बंद</string>
     <string name="settings_open_desc">सेटिंग्ज उघडा</string>

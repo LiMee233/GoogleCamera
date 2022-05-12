@@ -398,9 +398,7 @@ Frequent Faces akan tersedia apabila anda membuka Kamera daripada skrin kunci."<
     <string name="setting_camera_photo">Peleraian foto kamera</string>
     <string name="setting_camera_video">Video peleraian amat tinggi (4K)</string>
     <string name="setting_general">Umum</string>
-    <string name="setting_google_feedback">Hantar maklum balas</string>
-    <string name="setting_google_help">Bantuan</string>
-    <string name="setting_google_help_and_feedback">Bantuan &amp; maklum balas</string>
+    <string name="">Hantar maklum balas</string>
     <string name="setting_grid_mode">Jenis grid</string>
     <string name="setting_off">Matikan</string>
     <string name="settings_open_desc">Buka tetapan</string>

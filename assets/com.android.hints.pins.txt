@@ -106,7 +106,6 @@
 ^res/drawable\-xxxhdpi\-v4/quantum_gm_ic_camera_alt_white_24\.png$
 ^res/drawable/ic_refocus_editor\.xml$
 ^res/drawable/ic_minus_24px\.xml$
-^res/drawable\-xxxhdpi\-v4/quantum_gm_ic_feedback_gm_grey_24\.png$
 ^res/drawable/options_menu_arrow_icon\.xml$
 ^res/drawable/ic_ratio_full\.xml$
 ^res/drawable/ic_ratio_standard\.xml$

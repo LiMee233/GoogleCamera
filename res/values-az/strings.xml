@@ -397,9 +397,7 @@ Yaxınların Üzləri kilid ekranından Kameranı açdıqda əlçatan olacaq."</
     <string name="setting_camera_photo">Kamera fotosunun ayırdetmə dəqiqliyi</string>
     <string name="setting_camera_video">Ultra-yüksək ayırdetmə dəqiqlikli video (4K)</string>
     <string name="setting_general">Ümumi</string>
-    <string name="setting_google_feedback">Geri əlaqə göndərin</string>
-    <string name="setting_google_help">Yardım</string>
-    <string name="setting_google_help_and_feedback">Yardım və rəy</string>
+    <string name="">Geri əlaqə göndərin</string>
     <string name="setting_grid_mode">Cədvəl növü</string>
     <string name="setting_off">Deaktiv</string>
     <string name="settings_open_desc">Ayarları açın</string>
