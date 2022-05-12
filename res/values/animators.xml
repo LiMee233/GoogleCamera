@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="animator" name="APKTOOL_DUMMY_14" />
+    <item type="animator" name="APKTOOL_DUMMY_15" />
+    <item type="animator" name="APKTOOL_DUMMY_17" />
+    <item type="animator" name="APKTOOL_DUMMY_19" />
+    <item type="animator" name="APKTOOL_DUMMY_1b" />
+    <item type="animator" name="APKTOOL_DUMMY_1e" />
+    <item type="animator" name="APKTOOL_DUMMY_23" />
+    <item type="animator" name="APKTOOL_DUMMY_24" />
+    <item type="animator" name="APKTOOL_DUMMY_25" />
+    <item type="animator" name="APKTOOL_DUMMY_2c" />
+    <item type="animator" name="APKTOOL_DUMMY_2d" />
+    <item type="animator" name="APKTOOL_DUMMY_2e" />
+</resources>
