@@ -213,33 +213,6 @@
     goto :goto_2
 
     :cond_2
-    new-instance p1, Ljava/io/File;
-
-    const-string p3, "/dev/adsprpc-smd"
-
-    invoke-direct {p1, p3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p1}, Ljava/io/File;->canRead()Z
-
-    move-result p1
-
-    if-eqz p1, :cond_3
-
-    const-string/jumbo p1, "pref_hexagon_key"
-
-    invoke-static {p1}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result p1
-
-    if-nez p1, :cond_3
-
-    sget-object p1, Ldlt;->a:Ljava/lang/String;
-
-    invoke-static {p1}, Lijd;->d(Ljava/lang/String;)V
-
-    invoke-virtual {v8, v2}, Lcom/google/googlex/gcam/InitParams;->a(I)V
-
-    :cond_3
     :goto_2
     invoke-virtual {v8}, Lcom/google/googlex/gcam/InitParams;->b()I
 

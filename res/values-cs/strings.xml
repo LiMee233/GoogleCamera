@@ -504,23 +504,14 @@ Když Časté obličeje vypnete, údaje o obličejích budou smazány.
     <string name="pref_update_summary">Zkontrolovat dostupnost aktualizací</string>
     <string name="pref_donate_title">Přispět</string>
     <string name="pref_donate_summary">Pokud mně chcete přispět na vývoj aplikace, můžete zde</string>
-    <string name="pref_category_more">Pokročilá nastavení</string>
     <string name="pref_track_focus_title">Zaostření pohybu</string>
     <string name="pref_track_focus_summary">Zaostří pohybující se objekt, na který kliknete.</string>
-    <string name="pref_sabre_summary">Zvětší detaily při menším přiblížení než 1,2x. Automaticky se zapne pro zařízení, která tuto funkci podporují.</string>
     <string name="pref_pzoom_title">Vypněte přiblížení v režimu na výšku</string>
     <string name="pref_pzoom_summary">Pokud je zakázáno, bude v režimu Portrét přiblížení 1,2x.</string>
     <string name="pref_maxexpsec_summary">Max. expoziční čas: %s</string>
-    <string name="pref_merge_title">Vynutit metodu sloučení</string>
-    <string name="pref_merge_summary">Metoda sloučení: %s</string>
-    <string name="pref_merge_on">Vždy</string>
-    <string name="pref_merge_off">Nikdy</string>
-    <string name="pref_merge_zoom">Při přiblížení ≥ 2x</string>
     <string name="pref_raw_sensor_title">Použít RAW sensor</string>
     <string name="pref_raw_sensor_summary">Když zakázáno, použije se RAW10</string>
     <string name="app_name_dmgc">DMGC</string>
-    <string name="pref_astro_title">Povolit astrofotografie</string>
-    <string name="pref_astro_summary">Umožňuje pořizovat lepší fotografie při slabém osvětlení.</string>
     <string name="pref_maxexpsec_title">Max. expoziční čas astrofotografie</string>
     <string name="pref_actro_1">1 sek</string>
     <string name="pref_actro_2">2 sek</string>
@@ -555,8 +546,6 @@ Když Časté obličeje vypnete, údaje o obličejích budou smazány.
     <string name="aux_title_zoom">Použít zoom objektiv</string>
     <string name="aux_title">Tlačítko Asistent</string>
     <string name="aux_summary">Umožní aktivovat širokoúhlý, makro, tele a zomm objektiv.</string>
-    <string name="aux_info">Pro změnu objektivu musíte nainstalovat modul pro Magisk. Modul odstraní kameru Google z černé listiny pro použití přídavných objektivů.</string>
-    <string name="aux_module">Stáhnout modul</string>
     <string name="pref_version_number">Verze</string>
     <string name="pref_lib_title">Základní knihovna při spuštění</string>
 </resources>

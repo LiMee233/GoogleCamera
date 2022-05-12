@@ -550,27 +550,14 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_update_summary">Check for stable updates and changelog</string>
     <string name="pref_donate_title">Donate</string>
     <string name="pref_donate_summary">If you think I deserve to get paid for my work, you can leave some money here</string>
-    <string name="pref_category_more">Advanced Settings</string>
     <string name="pref_track_focus_title">Focus Tracking</string>
     <string name="pref_track_focus_summary">Focus will be attached to the subject you tap on</string>
-    <string name="pref_ehdr_frames">Enhanced HDR+ Frames</string>
-    <string name="pref_ehdr_frames_info">"You can manualy set EHDR+ Frames from 1 to 35.
-Auto — 0 (Default)"</string>
-    <string name="pref_ehdr_frames_title">Set frames</string>
-    <string name="pref_sabre_summary">Increases detail while less than 1.2 zoom, but may use more processing power and battery</string>
     <string name="pref_pzoom_title">Disable zoom in Portrait mode</string>
     <string name="pref_pzoom_summary">If disabled, there will be 1.2 zoom in portrait mode</string>
     <string name="pref_maxexpsec_summary">Max Exposure: %s</string>
-    <string name="pref_merge_title">Force Merge Method</string>
-    <string name="pref_merge_summary">Merge Method: %s</string>
-    <string name="pref_merge_on">Always</string>
-    <string name="pref_merge_off">Never</string>
-    <string name="pref_merge_zoom">At zoom ≥2x</string>
     <string name="pref_raw_sensor_title">Use RAW Sensor</string>
     <string name="pref_raw_sensor_summary">If disabled, it will use RAW10</string>
     <string name="app_name_dmgc">DMGC</string>
-    <string name="pref_astro_title">Astrophotography</string>
-    <string name="pref_astro_summary">It lets to take better photos in low light. Activated from the options menu</string>
     <string name="pref_maxexpsec_title">Astro Max Exposure Time</string>
     <string name="pref_actro_1">1 sec.</string>
     <string name="pref_actro_2">2 sec.</string>
@@ -606,8 +593,6 @@ Auto — 0 (Default)"</string>
     <string name="aux_title_zoom">Enable zoom lens</string>
     <string name="aux_title">Auxiliary buttons</string>
     <string name="aux_summary">allows you to activate a wide angle, macro, telephoto and zoom lenses</string>
-    <string name="aux_info">To activate the ability to change lenses, you must install the magisk module. Module will remove Google Camera from the blacklist of using additional lenses.</string>
-    <string name="aux_module">Download module</string>
     <string name="pref_hex_title">Disable Hexagon DSP</string>
     <string name="pref_hex_summary">Disabling Hexagon DSP will increase performance for weak smartphones</string>
     <string name="pref_translators_title">Thanks for the help in translating the settings</string>

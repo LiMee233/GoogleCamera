@@ -98,8 +98,6 @@
     <public type="array" name="trusted_certificates" id="0x7f030023" />
     <public type="array" name="pref_awb_entries" id="0x7f030024" />
     <public type="array" name="pref_awb_entryvalues" id="0x7f030025" />
-    <public type="array" name="pref_merge_entries" id="0x7f030026" />
-    <public type="array" name="pref_merge_entryvalues" id="0x7f030027" />
     <public type="array" name="pref_maxexpsec_entries" id="0x7f030028" />
     <public type="array" name="pref_maxexpsec_entryvalues" id="0x7f030029" />
     <public type="array" name="version_entries" id="0x7f03002a" />
@@ -2104,18 +2102,15 @@
     <public type="drawable" name="quantum_gm_ic_google_awb_on_white_24" id="0x7f080272" />
     <public type="drawable" name="quantum_gm_ic_astrophoto_off_white_24" id="0x7f080273" />
     <public type="drawable" name="ic_astro_24" id="0x7f080275" />
-    <public type="drawable" name="ic_blank_24" id="0x7f08027a" />
     <public type="drawable" name="ic_charity_24" id="0x7f08027c" />
     <public type="drawable" name="ic_dev_24" id="0x7f08027e" />
     <public type="drawable" name="ic_donate_24" id="0x7f08027f" />
     <public type="drawable" name="ic_donut_24" id="0x7f080280" />
     <public type="drawable" name="ic_frames_24" id="0x7f080281" />
-    <public type="drawable" name="ic_more_24" id="0x7f080289" />
     <public type="drawable" name="ic_motion_24" id="0x7f08028a" />
     <public type="drawable" name="ic_motion_circle_24" id="0x7f08028b" />
     <public type="drawable" name="ic_motion_red_24" id="0x7f08028c" />
     <public type="drawable" name="ic_pzoom_24" id="0x7f08028e" />
-    <public type="drawable" name="ic_sabre_24" id="0x7f080290" />
     <public type="drawable" name="ic_update_24" id="0x7f080296" />
     <public type="drawable" name="iconcamera" id="0x7f080297" />
     <public type="drawable" name="ics_blank" id="0x7f080298" />
@@ -3306,26 +3301,14 @@
     <public type="string" name="pref_update_summary" id="0x7f1303bc" />
     <public type="string" name="pref_donate_title" id="0x7f1303bd" />
     <public type="string" name="pref_donate_summary" id="0x7f1303be" />
-    <public type="string" name="pref_category_more" id="0x7f1303bf" />
     <public type="string" name="pref_track_focus_title" id="0x7f1303c0" />
     <public type="string" name="pref_track_focus_summary" id="0x7f1303c1" />
-    <public type="string" name="pref_ehdr_frames" id="0x7f1303c3" />
-    <public type="string" name="pref_ehdr_frames_info" id="0x7f1303c4" />
-    <public type="string" name="pref_ehdr_frames_title" id="0x7f1303c5" />
-    <public type="string" name="pref_sabre_summary" id="0x7f1303c8" />
     <public type="string" name="pref_pzoom_title" id="0x7f1303c9" />
     <public type="string" name="pref_pzoom_summary" id="0x7f1303ca" />
     <public type="string" name="pref_maxexpsec_summary" id="0x7f1303cb" />
-    <public type="string" name="pref_merge_title" id="0x7f1303cc" />
-    <public type="string" name="pref_merge_summary" id="0x7f1303cd" />
-    <public type="string" name="pref_merge_on" id="0x7f1303ce" />
-    <public type="string" name="pref_merge_off" id="0x7f1303cf" />
-    <public type="string" name="pref_merge_zoom" id="0x7f1303d0" />
     <public type="string" name="pref_raw_sensor_title" id="0x7f1303d1" />
     <public type="string" name="pref_raw_sensor_summary" id="0x7f1303d2" />
     <public type="string" name="app_name_dmgc" id="0x7f1303d3" />
-    <public type="string" name="pref_astro_title" id="0x7f1303d4" />
-    <public type="string" name="pref_astro_summary" id="0x7f1303d5" />
     <public type="string" name="pref_maxexpsec_title" id="0x7f1303d6" />
     <public type="string" name="pref_actro_1" id="0x7f1303d7" />
     <public type="string" name="pref_actro_2" id="0x7f1303d8" />
@@ -3361,8 +3344,6 @@
     <public type="string" name="aux_title_zoom" id="0x7f130439" />
     <public type="string" name="aux_title" id="0x7f13043a" />
     <public type="string" name="aux_summary" id="0x7f13043b" />
-    <public type="string" name="aux_info" id="0x7f13043c" />
-    <public type="string" name="aux_module" id="0x7f13043d" />
     <public type="string" name="pref_hex_title" id="0x7f13043e" />
     <public type="string" name="pref_hex_summary" id="0x7f13043f" />
     <public type="string" name="pref_translators_title" id="0x7f130440" />

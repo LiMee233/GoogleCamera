@@ -496,24 +496,14 @@ Kur çaktivizon \"Fytyrat e shpeshta\", të dhënat e fytyrave do të fshihen.
     <string name="pref_update_summary">Kontrollo per perditesime te qendrueshme dhe ndryshime</string>
     <string name="pref_donate_title">Dhuro</string>
     <string name="pref_donate_summary">Nese mendoni qe une duhet te paguhem per punen time ju mund te dhuroni disa para ketu</string>
-    <string name="pref_category_more">Cilesimet e Avancuara</string>
     <string name="pref_track_focus_title">Gjurmimi i Fokusimit</string>
     <string name="pref_track_focus_summary">Fokusimi do te ngjitet te subjekti qe ju do te prekni</string>
-    <string name="pref_sabre_summary">Rrit detajet kur ka me pak se 1.2 afrim por mund te perdori me shum fuqi perpunimi dhe bateri</string>
     <string name="pref_pzoom_title">Caktivizo afrimin ne modalitet portreti</string>
     <string name="pref_pzoom_summary">Nese esht afrimi do te jete 1.2 ne modalitet portreti</string>
     <string name="pref_maxexpsec_summary">Ekspozimi maksimal: %s</string>
-    <string name="pref_merge_title">Metoda e bashkimit me force</string>
-    <string name="pref_merge_summary">Metoda e bashkimit: %s</string>
-    <string name="pref_merge_on">Gjithmon</string>
-    <string name="pref_merge_off">Kurre</string>
-    <string name="pref_merge_zoom">Ne afrim ≥2x</string>
     <string name="pref_raw_sensor_title">Perdor sensorin RAW</string>
     <string name="pref_raw_sensor_summary">Nese eshte fikur do te perdori RAW10</string>
     <string name="app_name_dmgc">DMGC</string>
-    <string name="pref_astro_title">Ndiz fotografin Astronomike</string>
-    <string name="pref_astro_summary">"Te lejon te besh foto me te mira ne drite te ulet.
-E aktivizuar nga opsionet e menus"</string>
     <string name="pref_maxexpsec_title">Maksimumi i kohes se ekspozimit ne modalitetin Astronomik</string>
     <string name="pref_actro_1">1 sekond</string>
     <string name="pref_actro_2">2 sekonda</string>
@@ -550,8 +540,6 @@ Aktivizuar nga perzgjedhjet e menus"</string>
     <string name="aux_title_zoom">Aktivizo lentet e afrimit</string>
     <string name="aux_title">Butonat e ndihmes</string>
     <string name="aux_summary">Ju lejon ju te aktivizoni lentet e kendit te gjere,makro,telefoto dhe lentet e afrimit</string>
-    <string name="aux_info">Qe te aktivizoni mundesin e ndryshimit te lenteve ju duhet te instaloni modulin e magisk. Moduli do te fshij Kameren e Google nga lista ku nuk mund te perdori lentet plotesuese</string>
-    <string name="aux_module">Shkarko modulin</string>
     <string name="pref_hex_title">Caktivizo Gjashtekendeshin DSP</string>
     <string name="pref_hex_summary">Caktivizimi i Gjashtekendeshit DSP do te rrisi performancen per telefonat e dobet</string>
     <string name="pref_translators_title">Faleminderit per ndihmen ne perkthimin e cilesimeve</string>

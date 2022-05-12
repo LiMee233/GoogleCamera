@@ -2164,10 +2164,6 @@
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
 
-    const-string v1, "pref_category_more"
-
-    invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
-
     const-string v1, "pref_category_about"
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
@@ -2844,38 +2840,6 @@
     if-nez p0, :cond_8
 
     const-string p0, "pref_track_focus_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_forcemerge_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_always_sabre"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_astro_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_frames_key"
 
     invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

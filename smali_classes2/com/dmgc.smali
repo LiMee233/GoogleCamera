@@ -276,39 +276,6 @@
     return-object v0
 .end method
 
-.method public static setSabre(I)I
-    .locals 3
-
-    sget-object v2, Lpak;->b:Lmoo;
-
-    invoke-virtual {v2}, Lmoo;->SabreFix()Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    sget v1, Lcom/dmgc;->sCam:I
-
-    if-eqz v1, :cond_0
-
-    const-string v1, "pref_always_sabre"
-
-    invoke-static {v1}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
 .method public static switchToMode(I)V
     .locals 1
 

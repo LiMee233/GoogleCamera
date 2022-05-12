@@ -742,29 +742,6 @@
 
     invoke-interface {p3}, Lchh;->b()Z
 
-    const-string p3, "pref_forcemerge_key"
-
-    invoke-static {p3}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result p3
-
-    if-eqz p3, :cond_14
-
-    iget-wide v1, v6, Lcom/google/googlex/gcam/ShotParams;->a:J
-
-    invoke-static {v1, v2, v6, p2}, Lcom/google/googlex/gcam/GcamModuleJNI;->ShotParams_merge_method_override_set(JLcom/google/googlex/gcam/ShotParams;I)V
-
-    :cond_14
-    invoke-static {p4}, Lcom/dmgc;->setSabre(I)I
-
-    move-result p4
-
-    if-eqz p4, :cond_15
-
-    goto :goto_9
-
-    :cond_15
-    :goto_9
     iget-wide v1, v6, Lcom/google/googlex/gcam/ShotParams;->a:J
 
     invoke-static {v1, v2, v6, p4}, Lcom/google/googlex/gcam/GcamModuleJNI;->ShotParams_allow_sabre_set(JLcom/google/googlex/gcam/ShotParams;Z)V
@@ -1008,25 +985,7 @@
     invoke-virtual {v6, p2}, Lcom/google/googlex/gcam/ShotParams;->a(F)V
 
     :goto_c
-    const-string v2, "pref_maxexpsec_key"
 
-    invoke-static {v2}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result v2
-
-    if-eqz v2, :cond_20
-
-    const-string p2, "pref_maxexpsec_key"
-
-    invoke-static {p2}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result p2
-
-    int-to-float p2, p2
-
-    goto :goto_d
-
-    :cond_20
     iget-object p2, p0, Ldkv;->h:Lchh;
 
     sget-object p3, Lcho;->p:Lchi;
@@ -1171,11 +1130,7 @@
 
     iget-wide p1, v6, Lcom/google/googlex/gcam/ShotParams;->a:J
 
-    const-string p4, "pref_frames_key"
-
-    invoke-static {p4}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result p4
+    const/4 p4, 0x0
 
     invoke-static {p1, p2, v6, p4}, Lcom/google/googlex/gcam/GcamModuleJNI;->ShotParams_nonzsl_frame_count_override_set(JLcom/google/googlex/gcam/ShotParams;I)V
 
