@@ -536,8 +536,6 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="pref_actro_30">30 sn.</string>
     <string name="google_awb">Al AWB</string>
     <string name="astrophoto">ASTROFOTOGRAFİ</string>
-    <string name="pref_gphotos_title">"Google Fotoğraflar'ı devre dışı bırak"</string>
-    <string name="pref_gphotos_summary">"Google Fotoğraflar'da fotoğraf görüntülemeyi devre dışı bırakın ve başka herhangi bir galeri arasından seçim yapın"</string>
     <string name="download">İndir</string>
     <string name="new_v">Yeni sürüm: %s</string>
     <string name="pref_awb_title">Al AWB</string>

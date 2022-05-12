@@ -2110,7 +2110,6 @@
     <public type="drawable" name="ic_donate_24" id="0x7f08027f" />
     <public type="drawable" name="ic_donut_24" id="0x7f080280" />
     <public type="drawable" name="ic_frames_24" id="0x7f080281" />
-    <public type="drawable" name="ic_gphotos_24" id="0x7f080284" />
     <public type="drawable" name="ic_more_24" id="0x7f080289" />
     <public type="drawable" name="ic_motion_24" id="0x7f08028a" />
     <public type="drawable" name="ic_motion_circle_24" id="0x7f08028b" />
@@ -3341,8 +3340,6 @@
     <public type="string" name="pref_actro_30" id="0x7f1303e0" />
     <public type="string" name="google_awb" id="0x7f130421" />
     <public type="string" name="astrophoto" id="0x7f130423" />
-    <public type="string" name="pref_gphotos_title" id="0x7f130424" />
-    <public type="string" name="pref_gphotos_summary" id="0x7f130425" />
     <public type="string" name="download" id="0x7f130426" />
     <public type="string" name="new_v" id="0x7f130427" />
     <public type="string" name="pref_awb_title" id="0x7f130428" />

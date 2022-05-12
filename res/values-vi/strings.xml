@@ -536,8 +536,6 @@ Bạn có thể dùng tính năng Khuôn mặt quen thuộc khi mở Máy ảnh 
     <string name="pref_actro_30">30 giây</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">Chế độ thiên văn</string>
-    <string name="pref_gphotos_title">Tắt Google Photos</string>
-    <string name="pref_gphotos_summary">Tắt xem ảnh bằng Google Photos và đưa ra lựa chọn những album ảnh khác</string>
     <string name="download">Tải về</string>
     <string name="new_v">Bản mới: %s</string>
     <string name="pref_awb_title">AI AWB</string>

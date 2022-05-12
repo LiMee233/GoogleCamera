@@ -533,8 +533,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="pref_actro_30">30 másodperc</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASZTROFOTÓZÁS</string>
-    <string name="pref_gphotos_title">Google Fotók letiltása</string>
-    <string name="pref_gphotos_summary">Letilthatja a fényképek megtekintését a Google Fotók szolgáltatásban, és válasszon bármilyen más galériát</string>
     <string name="download">Letöltés</string>
     <string name="new_v">Új verzió: %s</string>
     <string name="pref_awb_title">AI AWB</string>

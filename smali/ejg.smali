@@ -2843,14 +2843,6 @@
 
     if-nez p0, :cond_8
 
-    const-string p0, "pref_gphotos_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
     const-string p0, "pref_track_focus_key"
 
     invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

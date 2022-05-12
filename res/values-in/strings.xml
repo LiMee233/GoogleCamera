@@ -530,8 +530,6 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="pref_actro_30">30 det.</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROPHOTOGRAFI</string>
-    <string name="pref_gphotos_title">Nonaktifkan Google Foto</string>
-    <string name="pref_gphotos_summary">Nonaktifkan melihat foto di Google Foto dan berikan pilihan galeri lain</string>
     <string name="download">Unduh</string>
     <string name="new_v">Versi baru: %s</string>
     <string name="pref_awb_title">AI AWB</string>

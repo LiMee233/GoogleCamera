@@ -527,8 +527,6 @@ E aktivizuar nga opsionet e menus"</string>
     <string name="pref_actro_30">30 sekonda</string>
     <string name="google_awb">Inteligjenca Artificiale AWB</string>
     <string name="astrophoto">Modaliteti i Fotografis Astronomike</string>
-    <string name="pref_gphotos_title">Caktivizo Google Photos</string>
-    <string name="pref_gphotos_summary">Caktivizo hapjem e fotos nepermjet Google Photos dhe perzgjidh ndonje aplikacion tjeter galerie</string>
     <string name="download">Shkarko</string>
     <string name="new_v">Version i ri: %s</string>
     <string name="pref_awb_title">Inteligjenca Artificiale AWB</string>

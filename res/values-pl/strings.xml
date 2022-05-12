@@ -536,8 +536,6 @@ Funkcja Znajome twarze będzie dostępna, gdy otworzysz Aparat z ekranu blokady
     <string name="pref_actro_30">30 sek.</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROFOTOGRAFIA</string>
-    <string name="pref_gphotos_title">Wyłącz Zdjęcia Google</string>
-    <string name="pref_gphotos_summary">Wyłącz przeglądanie zdjęć w aplikacji Zdjęcia Google i zapewnij wybór jakiejkolwiek innej galerii</string>
     <string name="download">Pobierz</string>
     <string name="new_v">Nowa wersja: %s</string>
     <string name="pref_awb_title">AI AWB</string>

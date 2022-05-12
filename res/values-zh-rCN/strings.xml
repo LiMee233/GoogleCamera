@@ -537,8 +537,6 @@
     <string name="pref_actro_30">30 秒.</string>
     <string name="google_awb">白平衡</string>
     <string name="astrophoto">天文摄影</string>
-    <string name="pref_gphotos_title">禁用谷歌相册</string>
-    <string name="pref_gphotos_summary">禁用谷歌相册查看照片，选用第三方图库作为照片查看器。</string>
     <string name="download">下载</string>
     <string name="new_v">新版本: %s</string>
     <string name="pref_awb_title">白平衡</string>

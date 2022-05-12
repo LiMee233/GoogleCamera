@@ -496,22 +496,9 @@
     invoke-virtual {v6, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     :goto_4
-    const-string v2, "pref_gphotos_key"
-
-    invoke-static {v2}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result v2
-
-    if-nez v2, :cond_7
 
     const-string v2, "com.google.android.apps.photos"
 
-    goto :goto_5
-
-    :cond_7
-    sget-object v2, Ldbd;->b:Ljava/lang/String;
-
-    :goto_5
     invoke-virtual {v6, v2}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     invoke-virtual {v6, v4}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;

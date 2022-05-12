@@ -535,8 +535,6 @@ Ocupa menos memória"</string>
     <string name="pref_actro_30">30 seg.</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROFOTOGRAFIA</string>
-    <string name="pref_gphotos_title">Desativar Google Fotos</string>
-    <string name="pref_gphotos_summary">Desativa a visualização de fotos no Google Fotos e permite que escolha qualquer outra galeria</string>
     <string name="download">Baixar</string>
     <string name="new_v">Nova versão: %s</string>
     <string name="pref_awb_title">AI AWB</string>

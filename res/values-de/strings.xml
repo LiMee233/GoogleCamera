@@ -536,8 +536,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_actro_30">30 Sek.</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROPHOTOGRAPHY</string>
-    <string name="pref_gphotos_title">Disable Google Photos</string>
-    <string name="pref_gphotos_summary">Statt Google Photos eine andere Galerie verwenden</string>
     <string name="download">Download</string>
     <string name="new_v">New version: %s</string>
     <string name="pref_awb_title">AI AWB</string>

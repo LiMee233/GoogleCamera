@@ -534,8 +534,6 @@
     <string name="pref_actro_30">30 सेकंड</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">एस्ट्रोफोटोग्राफी</string>
-    <string name="pref_gphotos_title">Google फ़ोटो अक्षम करें</string>
-    <string name="pref_gphotos_summary">Google फ़ोटो में फ़ोटो देखना अक्षम करें और किसी अन्य गैलरी की पसंद प्रदान करें</string>
     <string name="download">डाउनलोड</string>
     <string name="new_v">नया वर्जन</string>
     <string name="pref_awb_title">AI AWB</string>

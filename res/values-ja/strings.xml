@@ -536,8 +536,6 @@
     <string name="pref_actro_30">30 秒</string>
     <string name="google_awb">AI 自動ホワイトバランス</string>
     <string name="astrophoto">天体写真</string>
-    <string name="pref_gphotos_title">Google フォトを無効化</string>
-    <string name="pref_gphotos_summary">Google フォトを無効化し、他のギャラリーアプリで閲覧する。</string>
     <string name="download">ダウンロード済</string>
     <string name="new_v">新バージョン: %s</string>
     <string name="pref_awb_title">AI 自動ホワイトバランス</string>

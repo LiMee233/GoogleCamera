@@ -534,8 +534,6 @@
     <string name="pref_actro_30">30 ثانية</string>
     <string name="google_awb">ذ.إ AWB</string>
     <string name="astrophoto">التصوير الفلكي</string>
-    <string name="pref_gphotos_title">تعطيل Google photo</string>
-    <string name="pref_gphotos_summary">تعطيل عرض الصور في Google Photo وتوفير خيار أي معرض آخر</string>
     <string name="download">تنزيل</string>
     <string name="new_v">اصدار جديد : s%</string>
     <string name="pref_awb_title">ذ.إ AWB</string>

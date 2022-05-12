@@ -534,8 +534,6 @@ Když Časté obličeje vypnete, údaje o obličejích budou smazány.
     <string name="pref_actro_30">30 sek</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROFOTOGRAFIE</string>
-    <string name="pref_gphotos_title">Zakázat Google Photos</string>
-    <string name="pref_gphotos_summary">Zakaže prohlížení fotografií v aplikaci Google Photos. Vybere výchozí aplikaci Galerie.</string>
     <string name="new_v">Nová verze: %s</string>
     <string name="pref_awb_title">AI AWB</string>
     <string name="pref_awb_summary">%s automatické vyvážení bílé. Možnosti nastavení v nabídce předvoleb.</string>

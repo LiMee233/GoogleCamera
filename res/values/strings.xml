@@ -585,8 +585,6 @@ Auto — 0 (Default)"</string>
     <string name="pref_actro_30">30 sec.</string>
     <string name="google_awb">AI AWB</string>
     <string name="astrophoto">ASTROPHOTOGRAPHY</string>
-    <string name="pref_gphotos_title">Disable Google Photos</string>
-    <string name="pref_gphotos_summary">Disable viewing photos in Google Photos and provide a choice of any other gallery</string>
     <string name="download">Download</string>
     <string name="new_v">New version: %s</string>
     <string name="pref_awb_title">AI AWB</string>
