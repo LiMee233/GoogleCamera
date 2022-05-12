@@ -508,7 +508,6 @@
     <string name="pref_category_more">Расширенные настройки</string>
     <string name="pref_track_focus_title">Отслеживание фокуса</string>
     <string name="pref_track_focus_summary">Фокус будет привязан к объекту, на который вы нажмете</string>
-    <string name="pref_ois_stabilization">Оптическая стабилизация</string>
     <string name="pref_sabre_summary">Увеличивает детализацию при более чем 1.2x увеличении, может использовать больше вычислительной мощности</string>
     <string name="pref_pzoom_title">Отключить зум в портретном режиме</string>
     <string name="pref_pzoom_summary">Если отключено, в портретном режиме будет 1.2-кратный зум</string>

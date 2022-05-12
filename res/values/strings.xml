@@ -553,7 +553,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_category_more">Advanced Settings</string>
     <string name="pref_track_focus_title">Focus Tracking</string>
     <string name="pref_track_focus_summary">Focus will be attached to the subject you tap on</string>
-    <string name="pref_ois_stabilization">Optical stabilization</string>
     <string name="pref_ehdr_frames">Enhanced HDR+ Frames</string>
     <string name="pref_ehdr_frames_info">"You can manualy set EHDR+ Frames from 1 to 35.
 Auto — 0 (Default)"</string>

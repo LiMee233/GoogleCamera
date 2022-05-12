@@ -3309,7 +3309,6 @@
     <public type="string" name="pref_category_more" id="0x7f1303bf" />
     <public type="string" name="pref_track_focus_title" id="0x7f1303c0" />
     <public type="string" name="pref_track_focus_summary" id="0x7f1303c1" />
-    <public type="string" name="pref_ois_stabilization" id="0x7f1303c2" />
     <public type="string" name="pref_ehdr_frames" id="0x7f1303c3" />
     <public type="string" name="pref_ehdr_frames_info" id="0x7f1303c4" />
     <public type="string" name="pref_ehdr_frames_title" id="0x7f1303c5" />

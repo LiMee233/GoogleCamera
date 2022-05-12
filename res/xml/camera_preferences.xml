@@ -44,7 +44,6 @@
     <PreferenceCategory android:title="@string/mode_video" android:key="pref_category_resolution_video">
         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_video_camera_back_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/setting_camera_video" android:key="pref_video_quality_ultra_key" android:summary="@string/pref_video_ultra_high_summary" android:defaultValue="false" />
         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_video_stable_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_video_stabilization" android:key="pref_video_stabilization_key" android:defaultValue="false" />
-        <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_video_stable_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_ois_stabilization" android:key="pref_ois_video_stabilization_key" android:defaultValue="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_setting_about">
         <PreferenceScreen android:icon="@drawable/ic_more_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_category_more" android:key="pref_category_more">

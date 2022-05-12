@@ -1990,11 +1990,7 @@
 
     move-result v29
 
-    const-string v11, "pref_ois_video_stabilization_key"
-
-    invoke-static {v11}, Lcom/dmgc;->MenuValue(Ljava/lang/String;)I
-
-    move-result v30
+    const/16 v30, 0x0
 
     const/16 v31, 0x0
 
