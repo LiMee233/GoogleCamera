@@ -520,20 +520,6 @@ Ocupa menos memória"</string>
     <string name="error">Erro</string>
     <string name="no_v">A versão mais recente está instalada</string>
     <string name="pls_wait">Por favor, aguarde</string>
-    <string name="aux_camera_id">ID da Câmera</string>
-    <string name="aux_camera_id_set">Definir ID da Câmera</string>
-    <string name="aux_summary_main">Você pode definir o ID da Câmera para a lente principal</string>
-    <string name="aux_summary_tele">Você pode definir o ID da Câmera para a lente telefoto</string>
-    <string name="aux_summary_wide">Você pode definir o ID da Câmera para a lente grande angular</string>
-    <string name="aux_summary_macro">Você pode definir o ID da Câmera para a lente macro</string>
-    <string name="aux_summary_zoom">Você pode definir o ID da Câmera para a lente de zoom</string>
-    <string name="aux_title_main">Ativar lente principal</string>
-    <string name="aux_title_tele">Ativar lente telefoto</string>
-    <string name="aux_title_wide">Ativar lente grande angular</string>
-    <string name="aux_title_macro">Ativar lente macro</string>
-    <string name="aux_title_zoom">Ativar lente de zoom</string>
-    <string name="aux_title">Botões auxiliares</string>
-    <string name="aux_summary">Permite que você ative a lente grande angular, macro, telefoto e zoom</string>
     <string name="pref_hex_title">Desativar o Hexagon DSP</string>
     <string name="pref_hex_summary">Desativar o Hexagon DSP melhorará a performance em smartphones mais fracos</string>
 </resources>

@@ -512,20 +512,6 @@ Aktivizuar nga perzgjedhjet e menus"</string>
     <string name="error">Gabim</string>
     <string name="no_v">Versioni me i ri eshte instaluar</string>
     <string name="pls_wait">Ju lutem prisni</string>
-    <string name="aux_camera_id">ID e Kameres</string>
-    <string name="aux_camera_id_set">Perzgjidhni ID e Kameres</string>
-    <string name="aux_summary_main">Ju mund te vendosni ID e Kameres per lentet kryesore</string>
-    <string name="aux_summary_tele">Ju mund te vendosni ID e kameres per lentet telefoto</string>
-    <string name="aux_summary_wide">Ju mund te vendosni ID e kameres per lentet e kendit te gjere</string>
-    <string name="aux_summary_macro">Ju mund te vendosni ID e kameres per lentet makro</string>
-    <string name="aux_summary_zoom">Ju mund te vendosni ID e kameres per lentet e afrimit</string>
-    <string name="aux_title_main">Aktivizo lentet kryesore</string>
-    <string name="aux_title_tele">Aktivizo letet telefoto</string>
-    <string name="aux_title_wide">Aktivizo lentet e kendit te gjere</string>
-    <string name="aux_title_macro">Aktivizo lentet makro</string>
-    <string name="aux_title_zoom">Aktivizo lentet e afrimit</string>
-    <string name="aux_title">Butonat e ndihmes</string>
-    <string name="aux_summary">Ju lejon ju te aktivizoni lentet e kendit te gjere,makro,telefoto dhe lentet e afrimit</string>
     <string name="pref_hex_title">Caktivizo Gjashtekendeshin DSP</string>
     <string name="pref_hex_summary">Caktivizimi i Gjashtekendeshit DSP do te rrisi performancen per telefonat e dobet</string>
 </resources>

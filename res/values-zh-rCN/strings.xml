@@ -520,20 +520,6 @@
     <string name="error">错误</string>
     <string name="no_v">已安装最新版本</string>
     <string name="pls_wait">请稍候</string>
-    <string name="aux_camera_id">镜头序号</string>
-    <string name="aux_camera_id_set">设置镜头序号</string>
-    <string name="aux_summary_main">设置主镜头的镜头序号</string>
-    <string name="aux_summary_tele">设置长焦镜头的镜头序号</string>
-    <string name="aux_summary_wide">设置广角镜头的镜头序号</string>
-    <string name="aux_summary_macro">设置微距镜头的镜头序号</string>
-    <string name="aux_summary_zoom">设置变焦镜头的镜头序号</string>
-    <string name="aux_title_main">启用主镜头</string>
-    <string name="aux_title_tele">启用长焦镜头</string>
-    <string name="aux_title_wide">启用广角镜头</string>
-    <string name="aux_title_macro">启用微距镜头</string>
-    <string name="aux_title_zoom">启用变焦镜头</string>
-    <string name="aux_title">副摄按钮</string>
-    <string name="aux_summary">允许激活广角、微距、长焦和变焦镜头</string>
     <string name="pref_hex_title">禁用 Hexagon DSP</string>
     <string name="pref_hex_summary">禁用 Hexagon DSP 可以提高低端机性能。</string>
 </resources>

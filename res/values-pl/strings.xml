@@ -521,20 +521,6 @@ Funkcja Znajome twarze będzie dostępna, gdy otworzysz Aparat z ekranu blokady
     <string name="error">Błąd</string>
     <string name="no_v">Najnowsza wersja zainstalowana</string>
     <string name="pls_wait">Proszę czekać</string>
-    <string name="aux_camera_id">ID kamery</string>
-    <string name="aux_camera_id_set">Ustaw ID kamery</string>
-    <string name="aux_summary_main">Możesz samemu ustawić ID kamery dla głównej soczewki</string>
-    <string name="aux_summary_tele">Możesz samemu ustawić ID kamery dla soczewki telefoto</string>
-    <string name="aux_summary_wide">Możesz samemu ustawić ID kamery dla soczewki szerokokątnej</string>
-    <string name="aux_summary_macro">Możesz samemu ustawić ID kamery dla soczewki macro</string>
-    <string name="aux_summary_zoom">Możesz samemu ustawić ID kamery dla soczewki przybliżenia</string>
-    <string name="aux_title_main">Włącz główną soczewkę</string>
-    <string name="aux_title_tele">Włącz soczewkę telefoto</string>
-    <string name="aux_title_wide">Włącz szerokokątną soczewkę</string>
-    <string name="aux_title_macro">Włącz soczewkę macro</string>
-    <string name="aux_title_zoom">Włącz soczewkę przybliżającą</string>
-    <string name="aux_title">Przełączanie obiektywów</string>
-    <string name="aux_summary">Umożliwia aktywację obiektywów szerokokątnych, makro, teleobiektywów i zoomów</string>
     <string name="pref_hex_title">Wyłącz Hexagon DSP</string>
     <string name="pref_hex_summary">Wyłączenie Hexagon DSP poprawi wydajność dla słabszych smartfonów</string>
 </resources>

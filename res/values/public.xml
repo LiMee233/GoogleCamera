@@ -2027,7 +2027,7 @@
     <public type="drawable" name="quantum_gm_ic_panorama_vertical_white_24" id="0x7f080208" />
     <public type="drawable" name="quantum_gm_ic_panorama_wide_angle_white_24" id="0x7f08020a" />
     <public type="drawable" name="quantum_gm_ic_people_white_24" id="0x7f08020b" />
-    <public type="drawable" name="quantum_gm_ic_photo_camera_gm_grey_24" id="0x7f08020d" />
+        <public type="drawable" name="quantum_gm_ic_photo_camera_gm_grey_24" id="0x7f08020d" />
     <public type="drawable" name="quantum_gm_ic_portrait_white_24" id="0x7f08020f" />
     <public type="drawable" name="quantum_gm_ic_remove_circle_outline_gm_grey_24" id="0x7f080212" />
     <public type="drawable" name="quantum_gm_ic_room_gm_grey_24" id="0x7f080213" />
@@ -2110,21 +2110,11 @@
     <public type="drawable" name="quantum_gm_ic_help_gm_grey_24" id="0x7f0802a5" />
     <public type="drawable" name="quantum_gm_ic_video_camera_cheetah_gm_grey_24" id="0x7f0802a6" />
     <public type="drawable" name="tmp_ic_video_camera_front_gm_grey" id="0x7f0802a8" />
-    <public type="drawable" name="ic_aux_macro_24" id="0x7f0802a9" />
-    <public type="drawable" name="ic_aux_main_24" id="0x7f0802aa" />
-    <public type="drawable" name="ic_aux_tele_24" id="0x7f0802ab" />
-    <public type="drawable" name="ic_aux_zoom_24" id="0x7f0802ac" />
-    <public type="drawable" name="ic_aux_wide_24" id="0x7f0802ad" />
     <public type="drawable" name="aux_macro" id="0x7f0802ae" />
-    <public type="drawable" name="aux_macro_off" id="0x7f0802af" />
     <public type="drawable" name="aux_main" id="0x7f0802b0" />
-    <public type="drawable" name="aux_main_off" id="0x7f0802b1" />
     <public type="drawable" name="aux_tele" id="0x7f0802b2" />
-    <public type="drawable" name="aux_tele_off" id="0x7f0802b3" />
     <public type="drawable" name="aux_wide" id="0x7f0802b4" />
-    <public type="drawable" name="aux_wide_off" id="0x7f0802b5" />
     <public type="drawable" name="aux_zoom" id="0x7f0802b6" />
-    <public type="drawable" name="aux_zoom_off" id="0x7f0802b7" />
     <public type="drawable" name="quantum_gm_ic_infinity_white_24" id="0x7f0802b8" />
     <public type="drawable" name="by_thedise" id="0x7f0802b9" />
     <public type="drawable" name="abc_ab_share_pack_mtrl_alpha" id="0x7f08005b" />
@@ -3302,20 +3292,6 @@
     <public type="string" name="error" id="0x7f13042b" />
     <public type="string" name="no_v" id="0x7f13042c" />
     <public type="string" name="pls_wait" id="0x7f13042d" />
-    <public type="string" name="aux_camera_id" id="0x7f13042e" />
-    <public type="string" name="aux_camera_id_set" id="0x7f13042f" />
-    <public type="string" name="aux_summary_main" id="0x7f130430" />
-    <public type="string" name="aux_summary_tele" id="0x7f130431" />
-    <public type="string" name="aux_summary_wide" id="0x7f130432" />
-    <public type="string" name="aux_summary_macro" id="0x7f130433" />
-    <public type="string" name="aux_summary_zoom" id="0x7f130434" />
-    <public type="string" name="aux_title_main" id="0x7f130435" />
-    <public type="string" name="aux_title_tele" id="0x7f130436" />
-    <public type="string" name="aux_title_wide" id="0x7f130437" />
-    <public type="string" name="aux_title_macro" id="0x7f130438" />
-    <public type="string" name="aux_title_zoom" id="0x7f130439" />
-    <public type="string" name="aux_title" id="0x7f13043a" />
-    <public type="string" name="aux_summary" id="0x7f13043b" />
     <public type="string" name="pref_hex_title" id="0x7f13043e" />
     <public type="string" name="pref_hex_summary" id="0x7f13043f" />
     <public type="string" name="pref_version_number" id="0x7f130442" />

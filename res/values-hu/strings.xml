@@ -518,20 +518,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="error">Hiba</string>
     <string name="no_v">A legújabb verzió telepítve van</string>
     <string name="pls_wait">Kérlek várj</string>
-    <string name="aux_camera_id">Fényképezőgép azonosítója</string>
-    <string name="aux_camera_id_set">Állítsa be a fényképezőgép azonosítóját</string>
-    <string name="aux_summary_main">A fényképezőgép-azonosítót a fő lencsére saját maga beállíthatja</string>
-    <string name="aux_summary_tele">A fényképezőgép azonosítót a teleobjektívhez saját maga beállíthatja</string>
-    <string name="aux_summary_wide">A fényképezőgép azonosítót a széles látószögű lencséhez saját maga beállíthatja</string>
-    <string name="aux_summary_macro">A fényképezőgép azonosítót a makró lencséhez saját maga beállíthatja</string>
-    <string name="aux_summary_zoom">A fényképezőgép azonosítót a zoom lencsére saját maga beállíthatja</string>
-    <string name="aux_title_main">Fő lencse engedélyezése</string>
-    <string name="aux_title_tele">Teleobjektív engedélyezése</string>
-    <string name="aux_title_wide">Széles látószögű lencse engedélyezése</string>
-    <string name="aux_title_macro">Makró lencse engedélyezése</string>
-    <string name="aux_title_zoom">Zoom lencse engedélyezése</string>
-    <string name="aux_title">Kiegészítő gombok</string>
-    <string name="aux_summary">lehetővé teszi széles látószögű, makró, teleobjektív és zoom objektívek aktiválását</string>
     <string name="pref_hex_title">A Hexagon DSP letiltása</string>
     <string name="pref_hex_summary">A Hexagon DSP letiltása növeli a gyenge okostelefonok teljesítményét</string>
 </resources>

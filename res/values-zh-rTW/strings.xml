@@ -521,20 +521,6 @@
     <string name="error">錯誤</string>
     <string name="no_v">已安裝最新版本</string>
     <string name="pls_wait">請稍候...</string>
-    <string name="aux_camera_id">鏡頭序號</string>
-    <string name="aux_camera_id_set">設定鏡頭序號</string>
-    <string name="aux_summary_main">設定主鏡頭序號</string>
-    <string name="aux_summary_tele">設定長焦鏡頭序號</string>
-    <string name="aux_summary_wide">設定廣角鏡頭序號</string>
-    <string name="aux_summary_macro">設定微距鏡頭序號</string>
-    <string name="aux_summary_zoom">設定變焦鏡頭序號</string>
-    <string name="aux_title_main">啟用主鏡頭</string>
-    <string name="aux_title_tele">啟用長焦鏡頭</string>
-    <string name="aux_title_wide">啟用廣角鏡頭</string>
-    <string name="aux_title_macro">啟用微距鏡頭</string>
-    <string name="aux_title_zoom">啟用變焦鏡頭</string>
-    <string name="aux_title">輔助鏡頭按鈕</string>
-    <string name="aux_summary">可以激活廣角，微距，長焦和變焦鏡頭</string>
     <string name="pref_hex_title">禁用 Hexagon DSP</string>
     <string name="pref_hex_summary">禁用 Hexagon DSP，可以提高低端機性能。</string>
 </resources>

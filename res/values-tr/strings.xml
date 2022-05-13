@@ -521,20 +521,6 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="error">Hata</string>
     <string name="no_v">En yeni sürüm yüklü</string>
     <string name="pls_wait">Lütfen bekle</string>
-    <string name="aux_camera_id">Kamera Kimliği</string>
-    <string name="aux_camera_id_set">Kamera Kimliğini Ayarla</string>
-    <string name="aux_summary_main">"Ana lens için Kamera Kimliği'ni kendiniz ayarlayabilirsiniz"</string>
-    <string name="aux_summary_tele">"Telefoto lens için Kamera Kimliği'ni kendiniz ayarlayabilirsiniz"</string>
-    <string name="aux_summary_wide">"Geniş açılı lens için Kamera Kimliği'ni kendiniz ayarlayabilirsiniz"</string>
-    <string name="aux_summary_macro">"Makro lens için Kamera Kimliği'ni kendiniz ayarlayabilirsiniz"</string>
-    <string name="aux_summary_zoom">"Zoom lens için Kamera Kimliği'ni kendiniz ayarlayabilirsiniz"</string>
-    <string name="aux_title_main">Ana lensi etkinleştir</string>
-    <string name="aux_title_tele">Telefoto lensini etkinleştir</string>
-    <string name="aux_title_wide">Geniş açılı lensi etkinleştir</string>
-    <string name="aux_title_macro">Makro lensi etkinleştir</string>
-    <string name="aux_title_zoom">Zoom lensi etkinleştir</string>
-    <string name="aux_title">Yardımcı düğmeler</string>
-    <string name="aux_summary">Geniş açılı, makro, telefoto ve zoom lensleri etkinleştirmenizi sağlar</string>
     <string name="pref_hex_title">"Hexagon DSP'yi devre dışı bırak"</string>
     <string name="pref_hex_summary">"Hexagon DSP'yi devre dışı bırakmak zayıf akıllı telefonlar için performansı artıracaktır"</string>
 </resources>

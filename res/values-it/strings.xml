@@ -521,20 +521,6 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="error">Errore</string>
     <string name="no_v">La versione più recente è già installata</string>
     <string name="pls_wait">Attendi prego</string>
-    <string name="aux_camera_id">ID Fotocamera</string>
-    <string name="aux_camera_id_set">"Imposta l'ID della fotocamera"</string>
-    <string name="aux_summary_main">"Imposta l'ID della fotocamera per l'obiettivo principale"</string>
-    <string name="aux_summary_tele">"Imposta l'ID della fotocamera per il teleobiettivo"</string>
-    <string name="aux_summary_wide">"Imposta l'ID della fotocamera per il grandangolo"</string>
-    <string name="aux_summary_macro">"Imposta l'ID della fotocamera per l'obiettivo macro"</string>
-    <string name="aux_summary_zoom">"Imposta l'ID della fotocamera per lo zoom"</string>
-    <string name="aux_title_main">"Abilita l'obiettivo principale"</string>
-    <string name="aux_title_tele">Abilita il teleobiettivo</string>
-    <string name="aux_title_wide">Abilita il grandangolo</string>
-    <string name="aux_title_macro">"Abilita l'obiettivo macro"</string>
-    <string name="aux_title_zoom">Abilita lo zoom</string>
-    <string name="aux_title">Pulsanti ausiliari</string>
-    <string name="aux_summary">Permette di attivare gli obiettivi ausiliari: grandangolo, macro, teleobiettivo e zoom</string>
     <string name="pref_hex_title">Disabilita Hexagon DSP</string>
     <string name="pref_hex_summary">Disabilitare Hexagon DSP migliorerà le prestazioni degli smartphone di fascia bassa</string>
 </resources>

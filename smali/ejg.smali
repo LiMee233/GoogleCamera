@@ -2135,10 +2135,6 @@
     :cond_1
     nop
 
-    const-string v1, "pref_category_aux"
-
-    invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
-
     const-string v1, "pref_category_advanced"
 
     invoke-direct {p0, v1}, Lejg;->b(Ljava/lang/String;)V
@@ -2799,46 +2795,6 @@
     if-nez p0, :cond_7
 
     const-string p0, "pref_ehn_awb_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_aux_1_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_aux_2_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_aux_3_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_aux_4_key"
-
-    invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_7
-
-    const-string p0, "pref_aux_5_key"
 
     invoke-virtual {v3, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

@@ -521,20 +521,6 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="error">Erreur</string>
     <string name="no_v">La dernière version est installée</string>
     <string name="pls_wait">Patientez</string>
-    <string name="aux_camera_id">Identifiant de caméra</string>
-    <string name="aux_camera_id_set">"Définir l'identifiant caméra"</string>
-    <string name="aux_summary_main">"Vous pouvez définir vous-même l'ID de la caméra pour l'objectif principal"</string>
-    <string name="aux_summary_tele">"Vous pouvez définir vous-même l'ID de la caméra pour le téléobjectif"</string>
-    <string name="aux_summary_wide">"Vous pouvez définir vous-même l'ID de la caméra pour l'objectif grand angle"</string>
-    <string name="aux_summary_macro">"Vous pouvez définir vous-même l'ID de la caméra pour l'objectif macro"</string>
-    <string name="aux_summary_zoom">"Vous pouvez définir vous-même l'ID de la caméra pour l'objectif zoom"</string>
-    <string name="aux_title_main">"Activer l'objectif principal"</string>
-    <string name="aux_title_tele">Activer le téléobjectif</string>
-    <string name="aux_title_wide">"Activer l'objectif grand angle"</string>
-    <string name="aux_title_macro">"Activer le macro d'objectif"</string>
-    <string name="aux_title_zoom">"Activer le zoom d'objectif"</string>
-    <string name="aux_title">Boutons auxiliaires</string>
-    <string name="aux_summary">"Vous permet d'activer un objectif grand angle, macro, téléobjectif et zoom"</string>
     <string name="pref_hex_title">Désactiver Hexagone DSP</string>
     <string name="pref_hex_summary">La désactivation de Hexagon DSP améliorera les performances des smartphones faibles</string>
 </resources>

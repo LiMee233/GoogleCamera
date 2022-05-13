@@ -519,20 +519,6 @@
     <string name="error">त्रुटि</string>
     <string name="no_v">नया वर्जन इंस्टॉल हो गया</string>
     <string name="pls_wait">कृपया प्रतीक्षा कीजिये</string>
-    <string name="aux_camera_id">कैमरा ID</string>
-    <string name="aux_camera_id_set">कैमरा ID सेट करें</string>
-    <string name="aux_summary_main">आप मुख्य लेंस के लिए स्वयं कैमरा ID सेट कर सकते हैं</string>
-    <string name="aux_summary_tele">आप टेलीफोटो लेंस के लिए स्वयं कैमरा ID सेट कर सकते हैं</string>
-    <string name="aux_summary_wide">आप वाइड एंगल लेंस के लिए स्वयं कैमरा ID सेट कर सकते हैं</string>
-    <string name="aux_summary_macro">आप मैक्रो लेंस के लिए स्वयं कैमरा ID सेट कर सकते हैं</string>
-    <string name="aux_summary_zoom">आप ज़ूम लेंस के लिए स्वयं कैमरा ID सेट कर सकते हैं</string>
-    <string name="aux_title_main">मुख्य लेंस सक्षम करे</string>
-    <string name="aux_title_tele">टेलीफोटो लेंस सक्षम करे</string>
-    <string name="aux_title_wide">वाइड एंगल लेंस सक्षम करे</string>
-    <string name="aux_title_macro">मैक्रो लेंस सक्षम करे</string>
-    <string name="aux_title_zoom">ज़ूम लेंस सक्षम करे</string>
-    <string name="aux_title">सहायक बटन</string>
-    <string name="aux_summary">यह आपको वाइड एंगल, मैक्रो, टेलीफोटो व ज़ूम लेंसेस को सक्षम करने की सुविधा देता हैं</string>
     <string name="pref_hex_title">हेक्सागन DSP अक्षम करे</string>
     <string name="pref_hex_summary">हेक्सागोन DSP को अक्षम करने से कमजोर स्मार्टफोन के प्रदर्शन में सुधार होगा</string>
 </resources>

@@ -517,20 +517,6 @@
     <string name="error">Помилка</string>
     <string name="no_v">Найновіша версія вже встановлена</string>
     <string name="pls_wait">Будь ласка, зачекайте</string>
-    <string name="aux_camera_id">"ID об'єктиву"</string>
-    <string name="aux_camera_id_set">"Вибрати ID об'єктиву"</string>
-    <string name="aux_summary_main">"Ви можете вибрати ID об'єктиву для головного об'єктиву самостійно"</string>
-    <string name="aux_summary_tele">"Ви можете вибрати ID об'єктиву для об'єктиву телефото самостійно"</string>
-    <string name="aux_summary_wide">"Ви можете вибрати ID об'єктиву для ширококутового об'єктиву самостійно"</string>
-    <string name="aux_summary_macro">"Ви можете вибрати ID об'єктиву для макро об'єктиву самостійно"</string>
-    <string name="aux_summary_zoom">"Ви можете вибрати ID об'єктиву для об'єктиву для приближення самостійно"</string>
-    <string name="aux_title_main">"Увімкнути головний об'єктив"</string>
-    <string name="aux_title_tele">"Увімкніти об'єктив для телефото"</string>
-    <string name="aux_title_wide">"Увімкнути ширококутовий об'єктив"</string>
-    <string name="aux_title_macro">"Увімкнути макро об'єктив"</string>
-    <string name="aux_title_zoom">"Увімкнути об'єктив для приближення"</string>
-    <string name="aux_title">"Увімкнути другорядні об'єктиви"</string>
-    <string name="aux_summary">"Дає змогу ввімкнути ширококутовий, макро та телефото об'єктиви"</string>
     <string name="pref_hex_title">Відключити Hexagon DSP</string>
     <string name="pref_hex_summary">Відключення Hexagon DSP підвищить продуктивність для слабких смартфонів</string>
 </resources>

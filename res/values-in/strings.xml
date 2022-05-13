@@ -515,20 +515,6 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="error">Kesalahan</string>
     <string name="no_v">Versi terbaru telah terinstal</string>
     <string name="pls_wait">Mohon tunggu</string>
-    <string name="aux_camera_id">ID Kamera</string>
-    <string name="aux_camera_id_set">Set Kamera ID</string>
-    <string name="aux_summary_main">Anda dapat mengatur sendiri Kamera ID untuk lensa utama</string>
-    <string name="aux_summary_tele">Anda dapat mengatur sendiri Kamera ID untuk lensa telefoto</string>
-    <string name="aux_summary_wide">Anda dapat mengatur sendiri Kamera ID untuk lensa sudut lebar</string>
-    <string name="aux_summary_macro">Anda dapat mengatur sendiri Kamera ID untuk lensa makro</string>
-    <string name="aux_summary_zoom">Anda dapat mengatur sendiri Kamera ID untuk lensa zoom</string>
-    <string name="aux_title_main">Aktifkan lensa utama</string>
-    <string name="aux_title_tele">Aktifkan lensa telefoto</string>
-    <string name="aux_title_wide">Aktifkan lensa sudut lebar</string>
-    <string name="aux_title_macro">Aktifkan lensa makro</string>
-    <string name="aux_title_zoom">Aktifkan lensa zoom</string>
-    <string name="aux_title">Tombol bantu</string>
-    <string name="aux_summary">Mengizinkan anda untuk mengaktifkan lensa sudut lebar, makro, telefoto, dan zoom</string>
     <string name="pref_hex_title">Nonaktifkan Hexagon DSP</string>
     <string name="pref_hex_summary">Menonaktifkan Hexagon DSP akan meningkatkan performa pada smartphone yang lemah</string>
 </resources>

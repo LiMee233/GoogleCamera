@@ -521,20 +521,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="error">Error</string>
     <string name="no_v">Akt. Version bereits installiert</string>
     <string name="pls_wait">Warten...</string>
-    <string name="aux_camera_id">Camera ID</string>
-    <string name="aux_camera_id_set">Set Camera</string>
-    <string name="aux_summary_main">Sie können die Haupt-Kamera ID selbst setzen.</string>
-    <string name="aux_summary_tele">Setze die Tele Kamera ID selbst</string>
-    <string name="aux_summary_wide">Setze die Weitwinkel Kamera ID selbst</string>
-    <string name="aux_summary_macro">Setze die Macro Kamera ID selbst</string>
-    <string name="aux_summary_zoom">Setze die Zoom Kamera ID selbst</string>
-    <string name="aux_title_main">Main Kamera an</string>
-    <string name="aux_title_tele">Tele Kamera an</string>
-    <string name="aux_title_wide">Weitwinkel Kamera an</string>
-    <string name="aux_title_macro">Macro Kamera an</string>
-    <string name="aux_title_zoom">Zoom Kamera an</string>
-    <string name="aux_title">Auxiliary buttons</string>
-    <string name="aux_summary">Erlaubt das Aktivieren der verschiedenen Kameratypen</string>
     <string name="pref_hex_title">Hexagon DSP aus</string>
     <string name="pref_hex_summary">Hexagon DSP belastet Performance schwächerer Smartphones</string>
 </resources>

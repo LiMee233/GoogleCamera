@@ -521,20 +521,6 @@ La función Caras frecuentes se mostrará al abrir la cámara desde la pantalla 
     <string name="error">Error</string>
     <string name="no_v">La versión más reciente está instalada</string>
     <string name="pls_wait">Por favor espere</string>
-    <string name="aux_camera_id">ID de la Cámara</string>
-    <string name="aux_camera_id_set">Establecer ID de la cámara</string>
-    <string name="aux_summary_main">Puede establecer el ID de la Cámara para el lente principal usted mismo</string>
-    <string name="aux_summary_tele">Puede establecer el ID de la Cámara para el lente teleobjetivo usted mismo</string>
-    <string name="aux_summary_wide">Puede establecer el ID de la Cámara para el lente gran angular usted mismo</string>
-    <string name="aux_summary_macro">Puede establecer el ID de la Cámara para el lente macro usted mismo</string>
-    <string name="aux_summary_zoom">"Puede establecer el  ID de la cámara para el lente zoom usted mismo"</string>
-    <string name="aux_title_main">Habilitar lente principal</string>
-    <string name="aux_title_tele">Habilitar lente teleobjetivo</string>
-    <string name="aux_title_wide">Habilitar lente gran angular</string>
-    <string name="aux_title_macro">Habilitar lente macro</string>
-    <string name="aux_title_zoom">Habilitar lente zoom</string>
-    <string name="aux_title">Botones auxiliares</string>
-    <string name="aux_summary">Te permite activar los lentes de gran angular, macro, teleobjetivo y zoom</string>
     <string name="pref_hex_title">Desactivar Hexagon DSP</string>
     <string name="pref_hex_summary">Deshabilitar Hexagon DSP mejorará el rendimiento en smartphones de bajo rendimiento</string>
 </resources>

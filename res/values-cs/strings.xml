@@ -518,20 +518,6 @@ Když Časté obličeje vypnete, údaje o obličejích budou smazány.
     <string name="error">Chyba</string>
     <string name="no_v">Nejnovější verze je nainstalována</string>
     <string name="pls_wait">Čekejte...</string>
-    <string name="aux_camera_id">ID kamery</string>
-    <string name="aux_camera_id_set">Nastavit ID kamery</string>
-    <string name="aux_summary_main">Umožní nastavení ID kamery pro hlavní objektiv.</string>
-    <string name="aux_summary_tele">Umožní nastavení ID kamery pro teleobjektiv.</string>
-    <string name="aux_summary_wide">Umožní nastavení ID kamery pro širokoúhlý objektiv.</string>
-    <string name="aux_summary_macro">Umožní nastavení ID kamery pro makro objektiv.</string>
-    <string name="aux_summary_zoom">Umožní nastavení ID kamery pro zoom objektiv.</string>
-    <string name="aux_title_main">Použít hlavní objektiv</string>
-    <string name="aux_title_tele">Použít teleobjektiv</string>
-    <string name="aux_title_wide">Použít širokoúhlý objektiv</string>
-    <string name="aux_title_macro">Použít makro objektiv</string>
-    <string name="aux_title_zoom">Použít zoom objektiv</string>
-    <string name="aux_title">Tlačítko Asistent</string>
-    <string name="aux_summary">Umožní aktivovat širokoúhlý, makro, tele a zomm objektiv.</string>
     <string name="pref_version_number">Verze</string>
     <string name="pref_lib_title">Základní knihovna při spuštění</string>
 </resources>

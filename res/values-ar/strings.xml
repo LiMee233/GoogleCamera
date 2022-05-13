@@ -518,20 +518,6 @@
     <string name="error">خطأ</string>
     <string name="no_v">تم تثبيت الإصدار الأحدث</string>
     <string name="pls_wait">ارجوك انتظر</string>
-    <string name="aux_camera_id">معرف الكاميرا</string>
-    <string name="aux_camera_id_set">تحديد معرف الكاميرا</string>
-    <string name="aux_summary_main">يمكنك تعيين معرف الكاميرا للعدسة الرئيسية بنفسك</string>
-    <string name="aux_summary_tele">يمكنك تعيين معرف الكاميرا للعدسة المقربة بنفسك</string>
-    <string name="aux_summary_wide">يمكنك تعيين معرف الكاميرا لعدسة الزاوية الواسعة بنفسك</string>
-    <string name="aux_summary_macro">يمكنك تعيين معرف الكاميرا لعدسة الماكرو بنفسك</string>
-    <string name="aux_summary_zoom">يمكنك تعيين معرف الكاميرا لعدسة التكبير بنفسك</string>
-    <string name="aux_title_main">تمكين العدسة الرئيسية</string>
-    <string name="aux_title_tele">تمكين العدسة المقربة</string>
-    <string name="aux_title_wide">تمكين عدسة الزاوية الواسعة</string>
-    <string name="aux_title_macro">تمكين عدسة الماكرو</string>
-    <string name="aux_title_zoom">تمكين عدسة التكبير</string>
-    <string name="aux_title">الأزرار المساعدة</string>
-    <string name="aux_summary">يتيح لك تنشيط عدسات ذات زاوية واسعة ، ماكرو ، تقريب ، وزووم</string>
     <string name="pref_hex_title">تعطيل DSP السداسي</string>
     <string name="pref_hex_summary">"سيؤدي تعطيل  DSP السداسي إلى تحسين الأداء للهواتف الذكية الضعيفة"</string>
 </resources>

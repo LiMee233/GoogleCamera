@@ -562,20 +562,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="error">Error</string>
     <string name="no_v">Newest version is installed</string>
     <string name="pls_wait">Please wait</string>
-    <string name="aux_camera_id">Camera ID</string>
-    <string name="aux_camera_id_set">Set Camera ID</string>
-    <string name="aux_summary_main">You can set the Сamera ID for the main lens yourself</string>
-    <string name="aux_summary_tele">You can set the Сamera ID for the telephoto lens yourself</string>
-    <string name="aux_summary_wide">You can set the Сamera ID for the wide angle lens yourself</string>
-    <string name="aux_summary_macro">You can set the Сamera ID for the marco lens yourself</string>
-    <string name="aux_summary_zoom">You can set the Сamera ID for the zoom lens yourself</string>
-    <string name="aux_title_main">Enable main lens</string>
-    <string name="aux_title_tele">Enable telephoto lens</string>
-    <string name="aux_title_wide">Enable wide angle lens</string>
-    <string name="aux_title_macro">Enable macro lens</string>
-    <string name="aux_title_zoom">Enable zoom lens</string>
-    <string name="aux_title">Auxiliary buttons</string>
-    <string name="aux_summary">allows you to activate a wide angle, macro, telephoto and zoom lenses</string>
     <string name="pref_hex_title">Disable Hexagon DSP</string>
     <string name="pref_hex_summary">Disabling Hexagon DSP will increase performance for weak smartphones</string>
 </resources>

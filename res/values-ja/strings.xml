@@ -521,20 +521,6 @@
     <string name="error">エラー</string>
     <string name="no_v">最新バージョンが使われています。</string>
     <string name="pls_wait">お待ちください</string>
-    <string name="aux_camera_id">カメラ ID</string>
-    <string name="aux_camera_id_set">カメラ ID の設定</string>
-    <string name="aux_summary_main">通常のカメラ ID を設定</string>
-    <string name="aux_summary_tele">望遠のカメラ ID を設定</string>
-    <string name="aux_summary_wide">広角のカメラ ID を設定</string>
-    <string name="aux_summary_macro">マクロのカメラ ID を設定</string>
-    <string name="aux_summary_zoom">ズームのカメラ ID を設定</string>
-    <string name="aux_title_main">通常設定を有効化</string>
-    <string name="aux_title_tele">望遠設定を有効化</string>
-    <string name="aux_title_wide">広角設定を有効化</string>
-    <string name="aux_title_macro">マクロ設定を有効化</string>
-    <string name="aux_title_zoom">ズーム設定を有効化</string>
-    <string name="aux_title">補助ボタン</string>
-    <string name="aux_summary">広角、マクロ、望遠、そしてズームの有効化を許可する</string>
     <string name="pref_hex_title">Hexagon DSP を無効化</string>
     <string name="pref_hex_summary">Hexagon DSP を無効化すると、低機能スマートフォンのパフォーマンスを改善します。</string>
 </resources>

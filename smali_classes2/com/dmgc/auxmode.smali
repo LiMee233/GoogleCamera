@@ -306,23 +306,6 @@
 
     move-result-object p1
 
-    if-nez p2, :cond_0
-
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "_off"
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    :cond_0
     invoke-virtual {p0}, Lcom/dmgc/auxmode;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -400,47 +383,33 @@
 
     packed-switch p1, :pswitch_data_0
 
-    const-string v0, "pref_aux_1_key"
-
-    :goto_0
-    invoke-static {v0}, Lcip;->w(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
     const/16 v0, 0x8
 
-    goto :goto_1
-
-    :cond_0
-    const/4 v0, 0x0
-
-    :goto_1
+    :goto_0
     return v0
 
     :pswitch_0
-    const-string v0, "pref_aux_1_key"
+    const/4 v0, 0x0
 
     goto :goto_0
 
     :pswitch_1
-    const-string v0, "pref_aux_2_key"
+    const/16 v0, 0x8
 
     goto :goto_0
 
     :pswitch_2
-    const-string v0, "pref_aux_3_key"
+    const/4 v0, 0x0
 
     goto :goto_0
 
     :pswitch_3
-    const-string v0, "pref_aux_4_key"
+    const/4 v0, 0x0
 
     goto :goto_0
 
     :pswitch_4
-    const-string v0, "pref_aux_5_key"
+    const/16 v0, 0x8
 
     goto :goto_0
 
@@ -801,9 +770,6 @@
     const/16 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcip;->w(Ljava/lang/String;)I
-
-    move-result v0
 
     const-string v1, "pref_aux_mode_key"
 
@@ -818,35 +784,15 @@
     :sswitch_0
     const/16 v0, 0x0
 
-    const-string v0, "aux_get_1_key"
-
     goto :goto_0
 
     :sswitch_1
     const/16 v0, 0x2
 
-    const-string v0, "aux_get_2_key"
-
     goto :goto_0
 
     :sswitch_2
     const/16 v0, 0x3
-
-    const-string v0, "aux_get_3_key"
-
-    goto :goto_0
-
-    :sswitch_3
-    const/16 v0, 0x4
-
-    const-string v0, "aux_get_4_key"
-
-    goto :goto_0
-
-    :sswitch_4
-    const/16 v0, 0x5
-
-    const-string v0, "aux_get_5_key"
 
     goto :goto_0
 
@@ -854,10 +800,8 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0b0212 -> :sswitch_4
-        0x7f0b0213 -> :sswitch_0
-        0x7f0b0214 -> :sswitch_1
-        0x7f0b0215 -> :sswitch_3
-        0x7f0b0216 -> :sswitch_2
+        0x7f0b0212 -> :sswitch_2 # Macro camera
+        0x7f0b0213 -> :sswitch_0 # Main camera
+        0x7f0b0216 -> :sswitch_1 # Wide camera
     .end sparse-switch
 .end method

@@ -521,20 +521,6 @@ Bạn có thể dùng tính năng Khuôn mặt quen thuộc khi mở Máy ảnh 
     <string name="error">Lỗi</string>
     <string name="no_v">Phiên bản mới nhất đã cài</string>
     <string name="pls_wait">Vui lòng chờ</string>
-    <string name="aux_camera_id">Camera ID</string>
-    <string name="aux_camera_id_set">Điền Camera ID</string>
-    <string name="aux_summary_main">Bạn có thể tự chọn Camera ID của lens chính</string>
-    <string name="aux_summary_tele">Bạn có thể tự chọn Camera ID của lens telephoto</string>
-    <string name="aux_summary_wide">Bạn có thể tự chọn Camera ID của lens góc rộng</string>
-    <string name="aux_summary_macro">Bạn có thể tự chọn Camera ID của lens macro</string>
-    <string name="aux_summary_zoom">Bạn có thể tự chọn Camera ID của lens zoom</string>
-    <string name="aux_title_main">Kích hoạt lens chính</string>
-    <string name="aux_title_tele">Kích hoạt lens telephoto</string>
-    <string name="aux_title_wide">Kích hoạt lens góc rộng</string>
-    <string name="aux_title_macro">Kích hoạt lens macro</string>
-    <string name="aux_title_zoom">Kích hoạt lens zoom</string>
-    <string name="aux_title">Nút phụ trợ</string>
-    <string name="aux_summary">Cho phép bạn kích hoạt lens góc rộng, macro, telephoto và zoom</string>
     <string name="pref_hex_title">Tắt Hexagon DSP</string>
     <string name="pref_hex_summary">Tắt Hexagon DSP sẽ cải thiện hiệu năng cho những điện thoại yếu</string>
 </resources>

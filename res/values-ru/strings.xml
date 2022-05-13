@@ -516,20 +516,6 @@
     <string name="error">Ошибка</string>
     <string name="no_v">Новейшая версия установлена</string>
     <string name="pls_wait">Пожалуйста, подождите</string>
-    <string name="aux_camera_id">Идентификатор камеры</string>
-    <string name="aux_camera_id_set">Установить ID камеры</string>
-    <string name="aux_summary_main">Установить ID камеры для основного объектива</string>
-    <string name="aux_summary_tele">Установить ID камеры для телеобъектива</string>
-    <string name="aux_summary_wide">Установить ID камеры для широкоугольного объектива</string>
-    <string name="aux_summary_macro">Установить ID камеры для макрообъектива</string>
-    <string name="aux_summary_zoom">Установить ID камеры для зум-объектива</string>
-    <string name="aux_title_main">Включить основной объектив</string>
-    <string name="aux_title_tele">Включить телеобъектив</string>
-    <string name="aux_title_wide">Включить широкоугольный объектив</string>
-    <string name="aux_title_macro">Включить макрообъектив</string>
-    <string name="aux_title_zoom">Включить зум-объектив</string>
-    <string name="aux_title">Дополнительные объективы</string>
-    <string name="aux_summary">Позволяет активировать широкоугольные, макро, телеобъективы и зум-объективы</string>
     <string name="pref_hex_title">Отключить Hexagon DSP</string>
     <string name="pref_hex_summary">Отключение Hexagon DSP повысит производительность для слабых смартфонов</string>
 </resources>

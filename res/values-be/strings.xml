@@ -511,20 +511,6 @@
     <string name="error">Памылка</string>
     <string name="no_v">Найноўшая версія ўстаноўлена</string>
     <string name="pls_wait">Калі ласка, пачакайце</string>
-    <string name="aux_camera_id">Ідэнтыфікатар камеры</string>
-    <string name="aux_camera_id_set">Ўсталяваць ID камяры</string>
-    <string name="aux_summary_main">"Ўсталяваць ID камяры для асноўнага аб'ектыва"</string>
-    <string name="aux_summary_tele">"Ўсталяваць ID камяры для тэле-аб'ектыва"</string>
-    <string name="aux_summary_wide">"Ўсталяваць ID камяры для шырокавугольнага аб'ектыва"</string>
-    <string name="aux_summary_macro">"Ўсталяваць ID камяры для макра-аб'ектыва"</string>
-    <string name="aux_summary_zoom">"Ўсталяваць ID камяры для зум-аб'ектыва"</string>
-    <string name="aux_title_main">"Ўключыць асноўны аб'ектыў"</string>
-    <string name="aux_title_tele">"Ўключыць тэле-аб'ектыў"</string>
-    <string name="aux_title_wide">"Ўключыць шырокавугольны аб'ектыў"</string>
-    <string name="aux_title_macro">"Ўключыць макра-аб'ектыў"</string>
-    <string name="aux_title_zoom">"Ўключыць зум-аб'ектыў"</string>
-    <string name="aux_title">"Дадатковыя аб'ектывы"</string>
-    <string name="aux_summary">"Дазваляе актываваць шырокавугольным, макра, тэлеаб'ектывы і зум-аб'ектывы"</string>
     <string name="pref_hex_title">Адключыць Hexagon DSP</string>
     <string name="pref_hex_summary">Адключэнне Hexagon DSP павысіць прадукцыйнасць для слабых смартфонаў</string>
 </resources>
