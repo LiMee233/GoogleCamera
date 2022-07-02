@@ -681,7 +681,6 @@
     <string name="exposure_title_main">Αντιστάθμιση έκθεσης (Κύρια)</string>
     <string name="chroma_high">Επίπεδα Denoise Wavelet Chroma (Υψηλή συχνότητα)</string>
     <string name="chroma_low">Επίπεδα Denoise Wavelet Chroma (χαμηλή συχνότητα)</string>
-    <string name="lib_group">Τα προσαρμοσμένα Libs συντονίζονται με το χέρι στο αρχείο libgcastartup.so της Google Camera από modders. Για τα περισσότερα Custom Libs απενεργοποιήστε τα Lib Patcher, Τόνος και Καμπύλες γάμμα</string>
     <string name="pref_experimental_title">Πειραματικό</string>
     <string name="pref_experimental">Ρυθμίσεις για πειραματικές δυνατότητες δοκιμών</string>
     <string name="jpeg_format">Αναγκαστική μορφή JPEG</string>
@@ -738,7 +737,6 @@
     <string name="lib_denoise_title">Μείωση θορύβου</string>
     <string name="lib_processing_title">Επεξεργασία</string>
     <string name="lib_processing_summary">Πιο αναλυτικές φωτογραφίες</string>
-    <string name="lib_customlib_title">Προσαρμοσμένο Lib</string>
     <string name="pref_focus_tracking_title">Εστίαση παρακολούθησης</string>
     <string name="pref_focus_tracking_summary">Ενεργοποίηση εστίασης παρακολούθησης</string>
     <string name="lib_gammacurve_on_title">Ενεργοποίηση καμπύλης γάμμα</string>

@@ -685,7 +685,6 @@ Notas:
     <string name="exposure_title_main">Compensação de exposição (Principal)</string>
     <string name="chroma_high">Níveis de Denoise Wavelet Chroma (Alta Frequência)</string>
     <string name="chroma_low">Níveis de Denoise Wavelet Chroma (Baixa Frequência)</string>
-    <string name="lib_group">As bibliotecas personalizadas são ajustadas manualmente no arquivo libgcastartup.so da Câmera do Google por modders. Para a maioria das Libs personalizadas, desative o Lib Patcher, as curvas de tom e gama</string>
     <string name="pref_experimental_title">Experimental</string>
     <string name="pref_experimental">Configurações para recursos de teste experimental</string>
     <string name="jpeg_format">Forçar formato JPEG</string>
@@ -742,7 +741,6 @@ Notas:
     <string name="lib_denoise_title">Redução de Ruído</string>
     <string name="lib_processing_title">Processando</string>
     <string name="lib_processing_summary">Fotos mais detalhadas</string>
-    <string name="lib_customlib_title">Lib Customizada</string>
     <string name="pref_focus_tracking_title">Rastreamento de Foco</string>
     <string name="pref_focus_tracking_summary">Ativar Rastreamento de Foco</string>
     <string name="lib_gammacurve_on_title">Ativar Curvas de Gamma</string>

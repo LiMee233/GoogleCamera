@@ -684,7 +684,6 @@ Alcune note:
     <string name="exposure_title_main">"Compensazione dell'esposizione (Principale)"</string>
     <string name="chroma_high">Livelli della curva di riduzione del rumore di crominanza (alte frequenze)</string>
     <string name="chroma_low">Livelli della curva di riduzione del rumore di crominanza (basse frequenze)</string>
-    <string name="lib_group">Le librerie personalizzate sono messe a punto manualmente dai modder a partire dal file della Google Camera \"libgcastartup.so\". Per la maggior parte delle librerie personalizzate disattiva il Patcher delle librerie, il tono e le curve di gamma.</string>
     <string name="pref_experimental_title">Sperimentale</string>
     <string name="pref_experimental">Configurazioni per funzioni sperimentali in test</string>
     <string name="jpeg_format">Forza il formato JPEG</string>
@@ -741,7 +740,6 @@ Alcune note:
     <string name="lib_denoise_title">Riduzione del rumore</string>
     <string name="lib_processing_title">Elaborazione in corso</string>
     <string name="lib_processing_summary">Foto più dettagliate</string>
-    <string name="lib_customlib_title">Libreria personalizzata</string>
     <string name="pref_focus_tracking_title">Focus Tracking</string>
     <string name="pref_focus_tracking_summary">Attiva focus tracking</string>
     <string name="lib_gammacurve_on_title">Attiva Curva Gamma</string>

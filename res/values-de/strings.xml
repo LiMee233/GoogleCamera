@@ -684,7 +684,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="exposure_title_main">Belichtungskompensation (Generell)</string>
     <string name="chroma_high">Wavelet Croma (Hochfrequenz) Entrauschungslevel</string>
     <string name="chroma_low">Wavelet Chroma (Niederfrequenz) Entrauschungslevel</string>
-    <string name="lib_group">"Angepasste Lib's sind manuell bearbeitete Google libgcastartup.so Dateien von Usern. Für die meisten angepassten Lib's bitte Lib-Patcher, Ton und Gamma Kurve deaktivieren."</string>
     <string name="pref_experimental_title">Experimentell</string>
     <string name="pref_experimental">Einstellungen für experimentelle Testoptionen</string>
     <string name="jpeg_format">Bevorzuge das JPEG Format</string>
@@ -741,7 +740,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="lib_denoise_title">Rauschunterdrückung</string>
     <string name="lib_processing_title">Verarbeitung</string>
     <string name="lib_processing_summary">detaliertere Fotos</string>
-    <string name="lib_customlib_title">Benutzerdefinierte Lib</string>
     <string name="pref_focus_tracking_title">Fokusverfolgung</string>
     <string name="pref_focus_tracking_summary">Aktiviere Fokusverfolgung</string>
     <string name="lib_gammacurve_on_title">Aktiviere Gammakorrektur</string>

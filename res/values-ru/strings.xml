@@ -683,7 +683,6 @@
     <string name="exposure_title_main">Компенсация экспозиции (Основная камера)</string>
     <string name="chroma_high">Уровни ряби яркостного шумоподавления (высокая частота)</string>
     <string name="chroma_low">Уровни ряби цветового шумоподавления (низкая частота)</string>
-    <string name="lib_group">Пользовательские библиотеки вручную настраиваются файлом libgcastartup.so из Google Camera с помощью моддеров. Для большинства пользовательских библиотек отключите Lib Patcher, тон и гамма-кривые</string>
     <string name="pref_experimental_title">Экспериментальные функции</string>
     <string name="pref_experimental">Настройки для экспериментального тестирования функций</string>
     <string name="jpeg_format">Принудительный формат JPEG</string>
@@ -740,7 +739,6 @@
     <string name="lib_denoise_title">Понижение уровня шума</string>
     <string name="lib_processing_title">Обработка</string>
     <string name="lib_processing_summary">Более детальные фотографии</string>
-    <string name="lib_customlib_title">Пользовательские библиотеки</string>
     <string name="pref_focus_tracking_title">Фокус трекинг</string>
     <string name="pref_focus_tracking_summary">Включить отслеживание фокуса</string>
     <string name="lib_gammacurve_on_title">Включить гамма-кривую</string>

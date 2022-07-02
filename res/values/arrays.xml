@@ -700,22 +700,6 @@
         <item>99</item>
         <item>100</item>
     </string-array>
-    <string-array name="libs_entries">
-        <item>Google</item>
-        <item>NGCam</item>
-        <item>NR57W15T17 (User_X)</item>
-        <item>Alice (r0m10)</item>
-    </string-array>
-    <string-array name="libs_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </string-array>
     <string-array name="override_hex_entries">
         <item>@string/cam_flash_off</item>
         <item>Override (Default)</item>

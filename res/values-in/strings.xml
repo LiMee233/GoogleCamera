@@ -678,7 +678,6 @@ Beberapa catatan:
     <string name="exposure_title_main">Kompensasi Eksposur (Kamera utama)</string>
     <string name="chroma_high">Level Wavelet Chroma Denois (Frekuensi Tinggi)</string>
     <string name="chroma_low">Level Wavelet Choma Denois (Frekuensi Rendah)</string>
-    <string name="lib_group">Lib kustom disetel secara manual oleh modders ke file libgcastartup.so pada Google Kamera. Untuk sebagian besar Lib kustom menonaktifkan Lib Patcher, Warna, dan Kurva Gamma</string>
     <string name="pref_experimental_title">Eksperimental</string>
     <string name="pref_experimental">Setelan untuk pengujian fitur eksperimental</string>
     <string name="jpeg_format">Paksa Format JPEG</string>
@@ -735,7 +734,6 @@ Beberapa catatan:
     <string name="lib_denoise_title">Denoise</string>
     <string name="lib_processing_title">Pemrosesan</string>
     <string name="lib_processing_summary">Foto yang lebih detail</string>
-    <string name="lib_customlib_title">Lib kostum</string>
     <string name="pref_focus_tracking_title">Pelacakan Fokus</string>
     <string name="pref_focus_tracking_summary">Aktifkan Pelacakan Fokus</string>
     <string name="lib_gammacurve_on_title">Aktifkan Kurva Gamma</string>

@@ -1056,18 +1056,17 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_default">Default</string>
     <string name="pref_pzoom_title">Disable zoom in portrait mode</string>
     <string name="pref_pzoom_summary">Default zoom is 1.5x</string>
-    <string name="pref_enable_libpatcher_summary">"If disabled, it will use default values.
+    <string name="pref_enable_libpatcher_summary">"A few notes
 
-A few notes:
-1) These settings modify the final look of images, which means there is no best setting and should be adjusted according to your personal tastes after doing your own testing.
+1. These settings modify the final look of images, which means there is no best setting and should be adjusted according to your personal tastes after doing your own testing.
 
-2) The best way to test an option is to lower to minimum or raise to maximum and taking some test photos to see what happened.
+2. The best way to test an option is to lower to minimum or raise to maximum and taking some test photos to see what happened.
 
-3) It is recommended to modify only the Global Multipliers until you have a general understanding of what each option does in a variety of scenes. Then once you understand, you can reset Global Multipliers to Default then tweak Wavelet Denoise Levels for a finer control of Denoise parameters to your liking.
+3. It is recommended to modify only the Global Multipliers until you have a general understanding of what each option does in a variety of scenes. Then once you understand, you can reset Global Multipliers to Default then tweak Wavelet Denoise Levels for a finer control of Denoise parameters to your liking.
 
-4) When Denoise parameters are lowered below 1.0, you might need to lower Sharpness to compensate for sharpening artifacts (bright halos around edges). The opposite is true if raising Denoise parameters higher than 1.0.
+4. When Denoise parameters are lowered below 1.0, you might need to lower Sharpness to compensate for sharpening artifacts (bright halos around edges). The opposite is true if raising Denoise parameters higher than 1.0.
 
-5) This is a fast explanation of settings to edit tone curve.
+5. This is a fast explanation of settings to edit tone curve.
    - Dark Point: This is the leftmost starting point on the tonecurve. The Dark Point values impact the Y axis, and will move this starting point up the amount specified.
 
    - White Point: This is the rightmost point on the tonecurve. The White Point values impact the Y axis, and move this end point down the amount specified.
@@ -1157,7 +1156,6 @@ A few notes:
     <string name="exposure_title_main">Exposure Compensation (Main)</string>
     <string name="chroma_high">Wavelet Chroma (High Frequency) Denoise Levels</string>
     <string name="chroma_low">Wavelet Chroma (Low Frequency) Denoise Levels</string>
-    <string name="lib_group">Custom Libs are manually tuned Google Camera libgcastartup.so file by modders. For most Custom Libs disable Lib Patcher, Tone and Gamma Curves</string>
     <string name="pref_experimental_title">Experimental</string>
     <string name="pref_experimental">Settings for experimental testing features</string>
     <string name="jpeg_format">Force JPEG Format</string>
@@ -1214,7 +1212,6 @@ A few notes:
     <string name="lib_denoise_title">Denoise</string>
     <string name="lib_processing_title">Processing</string>
     <string name="lib_processing_summary">More detailed photos</string>
-    <string name="lib_customlib_title">Custom Lib</string>
     <string name="pref_focus_tracking_title">Focus Tracking</string>
     <string name="pref_focus_tracking_summary">Enable focus tracking</string>
     <string name="lib_gammacurve_on_title">Enable Gamma Curve</string>

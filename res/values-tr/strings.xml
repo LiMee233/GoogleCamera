@@ -685,7 +685,6 @@ Bir kaç Not:
     <string name="exposure_title_main">Pozlama Telafisi (Ana)</string>
     <string name="chroma_high">Dalgacık Chroma (Yüksek Frekans) Gürültü Azaltma Seviyeleri</string>
     <string name="chroma_low">Dalgacık Chroma (Düşük Frekans) Gürültü Azaltma Seviyeleri</string>
-    <string name="lib_group">"Özel Lib'ler, Google Kamera libgcastartup.so dosyasını manuel olarak düzenleyenler tarafından hazırlanır. Çoğu Özel Lib için Lib Yaması, Ton ve Gamma Eğrisi'ni devre dışı bırakın."</string>
     <string name="pref_experimental_title">Deneysel</string>
     <string name="pref_experimental">Deneysel test özellikleri ayarları</string>
     <string name="jpeg_format">JPEG Formatına zorla</string>
@@ -742,7 +741,6 @@ Bir kaç Not:
     <string name="lib_denoise_title">Gürültü Azaltma</string>
     <string name="lib_processing_title">İşleniyor</string>
     <string name="lib_processing_summary">Daha detaylı fotolar</string>
-    <string name="lib_customlib_title">Özel Lib</string>
     <string name="pref_focus_tracking_title">Odak takibi</string>
     <string name="pref_focus_tracking_summary">Odak takibini etkinleştir</string>
     <string name="lib_gammacurve_on_title">Gamma Eğrisini etkinleştir</string>

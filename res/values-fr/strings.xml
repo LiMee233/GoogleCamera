@@ -684,7 +684,6 @@ Quelques remarques:
     <string name="exposure_title_main">"Compensation d'exposition (Principal)"</string>
     <string name="chroma_high">Chroma Wavelet (Haute Fréquence) Niveau de Débruitage</string>
     <string name="chroma_low">"Niveaux Debruitage Chroma Wavelet (Basse Fréquence) "</string>
-    <string name="lib_group">Les LIB personnalisées sont réglées manuellement Google Camera libgcastartup.so fichier par modders. Pour la plupart des LIB personnalisées désactiver Lib Patcher, Tone et Gamma</string>
     <string name="pref_experimental_title">Experimental</string>
     <string name="pref_experimental">Paramètres des fonctions de test expérimental</string>
     <string name="jpeg_format">Forcé le Format JPEG</string>
@@ -741,7 +740,6 @@ Quelques remarques:
     <string name="lib_denoise_title">Débruitage</string>
     <string name="lib_processing_title">Traitement</string>
     <string name="lib_processing_summary">Photos plus détaillées</string>
-    <string name="lib_customlib_title">Lib Personnalisé</string>
     <string name="pref_focus_tracking_title">Suivie de Mise en Point</string>
     <string name="pref_focus_tracking_summary">Activer le suivi de mise en point</string>
     <string name="lib_gammacurve_on_title">Activé les Courbes Gammas</string>

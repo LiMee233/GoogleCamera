@@ -681,7 +681,6 @@
     <string name="exposure_title_main">Компенсація експозиції (Основна камера)</string>
     <string name="chroma_high">Рівні антишуму Wavelet Chroma (Високі частоти)</string>
     <string name="chroma_low">Рівні антишуму Wavelet Chroma (Низькі частоти)</string>
-    <string name="lib_group">Користувацькі бібліотеки вручну налаштовуються файлом libgcastartup.so з Google Camera за допомогою моддерів. Для більшості користувацьких бібліотек відключіть Lib Patcher, тон і гамма-криві</string>
     <string name="pref_experimental_title">Експериментальні функції</string>
     <string name="pref_experimental">Налаштування для експериментального тестування функцій</string>
     <string name="jpeg_format">Примусовий формат JPEG</string>
@@ -738,7 +737,6 @@
     <string name="lib_denoise_title">Антишум</string>
     <string name="lib_processing_title">Опрацювання</string>
     <string name="lib_processing_summary">Більш детальні фото</string>
-    <string name="lib_customlib_title">Кастомна бібліотека</string>
     <string name="pref_focus_tracking_title">Фокус трекинг</string>
     <string name="pref_focus_tracking_summary">Ввімкнути відстеження фокусу</string>
     <string name="lib_gammacurve_on_title">Увімкнути гамма криву</string>

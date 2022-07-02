@@ -177,8 +177,6 @@
     <public type="array" name="pref_model_entryvalues_front" id="0x7f03003f" />
     <public type="array" name="pref_quality_jpg_entries" id="0x7f030040" />
     <public type="array" name="pref_quality_jpg_entryvalues" id="0x7f030041" />
-    <public type="array" name="libs_entries" id="0x7f030042" />
-    <public type="array" name="libs_entryvalues" id="0x7f030043" />
     <public type="array" name="override_hex_entries" id="0x7f030044" />
     <public type="array" name="override_hex_entryvalues" id="0x7f030045" />
     <public type="array" name="hiddenlib_hex_entries" id="0x7f030046" />
@@ -3772,7 +3770,6 @@
     <public type="drawable" name="ic_ignore_black_pixels_48dp" id="0x7f0802ae" />
     <public type="drawable" name="ic_iso" id="0x7f0802af" />
     <public type="drawable" name="ic_jpgcompressed_black_48dp" id="0x7f0802b0" />
-    <public type="drawable" name="ic_libso" id="0x7f0802b1" />
     <public type="drawable" name="ic_merge_24" id="0x7f0802b2" />
     <public type="drawable" name="ic_more_24" id="0x7f0802b3" />
     <public type="drawable" name="ic_motion_24" id="0x7f0802b4" />
@@ -6061,7 +6058,6 @@
     <public type="string" name="exposure_title_main" id="0x7f130463" />
     <public type="string" name="chroma_high" id="0x7f130464" />
     <public type="string" name="chroma_low" id="0x7f130465" />
-    <public type="string" name="lib_group" id="0x7f130466" />
     <public type="string" name="pref_experimental_title" id="0x7f130467" />
     <public type="string" name="pref_experimental" id="0x7f130468" />
     <public type="string" name="jpeg_format" id="0x7f130469" />
@@ -6118,7 +6114,6 @@
     <public type="string" name="lib_denoise_title" id="0x7f13049c" />
     <public type="string" name="lib_processing_title" id="0x7f13049d" />
     <public type="string" name="lib_processing_summary" id="0x7f13049e" />
-    <public type="string" name="lib_customlib_title" id="0x7f13049f" />
     <public type="string" name="pref_focus_tracking_title" id="0x7f1304a0" />
     <public type="string" name="pref_focus_tracking_summary" id="0x7f1304a1" />
     <public type="string" name="lib_gammacurve_on_title" id="0x7f1304a2" />

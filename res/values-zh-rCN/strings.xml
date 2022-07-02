@@ -583,26 +583,25 @@
     <string name="pref_default">默认</string>
     <string name="pref_pzoom_title">关闭人像模式默认缩放</string>
     <string name="pref_pzoom_summary">默认缩放1.5x</string>
-    <string name="pref_enable_libpatcher_summary">"如果不启用，将会使用默认值。
+    <string name="pref_enable_libpatcher_summary">"一些提示
 
-一些提示：
-1）这些设置会影响最终成像，这意味着没有最佳设置，可根据个人喜好进行调整。
+1. 这些设置会影响最终成像，这意味着没有最佳设置，可根据个人喜好进行调整。
 
-2）测试一个选项的最好方法是将其降低到最小值或提高到最大值，并拍摄一些测试照片，看看有什么变化。
+2. 测试一个选项的最好方法是将其降低到最小值或提高到最大值，并拍摄一些测试照片，看看有什么变化。
 
-3）在您对每个选项在各种场景中的作用有一个大致的了解前建议仅修改全局参数。当您有一些了解后，您可将全局参数恢复至默认，然后调整小波降噪级别以获得您更喜欢的降噪参数。
+3. 在您对每个选项在各种场景中的作用有一个大致的了解前建议仅修改全局参数。当您有一些了解后，您可将全局参数恢复至默认，然后调整小波降噪级别以获得您更喜欢的降噪参数。
 
-4）当降噪参数降低到1.0以下时，可能需要降低锐化度以补偿锐化伪影（边缘周围的亮晕）。如果将降噪参数提高到1.0以上，则相反。
+4. 当降噪参数降低到 1.0 以下时，可能需要降低锐化度以补偿锐化伪影（边缘周围的亮晕）。如果将降噪参数提高到 1.0 以上，则相反。
 
-5）以下是关于色调曲线设置的简要说明：
+5. 以下是关于色调曲线设置的简要说明：
 
-- 暗点(Dark Point)：这是色调曲线最左边的起点，调整暗点值会使其在Y轴向上移动指定的量。
+- 暗点 (Dark Point) ：这是色调曲线最左边的起点，调整暗点值会使其在Y轴向上移动指定的量。
 
-- 白点(White Point)：这是色调曲线最右边的起点，调整白点值会使其在Y轴向下移动指定的量。
+- 白点 (White Point) ：这是色调曲线最右边的起点，调整白点值会使其在Y轴向下移动指定的量。
 
-- 阴影(Shadows)：这些值会影响曲线的下半部分。正值会将曲线的下半部分向上推，负值则将其向下拉。
+- 阴影 (Shadows) ：这些值会影响曲线的下半部分。正值会将曲线的下半部分向上推，负值则将其向下拉。
 
-- 高光(Highlights)：这些值影响上半部分的曲线。与阴影一样，正值将其向上推，负值将其向下拉。"</string>
+- 高光 (Highlights) ：这些值影响上半部分的曲线。与阴影一样，正值将其向上推，负值将其向下拉。"</string>
     <string name="lib_fine_l1_title">级别1（Fine Details/好的细节）</string>
     <string name="lib_fine_l2_title">级别2（Rough Surfaces/粗糙表面）</string>
     <string name="lib_fine_l3_title">级别3（Edges/边缘）</string>
@@ -685,7 +684,6 @@
     <string name="exposure_title_main">曝光补偿（主摄）</string>
     <string name="chroma_high">Wavelet Chroma(高频)降噪等级</string>
     <string name="chroma_low">Wavelet Chroma(低频)降噪等级</string>
-    <string name="lib_group">自定义库是经修改者手动调整过的谷歌相机libgcastartup.so文件。大多数自定义库禁用了Lib Patcher，色调及Gamma曲线</string>
     <string name="pref_experimental_title">实验性</string>
     <string name="pref_experimental">实验性测试功能设置</string>
     <string name="jpeg_format">强制JPEG格式</string>
@@ -742,7 +740,6 @@
     <string name="lib_denoise_title">降噪</string>
     <string name="lib_processing_title">处理</string>
     <string name="lib_processing_summary">更多细节的照片</string>
-    <string name="lib_customlib_title">自定义库</string>
     <string name="pref_focus_tracking_title">对焦追踪</string>
     <string name="pref_focus_tracking_summary">启用对焦追踪</string>
     <string name="lib_gammacurve_on_title">启用Gamma曲线</string>

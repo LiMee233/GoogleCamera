@@ -681,7 +681,6 @@ Néhány jegyzet:
     <string name="exposure_title_main">Exponálás-kiegyenlítés (Fő kamera)</string>
     <string name="chroma_high">Wavelet Chroma (Magas Frekvencia) Zajszűrési Szintek</string>
     <string name="chroma_low">Wavelet Chroma (Alacsony Frekvencia) Zajszűrési Szintek</string>
-    <string name="lib_group">A Custom Lib-ek manuálisan hangolják a Google Camera libgcastartup.so fájlt a mod-olók által. A legtöbb Custom Lib kikapcsolja a Lib Patcher-t, a Tónus-, és Gamma Görbéket</string>
     <string name="pref_experimental_title">Tapasztalati</string>
     <string name="pref_experimental">A kísérleti tesztbeállítások beállításai</string>
     <string name="jpeg_format">JPEG formátum kényszerítése</string>
@@ -738,7 +737,6 @@ Néhány jegyzet:
     <string name="lib_denoise_title">Zajszűrés</string>
     <string name="lib_processing_title">Feldolgozás</string>
     <string name="lib_processing_summary">Részletgazdagabb képek</string>
-    <string name="lib_customlib_title">Egyedi Lib</string>
     <string name="pref_focus_tracking_title">Fókuszkövetés</string>
     <string name="pref_focus_tracking_summary">Fókuszkövetés engedélyezése</string>
     <string name="lib_gammacurve_on_title">Gamma-görbe engedélyezése</string>
