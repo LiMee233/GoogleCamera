@@ -789,7 +789,7 @@
     <string name="pref_black_level_summary">Виправляє рожевість</string>
     <string name="pref_sabre_options_title">Супер приближення (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Компонування кольорового фільтра</string>
-    <string name="pixel_binning_button">Кнопка видошукача</string>
+    <string name="viewfinder_button">Кнопка видошукача</string>
     <string name="pref_shasta_title">Фактор шаста(?)</string>
     <string name="pref_maxmag_title">Макимальне приближення</string>
     <string name="pref_maxmag_summary">Задати максимальне приближення. Обрано: %s</string>

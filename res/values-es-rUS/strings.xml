@@ -792,7 +792,7 @@ Algunas observaciones:
     <string name="pref_black_level_summary">Ayudas para arreglar tinte rosa</string>
     <string name="pref_sabre_options_title">Super res zoom (sabre)</string>
     <string name="pref_color_filter_arrangement_title">Disposición del filtro de color</string>
-    <string name="pixel_binning_button">Botón de visor</string>
+    <string name="viewfinder_button">Botón de visor</string>
     <string name="pref_shasta_title">Factor Shasta</string>
     <string name="pref_maxmag_title">Máximo nivel de zoom</string>
     <string name="pref_maxmag_summary">Anular nivel máximo de zoom. Seleccionado: %s</string>

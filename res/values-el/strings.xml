@@ -789,7 +789,7 @@
     <string name="pref_black_level_summary">Βοηθά στη διόρθωση της απόχρωσης του ροζ</string>
     <string name="pref_sabre_options_title">Σούπερ ζουμ (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Διάταξη φίλτρου χρώματος</string>
-    <string name="pixel_binning_button">Κουμπί σκοπεύτρου</string>
+    <string name="viewfinder_button">Κουμπί σκοπεύτρου</string>
     <string name="pref_shasta_title">Συντελεστής Shasta</string>
     <string name="pref_maxmag_title">Μέγιστο επίπεδο ζουμ</string>
     <string name="pref_maxmag_summary">Παρακάμπτει το μέγιστο ποσό ζουμ. Επιλεγμένο: %s</string>

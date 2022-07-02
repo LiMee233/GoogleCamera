@@ -783,7 +783,7 @@ Frequent Faces-এর ডেটা শুধুমাত্র এই ডিভ�
     <string name="pref_black_level_summary">গোলাপী আভা ঠিক করতে সহায়তা করে</string>
     <string name="pref_sabre_options_title">সুপার রেস জুম (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">রঙিন ফিল্টার বিন্যাস</string>
-    <string name="pixel_binning_button">ভিউফাইন্ডার বোতাম</string>
+    <string name="viewfinder_button">ভিউফাইন্ডার বোতাম</string>
     <string name="pref_shasta_title">শস্তা ফ্যাক্টর</string>
     <string name="pref_maxmag_title">সর্বাধিক জুম স্তর</string>
     <string name="pref_maxmag_summary">সর্বাধিক জুম পরিমাণকে ওভাররাইড করে। নির্বাচিত: %s</string>

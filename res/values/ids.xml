@@ -298,5 +298,4 @@
     <item type="id" name="zmod_button_aux_tele2" />
     <item type="id" name="switchTextOn" />
     <item type="id" name="switchTextOff" />
-    <item type="id" name="zmod_button_pixelbinning" />
 </resources>

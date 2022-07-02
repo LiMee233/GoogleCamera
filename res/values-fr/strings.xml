@@ -792,7 +792,7 @@ Quelques remarques:
     <string name="pref_black_level_summary">Atténue les teintes roses</string>
     <string name="pref_sabre_options_title">Accentuation des bords : Sabre. ( Actif uniquement lors de zoom )</string>
     <string name="pref_color_filter_arrangement_title">Agencement de filtre couleur</string>
-    <string name="pixel_binning_button">Bouton du viseur</string>
+    <string name="viewfinder_button">Bouton du viseur</string>
     <string name="pref_shasta_title">Facteur \"Shasta\"</string>
     <string name="pref_maxmag_title">Zoom maximum supporté</string>
     <string name="pref_maxmag_summary">Remplace la quantité de zoom maximale. Sélectionné: %s</string>

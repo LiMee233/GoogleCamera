@@ -789,7 +789,7 @@ Néhány jegyzet:
     <string name="pref_black_level_summary">Segít rögzíteni a rózsaszín árnyalatot</string>
     <string name="pref_sabre_options_title">Super res zoom (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Színszűrő elrendezés</string>
-    <string name="pixel_binning_button">Kereső gomb</string>
+    <string name="viewfinder_button">Kereső gomb</string>
     <string name="pref_shasta_title">Shasta faktor</string>
     <string name="pref_maxmag_title">Maximális nagyítási szint</string>
     <string name="pref_maxmag_summary">Felülírja a maximális zoomot. Kiválasztva: %s</string>

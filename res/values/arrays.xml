@@ -2199,14 +2199,6 @@ Y2 = 15"</item>
         <item>5</item>
         <item>6</item>
     </string-array>
-    <string-array name="pref_onoff_entries">
-        <item>@string/cam_flash_off</item>
-        <item>@string/cam_flash_on</item>
-    </string-array>
-    <string-array name="pref_onoff_entryvalues">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="pref_maxmag_entries">
         <item>@string/pref_default</item>
         <item>5x</item>

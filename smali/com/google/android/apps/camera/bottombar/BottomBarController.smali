@@ -8038,7 +8038,7 @@
     :goto_20
     invoke-static {v0}, Lcom/WhatMode;->switchToMode(I)V
 
-    goto/32 :goto_25
+    goto/32 :goto_1d
 
     nop
 
@@ -8121,19 +8121,6 @@
     invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto/32 :goto_2e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    :goto_25
-    invoke-static {v0}, Lcom/ButtonPixelBinning;->switchToMode(I)V
-
-    goto/32 :goto_1d
 
     nop
 

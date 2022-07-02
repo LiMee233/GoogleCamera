@@ -792,7 +792,7 @@
     <string name="pref_black_level_summary">ช่วยแก้ปัญหาโทนสีชมพู</string>
     <string name="pref_sabre_options_title">การซูมแบบความละเอียดสูง (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">การจัดเรียงฟิลเตอร์สี</string>
-    <string name="pixel_binning_button">ปุ่มช่องมองภาพ</string>
+    <string name="viewfinder_button">ปุ่มช่องมองภาพ</string>
     <string name="pref_shasta_title">Shasta factor</string>
     <string name="pref_maxmag_title">ระดับการซูมสูงสุด</string>
     <string name="pref_maxmag_summary">ลบล้างจำนวนการซูมสูงสุด เลือก: %s</string>

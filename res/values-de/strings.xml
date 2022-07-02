@@ -792,7 +792,7 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_black_level_summary">Kann helfen Rosa Fehlfarbe zu beheben</string>
     <string name="pref_sabre_options_title">Super res Zoom (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Farbfilter Anordnung</string>
-    <string name="pixel_binning_button">Suchertaste</string>
+    <string name="viewfinder_button">Suchertaste</string>
     <string name="pref_shasta_title">Shasta Faktor</string>
     <string name="pref_maxmag_title">Maximaler Zoom Level</string>
     <string name="pref_maxmag_summary">Überschreibt den maximalen Zoom Level. Ausgewählt: %s</string>

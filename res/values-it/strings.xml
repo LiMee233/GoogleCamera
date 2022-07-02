@@ -792,7 +792,7 @@ Alcune note:
     <string name="pref_black_level_summary">Aiuta a correggere la tinta rosa</string>
     <string name="pref_sabre_options_title">Zoom super risoluzione (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Disposizione dei filtri colorati</string>
-    <string name="pixel_binning_button">Pulsante del mirino</string>
+    <string name="viewfinder_button">Pulsante del mirino</string>
     <string name="pref_shasta_title">Fattore Shasta</string>
     <string name="pref_maxmag_title">Zoom massimo</string>
     <string name="pref_maxmag_summary">Cambia il valore massimo di zoom. Selezionato: %s</string>

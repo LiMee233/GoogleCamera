@@ -793,7 +793,7 @@ Bir kaç Not:
     <string name="pref_black_level_summary">Pembe tonu düzeltmeye yardımcı olur</string>
     <string name="pref_sabre_options_title">Süper çözünürlük yakınlaştırması(Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Renk filtresi düzenlemesi</string>
-    <string name="pixel_binning_button">Vizör düğmesi</string>
+    <string name="viewfinder_button">Vizör düğmesi</string>
     <string name="pref_shasta_title">Shasta faktörü</string>
     <string name="pref_maxmag_title">Maksimum zoom seviyesi</string>
     <string name="pref_maxmag_summary">Maks Zoom seviyesinin üzerine yazar.Seçilen: %s</string>

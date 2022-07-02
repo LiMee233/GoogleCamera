@@ -791,7 +791,7 @@
     <string name="pref_black_level_summary">Помогает исправить розовый оттенок</string>
     <string name="pref_sabre_options_title">Зум с суперразрешением (Сабре)</string>
     <string name="pref_color_filter_arrangement_title">Выбор цветового фильтра</string>
-    <string name="pixel_binning_button">Кнопка в видоискателе</string>
+    <string name="viewfinder_button">Кнопка в видоискателе</string>
     <string name="pref_shasta_title">Фактор Shasta</string>
     <string name="pref_maxmag_title">Уровень максимального зума</string>
     <string name="pref_maxmag_summary">Меняет значение максимального зума. Выбрано: %s</string>

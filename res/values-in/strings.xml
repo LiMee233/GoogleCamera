@@ -786,7 +786,7 @@ Beberapa catatan:
     <string name="pref_black_level_summary">Membantu memperbaiki warna merah muda</string>
     <string name="pref_sabre_options_title">Zoom resolusi super (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Pengaturan filter warna</string>
-    <string name="pixel_binning_button">Tombol jendela bidik</string>
+    <string name="viewfinder_button">Tombol jendela bidik</string>
     <string name="pref_shasta_title">Faktor Shasta</string>
     <string name="pref_maxmag_title">Tingkat zoom maksimum</string>
     <string name="pref_maxmag_summary">Mengganti jumlah zoom maksimum. Dipilih: %s</string>

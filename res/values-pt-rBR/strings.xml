@@ -793,7 +793,7 @@ Notas:
     <string name="pref_black_level_summary">Reduz aberração rosa</string>
     <string name="pref_sabre_options_title">Zoom super resolução (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Disposição de filtros de cor</string>
-    <string name="pixel_binning_button">Botão do visor</string>
+    <string name="viewfinder_button">Botão do visor</string>
     <string name="pref_shasta_title">Fator Shasta</string>
     <string name="pref_maxmag_title">Nível máximo de zoom</string>
     <string name="pref_maxmag_summary">Forçar zoom máximo. Selecionado: %s</string>

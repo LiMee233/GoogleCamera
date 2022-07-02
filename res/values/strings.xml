@@ -848,7 +848,7 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_black_level_summary">Helps to fix pink tint</string>
     <string name="pref_sabre_options_title">Super res zoom (Sabre)</string>
     <string name="pref_color_filter_arrangement_title">Color filter arrangement</string>
-    <string name="pixel_binning_button">Viewfinder button</string>
+    <string name="viewfinder_button">Viewfinder button</string>
     <string name="pref_shasta_title">Shasta factor</string>
     <string name="pref_maxmag_title">Maximum zoom level</string>
     <string name="pref_maxmag_summary">Overrides the maximum zoom amount. Selected: %s</string>
