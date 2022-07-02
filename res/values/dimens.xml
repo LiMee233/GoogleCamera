@@ -523,4 +523,12 @@
     <dimen name="zoom_seekbar_width">200.0dip</dimen>
     <dimen name="zoom_touch_area_expand">48.0dip</dimen>
     <dimen name="zoom_ui_height">108.0dip</dimen>
+    <dimen name="aux_icon_size">24.0dip</dimen>
+    <dimen name="button_aux_mode_padding_left">13.45dip</dimen>
+
+    <!-- (@dimen/options_menu_setting_height - @dimen/aux_icon_size) / 2 -->
+    <dimen name="button_aux_mode_translationY">12.0dip</dimen>
+
+    <!-- @dimen/aux_icon_size / 2 -->
+    <dimen name="aux_icon_marginstart">12.0dip</dimen>
 </resources>
