@@ -1,0 +1,1349 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: NGCam_7.4.104-v2.0_snap.apk
+compressionType: false
+doNotCompress:
+- AndroidManifest.xml
+- resources.arsc
+- assets/tflite_vakunov_multi-subject_2018-06-09.fb.enc
+- res/animator/active_focus_converge_outer_ring_opacity_fade_out.xml
+- res/animator/active_focus_scan_inner_splash_diameter_scale_up.xml
+- res/animator/active_focus_scan_inner_splash_opacity_fade_in.xml
+- res/animator/active_focus_scan_inner_splash_opacity_fade_out.xml
+- res/animator/active_focus_scan_outer_ring_diameter_scale_down.xml
+- res/animator/active_focus_scan_outer_ring_opacity_fade_in.xml
+- res/animator/autotimer_tutorial_text_hide.xml
+- res/animator/autotimer_tutorial_text_show.xml
+- res/animator/circular_image_button_anim.xml
+- res/animator/design_appbar_state_list_animator.xml
+- res/animator/design_fab_hide_motion_spec.xml
+- res/animator/design_fab_show_motion_spec.xml
+- res/animator/focus_lock_hold_inner_splash_diameter_scale_up.xml
+- res/animator/focus_lock_hold_inner_splash_opacity_fade_in.xml
+- res/animator/focus_lock_hold_outer_ring_opacity_fade_in.xml
+- res/animator/focus_lock_hold_outer_ring_thickness_scale_up.xml
+- res/animator/focus_lock_release_inner_splash_diameter_scale_down.xml
+- res/animator/focus_lock_release_inner_splash_opacity_fade_out.xml
+- res/animator/focus_lock_release_outer_ring_diameter_scale_down.xml
+- res/animator/focus_lock_release_outer_ring_opacity_fade_out.xml
+- res/animator/google_btn_state_list_anim.xml
+- res/animator/google_card_state_list_anim.xml
+- res/animator/google_chip_state_list_anim.xml
+- res/animator/ic_red_circle_fade_in_animator.xml
+- res/animator/ic_red_circle_fade_out_animator.xml
+- res/animator/mtrl_btn_state_list_anim.xml
+- res/animator/mtrl_btn_unelevated_state_list_anim.xml
+- res/animator/mtrl_card_state_list_anim.xml
+- res/animator/mtrl_chip_state_list_anim.xml
+- res/animator/mtrl_extended_fab_state_list_animator.xml
+- res/animator/mtrl_fab_hide_motion_spec.xml
+- res/animator/mtrl_fab_show_motion_spec.xml
+- res/animator/passive_focus_converge_outer_ring_opacity_fade_out.xml
+- res/animator/passive_focus_scan_outer_ring_diameter_scale_down.xml
+- res/animator/passive_focus_scan_outer_ring_opacity_fade_in.xml
+- res/animator/tracking_end_outer_ring_diameter_scale_up.xml
+- res/animator/tracking_end_outer_ring_opacity_fade_out.xml
+- res/anim/abc_grow_fade_in_from_bottom.xml
+- res/anim/abc_popup_enter.xml
+- res/anim/abc_popup_exit.xml
+- res/anim/abc_shrink_fade_out_from_bottom.xml
+- res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml
+- res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml
+- res/anim/btn_checkbox_to_checked_icon_null_animation.xml
+- res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+- res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml
+- res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml
+- res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml
+- res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml
+- res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml
+- res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml
+- res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml
+- res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml
+- res/anim/fragment_close_enter.xml
+- res/anim/fragment_close_exit.xml
+- res/anim/fragment_fade_enter.xml
+- res/anim/fragment_fade_exit.xml
+- res/anim/fragment_fast_out_extra_slow_in.xml
+- res/anim/fragment_open_enter.xml
+- res/anim/fragment_open_exit.xml
+- res/anim/front_back_switch_button_animation.xml
+- res/anim/ic_motion_auto_recording__offset_rotation_animation.xml
+- res/anim/ic_motion_recording_path_1_animation.xml
+- res/anim/ic_motion_recording_rotation_animation.xml
+- res/anim/ic_motion_recording__offset_rotation_animation.xml
+- res/anim/ic_pause_resume_mask_1_animation.xml
+- res/anim/ic_pause_resume_mask_2_animation.xml
+- res/anim/ic_pause_resume_rectangle_path_1_animation.xml
+- res/anim/ic_pause_resume_rectangle_path_2_animation.xml
+- res/anim/ic_resume_pause_mask_3_animation.xml
+- res/anim/ic_resume_pause_mask_4_animation.xml
+- res/anim/ic_resume_pause_rectangle_path_3_animation.xml
+- res/anim/ic_resume_pause_rectangle_path_4_animation.xml
+- res/anim/mtrl_bottom_sheet_slide_in.xml
+- res/anim/mtrl_bottom_sheet_slide_out.xml
+- res/anim/mtrl_card_lowers_interpolator.xml
+- res/anim/on_camera_exit.xml
+- res/anim/on_photos_enter.xml
+- res/anim/photos_transition_noanim.xml
+- res/anim/processing_indicator_path_2_animation.xml
+- res/anim/side_control_state_list.xml
+- res/color/abc_background_cache_hint_selector_material_dark.xml
+- res/color/abc_background_cache_hint_selector_material_light.xml
+- res/color/abc_color_highlight_material.xml
+- res/color/abc_hint_foreground_material_dark.xml
+- res/color/abc_hint_foreground_material_light.xml
+- res/color/abc_primary_text_disable_only_material_dark.xml
+- res/color/abc_primary_text_disable_only_material_light.xml
+- res/color/abc_primary_text_material_dark.xml
+- res/color/abc_primary_text_material_light.xml
+- res/color/abc_search_url_text.xml
+- res/color/abc_secondary_text_material_dark.xml
+- res/color/abc_secondary_text_material_light.xml
+- res/color/abc_tint_btn_checkable.xml
+- res/color/abc_tint_default.xml
+- res/color/abc_tint_edittext.xml
+- res/color/abc_tint_seek_thumb.xml
+- res/color/abc_tint_spinner.xml
+- res/color/abc_tint_switch_track.xml
+- res/color/circular_button.xml
+- res/color/design_box_stroke_color.xml
+- res/color/design_error.xml
+- res/color/design_icon_tint.xml
+- res/color/google_appbar_overlay_color.xml
+- res/color/google_bottom_nav_icon_tint.xml
+- res/color/google_bottom_nav_ripple_color_selector.xml
+- res/color/google_bottom_nav_text_color.xml
+- res/color/google_btn_filled_btn_bg_color_selector.xml
+- res/color/google_btn_filled_btn_ripple_color.xml
+- res/color/google_btn_ripple_color.xml
+- res/color/google_btn_snackbar_color_selector.xml
+- res/color/google_btn_snackbar_ripple_color.xml
+- res/color/google_btn_stroke_color_selector.xml
+- res/color/google_btn_text_btn_bg_color_selector.xml
+- res/color/google_btn_text_color_selector.xml
+- res/color/google_btn_text_color_selector_secondary.xml
+- res/color/google_card_foreground.xml
+- res/color/google_card_ripple.xml
+- res/color/google_card_stroke.xml
+- res/color/google_checkbox_ripple_tint.xml
+- res/color/google_chip_assistive_text_color.xml
+- res/color/google_chip_background_color.xml
+- res/color/google_chip_ripple_color.xml
+- res/color/google_chip_stroke_color.xml
+- res/color/google_chip_surface_color.xml
+- res/color/google_chip_text_color.xml
+- res/color/google_dark_default_color_textfield_surface.xml
+- res/color/google_default_color_textfield_surface.xml
+- res/color/google_extended_fab_bg_color_selector.xml
+- res/color/google_extended_fab_branded_text_color.xml
+- res/color/google_extended_fab_text_color_selector.xml
+- res/color/google_fab_branded_ripple_color.xml
+- res/color/google_fab_ripple_color.xml
+- res/color/google_fab_tint.xml
+- res/color/google_navigation_item_background_color.xml
+- res/color/google_navigation_item_icon_tint.xml
+- res/color/google_navigation_item_text_color.xml
+- res/color/google_picker_calendar_item_disabled_text.xml
+- res/color/google_picker_calendar_item_stroke_color.xml
+- res/color/google_radiobutton_ripple_tint.xml
+- res/color/google_selection_control_button_tint.xml
+- res/color/google_slider_active_tick_marks_color.xml
+- res/color/google_slider_active_track_color.xml
+- res/color/google_slider_halo_color.xml
+- res/color/google_slider_inactive_tick_marks_color.xml
+- res/color/google_slider_inactive_track_color.xml
+- res/color/google_slider_thumb_color.xml
+- res/color/google_surface_bar_bg_color.xml
+- res/color/google_tabs_icon_color_selector.xml
+- res/color/google_tabs_ripple_color_selector.xml
+- res/color/google_textfield_error_color.xml
+- res/color/google_textfield_indicator_text_color.xml
+- res/color/google_textfield_input_text_color.xml
+- res/color/google_textfield_outlined_icon_tint.xml
+- res/color/google_textfield_outlined_label_color.xml
+- res/color/google_textfield_outlined_stroke_color.xml
+- res/color/material_on_surface_disabled.xml
+- res/color/material_on_surface_emphasis_high_type.xml
+- res/color/material_on_surface_emphasis_medium.xml
+- res/color/material_slider_active_tick_marks_color.xml
+- res/color/material_slider_active_track_color.xml
+- res/color/material_slider_halo_color.xml
+- res/color/material_slider_inactive_tick_marks_color.xml
+- res/color/material_slider_inactive_track_color.xml
+- res/color/material_slider_thumb_color.xml
+- res/color/mtrl_bottom_nav_item_tint.xml
+- res/color/mtrl_bottom_nav_ripple_color.xml
+- res/color/mtrl_btn_bg_color_selector.xml
+- res/color/mtrl_btn_ripple_color.xml
+- res/color/mtrl_btn_stroke_color_selector.xml
+- res/color/mtrl_btn_text_btn_bg_color_selector.xml
+- res/color/mtrl_btn_text_btn_ripple_color.xml
+- res/color/mtrl_btn_text_color_selector.xml
+- res/color/mtrl_calendar_item_stroke_color.xml
+- res/color/mtrl_calendar_selected_range.xml
+- res/color/mtrl_card_view_foreground.xml
+- res/color/mtrl_card_view_ripple.xml
+- res/color/mtrl_chip_background_color.xml
+- res/color/mtrl_chip_close_icon_tint.xml
+- res/color/mtrl_chip_ripple_color.xml
+- res/color/mtrl_chip_surface_color.xml
+- res/color/mtrl_chip_text_color.xml
+- res/color/mtrl_error.xml
+- res/color/mtrl_extended_fab_bg_color_selector.xml
+- res/color/mtrl_extended_fab_ripple_color.xml
+- res/color/mtrl_extended_fab_text_color_selector.xml
+- res/color/mtrl_fab_bg_color_selector.xml
+- res/color/mtrl_fab_icon_text_color_selector.xml
+- res/color/mtrl_fab_ripple_color.xml
+- res/color/mtrl_filled_background_color.xml
+- res/color/mtrl_filled_icon_tint.xml
+- res/color/mtrl_filled_stroke_color.xml
+- res/color/mtrl_indicator_text_color.xml
+- res/color/mtrl_navigation_item_background_color.xml
+- res/color/mtrl_navigation_item_icon_tint.xml
+- res/color/mtrl_navigation_item_text_color.xml
+- res/color/mtrl_outlined_icon_tint.xml
+- res/color/mtrl_outlined_stroke_color.xml
+- res/color/mtrl_popupmenu_overlay_color.xml
+- res/color/mtrl_tabs_icon_color_selector.xml
+- res/color/mtrl_tabs_legacy_text_color_selector.xml
+- res/color/mtrl_tabs_ripple_color.xml
+- res/color/mtrl_text_btn_text_color_selector.xml
+- res/color/switch_thumb_material_dark.xml
+- res/color/switch_thumb_material_light.xml
+- res/color/textswitch_color.xml
+- res/color/textswitch_secondary_button.xml
+- res/color/textswitch_secondary_color.xml
+- res/drawable-anydpi/zmod_button_aux_1x.xml
+- res/drawable-anydpi/zmod_button_aux_1x_off.xml
+- res/drawable-anydpi/zmod_button_aux_2x.xml
+- res/drawable-anydpi/zmod_button_aux_2x_off.xml
+- res/drawable-anydpi/zmod_button_aux_3x.xml
+- res/drawable-anydpi/zmod_button_aux_3x_off.xml
+- res/drawable-anydpi/zmod_button_aux_4x.xml
+- res/drawable-anydpi/zmod_button_aux_4x_off.xml
+- res/drawable-anydpi/zmod_button_aux_5x.xml
+- res/drawable-anydpi/zmod_button_aux_5x_off.xml
+- res/drawable-anydpi/zmod_button_aux_dots.xml
+- res/drawable-anydpi/zmod_button_aux_dots_off.xml
+- res/drawable-anydpi/zmod_button_aux_macro.xml
+- res/drawable-anydpi/zmod_button_aux_macro_off.xml
+- res/drawable-anydpi/zmod_button_aux_main.xml
+- res/drawable-anydpi/zmod_button_aux_main_off.xml
+- res/drawable-anydpi/zmod_button_aux_main_sam.xml
+- res/drawable-anydpi/zmod_button_aux_main_sam_off.xml
+- res/drawable-anydpi/zmod_button_aux_mountain.xml
+- res/drawable-anydpi/zmod_button_aux_mountain_off.xml
+- res/drawable-anydpi/zmod_button_aux_portrait.xml
+- res/drawable-anydpi/zmod_button_aux_portrait_off.xml
+- res/drawable-anydpi/zmod_button_aux_tele.xml
+- res/drawable-anydpi/zmod_button_aux_tele2.xml
+- res/drawable-anydpi/zmod_button_aux_tele2_off.xml
+- res/drawable-anydpi/zmod_button_aux_tele_off.xml
+- res/drawable-anydpi/zmod_button_aux_tele_sam.xml
+- res/drawable-anydpi/zmod_button_aux_tele_sam_off.xml
+- res/drawable-anydpi/zmod_button_aux_wide.xml
+- res/drawable-anydpi/zmod_button_aux_wide_off.xml
+- res/drawable-anydpi/zmod_button_aux_wide_sam.xml
+- res/drawable-anydpi/zmod_button_aux_wide_sam_off.xml
+- res/drawable-anydpi/zmod_button_pixelbinning_off.xml
+- res/drawable-anydpi/zmod_button_pixelbinning_on.xml
+- res/drawable-anydpi/zmod_button_slider_astro_off.xml
+- res/drawable-anydpi/zmod_button_slider_astro_on.xml
+- res/drawable-anydpi/zmod_button_slider_astro_timer_auto.xml
+- res/drawable-anydpi/zmod_button_slider_astro_timer_average.xml
+- res/drawable-anydpi/zmod_button_slider_astro_timer_long.xml
+- res/drawable-anydpi/zmod_button_slider_astro_timer_short.xml
+- res/drawable-watch/abc_dialog_material_background.xml
+- png
+- res/drawable/$$camera_back_front_animation__1__0.xml
+- res/drawable/$$camera_back_front_animation__1__1.xml
+- res/drawable/$$camera_back_front_animation__2__0.xml
+- res/drawable/$$camera_back_front_animation__2__1.xml
+- res/drawable/$$camera_back_front_animation__3__0.xml
+- res/drawable/$$camera_back_front_animation__3__1.xml
+- res/drawable/$$camera_back_front_animation__4__0.xml
+- res/drawable/$$camera_back_front_animation__4__1.xml
+- res/drawable/$$camera_back_front_animation__4__2.xml
+- res/drawable/$$camera_back_front_animation__4__3.xml
+- res/drawable/$$camera_back_front_animation__5__0.xml
+- res/drawable/$$camera_front_back_animation__1__0.xml
+- res/drawable/$$camera_front_back_animation__1__1.xml
+- res/drawable/$$camera_front_back_animation__1__2.xml
+- res/drawable/$$camera_front_back_animation__1__3.xml
+- res/drawable/$$camera_front_back_animation__2__0.xml
+- res/drawable/$$camera_front_back_animation__3__0.xml
+- res/drawable/$$camera_front_back_animation__4__0.xml
+- res/drawable/$$camera_front_back_animation__4__1.xml
+- res/drawable/$$camera_front_back_animation__5__0.xml
+- res/drawable/$$gleam_animated_vector__1__0.xml
+- res/drawable/$$gleam_animated_vector__3__0.xml
+- res/drawable/$$gleam_animated_vector__5__0.xml
+- res/drawable/$$gleam_animated_vector__7__0.xml
+- res/drawable/$$longpress_gleam_animated_vector__10__0.xml
+- res/drawable/$$longpress_gleam_animated_vector__10__1.xml
+- res/drawable/$$longpress_gleam_animated_vector__16__0.xml
+- res/drawable/$$longpress_gleam_animated_vector__16__1.xml
+- res/drawable/$$longpress_gleam_animated_vector__22__0.xml
+- res/drawable/$$longpress_gleam_animated_vector__22__1.xml
+- res/drawable/$$longpress_gleam_animated_vector__4__0.xml
+- res/drawable/$$longpress_gleam_animated_vector__4__1.xml
+- res/drawable/$$longpress_gleam_animated_vector__6__0.xml
+- res/drawable/$avd_hide_password__0.xml
+- res/drawable/$avd_hide_password__1.xml
+- res/drawable/$avd_hide_password__2.xml
+- res/drawable/$avd_show_password__0.xml
+- res/drawable/$avd_show_password__1.xml
+- res/drawable/$avd_show_password__2.xml
+- res/drawable/$camera_back_front_animation__0.xml
+- res/drawable/$camera_back_front_animation__1.xml
+- res/drawable/$camera_back_front_animation__2.xml
+- res/drawable/$camera_back_front_animation__3.xml
+- res/drawable/$camera_back_front_animation__4.xml
+- res/drawable/$camera_back_front_animation__5.xml
+- res/drawable/$camera_back_front_animation__6.xml
+- res/drawable/$camera_front_back_animation__0.xml
+- res/drawable/$camera_front_back_animation__1.xml
+- res/drawable/$camera_front_back_animation__2.xml
+- res/drawable/$camera_front_back_animation__3.xml
+- res/drawable/$camera_front_back_animation__4.xml
+- res/drawable/$camera_front_back_animation__5.xml
+- res/drawable/$camera_front_back_animation__6.xml
+- res/drawable/$gleam_animated_vector__0.xml
+- res/drawable/$gleam_animated_vector__1.xml
+- res/drawable/$gleam_animated_vector__2.xml
+- res/drawable/$gleam_animated_vector__3.xml
+- res/drawable/$gleam_animated_vector__4.xml
+- res/drawable/$gleam_animated_vector__5.xml
+- res/drawable/$gleam_animated_vector__6.xml
+- res/drawable/$gleam_animated_vector__7.xml
+- res/drawable/$gleam_animated_vector__8.xml
+- res/drawable/$longpress_gleam_animated_vector__0.xml
+- res/drawable/$longpress_gleam_animated_vector__1.xml
+- res/drawable/$longpress_gleam_animated_vector__10.xml
+- res/drawable/$longpress_gleam_animated_vector__11.xml
+- res/drawable/$longpress_gleam_animated_vector__12.xml
+- res/drawable/$longpress_gleam_animated_vector__13.xml
+- res/drawable/$longpress_gleam_animated_vector__14.xml
+- res/drawable/$longpress_gleam_animated_vector__15.xml
+- res/drawable/$longpress_gleam_animated_vector__16.xml
+- res/drawable/$longpress_gleam_animated_vector__17.xml
+- res/drawable/$longpress_gleam_animated_vector__18.xml
+- res/drawable/$longpress_gleam_animated_vector__19.xml
+- res/drawable/$longpress_gleam_animated_vector__2.xml
+- res/drawable/$longpress_gleam_animated_vector__20.xml
+- res/drawable/$longpress_gleam_animated_vector__21.xml
+- res/drawable/$longpress_gleam_animated_vector__22.xml
+- res/drawable/$longpress_gleam_animated_vector__23.xml
+- res/drawable/$longpress_gleam_animated_vector__24.xml
+- res/drawable/$longpress_gleam_animated_vector__25.xml
+- res/drawable/$longpress_gleam_animated_vector__26.xml
+- res/drawable/$longpress_gleam_animated_vector__27.xml
+- res/drawable/$longpress_gleam_animated_vector__28.xml
+- res/drawable/$longpress_gleam_animated_vector__3.xml
+- res/drawable/$longpress_gleam_animated_vector__4.xml
+- res/drawable/$longpress_gleam_animated_vector__5.xml
+- res/drawable/$longpress_gleam_animated_vector__6.xml
+- res/drawable/$longpress_gleam_animated_vector__7.xml
+- res/drawable/$longpress_gleam_animated_vector__8.xml
+- res/drawable/$longpress_gleam_animated_vector__9.xml
+- res/drawable/abc_1_shortcuts_nightsight.xml
+- res/drawable/abc_1_shortcuts_portrait.xml
+- res/drawable/abc_action_bar_item_background_material.xml
+- res/drawable/abc_btn_borderless_material.xml
+- res/drawable/abc_btn_check_material.xml
+- res/drawable/abc_btn_check_material_anim.xml
+- res/drawable/abc_btn_colored_material.xml
+- res/drawable/abc_btn_default_mtrl_shape.xml
+- res/drawable/abc_btn_radio_material.xml
+- res/drawable/abc_btn_radio_material_anim.xml
+- res/drawable/abc_cab_background_internal_bg.xml
+- res/drawable/abc_cab_background_top_material.xml
+- res/drawable/abc_control_background_material.xml
+- res/drawable/abc_dialog_material_background.xml
+- res/drawable/abc_edit_text_material.xml
+- res/drawable/abc_ic_ab_back_material.xml
+- res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+- res/drawable/abc_ic_clear_material.xml
+- res/drawable/abc_ic_go_search_api_material.xml
+- res/drawable/abc_ic_search_api_material.xml
+- res/drawable/abc_ic_voice_search_api_material.xml
+- res/drawable/abc_item_background_holo_dark.xml
+- res/drawable/abc_item_background_holo_light.xml
+- res/drawable/abc_list_divider_material.xml
+- res/drawable/abc_list_selector_background_transition_holo_dark.xml
+- res/drawable/abc_list_selector_background_transition_holo_light.xml
+- res/drawable/abc_list_selector_holo_dark.xml
+- res/drawable/abc_list_selector_holo_light.xml
+- res/drawable/abc_ratingbar_indicator_material.xml
+- res/drawable/abc_ratingbar_material.xml
+- res/drawable/abc_ratingbar_small_material.xml
+- res/drawable/abc_seekbar_12mp.xml
+- res/drawable/abc_seekbar_48mp.xml
+- res/drawable/abc_seekbar_aperture.xml
+- res/drawable/abc_seekbar_aperture_1_5.xml
+- res/drawable/abc_seekbar_aperture_2_4.xml
+- res/drawable/abc_seekbar_thumb_material.xml
+- res/drawable/abc_seekbar_tick_mark_material.xml
+- res/drawable/abc_seekbar_track_material.xml
+- res/drawable/abc_spinner_textfield_background_material.xml
+- res/drawable/abc_switch_thumb_material.xml
+- res/drawable/abc_tab_indicator_material.xml
+- res/drawable/abc_textfield_search_material.xml
+- res/drawable/abc_text_cursor_material.xml
+- res/drawable/abc_vector_test.xml
+- res/drawable/account_box_outline.xml
+- res/drawable/account_circle_outline.xml
+- res/drawable/account_search_outline.xml
+- res/drawable/adjust.xml
+- res/drawable/avd_hide_password.xml
+- res/drawable/avd_show_password.xml
+- res/drawable/bg_evcomp_brightness_knob.xml
+- res/drawable/bg_evcomp_shadow_knob.xml
+- res/drawable/bg_frame_based_timer.xml
+- res/drawable/bg_frame_based_timer_power_saving.xml
+- res/drawable/bg_speed_up_seekbar.xml
+- res/drawable/bg_speed_up_seekbar_power_saving.xml
+- res/drawable/bg_speed_up_seekbar_thumb.xml
+- res/drawable/bg_text_on_video_recording_counter.xml
+- res/drawable/bg_zoom_knob.xml
+- res/drawable/bg_zoom_seekbar.xml
+- res/drawable/btn_checkbox_checked_mtrl.xml
+- res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml
+- res/drawable/btn_checkbox_unchecked_mtrl.xml
+- res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml
+- res/drawable/btn_radio_off_mtrl.xml
+- res/drawable/btn_radio_off_to_on_mtrl_animation.xml
+- res/drawable/btn_radio_on_mtrl.xml
+- res/drawable/btn_radio_on_to_off_mtrl_animation.xml
+- res/drawable/camera_back_front_animation.xml
+- res/drawable/camera_front_back_animation.xml
+- res/drawable/camera_iris.xml
+- res/drawable/camera_outline.xml
+- res/drawable/camera_party_mode.xml
+- res/drawable/camera_retake_outline.xml
+- res/drawable/camera_timer.xml
+- res/drawable/coloredicons_cic_create_36.xml
+- res/drawable/cover.xml
+- res/drawable/crossfade_button_background.xml
+- res/drawable/design_fab_background.xml
+- res/drawable/design_ic_visibility.xml
+- res/drawable/design_ic_visibility_off.xml
+- res/drawable/design_password_eye.xml
+- res/drawable/design_snackbar_background.xml
+- res/drawable/device_hub_24px.xml
+- res/drawable/education_toast_background.xml
+- res/drawable/enabled_button_urnyx05.xml
+- res/drawable/face_recognition.xml
+- res/drawable/file_settings_variant_outline.xml
+- res/drawable/filter_tilt_shift.xml
+- res/drawable/format_color_fill.xml
+- res/drawable/format_list_text.xml
+- res/drawable/front_back_switch_button.xml
+- res/drawable/front_back_switch_button_animation.xml
+- res/drawable/gleam_animated_vector.xml
+- res/drawable/google_appbar_surface_background_dark.xml
+- res/drawable/google_checkbox_ripple.xml
+- res/drawable/google_dialog_background.xml
+- res/drawable/google_fab_branded_icon_dark.xml
+- res/drawable/google_fab_branded_icon_light.xml
+- res/drawable/google_radiobutton_ripple.xml
+- res/drawable/google_tabs_rounded_line_indicator.xml
+- res/drawable/gradient_bar_background.xml
+- res/drawable/horizontal_rule_24px.xml
+- res/drawable/iconcamera.xml
+- res/drawable/ics_blank.xml
+- res/drawable/ics_darkpoint.xml
+- res/drawable/ics_frames.xml
+- res/drawable/ics_highlights.xml
+- res/drawable/ics_magnify_plus_outline.xml
+- res/drawable/ics_shadows.xml
+- res/drawable/ics_tonecurve.xml
+- res/drawable/ics_whitepoint.xml
+- res/drawable/ic_4k_24px.xml
+- res/drawable/ic_about_24.xml
+- res/drawable/ic_about_grey_24.xml
+- res/drawable/ic_aemode.xml
+- res/drawable/ic_afae_lock_24px.xml
+- res/drawable/ic_afae_unlock_24px.xml
+- res/drawable/ic_arrows.xml
+- res/drawable/ic_arrow_24.xml
+- res/drawable/ic_astro_24.xml
+- res/drawable/ic_autorenew_24px.xml
+- res/drawable/ic_autotimer_idle.xml
+- res/drawable/ic_aux_1.xml
+- res/drawable/ic_aux_2.xml
+- res/drawable/ic_aux_3.xml
+- res/drawable/ic_aux_4.xml
+- res/drawable/ic_aux_5.xml
+- res/drawable/ic_aux_category.xml
+- res/drawable/ic_awb_24.xml
+- res/drawable/ic_back.xml
+- res/drawable/ic_badge_burst.xml
+- res/drawable/ic_badge_photo_sphere.xml
+- res/drawable/ic_blacklevel.xml
+- res/drawable/ic_blank_24.xml
+- res/drawable/ic_brightness_high_black_24dp.xml
+- res/drawable/ic_burst_thumbnail.xml
+- res/drawable/ic_calendar_black_24dp.xml
+- res/drawable/ic_camera.xml
+- res/drawable/ic_camera_front_24.xml
+- res/drawable/ic_camera_rear_24.xml
+- res/drawable/ic_camera_thumbnail.xml
+- res/drawable/ic_cancel.xml
+- res/drawable/ic_case_battery.xml
+- res/drawable/ic_charity_24.xml
+- res/drawable/ic_check.xml
+- res/drawable/ic_circles_translucent.xml
+- res/drawable/ic_clear_black_24dp.xml
+- res/drawable/ic_close_grey.xml
+- res/drawable/ic_contrast.xml
+- res/drawable/ic_control_play.xml
+- res/drawable/ic_cuttlefish.xml
+- res/drawable/ic_dcip3.xml
+- res/drawable/ic_dehaze.xml
+- res/drawable/ic_denoise.xml
+- res/drawable/ic_depth.xml
+- res/drawable/ic_dev_24.xml
+- res/drawable/ic_dirty_lens_gm2_24px.xml
+- res/drawable/ic_donate_24.xml
+- res/drawable/ic_donut_24.xml
+- res/drawable/ic_edit_black_24dp.xml
+- res/drawable/ic_evc_brightness_24px.xml
+- res/drawable/ic_evc_shadow_24px.xml
+- res/drawable/ic_experimental.xml
+- res/drawable/ic_exposure_category.xml
+- res/drawable/ic_exposure_front_grey600_24.xml
+- res/drawable/ic_exposure_grey600_24.xml
+- res/drawable/ic_extended.xml
+- res/drawable/ic_faceretouch_off.xml
+- res/drawable/ic_faceretouch_on_light.xml
+- res/drawable/ic_faceretouch_on_strong.xml
+- res/drawable/ic_fhd_24px.xml
+- res/drawable/ic_focus_track.xml
+- res/drawable/ic_frames_24.xml
+- res/drawable/ic_gamma.xml
+- res/drawable/ic_google_chip_checked_circle.xml
+- res/drawable/ic_google_chip_close.xml
+- res/drawable/ic_google_lens_gm2_24px.xml
+- res/drawable/ic_gphotos_24.xml
+- res/drawable/ic_grain_black_24dp.xml
+- res/drawable/ic_hdr_enhanced_select_gm2_24px.xml
+- res/drawable/ic_hdr_off_select_gm2_24px.xml
+- res/drawable/ic_hdr_on_select_gm2_24px.xml
+- res/drawable/ic_hevc_gm2_24px.xml
+- res/drawable/ic_hexagon.xml
+- res/drawable/ic_ignore_black_pixels_48dp.xml
+- res/drawable/ic_interface.xml
+- res/drawable/ic_iso.xml
+- res/drawable/ic_jpgcompressed_black_48dp.xml
+- res/drawable/ic_keyboard_arrow_left_black_24dp.xml
+- res/drawable/ic_keyboard_arrow_right_black_24dp.xml
+- res/drawable/ic_libso.xml
+- res/drawable/ic_lib_exposure.xml
+- res/drawable/ic_lightbulb_off.xml
+- res/drawable/ic_lightbulb_on.xml
+- res/drawable/ic_lock_checkable.xml
+- res/drawable/ic_lock_checkable_inset.xml
+- res/drawable/ic_measure_dark_24.xml
+- res/drawable/ic_menu_arrow_down_black_24dp.xml
+- res/drawable/ic_merge.xml
+- res/drawable/ic_merge_24.xml
+- res/drawable/ic_minus_24px.xml
+- res/drawable/ic_more.xml
+- res/drawable/ic_more_24.xml
+- res/drawable/ic_motion_24.xml
+- res/drawable/ic_motion_auto_recording.xml
+- res/drawable/ic_motion_auto_recording_circle.xml
+- res/drawable/ic_motion_auto_recording_circle_avd.xml
+- res/drawable/ic_motion_circle_24.xml
+- res/drawable/ic_motion_recording.xml
+- res/drawable/ic_motion_recording_circle.xml
+- res/drawable/ic_motion_recording_circle_avd.xml
+- res/drawable/ic_motion_recording_red.xml
+- res/drawable/ic_motion_red_24.xml
+- res/drawable/ic_mtrl_checked_circle.xml
+- res/drawable/ic_mtrl_chip_checked_circle.xml
+- res/drawable/ic_mtrl_chip_close_circle.xml
+- res/drawable/ic_night_filled.xml
+- res/drawable/ic_night_suggestion.xml
+- res/drawable/ic_notification.xml
+- res/drawable/ic_options_24fps_24px.xml
+- res/drawable/ic_pause_resume.xml
+- res/drawable/ic_pause_resume_animation.xml
+- res/drawable/ic_phone_battery.xml
+- res/drawable/ic_photobooth_mode.xml
+- res/drawable/ic_pixel_binning.xml
+- res/drawable/ic_play.xml
+- res/drawable/ic_playground_dark_24.xml
+- res/drawable/ic_play_arrow.xml
+- res/drawable/ic_plus_24px.xml
+- res/drawable/ic_processing.xml
+- res/drawable/ic_pzoom_24.xml
+- res/drawable/ic_radius.xml
+- res/drawable/ic_ratio_full.xml
+- res/drawable/ic_ratio_standard.xml
+- res/drawable/ic_raw_off_gm2_24px.xml
+- res/drawable/ic_raw_on_animated.xml
+- res/drawable/ic_raw_on_gm2_24px.xml
+- res/drawable/ic_raw_on_gm2_grey_24px.xml
+- res/drawable/ic_recording_on_red_circle.xml
+- res/drawable/ic_recording_red_indicator.xml
+- res/drawable/ic_resume_pause.xml
+- res/drawable/ic_resume_pause_animation.xml
+- res/drawable/ic_sabre_24.xml
+- res/drawable/ic_secure_thumbnail.xml
+- res/drawable/ic_selfie.xml
+- res/drawable/ic_spatial.xml
+- res/drawable/ic_stop_night_sight_24dp.xml
+- res/drawable/ic_straighten_black_24dp.xml
+- res/drawable/ic_swipe_down_option.xml
+- res/drawable/ic_swipe_left_option.xml
+- res/drawable/ic_swipe_right_option.xml
+- res/drawable/ic_temp.xml
+- res/drawable/ic_tonality_black_24dp.xml
+- res/drawable/ic_tune_black_24dp.xml
+- res/drawable/ic_update_24.xml
+- res/drawable/ic_vconf.xml
+- res/drawable/ic_video.xml
+- res/drawable/ic_videocam_thumbnail.xml
+- res/drawable/ic_zoom_seekbar_thumb.xml
+- res/drawable/image_filter.xml
+- res/drawable/image_filter_center_focus_strong_outline.xml
+- res/drawable/image_filter_hdr.xml
+- res/drawable/image_multiple_outline.xml
+- res/drawable/large_processing_indicator.xml
+- res/drawable/large_processing_indicator_animation.xml
+- res/drawable/longpress_gleam_animated_vector.xml
+- res/drawable/main_button_urnyx05.xml
+- res/drawable/mcfly_high_quality_thumbnail_dot.xml
+- res/drawable/mcfly_selection_bar_background.xml
+- res/drawable/mcfly_thumbnails_background.xml
+- res/drawable/mode_chip.xml
+- res/drawable/mode_chip_background.xml
+- res/drawable/mode_chip_view.xml
+- res/drawable/mode_chip_with_ripple.xml
+- res/drawable/more_modes_icon_circle.xml
+- res/drawable/mtrl_dialog_background.xml
+- res/drawable/mtrl_dropdown_arrow.xml
+- res/drawable/mtrl_ic_arrow_drop_down.xml
+- res/drawable/mtrl_ic_arrow_drop_up.xml
+- res/drawable/mtrl_ic_cancel.xml
+- res/drawable/mtrl_ic_error.xml
+- res/drawable/mtrl_popupmenu_background.xml
+- res/drawable/mtrl_popupmenu_background_dark.xml
+- res/drawable/mtrl_tabs_default_indicator.xml
+- res/drawable/navigation_empty_icon.xml
+- res/drawable/ngcam.xml
+- res/drawable/notification_chip_background.xml
+- res/drawable/notification_chip_multiple_lines_background.xml
+- res/drawable/notification_dot.xml
+- res/drawable/notification_dot_foreground.xml
+- res/drawable/notification_dot_shadow.xml
+- res/drawable/options_icon_background.xml
+- res/drawable/options_menu_arrow_icon.xml
+- res/drawable/options_menu_background.xml
+- res/drawable/options_menu_button_selected.xml
+- res/drawable/options_menu_button_unselected.xml
+- res/drawable/options_menu_close_button.xml
+- res/drawable/pause_button.xml
+- res/drawable/play_button.xml
+- res/drawable/pref_exposure_ns_48dp.xml
+- res/drawable/pref_exposure_portrait.xml
+- res/drawable/processing_indicator.xml
+- res/drawable/processing_indicator_animation.xml
+- res/drawable/quantum_gm_ic_30fps_select_white_24.xml
+- res/drawable/quantum_gm_ic_60fps_select_white_24.xml
+- res/drawable/quantum_gm_ic_ai_awb_auto_white_24.xml
+- res/drawable/quantum_gm_ic_ai_awb_off_white_24.xml
+- res/drawable/quantum_gm_ic_ai_awb_white_24.xml
+- res/drawable/quantum_gm_ic_astrophoto_16.xml
+- res/drawable/quantum_gm_ic_astrophoto_32.xml
+- res/drawable/quantum_gm_ic_astrophoto_4.xml
+- res/drawable/quantum_gm_ic_astrophoto_8.xml
+- res/drawable/quantum_gm_ic_astrophoto_auto_white_24.xml
+- res/drawable/quantum_gm_ic_astrophoto_off_white_24.xml
+- res/drawable/quantum_gm_ic_astrophoto_white_24.xml
+- res/drawable/quantum_gm_ic_autofps_select_white_24.xml
+- res/drawable/quantum_gm_ic_brightness_medium_white_24.xml
+- res/drawable/quantum_gm_ic_burst_mode_white_18.xml
+- res/drawable/quantum_gm_ic_burst_mode_white_24.xml
+- res/drawable/quantum_gm_ic_camera_alt_white_24.xml
+- res/drawable/quantum_gm_ic_camera_alt_white_48.xml
+- res/drawable/quantum_gm_ic_camera_front_black_24.xml
+- res/drawable/quantum_gm_ic_center_focus_strong_white_24.xml
+- res/drawable/quantum_gm_ic_clear_grey600_36.xml
+- res/drawable/quantum_gm_ic_developer_mode_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_device_thermostat_grey_24.xml
+- res/drawable/quantum_gm_ic_face_black_24.xml
+- res/drawable/quantum_gm_ic_fast_forward_vd_theme_24.xml
+- res/drawable/quantum_gm_ic_feedback_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_flash_auto_white_24.xml
+- res/drawable/quantum_gm_ic_flash_off_white_24.xml
+- res/drawable/quantum_gm_ic_flash_on_white_24.xml
+- res/drawable/quantum_gm_ic_frame_off_black_24.xml
+- res/drawable/quantum_gm_ic_frame_on_black_24.xml
+- res/drawable/quantum_gm_ic_frame_plus_black_24.xml
+- res/drawable/quantum_gm_ic_google_awb_auto_white_24.xml
+- res/drawable/quantum_gm_ic_google_awb_off_white_24.xml
+- res/drawable/quantum_gm_ic_google_awb_on_white_24.xml
+- res/drawable/quantum_gm_ic_grid_on_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_hdr_plus_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_help_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_help_outline_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_infinity_white_24.xml
+- res/drawable/quantum_gm_ic_info_outline_black_24.xml
+- res/drawable/quantum_gm_ic_landscape_white_24.xml
+- res/drawable/quantum_gm_ic_layers_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_mic_off_white_24.xml
+- res/drawable/quantum_gm_ic_mic_white_24.xml
+- res/drawable/quantum_gm_ic_mood_white_24.xml
+- res/drawable/quantum_gm_ic_more_horiz_vd_theme_24.xml
+- res/drawable/quantum_gm_ic_motion_photos_auto_white_24.xml
+- res/drawable/quantum_gm_ic_motion_photos_off_white_24.xml
+- res/drawable/quantum_gm_ic_motion_photos_on_white_24.xml
+- res/drawable/quantum_gm_ic_panorama_fish_eye_white_24.xml
+- res/drawable/quantum_gm_ic_panorama_horizontal_white_24.xml
+- res/drawable/quantum_gm_ic_panorama_vertical_white_24.xml
+- res/drawable/quantum_gm_ic_panorama_wide_angle_white_24.xml
+- res/drawable/quantum_gm_ic_people_white_24.xml
+- res/drawable/quantum_gm_ic_photo_camera_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_portrait_white_24.xml
+- res/drawable/quantum_gm_ic_remove_circle_outline_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_room_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_room_white_24.xml
+- res/drawable/quantum_gm_ic_save_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_settings_white_24.xml
+- res/drawable/quantum_gm_ic_share_black_24.xml
+- res/drawable/quantum_gm_ic_slow_motion_video_white_24.xml
+- res/drawable/quantum_gm_ic_timer_10_alt_1_white_24.xml
+- res/drawable/quantum_gm_ic_timer_3_alt_1_white_24.xml
+- res/drawable/quantum_gm_ic_timer_off_white_24.xml
+- res/drawable/quantum_gm_ic_touch_app_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_trending_flat_vd_theme_24.xml
+- res/drawable/quantum_gm_ic_videocam_white_24.xml
+- res/drawable/quantum_gm_ic_video_camera_back_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_video_camera_cheetah_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_video_stable_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_volume_up_gm_grey_24.xml
+- res/drawable/quantum_gm_ic_vrpano_white_24.xml
+- res/drawable/quantum_ic_add_white_24.xml
+- res/drawable/quantum_ic_aspect_ratio_grey600_24.xml
+- res/drawable/quantum_ic_close_white_18.xml
+- res/drawable/quantum_ic_close_white_24.xml
+- res/drawable/quantum_ic_fast_rewind_white_24.xml
+- res/drawable/quantum_ic_folder_shared_grey_24.xml
+- res/drawable/quantum_ic_google_lens_new_white_24.xml
+- res/drawable/quantum_ic_keyboard_arrow_up_white_24.xml
+- res/drawable/quantum_ic_mic_external_off_white_24.xml
+- res/drawable/quantum_ic_mic_external_on_white_24.xml
+- res/drawable/quantum_ic_motion_photos_off_white_24.xml
+- res/drawable/quantum_ic_motion_photos_on_white_24.xml
+- res/drawable/quantum_ic_panorama_photosphere_white_24.xml
+- res/drawable/quantum_ic_pause_white_24.xml
+- res/drawable/quantum_ic_photosphere_white_18.xml
+- res/drawable/quantum_ic_photosphere_white_24.xml
+- res/drawable/quantum_ic_play_arrow_white_24.xml
+- res/drawable/remote_control_view_background.xml
+- res/drawable/rounded_rect_grey_bottom.xml
+- res/drawable/rounded_rect_grey_bottom_inset.xml
+- res/drawable/rounded_rect_grey_bottom_unselected.xml
+- res/drawable/rounded_rect_grey_middle.xml
+- res/drawable/rounded_rect_grey_middle_inset.xml
+- res/drawable/rounded_rect_grey_middle_unselected.xml
+- res/drawable/rounded_rect_grey_top.xml
+- res/drawable/rounded_rect_grey_top_inset.xml
+- res/drawable/scrollbar_vertical_thumb.xml
+- res/drawable/seekbar_progress.xml
+- res/drawable/seekbar_thumb.xml
+- res/drawable/smarts_notification_drawables_divider.xml
+- res/drawable/smarts_notification_drawable_background.xml
+- res/drawable/social_drawer_background.xml
+- res/drawable/social_open_close_icon.xml
+- res/drawable/social_processing_background.xml
+- res/drawable/social_target_add.xml
+- res/drawable/social_target_placeholder.xml
+- res/drawable/timelapse.xml
+- res/drawable/timer_10_on_shutter.xml
+- res/drawable/timer_10_on_shutter_night.xml
+- res/drawable/timer_3_on_shutter.xml
+- res/drawable/timer_3_on_shutter_night.xml
+- res/drawable/timer_option_auto_24px.xml
+- res/drawable/tmp_ic_video_camera_front_gm_grey.xml
+- res/drawable/toast_background.xml
+- res/drawable/tooltip_frame_dark.xml
+- res/drawable/tooltip_frame_light.xml
+- res/drawable/viewfinder_rounded_background.xml
+- res/drawable/vnimanie.xml
+- res/drawable/weather_sunny.xml
+- res/font/google_sans.xml
+- res/font/google_sans_display.xml
+- res/font/google_sans_medium.xml
+- res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml
+- res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml
+- res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml
+- res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml
+- res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml
+- res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml
+- res/interpolator/custom_40_in_60_out.xml
+- res/interpolator/custom_60_in_60_out.xml
+- res/interpolator/fast_out_slow_in.xml
+- res/interpolator/ic_motion_recording_animation_interpolator_0.xml
+- res/interpolator/ic_motion_recording_animation_interpolator_1.xml
+- res/interpolator/ic_motion_recording_animation_interpolator_2.xml
+- res/interpolator/ic_motion_recording_animation_interpolator_3.xml
+- res/interpolator/ic_motion_recording_animation_interpolator_4.xml
+- res/interpolator/ic_pause_resume_animation_interpolator_0.xml
+- res/interpolator/ic_resume_pause_animation_interpolator_0.xml
+- res/interpolator/ic_resume_pause_animation_interpolator_1.xml
+- res/interpolator/incoming_20_outgoing_60.xml
+- res/interpolator/incoming_40_outgoing_40.xml
+- res/interpolator/incoming_80_outgoing_60.xml
+- res/interpolator/mtrl_fast_out_linear_in.xml
+- res/interpolator/mtrl_fast_out_slow_in.xml
+- res/interpolator/mtrl_linear.xml
+- res/interpolator/mtrl_linear_out_slow_in.xml
+- res/layout-land/mtrl_picker_header_dialog.xml
+- res/layout-watch/abc_alert_dialog_button_bar_material.xml
+- res/layout-watch/abc_alert_dialog_title_material.xml
+- res/layout/abc_action_bar_title_item.xml
+- res/layout/abc_action_menu_item_layout.xml
+- res/layout/abc_action_menu_layout.xml
+- res/layout/abc_action_mode_bar.xml
+- res/layout/abc_action_mode_close_item_material.xml
+- res/layout/abc_alert_dialog_button_bar_material.xml
+- res/layout/abc_alert_dialog_material.xml
+- res/layout/abc_alert_dialog_title_material.xml
+- res/layout/abc_cascading_menu_item_layout.xml
+- res/layout/abc_dialog_title_material.xml
+- res/layout/abc_expanded_menu_layout.xml
+- res/layout/abc_list_menu_item_checkbox.xml
+- res/layout/abc_list_menu_item_icon.xml
+- res/layout/abc_list_menu_item_layout.xml
+- res/layout/abc_list_menu_item_radio.xml
+- res/layout/abc_popup_menu_header_item_layout.xml
+- res/layout/abc_popup_menu_item_layout.xml
+- res/layout/abc_screen_content_include.xml
+- res/layout/abc_screen_simple.xml
+- res/layout/abc_screen_simple_overlay_action_mode.xml
+- res/layout/abc_screen_toolbar.xml
+- res/layout/abc_search_dropdown_item_icons_2line.xml
+- res/layout/abc_search_view.xml
+- res/layout/abc_select_dialog_material.xml
+- res/layout/activity_main.xml
+- res/layout/autotimer_tutorial_layout.xml
+- res/layout/bottom_bar_layout.xml
+- res/layout/camera.xml
+- res/layout/camera_overlay.xml
+- res/layout/design_menu_item_action_area.xml
+- res/layout/design_navigation_menu_item.xml
+- res/layout/design_text_input_end_icon.xml
+- res/layout/design_text_input_start_icon.xml
+- res/layout/education_toast_layout.xml
+- res/layout/education_toast_view_layout.xml
+- res/layout/evcomp.xml
+- res/layout/filmstrip_burst.xml
+- res/layout/filmstrip_video.xml
+- res/layout/focus_indicator_view_contents.xml
+- res/layout/hide.xml
+- res/layout/intent.xml
+- res/layout/large_progress_overlay.xml
+- res/layout/libraries_social_licenses_license.xml
+- res/layout/libraries_social_licenses_license_activity.xml
+- res/layout/libraries_social_licenses_license_menu_activity.xml
+- res/layout/libraries_social_licenses_license_menu_fragment.xml
+- res/layout/mcfly.xml
+- res/layout/mcfly_layout.xml
+- res/layout/mcfly_thumbnail.xml
+- res/layout/mode_name.xml
+- res/layout/mode_switcher_layout.xml
+- res/layout/more_modes_item.xml
+- res/layout/mtrl_alert_dialog.xml
+- res/layout/mtrl_alert_dialog_actions.xml
+- res/layout/mtrl_alert_dialog_title.xml
+- res/layout/mtrl_alert_select_dialog_item.xml
+- res/layout/mtrl_alert_select_dialog_multichoice.xml
+- res/layout/mtrl_alert_select_dialog_singlechoice.xml
+- res/layout/mtrl_calendar_day.xml
+- res/layout/mtrl_calendar_days_of_week.xml
+- res/layout/mtrl_calendar_day_of_week.xml
+- res/layout/mtrl_calendar_horizontal.xml
+- res/layout/mtrl_calendar_month.xml
+- res/layout/mtrl_calendar_months.xml
+- res/layout/mtrl_calendar_month_labeled.xml
+- res/layout/mtrl_calendar_month_navigation.xml
+- res/layout/mtrl_calendar_vertical.xml
+- res/layout/mtrl_calendar_year.xml
+- res/layout/mtrl_picker_actions.xml
+- res/layout/mtrl_picker_dialog.xml
+- res/layout/mtrl_picker_fullscreen.xml
+- res/layout/mtrl_picker_header_dialog.xml
+- res/layout/mtrl_picker_header_fullscreen.xml
+- res/layout/mtrl_picker_header_selection_text.xml
+- res/layout/mtrl_picker_header_title_text.xml
+- res/layout/mtrl_picker_header_toggle.xml
+- res/layout/notification_chip_layout.xml
+- res/layout/options_menu_container.xml
+- res/layout/options_menu_layout.xml
+- res/layout/pano_module.xml
+- res/layout/photosphere_calibration_overlay.xml
+- res/layout/photo_item_view.xml
+- res/layout/preference.xml
+- res/layout/preference_about.xml
+- res/layout/preference_about_info.xml
+- res/layout/preference_category_first_layout.xml
+- res/layout/preference_category_layout.xml
+- res/layout/preference_frequent_faces.xml
+- res/layout/preference_gamma.xml
+- res/layout/preference_note_center.xml
+- res/layout/preference_seekbar.xml
+- res/layout/preference_tone.xml
+- res/layout/preference_updates.xml
+- res/layout/preference_version.xml
+- res/layout/preference_with_action_button.xml
+- res/layout/preference_with_button.xml
+- res/layout/preference_with_button_info.xml
+- res/layout/preference_with_button_more.xml
+- res/layout/preference_with_margin.xml
+- res/layout/preference_with_margin_dependent.xml
+- res/layout/preference_with_margin_libpatcher_learnmore.xml
+- res/layout/preference_with_social_app_margin.xml
+- res/layout/preference_with_switch_button.xml
+- res/layout/preference_with_switch_button_dynamic.xml
+- res/layout/progress_overlay.xml
+- res/layout/remote_control.xml
+- res/layout/remote_control_view_contents.xml
+- res/layout/search_view_preference.xml
+- res/layout/secure_album_placeholder.xml
+- res/layout/select_dialog_item_material.xml
+- res/layout/select_dialog_multichoice_material.xml
+- res/layout/select_dialog_singlechoice_material.xml
+- res/layout/settings_activity_layout.xml
+- res/layout/smarts_layout.xml
+- res/layout/social_root_layout.xml
+- res/layout/support_simple_spinner_dropdown_item.xml
+- res/layout/toast_layout.xml
+- res/layout/toast_view_layout.xml
+- res/layout/videoplayer_activity_main.xml
+- res/layout/videoplayer_fragment.xml
+- res/layout/zoom_ui_layout.xml
+- res/mipmap/adaptiveproduct_pixelcamera_launcher.xml
+- ogg
+- res/xml/camera_preferences.xml
+- res/xml/phenotype_release.xml
+- res/xml/shortcuts.xml
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '27'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  pinlist.meta: '8'
+  org/joda/time/format/messages.properties: '0'
+  org/joda/time/format/messages_da.properties: '0'
+  org/joda/time/format/messages_de.properties: '0'
+  org/joda/time/format/messages_en.properties: '0'
+  org/joda/time/format/messages_es.properties: '0'
+  org/joda/time/format/messages_fr.properties: '0'
+  org/joda/time/format/messages_ja.properties: '0'
+  org/joda/time/format/messages_nl.properties: '0'
+  org/joda/time/format/messages_pt.properties: '0'
+  org/joda/time/tz/data/CET: '0'
+  org/joda/time/tz/data/CST6CDT: '0'
+  org/joda/time/tz/data/EET: '0'
+  org/joda/time/tz/data/EST: '0'
+  org/joda/time/tz/data/EST5EDT: '0'
+  org/joda/time/tz/data/HST: '0'
+  org/joda/time/tz/data/MET: '0'
+  org/joda/time/tz/data/MST: '0'
+  org/joda/time/tz/data/MST7MDT: '0'
+  org/joda/time/tz/data/PST8PDT: '0'
+  org/joda/time/tz/data/WET: '0'
+  org/joda/time/tz/data/ZoneInfoMap: '0'
+  org/joda/time/tz/data/Africa/Abidjan: '0'
+  org/joda/time/tz/data/Africa/Accra: '0'
+  org/joda/time/tz/data/Africa/Algiers: '0'
+  org/joda/time/tz/data/Africa/Bissau: '0'
+  org/joda/time/tz/data/Africa/Cairo: '0'
+  org/joda/time/tz/data/Africa/Casablanca: '0'
+  org/joda/time/tz/data/Africa/Ceuta: '0'
+  org/joda/time/tz/data/Africa/El_Aaiun: '0'
+  org/joda/time/tz/data/Africa/Johannesburg: '0'
+  org/joda/time/tz/data/Africa/Juba: '0'
+  org/joda/time/tz/data/Africa/Khartoum: '0'
+  org/joda/time/tz/data/Africa/Lagos: '0'
+  org/joda/time/tz/data/Africa/Maputo: '0'
+  org/joda/time/tz/data/Africa/Monrovia: '0'
+  org/joda/time/tz/data/Africa/Nairobi: '0'
+  org/joda/time/tz/data/Africa/Ndjamena: '0'
+  org/joda/time/tz/data/Africa/Sao_Tome: '0'
+  org/joda/time/tz/data/Africa/Tripoli: '0'
+  org/joda/time/tz/data/Africa/Tunis: '0'
+  org/joda/time/tz/data/Africa/Windhoek: '0'
+  org/joda/time/tz/data/America/Adak: '0'
+  org/joda/time/tz/data/America/Anchorage: '0'
+  org/joda/time/tz/data/America/Araguaina: '0'
+  org/joda/time/tz/data/America/Asuncion: '0'
+  org/joda/time/tz/data/America/Atikokan: '0'
+  org/joda/time/tz/data/America/Bahia: '0'
+  org/joda/time/tz/data/America/Bahia_Banderas: '0'
+  org/joda/time/tz/data/America/Barbados: '0'
+  org/joda/time/tz/data/America/Belem: '0'
+  org/joda/time/tz/data/America/Belize: '0'
+  org/joda/time/tz/data/America/Blanc-Sablon: '0'
+  org/joda/time/tz/data/America/Boa_Vista: '0'
+  org/joda/time/tz/data/America/Bogota: '0'
+  org/joda/time/tz/data/America/Boise: '0'
+  org/joda/time/tz/data/America/Cambridge_Bay: '0'
+  org/joda/time/tz/data/America/Campo_Grande: '0'
+  org/joda/time/tz/data/America/Cancun: '0'
+  org/joda/time/tz/data/America/Caracas: '0'
+  org/joda/time/tz/data/America/Cayenne: '0'
+  org/joda/time/tz/data/America/Chicago: '0'
+  org/joda/time/tz/data/America/Chihuahua: '0'
+  org/joda/time/tz/data/America/Costa_Rica: '0'
+  org/joda/time/tz/data/America/Creston: '0'
+  org/joda/time/tz/data/America/Cuiaba: '0'
+  org/joda/time/tz/data/America/Curacao: '0'
+  org/joda/time/tz/data/America/Danmarkshavn: '0'
+  org/joda/time/tz/data/America/Dawson: '0'
+  org/joda/time/tz/data/America/Dawson_Creek: '0'
+  org/joda/time/tz/data/America/Denver: '0'
+  org/joda/time/tz/data/America/Detroit: '0'
+  org/joda/time/tz/data/America/Edmonton: '0'
+  org/joda/time/tz/data/America/Eirunepe: '0'
+  org/joda/time/tz/data/America/El_Salvador: '0'
+  org/joda/time/tz/data/America/Fortaleza: '0'
+  org/joda/time/tz/data/America/Fort_Nelson: '0'
+  org/joda/time/tz/data/America/Glace_Bay: '0'
+  org/joda/time/tz/data/America/Godthab: '0'
+  org/joda/time/tz/data/America/Goose_Bay: '0'
+  org/joda/time/tz/data/America/Grand_Turk: '0'
+  org/joda/time/tz/data/America/Guatemala: '0'
+  org/joda/time/tz/data/America/Guayaquil: '0'
+  org/joda/time/tz/data/America/Guyana: '0'
+  org/joda/time/tz/data/America/Halifax: '0'
+  org/joda/time/tz/data/America/Havana: '0'
+  org/joda/time/tz/data/America/Hermosillo: '0'
+  org/joda/time/tz/data/America/Inuvik: '0'
+  org/joda/time/tz/data/America/Iqaluit: '0'
+  org/joda/time/tz/data/America/Jamaica: '0'
+  org/joda/time/tz/data/America/Juneau: '0'
+  org/joda/time/tz/data/America/La_Paz: '0'
+  org/joda/time/tz/data/America/Lima: '0'
+  org/joda/time/tz/data/America/Los_Angeles: '0'
+  org/joda/time/tz/data/America/Maceio: '0'
+  org/joda/time/tz/data/America/Managua: '0'
+  org/joda/time/tz/data/America/Manaus: '0'
+  org/joda/time/tz/data/America/Martinique: '0'
+  org/joda/time/tz/data/America/Matamoros: '0'
+  org/joda/time/tz/data/America/Mazatlan: '0'
+  org/joda/time/tz/data/America/Menominee: '0'
+  org/joda/time/tz/data/America/Merida: '0'
+  org/joda/time/tz/data/America/Metlakatla: '0'
+  org/joda/time/tz/data/America/Mexico_City: '0'
+  org/joda/time/tz/data/America/Miquelon: '0'
+  org/joda/time/tz/data/America/Moncton: '0'
+  org/joda/time/tz/data/America/Monterrey: '0'
+  org/joda/time/tz/data/America/Montevideo: '0'
+  org/joda/time/tz/data/America/Nassau: '0'
+  org/joda/time/tz/data/America/New_York: '0'
+  org/joda/time/tz/data/America/Nipigon: '0'
+  org/joda/time/tz/data/America/Nome: '0'
+  org/joda/time/tz/data/America/Noronha: '0'
+  org/joda/time/tz/data/America/Ojinaga: '0'
+  org/joda/time/tz/data/America/Panama: '0'
+  org/joda/time/tz/data/America/Pangnirtung: '0'
+  org/joda/time/tz/data/America/Paramaribo: '0'
+  org/joda/time/tz/data/America/Phoenix: '0'
+  org/joda/time/tz/data/America/Port-au-Prince: '0'
+  org/joda/time/tz/data/America/Porto_Velho: '0'
+  org/joda/time/tz/data/America/Port_of_Spain: '0'
+  org/joda/time/tz/data/America/Puerto_Rico: '0'
+  org/joda/time/tz/data/America/Punta_Arenas: '0'
+  org/joda/time/tz/data/America/Rainy_River: '0'
+  org/joda/time/tz/data/America/Rankin_Inlet: '0'
+  org/joda/time/tz/data/America/Recife: '0'
+  org/joda/time/tz/data/America/Regina: '0'
+  org/joda/time/tz/data/America/Resolute: '0'
+  org/joda/time/tz/data/America/Rio_Branco: '0'
+  org/joda/time/tz/data/America/Santarem: '0'
+  org/joda/time/tz/data/America/Santiago: '0'
+  org/joda/time/tz/data/America/Santo_Domingo: '0'
+  org/joda/time/tz/data/America/Sao_Paulo: '0'
+  org/joda/time/tz/data/America/Scoresbysund: '0'
+  org/joda/time/tz/data/America/Sitka: '0'
+  org/joda/time/tz/data/America/St_Johns: '0'
+  org/joda/time/tz/data/America/Swift_Current: '0'
+  org/joda/time/tz/data/America/Tegucigalpa: '0'
+  org/joda/time/tz/data/America/Thule: '0'
+  org/joda/time/tz/data/America/Thunder_Bay: '0'
+  org/joda/time/tz/data/America/Tijuana: '0'
+  org/joda/time/tz/data/America/Toronto: '0'
+  org/joda/time/tz/data/America/Vancouver: '0'
+  org/joda/time/tz/data/America/Whitehorse: '0'
+  org/joda/time/tz/data/America/Winnipeg: '0'
+  org/joda/time/tz/data/America/Yakutat: '0'
+  org/joda/time/tz/data/America/Yellowknife: '0'
+  org/joda/time/tz/data/America/Argentina/Buenos_Aires: '0'
+  org/joda/time/tz/data/America/Argentina/Catamarca: '0'
+  org/joda/time/tz/data/America/Argentina/Cordoba: '0'
+  org/joda/time/tz/data/America/Argentina/Jujuy: '0'
+  org/joda/time/tz/data/America/Argentina/La_Rioja: '0'
+  org/joda/time/tz/data/America/Argentina/Mendoza: '0'
+  org/joda/time/tz/data/America/Argentina/Rio_Gallegos: '0'
+  org/joda/time/tz/data/America/Argentina/Salta: '0'
+  org/joda/time/tz/data/America/Argentina/San_Juan: '0'
+  org/joda/time/tz/data/America/Argentina/San_Luis: '0'
+  org/joda/time/tz/data/America/Argentina/Tucuman: '0'
+  org/joda/time/tz/data/America/Argentina/Ushuaia: '0'
+  org/joda/time/tz/data/America/Indiana/Indianapolis: '0'
+  org/joda/time/tz/data/America/Indiana/Knox: '0'
+  org/joda/time/tz/data/America/Indiana/Marengo: '0'
+  org/joda/time/tz/data/America/Indiana/Petersburg: '0'
+  org/joda/time/tz/data/America/Indiana/Tell_City: '0'
+  org/joda/time/tz/data/America/Indiana/Vevay: '0'
+  org/joda/time/tz/data/America/Indiana/Vincennes: '0'
+  org/joda/time/tz/data/America/Indiana/Winamac: '0'
+  org/joda/time/tz/data/America/Kentucky/Louisville: '0'
+  org/joda/time/tz/data/America/Kentucky/Monticello: '0'
+  org/joda/time/tz/data/America/North_Dakota/Beulah: '0'
+  org/joda/time/tz/data/America/North_Dakota/Center: '0'
+  org/joda/time/tz/data/America/North_Dakota/New_Salem: '0'
+  org/joda/time/tz/data/Antarctica/Casey: '0'
+  org/joda/time/tz/data/Antarctica/Davis: '0'
+  org/joda/time/tz/data/Antarctica/DumontDUrville: '0'
+  org/joda/time/tz/data/Antarctica/Macquarie: '0'
+  org/joda/time/tz/data/Antarctica/Mawson: '0'
+  org/joda/time/tz/data/Antarctica/Palmer: '0'
+  org/joda/time/tz/data/Antarctica/Rothera: '0'
+  org/joda/time/tz/data/Antarctica/Syowa: '0'
+  org/joda/time/tz/data/Antarctica/Troll: '0'
+  org/joda/time/tz/data/Antarctica/Vostok: '0'
+  org/joda/time/tz/data/Asia/Almaty: '0'
+  org/joda/time/tz/data/Asia/Amman: '0'
+  org/joda/time/tz/data/Asia/Anadyr: '0'
+  org/joda/time/tz/data/Asia/Aqtau: '0'
+  org/joda/time/tz/data/Asia/Aqtobe: '0'
+  org/joda/time/tz/data/Asia/Ashgabat: '0'
+  org/joda/time/tz/data/Asia/Atyrau: '0'
+  org/joda/time/tz/data/Asia/Baghdad: '0'
+  org/joda/time/tz/data/Asia/Baku: '0'
+  org/joda/time/tz/data/Asia/Bangkok: '0'
+  org/joda/time/tz/data/Asia/Barnaul: '0'
+  org/joda/time/tz/data/Asia/Beirut: '0'
+  org/joda/time/tz/data/Asia/Bishkek: '0'
+  org/joda/time/tz/data/Asia/Brunei: '0'
+  org/joda/time/tz/data/Asia/Chita: '0'
+  org/joda/time/tz/data/Asia/Choibalsan: '0'
+  org/joda/time/tz/data/Asia/Colombo: '0'
+  org/joda/time/tz/data/Asia/Damascus: '0'
+  org/joda/time/tz/data/Asia/Dhaka: '0'
+  org/joda/time/tz/data/Asia/Dili: '0'
+  org/joda/time/tz/data/Asia/Dubai: '0'
+  org/joda/time/tz/data/Asia/Dushanbe: '0'
+  org/joda/time/tz/data/Asia/Famagusta: '0'
+  org/joda/time/tz/data/Asia/Gaza: '0'
+  org/joda/time/tz/data/Asia/Hebron: '0'
+  org/joda/time/tz/data/Asia/Hong_Kong: '0'
+  org/joda/time/tz/data/Asia/Hovd: '0'
+  org/joda/time/tz/data/Asia/Ho_Chi_Minh: '0'
+  org/joda/time/tz/data/Asia/Irkutsk: '0'
+  org/joda/time/tz/data/Asia/Jakarta: '0'
+  org/joda/time/tz/data/Asia/Jayapura: '0'
+  org/joda/time/tz/data/Asia/Jerusalem: '0'
+  org/joda/time/tz/data/Asia/Kabul: '0'
+  org/joda/time/tz/data/Asia/Kamchatka: '0'
+  org/joda/time/tz/data/Asia/Karachi: '0'
+  org/joda/time/tz/data/Asia/Kathmandu: '0'
+  org/joda/time/tz/data/Asia/Khandyga: '0'
+  org/joda/time/tz/data/Asia/Kolkata: '0'
+  org/joda/time/tz/data/Asia/Krasnoyarsk: '0'
+  org/joda/time/tz/data/Asia/Kuala_Lumpur: '0'
+  org/joda/time/tz/data/Asia/Kuching: '0'
+  org/joda/time/tz/data/Asia/Macau: '0'
+  org/joda/time/tz/data/Asia/Magadan: '0'
+  org/joda/time/tz/data/Asia/Makassar: '0'
+  org/joda/time/tz/data/Asia/Manila: '0'
+  org/joda/time/tz/data/Asia/Nicosia: '0'
+  org/joda/time/tz/data/Asia/Novokuznetsk: '0'
+  org/joda/time/tz/data/Asia/Novosibirsk: '0'
+  org/joda/time/tz/data/Asia/Omsk: '0'
+  org/joda/time/tz/data/Asia/Oral: '0'
+  org/joda/time/tz/data/Asia/Pontianak: '0'
+  org/joda/time/tz/data/Asia/Pyongyang: '0'
+  org/joda/time/tz/data/Asia/Qatar: '0'
+  org/joda/time/tz/data/Asia/Qostanay: '0'
+  org/joda/time/tz/data/Asia/Qyzylorda: '0'
+  org/joda/time/tz/data/Asia/Riyadh: '0'
+  org/joda/time/tz/data/Asia/Sakhalin: '0'
+  org/joda/time/tz/data/Asia/Samarkand: '0'
+  org/joda/time/tz/data/Asia/Seoul: '0'
+  org/joda/time/tz/data/Asia/Shanghai: '0'
+  org/joda/time/tz/data/Asia/Singapore: '0'
+  org/joda/time/tz/data/Asia/Srednekolymsk: '0'
+  org/joda/time/tz/data/Asia/Taipei: '0'
+  org/joda/time/tz/data/Asia/Tashkent: '0'
+  org/joda/time/tz/data/Asia/Tbilisi: '0'
+  org/joda/time/tz/data/Asia/Tehran: '0'
+  org/joda/time/tz/data/Asia/Thimphu: '0'
+  org/joda/time/tz/data/Asia/Tokyo: '0'
+  org/joda/time/tz/data/Asia/Tomsk: '0'
+  org/joda/time/tz/data/Asia/Ulaanbaatar: '0'
+  org/joda/time/tz/data/Asia/Urumqi: '0'
+  org/joda/time/tz/data/Asia/Ust-Nera: '0'
+  org/joda/time/tz/data/Asia/Vladivostok: '0'
+  org/joda/time/tz/data/Asia/Yakutsk: '0'
+  org/joda/time/tz/data/Asia/Yangon: '0'
+  org/joda/time/tz/data/Asia/Yekaterinburg: '0'
+  org/joda/time/tz/data/Asia/Yerevan: '0'
+  org/joda/time/tz/data/Atlantic/Azores: '0'
+  org/joda/time/tz/data/Atlantic/Bermuda: '0'
+  org/joda/time/tz/data/Atlantic/Canary: '0'
+  org/joda/time/tz/data/Atlantic/Cape_Verde: '0'
+  org/joda/time/tz/data/Atlantic/Faroe: '0'
+  org/joda/time/tz/data/Atlantic/Madeira: '0'
+  org/joda/time/tz/data/Atlantic/Reykjavik: '0'
+  org/joda/time/tz/data/Atlantic/South_Georgia: '0'
+  org/joda/time/tz/data/Atlantic/Stanley: '0'
+  org/joda/time/tz/data/Australia/Adelaide: '0'
+  org/joda/time/tz/data/Australia/Brisbane: '0'
+  org/joda/time/tz/data/Australia/Broken_Hill: '0'
+  org/joda/time/tz/data/Australia/Currie: '0'
+  org/joda/time/tz/data/Australia/Darwin: '0'
+  org/joda/time/tz/data/Australia/Eucla: '0'
+  org/joda/time/tz/data/Australia/Hobart: '0'
+  org/joda/time/tz/data/Australia/Lindeman: '0'
+  org/joda/time/tz/data/Australia/Lord_Howe: '0'
+  org/joda/time/tz/data/Australia/Melbourne: '0'
+  org/joda/time/tz/data/Australia/Perth: '0'
+  org/joda/time/tz/data/Australia/Sydney: '0'
+  org/joda/time/tz/data/Etc/GMT: '0'
+  org/joda/time/tz/data/Etc/GMT+1: '0'
+  org/joda/time/tz/data/Etc/GMT+10: '0'
+  org/joda/time/tz/data/Etc/GMT+11: '0'
+  org/joda/time/tz/data/Etc/GMT+12: '0'
+  org/joda/time/tz/data/Etc/GMT+2: '0'
+  org/joda/time/tz/data/Etc/GMT+3: '0'
+  org/joda/time/tz/data/Etc/GMT+4: '0'
+  org/joda/time/tz/data/Etc/GMT+5: '0'
+  org/joda/time/tz/data/Etc/GMT+6: '0'
+  org/joda/time/tz/data/Etc/GMT+7: '0'
+  org/joda/time/tz/data/Etc/GMT+8: '0'
+  org/joda/time/tz/data/Etc/GMT+9: '0'
+  org/joda/time/tz/data/Etc/GMT-1: '0'
+  org/joda/time/tz/data/Etc/GMT-10: '0'
+  org/joda/time/tz/data/Etc/GMT-11: '0'
+  org/joda/time/tz/data/Etc/GMT-12: '0'
+  org/joda/time/tz/data/Etc/GMT-13: '0'
+  org/joda/time/tz/data/Etc/GMT-14: '0'
+  org/joda/time/tz/data/Etc/GMT-2: '0'
+  org/joda/time/tz/data/Etc/GMT-3: '0'
+  org/joda/time/tz/data/Etc/GMT-4: '0'
+  org/joda/time/tz/data/Etc/GMT-5: '0'
+  org/joda/time/tz/data/Etc/GMT-6: '0'
+  org/joda/time/tz/data/Etc/GMT-7: '0'
+  org/joda/time/tz/data/Etc/GMT-8: '0'
+  org/joda/time/tz/data/Etc/GMT-9: '0'
+  org/joda/time/tz/data/Etc/UTC: '0'
+  org/joda/time/tz/data/Europe/Amsterdam: '0'
+  org/joda/time/tz/data/Europe/Andorra: '0'
+  org/joda/time/tz/data/Europe/Astrakhan: '0'
+  org/joda/time/tz/data/Europe/Athens: '0'
+  org/joda/time/tz/data/Europe/Belgrade: '0'
+  org/joda/time/tz/data/Europe/Berlin: '0'
+  org/joda/time/tz/data/Europe/Brussels: '0'
+  org/joda/time/tz/data/Europe/Bucharest: '0'
+  org/joda/time/tz/data/Europe/Budapest: '0'
+  org/joda/time/tz/data/Europe/Chisinau: '0'
+  org/joda/time/tz/data/Europe/Copenhagen: '0'
+  org/joda/time/tz/data/Europe/Dublin: '0'
+  org/joda/time/tz/data/Europe/Gibraltar: '0'
+  org/joda/time/tz/data/Europe/Helsinki: '0'
+  org/joda/time/tz/data/Europe/Istanbul: '0'
+  org/joda/time/tz/data/Europe/Kaliningrad: '0'
+  org/joda/time/tz/data/Europe/Kiev: '0'
+  org/joda/time/tz/data/Europe/Kirov: '0'
+  org/joda/time/tz/data/Europe/Lisbon: '0'
+  org/joda/time/tz/data/Europe/London: '0'
+  org/joda/time/tz/data/Europe/Luxembourg: '0'
+  org/joda/time/tz/data/Europe/Madrid: '0'
+  org/joda/time/tz/data/Europe/Malta: '0'
+  org/joda/time/tz/data/Europe/Minsk: '0'
+  org/joda/time/tz/data/Europe/Monaco: '0'
+  org/joda/time/tz/data/Europe/Moscow: '0'
+  org/joda/time/tz/data/Europe/Oslo: '0'
+  org/joda/time/tz/data/Europe/Paris: '0'
+  org/joda/time/tz/data/Europe/Prague: '0'
+  org/joda/time/tz/data/Europe/Riga: '0'
+  org/joda/time/tz/data/Europe/Rome: '0'
+  org/joda/time/tz/data/Europe/Samara: '0'
+  org/joda/time/tz/data/Europe/Saratov: '0'
+  org/joda/time/tz/data/Europe/Simferopol: '0'
+  org/joda/time/tz/data/Europe/Sofia: '0'
+  org/joda/time/tz/data/Europe/Stockholm: '0'
+  org/joda/time/tz/data/Europe/Tallinn: '0'
+  org/joda/time/tz/data/Europe/Tirane: '0'
+  org/joda/time/tz/data/Europe/Ulyanovsk: '0'
+  org/joda/time/tz/data/Europe/Uzhgorod: '0'
+  org/joda/time/tz/data/Europe/Vienna: '0'
+  org/joda/time/tz/data/Europe/Vilnius: '0'
+  org/joda/time/tz/data/Europe/Volgograd: '0'
+  org/joda/time/tz/data/Europe/Warsaw: '0'
+  org/joda/time/tz/data/Europe/Zaporozhye: '0'
+  org/joda/time/tz/data/Europe/Zurich: '0'
+  org/joda/time/tz/data/Indian/Chagos: '0'
+  org/joda/time/tz/data/Indian/Christmas: '0'
+  org/joda/time/tz/data/Indian/Cocos: '0'
+  org/joda/time/tz/data/Indian/Kerguelen: '0'
+  org/joda/time/tz/data/Indian/Mahe: '0'
+  org/joda/time/tz/data/Indian/Maldives: '0'
+  org/joda/time/tz/data/Indian/Mauritius: '0'
+  org/joda/time/tz/data/Indian/Reunion: '0'
+  org/joda/time/tz/data/Pacific/Apia: '0'
+  org/joda/time/tz/data/Pacific/Auckland: '0'
+  org/joda/time/tz/data/Pacific/Bougainville: '0'
+  org/joda/time/tz/data/Pacific/Chatham: '0'
+  org/joda/time/tz/data/Pacific/Chuuk: '0'
+  org/joda/time/tz/data/Pacific/Easter: '0'
+  org/joda/time/tz/data/Pacific/Efate: '0'
+  org/joda/time/tz/data/Pacific/Enderbury: '0'
+  org/joda/time/tz/data/Pacific/Fakaofo: '0'
+  org/joda/time/tz/data/Pacific/Fiji: '0'
+  org/joda/time/tz/data/Pacific/Funafuti: '0'
+  org/joda/time/tz/data/Pacific/Galapagos: '0'
+  org/joda/time/tz/data/Pacific/Gambier: '0'
+  org/joda/time/tz/data/Pacific/Guadalcanal: '0'
+  org/joda/time/tz/data/Pacific/Guam: '0'
+  org/joda/time/tz/data/Pacific/Honolulu: '0'
+  org/joda/time/tz/data/Pacific/Kiritimati: '0'
+  org/joda/time/tz/data/Pacific/Kosrae: '0'
+  org/joda/time/tz/data/Pacific/Kwajalein: '0'
+  org/joda/time/tz/data/Pacific/Majuro: '0'
+  org/joda/time/tz/data/Pacific/Marquesas: '0'
+  org/joda/time/tz/data/Pacific/Nauru: '0'
+  org/joda/time/tz/data/Pacific/Niue: '0'
+  org/joda/time/tz/data/Pacific/Norfolk: '0'
+  org/joda/time/tz/data/Pacific/Noumea: '0'
+  org/joda/time/tz/data/Pacific/Pago_Pago: '0'
+  org/joda/time/tz/data/Pacific/Palau: '0'
+  org/joda/time/tz/data/Pacific/Pitcairn: '0'
+  org/joda/time/tz/data/Pacific/Pohnpei: '0'
+  org/joda/time/tz/data/Pacific/Port_Moresby: '0'
+  org/joda/time/tz/data/Pacific/Rarotonga: '0'
+  org/joda/time/tz/data/Pacific/Tahiti: '0'
+  org/joda/time/tz/data/Pacific/Tarawa: '0'
+  org/joda/time/tz/data/Pacific/Tongatapu: '0'
+  org/joda/time/tz/data/Pacific/Wake: '0'
+  org/joda/time/tz/data/Pacific/Wallis: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '61059984'
+  versionName: 7.4.104.314953318

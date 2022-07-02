@@ -1,0 +1,11 @@
+.class public interface abstract Lmjd;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lmjp;
+
+
+# virtual methods
+.method public varargs abstract a([Ljava/lang/Object;)V
+.end method

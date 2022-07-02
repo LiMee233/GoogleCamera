@@ -1,0 +1,11 @@
+.class public interface abstract Lnmb;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lnka;
+
+
+# virtual methods
+.method public abstract a()V
+.end method

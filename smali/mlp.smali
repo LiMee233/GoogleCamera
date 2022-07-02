@@ -1,0 +1,11 @@
+.class public interface abstract Lmlp;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lmlc;
+
+
+# virtual methods
+.method public abstract a()Ljava/util/List;
+.end method

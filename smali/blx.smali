@@ -1,0 +1,89 @@
+.class public final Lblx;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lbly;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    invoke-direct {v0}, Lbly;-><init>()V
+
+    goto/32 :goto_3
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    new-instance v0, Lbly;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    return-void
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    sput-object v0, Lblx;->a:Lbly;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+.end method

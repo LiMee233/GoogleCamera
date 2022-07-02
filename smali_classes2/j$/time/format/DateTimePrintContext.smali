@@ -1,0 +1,3495 @@
+.class final Lj$/time/format/DateTimePrintContext;
+.super Ljava/lang/Object;
+.source "DateTimePrintContext.java"
+
+
+# instance fields
+.field private formatter:Lj$/time/format/DateTimeFormatter;
+
+.field private optional:I
+
+.field private temporal:Lj$/time/temporal/TemporalAccessor;
+
+
+# direct methods
+.method constructor <init>(Lj$/time/temporal/TemporalAccessor;Lj$/time/format/DateTimeFormatter;)V
+    .locals 0
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    invoke-static {p1, p2}, Lj$/time/format/DateTimePrintContext;->adjust(Lj$/time/temporal/TemporalAccessor;Lj$/time/format/DateTimeFormatter;)Lj$/time/temporal/TemporalAccessor;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    iput-object p1, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_4
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    return-void
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4
+    iput-object p2, p0, Lj$/time/format/DateTimePrintContext;->formatter:Lj$/time/format/DateTimeFormatter;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_3
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method private static adjust(Lj$/time/temporal/TemporalAccessor;Lj$/time/format/DateTimeFormatter;)Lj$/time/temporal/TemporalAccessor;
+    .locals 8
+
+    goto/32 :goto_1f
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    if-lt v5, v1, :cond_0
+
+    nop
+
+    goto/32 :goto_8
+
+    nop
+
+    nop
+
+    :cond_0
+    goto/32 :goto_3a
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    if-eq v5, v6, :cond_1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2d
+
+    nop
+
+    nop
+
+    :cond_1
+    goto/32 :goto_2c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    invoke-virtual {v6}, Lj$/time/ZoneOffset;->getTotalSeconds()I
+
+    move-result v6
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    if-eqz p1, :cond_2
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_6e
+
+    nop
+
+    nop
+
+    :cond_2
+    goto/32 :goto_6d
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_1a
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5
+    add-int/lit16 v1, v1, 0x8d
+
+    nop
+
+    goto/32 :goto_5b
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6
+    if-eqz p1, :cond_3
+
+    nop
+
+    goto/32 :goto_33
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_3
+    goto/32 :goto_32
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7
+    goto/16 :goto_53
+
+    nop
+
+    :goto_8
+    goto/32 :goto_30
+
+    nop
+
+    nop
+
+    :goto_9
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_61
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_a
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_31
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_b
+    move-object v3, v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_c
+    add-int/2addr v1, v2
+
+    nop
+
+    nop
+
+    goto/32 :goto_48
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_d
+    invoke-static {}, Lj$/time/temporal/TemporalQueries;->zoneId()Lj$/time/temporal/TemporalQuery;
+
+    move-result-object v2
+
+    nop
+
+    nop
+
+    goto/32 :goto_7f
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_e
+    if-nez v7, :cond_4
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_3c
+
+    nop
+
+    :cond_4
+    goto/32 :goto_11
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_f
+    if-nez v5, :cond_5
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_60
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_5
+    goto/32 :goto_2b
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_10
+    sget-object p1, Lj$/time/chrono/IsoChronology;->INSTANCE:Lj$/time/chrono/IsoChronology;
+
+    nop
+
+    nop
+
+    goto/32 :goto_7c
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_11
+    invoke-interface {p0, v6}, Lj$/time/temporal/TemporalAccessor;->isSupported(Lj$/time/temporal/TemporalField;)Z
+
+    move-result v6
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_66
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_12
+    invoke-static {p0}, Lj$/time/Instant;->from(Lj$/time/temporal/TemporalAccessor;)Lj$/time/Instant;
+
+    move-result-object p0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_75
+
+    nop
+
+    nop
+
+    :goto_13
+    if-nez v3, :cond_6
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_4f
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_6
+    goto/32 :goto_4e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_14
+    invoke-interface {p0, v5}, Lj$/time/temporal/TemporalAccessor;->isSupported(Lj$/time/temporal/TemporalField;)Z
+
+    move-result v5
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_f
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_15
+    if-nez p1, :cond_7
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_1c
+
+    nop
+
+    nop
+
+    :cond_7
+    goto/32 :goto_5a
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_16
+    if-eqz v0, :cond_8
+
+    nop
+
+    goto/32 :goto_33
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_8
+    goto/32 :goto_6
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_17
+    array-length v1, p1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_52
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_18
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    nop
+
+    goto/32 :goto_47
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_19
+    if-nez v0, :cond_9
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_8
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_9
+    goto/32 :goto_70
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1a
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    nop
+
+    nop
+
+    goto/32 :goto_28
+
+    nop
+
+    nop
+
+    :goto_1b
+    throw v0
+
+    nop
+
+    nop
+
+    :goto_1c
+    goto/32 :goto_4a
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1d
+    new-instance v0, Lj$/time/DateTimeException;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_6c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1e
+    return-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1f
+    invoke-virtual {p1}, Lj$/time/format/DateTimeFormatter;->getChronology()Lj$/time/chrono/Chronology;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    goto/32 :goto_40
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_20
+    sget-object v3, Lj$/time/chrono/IsoChronology;->INSTANCE:Lj$/time/chrono/IsoChronology;
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_21
+    goto/32 :goto_12
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_22
+    if-nez v0, :cond_a
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2f
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_a
+    goto/32 :goto_b
+
+    nop
+
+    nop
+
+    :goto_23
+    if-eqz v0, :cond_b
+
+    nop
+
+    goto/32 :goto_6e
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_b
+    goto/32 :goto_3
+
+    nop
+
+    nop
+
+    :goto_24
+    invoke-static {v0, v1}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v3
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_44
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_25
+    check-cast v2, Lj$/time/ZoneId;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_24
+
+    nop
+
+    nop
+
+    :goto_26
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_78
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_27
+    invoke-virtual {v2}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_82
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_28
+    invoke-direct {p1, p0}, Lj$/time/DateTimeException;-><init>(Ljava/lang/String;)V
+
+    goto/32 :goto_3b
+
+    nop
+
+    nop
+
+    :goto_29
+    if-nez v1, :cond_c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_8
+
+    nop
+
+    :cond_c
+    :goto_2a
+    goto/32 :goto_4b
+
+    nop
+
+    nop
+
+    :goto_2b
+    if-nez v3, :cond_d
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_42
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_d
+    goto/32 :goto_41
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2c
+    goto/16 :goto_1c
+
+    nop
+
+    nop
+
+    :goto_2d
+    goto/32 :goto_1d
+
+    nop
+
+    nop
+
+    :goto_2e
+    goto/16 :goto_59
+
+    nop
+
+    :goto_2f
+    goto/32 :goto_58
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_30
+    new-instance p1, Lj$/time/format/DateTimePrintContext$1;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_77
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_31
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_7e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_32
+    return-object p0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_33
+    goto/32 :goto_22
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_34
+    if-nez v5, :cond_e
+
+    nop
+
+    goto/32 :goto_1c
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_e
+    goto/32 :goto_69
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_35
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    nop
+
+    goto/32 :goto_38
+
+    nop
+
+    nop
+
+    :goto_36
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    goto/32 :goto_a
+
+    nop
+
+    nop
+
+    :goto_37
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_39
+
+    nop
+
+    nop
+
+    :goto_38
+    add-int/lit16 v1, v1, 0x87
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_9
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_39
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_7a
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3a
+    aget-object v6, p1, v5
+
+    nop
+
+    nop
+
+    goto/32 :goto_3d
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3b
+    throw p1
+
+    nop
+
+    nop
+
+    :goto_3c
+    goto/32 :goto_64
+
+    nop
+
+    nop
+
+    :goto_3d
+    invoke-virtual {v6}, Lj$/time/temporal/ChronoField;->isDateBased()Z
+
+    move-result v7
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3e
+    goto :goto_3c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3f
+    goto/32 :goto_43
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_40
+    invoke-virtual {p1}, Lj$/time/format/DateTimeFormatter;->getZone()Lj$/time/ZoneId;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_23
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_41
+    goto/16 :goto_21
+
+    nop
+
+    :goto_42
+    goto/32 :goto_20
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_43
+    new-instance p1, Lj$/time/DateTimeException;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_36
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_44
+    const/4 v4, 0x0
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_46
+
+    nop
+
+    nop
+
+    :goto_45
+    invoke-interface {p0, v1}, Lj$/time/temporal/TemporalAccessor;->query(Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    nop
+
+    goto/32 :goto_5d
+
+    nop
+
+    nop
+
+    :goto_46
+    if-nez v3, :cond_f
+
+    nop
+
+    goto/32 :goto_68
+
+    nop
+
+    nop
+
+    :cond_f
+    goto/32 :goto_67
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_47
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    goto/32 :goto_55
+
+    nop
+
+    nop
+
+    :goto_48
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_54
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_49
+    if-nez p1, :cond_10
+
+    nop
+
+    goto/32 :goto_84
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_10
+    goto/32 :goto_6f
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4a
+    if-nez p1, :cond_11
+
+    nop
+
+    nop
+
+    goto/32 :goto_74
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_11
+    goto/32 :goto_73
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4b
+    invoke-static {}, Lj$/time/temporal/ChronoField;->values()[Lj$/time/temporal/ChronoField;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    goto/32 :goto_17
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4c
+    invoke-virtual {v6, v7}, Lj$/time/zone/ZoneRules;->getOffset(Lj$/time/Instant;)Lj$/time/ZoneOffset;
+
+    move-result-object v6
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4d
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_4
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4e
+    move-object p1, v4
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4f
+    goto/32 :goto_16
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_50
+    invoke-interface {p0, v5}, Lj$/time/temporal/TemporalAccessor;->get(Lj$/time/temporal/TemporalField;)I
+
+    move-result v5
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_51
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_51
+    invoke-virtual {p1}, Lj$/time/ZoneId;->getRules()Lj$/time/zone/ZoneRules;
+
+    move-result-object v6
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_5e
+
+    nop
+
+    nop
+
+    :goto_52
+    const/4 v5, 0x0
+
+    nop
+
+    :goto_53
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_54
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    goto/32 :goto_6a
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_55
+    const-string v1, "Unable to apply override chronology \'"
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_80
+
+    nop
+
+    nop
+
+    :goto_56
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_26
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_57
+    if-nez v5, :cond_12
+
+    nop
+
+    nop
+
+    goto/32 :goto_1c
+
+    nop
+
+    nop
+
+    :cond_12
+    goto/32 :goto_71
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_58
+    move-object v3, v1
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_59
+    goto/32 :goto_15
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5a
+    sget-object v5, Lj$/time/temporal/ChronoField;->INSTANT_SECONDS:Lj$/time/temporal/ChronoField;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_14
+
+    nop
+
+    nop
+
+    :goto_5b
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_27
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5c
+    invoke-virtual {p1}, Lj$/time/ZoneId;->normalized()Lj$/time/ZoneId;
+
+    move-result-object v5
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_72
+
+    nop
+
+    nop
+
+    :goto_5d
+    check-cast v1, Lj$/time/chrono/Chronology;
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_d
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5e
+    sget-object v7, Lj$/time/Instant;->EPOCH:Lj$/time/Instant;
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_4c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5f
+    return-object p0
+
+    nop
+
+    nop
+
+    :goto_60
+    goto/32 :goto_5c
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_61
+    invoke-virtual {v2}, Ljava/lang/String;->length()I
+
+    move-result v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_c
+
+    nop
+
+    nop
+
+    :goto_62
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_63
+
+    nop
+
+    nop
+
+    :goto_63
+    const-string v0, "\' because the temporal object being formatted contains date fields but does not represent a whole date: "
+
+    nop
+
+    goto/32 :goto_4d
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_64
+    add-int/lit8 v5, v5, 0x1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_7
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_65
+    invoke-direct {v0, p0}, Lj$/time/DateTimeException;-><init>(Ljava/lang/String;)V
+
+    goto/32 :goto_1b
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_66
+    if-eqz v6, :cond_13
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_3f
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_13
+    goto/32 :goto_3e
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_67
+    move-object v0, v4
+
+    nop
+
+    :goto_68
+    goto/32 :goto_6b
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_69
+    sget-object v5, Lj$/time/temporal/ChronoField;->OFFSET_SECONDS:Lj$/time/temporal/ChronoField;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_76
+
+    nop
+
+    nop
+
+    :goto_6a
+    const-string v1, "Unable to apply override zone \'"
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_56
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6b
+    invoke-static {p1, v2}, Lj$/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v3
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_13
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6c
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_7d
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6d
+    return-object p0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6e
+    goto/32 :goto_81
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6f
+    invoke-interface {v3, p0}, Lj$/time/chrono/Chronology;->date(Lj$/time/temporal/TemporalAccessor;)Lj$/time/chrono/ChronoLocalDate;
+
+    move-result-object v4
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_83
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_70
+    sget-object p1, Lj$/time/temporal/ChronoField;->EPOCH_DAY:Lj$/time/temporal/ChronoField;
+
+    nop
+
+    nop
+
+    goto/32 :goto_79
+
+    nop
+
+    nop
+
+    :goto_71
+    sget-object v5, Lj$/time/temporal/ChronoField;->OFFSET_SECONDS:Lj$/time/temporal/ChronoField;
+
+    nop
+
+    goto/32 :goto_50
+
+    nop
+
+    nop
+
+    :goto_72
+    instance-of v5, v5, Lj$/time/ZoneOffset;
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_34
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_73
+    move-object v2, p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_74
+    goto/32 :goto_19
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_75
+    invoke-interface {v3, p0, p1}, Lj$/time/chrono/Chronology;->zonedDateTime(Lj$/time/Instant;Lj$/time/ZoneId;)Lj$/time/chrono/ChronoZonedDateTime;
+
+    move-result-object p0
+
+    nop
+
+    nop
+
+    goto/32 :goto_5f
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_76
+    invoke-interface {p0, v5}, Lj$/time/temporal/TemporalAccessor;->isSupported(Lj$/time/temporal/TemporalField;)Z
+
+    move-result v5
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_57
+
+    nop
+
+    nop
+
+    :goto_77
+    invoke-direct {p1, v4, p0, v3, v2}, Lj$/time/format/DateTimePrintContext$1;-><init>(Lj$/time/chrono/ChronoLocalDate;Lj$/time/temporal/TemporalAccessor;Lj$/time/chrono/Chronology;Lj$/time/ZoneId;)V
+
+    goto/32 :goto_1e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_78
+    const-string p1, "\' because the temporal object being formatted has a different offset but does not represent an instant: "
+
+    nop
+
+    nop
+
+    goto/32 :goto_37
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_79
+    invoke-interface {p0, p1}, Lj$/time/temporal/TemporalAccessor;->isSupported(Lj$/time/temporal/TemporalField;)Z
+
+    move-result p1
+
+    nop
+
+    goto/32 :goto_49
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7a
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    nop
+
+    goto/32 :goto_65
+
+    nop
+
+    nop
+
+    :goto_7b
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    nop
+
+    goto/32 :goto_35
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7c
+    if-eq v0, p1, :cond_14
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2a
+
+    nop
+
+    nop
+
+    :cond_14
+    goto/32 :goto_29
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7d
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_7b
+
+    nop
+
+    nop
+
+    :goto_7e
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_5
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7f
+    invoke-interface {p0, v2}, Lj$/time/temporal/TemporalAccessor;->query(Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_25
+
+    nop
+
+    nop
+
+    :goto_80
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_62
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_81
+    invoke-static {}, Lj$/time/temporal/TemporalQueries;->chronology()Lj$/time/temporal/TemporalQuery;
+
+    move-result-object v1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_45
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_82
+    add-int/2addr v1, v2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_18
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_83
+    goto/16 :goto_8
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_84
+    goto/32 :goto_10
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+
+# virtual methods
+.method endOptional()V
+    .locals 1
+
+    goto/32 :goto_3
+
+    nop
+
+    nop
+
+    :goto_0
+    iput v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    add-int/lit8 v0, v0, -0x1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    return-void
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    iget v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method getDecimalStyle()Lj$/time/format/DecimalStyle;
+    .locals 1
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    return-object v0
+
+    nop
+
+    :goto_1
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->formatter:Lj$/time/format/DateTimeFormatter;
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    invoke-virtual {v0}, Lj$/time/format/DateTimeFormatter;->getDecimalStyle()Lj$/time/format/DecimalStyle;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method getLocale()Ljava/util/Locale;
+    .locals 1
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    invoke-virtual {v0}, Lj$/time/format/DateTimeFormatter;->getLocale()Ljava/util/Locale;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    :goto_1
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->formatter:Lj$/time/format/DateTimeFormatter;
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    return-object v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method getTemporal()Lj$/time/temporal/TemporalAccessor;
+    .locals 1
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    return-object v0
+
+    nop
+
+    :goto_1
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method getValue(Lj$/time/temporal/TemporalField;)Ljava/lang/Long;
+    .locals 2
+
+    :try_start_0
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    invoke-interface {v0, p1}, Lj$/time/temporal/TemporalAccessor;->getLong(Lj$/time/temporal/TemporalField;)J
+
+    move-result-wide v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    nop
+    :try_end_0
+    .catch Lj$/time/DateTimeException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    :goto_0
+    return-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    goto/32 :goto_4
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    return-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :catch_0
+    move-exception p1
+
+    nop
+
+    goto/32 :goto_5
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    const/4 p1, 0x0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_4
+    throw p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_5
+    iget v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    goto/32 :goto_6
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6
+    if-gtz v0, :cond_0
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    :cond_0
+    goto/32 :goto_3
+
+    nop
+
+    nop
+.end method
+
+.method getValue(Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
+    .locals 3
+
+    goto/32 :goto_a
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    throw p1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    goto/32 :goto_4
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    goto :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    goto/32 :goto_13
+
+    nop
+
+    nop
+
+    :goto_4
+    return-object p1
+
+    nop
+
+    nop
+
+    :goto_5
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_8
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_6
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    nop
+
+    goto/32 :goto_16
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_7
+    invoke-interface {v0, p1}, Lj$/time/temporal/TemporalAccessor;->query(Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_d
+
+    nop
+
+    nop
+
+    :goto_8
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto/32 :goto_f
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_9
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_17
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_a
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_7
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_b
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    goto/32 :goto_c
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_c
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_12
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_d
+    if-eqz p1, :cond_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :cond_0
+    goto/32 :goto_10
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_e
+    if-nez v0, :cond_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_3
+
+    nop
+
+    :cond_1
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_f
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_14
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_10
+    iget v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_e
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_11
+    const-string v1, "Unable to extract value: "
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_5
+
+    nop
+
+    nop
+
+    :goto_12
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    nop
+
+    nop
+
+    goto/32 :goto_15
+
+    nop
+
+    nop
+
+    :goto_13
+    new-instance p1, Lj$/time/DateTimeException;
+
+    nop
+
+    nop
+
+    goto/32 :goto_9
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_14
+    invoke-direct {p1, v0}, Lj$/time/DateTimeException;-><init>(Ljava/lang/String;)V
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_15
+    add-int/lit8 v1, v1, 0x19
+
+    nop
+
+    nop
+
+    goto/32 :goto_6
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_16
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    goto/32 :goto_11
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_17
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_b
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method startOptional()V
+    .locals 1
+
+    goto/32 :goto_3
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_0
+    iput v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_1
+    add-int/lit8 v0, v0, 0x1
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    return-void
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_3
+    iget v0, p0, Lj$/time/format/DateTimePrintContext;->optional:I
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 1
+
+    goto/32 :goto_2
+
+    nop
+
+    nop
+
+    :goto_0
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    nop
+
+    goto/32 :goto_1
+
+    nop
+
+    nop
+
+    :goto_1
+    return-object v0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    :goto_2
+    iget-object v0, p0, Lj$/time/format/DateTimePrintContext;->temporal:Lj$/time/temporal/TemporalAccessor;
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    goto/32 :goto_0
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+
+    nop
+.end method
