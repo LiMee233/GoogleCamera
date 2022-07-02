@@ -781,7 +781,6 @@ Néhány jegyzet:
     <string name="pref_focus_vf_category">Fókusz gombok</string>
     <string name="pref_restart">Használja az újraindítást</string>
     <string name="pref_viewfinder_format_title">A kereső formátumának módosítása</string>
-    <string name="pref_gcam_zlog_title">A naplók letiltása a /GCam /log fájlban</string>
     <string name="exposure_aux_title">Expozíció kompenzáció (Objektív Opciók)</string>
     <string name="pref_noisemodeler_title">Zajmodellező</string>
     <string name="pref_resampling_title">Újramintavétel: %s</string>

@@ -784,7 +784,6 @@
     <string name="pref_focus_vf_category">对焦按钮</string>
     <string name="pref_restart">使用重新启动</string>
     <string name="pref_viewfinder_format_title">更改取景器格式</string>
-    <string name="pref_gcam_zlog_title">停止在/GCam/log目录下保存log</string>
     <string name="exposure_aux_title">曝光补偿（镜头选项）</string>
     <string name="pref_noisemodeler_title">噪声建模器</string>
     <string name="pref_resampling_title">重采样: %s</string>

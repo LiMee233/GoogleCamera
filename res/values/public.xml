@@ -2220,7 +2220,6 @@
     <public type="drawable" name="mtrl_dropdown_arrow" id="0x7f0801ad" />
     <public type="drawable" name="mtrl_ic_arrow_drop_down" id="0x7f0801ae" />
     <public type="drawable" name="mtrl_ic_arrow_drop_up" id="0x7f0801af" />
-    <public type="drawable" name="mtrl_ic_cancel" id="0x7f0801b0" />
     <public type="drawable" name="mtrl_ic_error" id="0x7f0801b1" />
     <public type="drawable" name="mtrl_popupmenu_background" id="0x7f0801b2" />
     <public type="drawable" name="mtrl_popupmenu_background_dark" id="0x7f0801b3" />
@@ -4038,7 +4037,6 @@
     <public type="string" name="pref_focus_vf_category" id="0x7f1304ca" />
     <public type="string" name="pref_restart" id="0x7f1304cb" />
     <public type="string" name="pref_viewfinder_format_title" id="0x7f1304cc" />
-    <public type="string" name="pref_gcam_zlog_title" id="0x7f1304cd" />
     <public type="string" name="exposure_aux_title" id="0x7f1304ce" />
     <public type="string" name="pref_noisemodeler_title" id="0x7f1304cf" />
     <public type="string" name="pref_resampling_title" id="0x7f1304d0" />

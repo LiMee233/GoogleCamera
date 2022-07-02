@@ -784,7 +784,6 @@ Alcune note:
     <string name="pref_focus_vf_category">Pulsanti di messa a fuoco</string>
     <string name="pref_restart">Usa riavvio</string>
     <string name="pref_viewfinder_format_title">Cambia il formato del mirino</string>
-    <string name="pref_gcam_zlog_title">Disabilita i log in /GCam/log</string>
     <string name="exposure_aux_title">"Compensazione dell'esposizione (Opzioni Obiettivo)"</string>
     <string name="pref_noisemodeler_title">Modellatore del rumore</string>
     <string name="pref_resampling_title">Ricampionamento: %s</string>

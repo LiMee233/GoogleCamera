@@ -840,7 +840,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_focus_vf_category">Focus buttons</string>
     <string name="pref_restart">Use restart</string>
     <string name="pref_viewfinder_format_title">Change viewfinder format</string>
-    <string name="pref_gcam_zlog_title">Disable logs in /GCam/log</string>
     <string name="exposure_aux_title">Exposure Compensation (Lens Options)</string>
     <string name="pref_noisemodeler_title">Noise Modeler</string>
     <string name="pref_resampling_title">Resampling: %s</string>

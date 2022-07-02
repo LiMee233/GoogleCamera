@@ -783,7 +783,6 @@
     <string name="pref_focus_vf_category">Кнопки фокусировки</string>
     <string name="pref_restart">Использовать перезагрузку</string>
     <string name="pref_viewfinder_format_title">Изменить формат видоискателя</string>
-    <string name="pref_gcam_zlog_title">Выключить логи /GCam/log</string>
     <string name="exposure_aux_title">Компенсация экспозиции (Модули)</string>
     <string name="pref_noisemodeler_title">Модели шума</string>
     <string name="pref_resampling_title">Выборка кадров: %s</string>

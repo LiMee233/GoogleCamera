@@ -784,7 +784,6 @@ Algunas observaciones:
     <string name="pref_focus_vf_category">Botones de enfoque</string>
     <string name="pref_restart">Usar reiniciar</string>
     <string name="pref_viewfinder_format_title">Cambiar el formato del visor</string>
-    <string name="pref_gcam_zlog_title">Deshabilitar registros en /GCam/log</string>
     <string name="exposure_aux_title">Compensación de exposición (Opciones de Lente)</string>
     <string name="pref_noisemodeler_title">Modelador de ruido</string>
     <string name="pref_resampling_title">Remuestreo: %s</string>

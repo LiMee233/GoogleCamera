@@ -784,7 +784,6 @@ Quelques remarques:
     <string name="pref_focus_vf_category">Boutons de Focus</string>
     <string name="pref_restart">Utilisé redémarrer</string>
     <string name="pref_viewfinder_format_title">Changer le format du viseur</string>
-    <string name="pref_gcam_zlog_title">"Désactive les journaux d'erreur"</string>
     <string name="exposure_aux_title">"Compensation d'Exposition (Options des Lentilles)"</string>
     <string name="pref_noisemodeler_title">Modelleur du Bruit</string>
     <string name="pref_resampling_title">Ré-échantillonnage : %s</string>

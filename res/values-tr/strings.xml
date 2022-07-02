@@ -785,7 +785,6 @@ Bir kaç Not:
     <string name="pref_focus_vf_category">Odak butonu</string>
     <string name="pref_restart">Yeniden başlatmayı kullan</string>
     <string name="pref_viewfinder_format_title">Vizör biçimini değiştir.</string>
-    <string name="pref_gcam_zlog_title">/Gcam/log dizininde loglamayı devredışı bırak</string>
     <string name="exposure_aux_title">Pozlama Telafisi (Lens Seçenekleri)</string>
     <string name="pref_noisemodeler_title">Gürültü Modelleyici</string>
     <string name="pref_resampling_title">Yeniden örnekleme: %s</string>

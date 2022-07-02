@@ -775,7 +775,6 @@ Frequent Faces-এর ডেটা শুধুমাত্র এই ডিভ�
     <string name="pref_focus_vf_category">ফোকাস বোতাম</string>
     <string name="pref_restart">পুনরায় চালু করুন</string>
     <string name="pref_viewfinder_format_title">ভিউফাইন্ডার ফর্ম্যাটটি পরিবর্তন করুন</string>
-    <string name="pref_gcam_zlog_title">/GCam /log লগগুলি অক্ষম করুন</string>
     <string name="exposure_aux_title">এক্সপোজার ক্ষতিপূরণ (লেন্স বিকল্প)</string>
     <string name="pref_noisemodeler_title">অনাকাঙ্খিত তথ্য মডেলার</string>
     <string name="pref_resampling_title">পুনঃনির্মাণ: %s</string>

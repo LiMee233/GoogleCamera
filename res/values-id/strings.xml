@@ -289,7 +289,6 @@ Beberapa catatan:
     <string name="pref_focus_vf_category">Tombol fokus</string>
     <string name="pref_restart">Go</string>
     <string name="pref_viewfinder_format_title">Ubah format jendela bidik</string>
-    <string name="pref_gcam_zlog_title">Nonaktifkan log in /GCam/log</string>
     <string name="exposure_aux_title">Kompensasi Pencahayaan (Opsi Lensa)</string>
     <string name="pref_noisemodeler_title">Model Noise</string>
     <string name="pref_resampling_title">Pengambilan sampel ulang: %s</string>

@@ -35,7 +35,7 @@
 .method static constructor <clinit>()V
     .locals 8
 
-    goto/32 :goto_24
+    goto/32 :goto_1b
 
     nop
 
@@ -552,9 +552,6 @@
 
     nop
 
-    :goto_1a
-    invoke-static {}, Lcom/ZLog;->run()V
-
     :goto_1b
     goto/32 :goto_19
 
@@ -587,25 +584,6 @@
 
     :cond_3
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    :goto_1d
-    invoke-static {v0}, Lcom/FixBSG;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    nop
-
-    goto/32 :goto_22
 
     nop
 
@@ -714,42 +692,6 @@
 
     nop
 
-    nop
-
-    nop
-
-    :goto_22
-    if-eqz v0, :cond_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    goto/32 :goto_1b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    :cond_5
-    goto/32 :goto_1a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_23
     invoke-static {v0}, Lkqt;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -758,29 +700,6 @@
     nop
 
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    :goto_24
-    const-string v0, "pref_gcam_zlog_key"
-
-    nop
-
-    nop
-
-    nop
-
-    goto/32 :goto_1d
 
     nop
 

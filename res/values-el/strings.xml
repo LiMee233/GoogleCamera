@@ -781,7 +781,6 @@
     <string name="pref_focus_vf_category">Κουμπιά εστίασης</string>
     <string name="pref_restart">Χρησιμοποιήστε την επανεκκίνηση</string>
     <string name="pref_viewfinder_format_title">Αλλαγή μορφής σκοπεύτρου</string>
-    <string name="pref_gcam_zlog_title">Απενεργοποίηση σύνδεσης /GCam/log</string>
     <string name="exposure_aux_title">Αντιστάθμιση έκθεσης (Επιλογές φακού)</string>
     <string name="pref_noisemodeler_title">Μοντελοποιητής θορύβου</string>
     <string name="pref_resampling_title">Δειγματοληψία: %s</string>
