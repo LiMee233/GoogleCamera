@@ -484,6 +484,11 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="thermal_recording_disasbled_chip_text">Device is too hot. Close Camera until device cools off.</string>
     <string name="thermal_recording_stopped_chip_text">Recording stopped. Close Camera until device cools off.</string>
     <string name="thermal_video_quality_chip_text">Device is too hot. Video quality may be affected.</string>
+    <string name="time_100_ms">100 ms</string>
+    <string name="time_200_ms">200 ms</string>
+    <string name="time_300_ms">300 ms</string>
+    <string name="time_400_ms">400 ms</string>
+    <string name="time_500_ms">500 ms</string>
     <string name="time_difference_now">Now</string>
     <string name="time_difference_short_days_and_hours">%1$s %2$s</string>
     <string name="time_difference_short_hours_and_minutes">%1$s %2$s</string>
@@ -555,6 +560,7 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="lens_3_key_desc">Third Lens</string>
     <string name="lens_4_key">4x</string>
     <string name="lens_4_key_desc">Fourth Lens</string>
+    <string name="pref_shown_in_aux_panel">Show in AUX Panel</string>
     <string name="awb_off_key">Off</string>
     <string name="awb_off_key_desc">GOOGLE AWB Off</string>
     <string name="awb_on_key">On</string>
@@ -816,7 +822,12 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_focus_mode_vf_title">Enable viewfinder menu focus settings</string>
     <string name="pref_focus_category">Focus slider</string>
     <string name="pref_focus_vf_category">Focus buttons</string>
-    <string name="pref_restart">Use restart</string>
+    <string name="pref_restart_title">Use restart</string>
+    <string name="pref_restart_summary">"Use restart can make the camera more stable after switching lenses, such as being able to record video with aux camera, and loading settings more fully.
+
+Restart delay means the delay of applation to restart after switching aux camera. A lower delay can speed up the restart, but may cause the lens switching to fail; a higher delay is more stable."</string>
+    <string name="pref_restart_time_title">Restart dely</string>
+    <string name="pref_restart_time_summary">Restart dely: %s</string>
     <string name="pref_viewfinder_format_title">Change viewfinder format</string>
     <string name="pref_noisemodeler_title">Noise Modeler</string>
     <string name="pref_resampling_title">Resampling: %s</string>

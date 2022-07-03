@@ -760,7 +760,7 @@ Quelques remarques:
     <string name="pref_focus_mode_vf_title">Active le menus des paramètres de focus du viseur</string>
     <string name="pref_focus_category">Curseur de Focus</string>
     <string name="pref_focus_vf_category">Boutons de Focus</string>
-    <string name="pref_restart">Utilisé redémarrer</string>
+    <string name="pref_restart_title">Utilisé redémarrer</string>
     <string name="pref_viewfinder_format_title">Changer le format du viseur</string>
     <string name="pref_noisemodeler_title">Modelleur du Bruit</string>
     <string name="pref_resampling_title">Ré-échantillonnage : %s</string>

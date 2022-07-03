@@ -757,7 +757,7 @@
     <string name="pref_focus_mode_vf_title">Ενεργοποίηση ρυθμίσεων εστίασης μενού σκοπεύτρου</string>
     <string name="pref_focus_category">Ρυθμιστικό εστίασης</string>
     <string name="pref_focus_vf_category">Κουμπιά εστίασης</string>
-    <string name="pref_restart">Χρησιμοποιήστε την επανεκκίνηση</string>
+    <string name="pref_restart_title">Χρησιμοποιήστε την επανεκκίνηση</string>
     <string name="pref_viewfinder_format_title">Αλλαγή μορφής σκοπεύτρου</string>
     <string name="pref_noisemodeler_title">Μοντελοποιητής θορύβου</string>
     <string name="pref_resampling_title">Δειγματοληψία: %s</string>

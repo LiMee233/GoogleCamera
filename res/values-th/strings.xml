@@ -760,7 +760,7 @@
     <string name="pref_focus_mode_vf_title">เปิดใช้งานเมนูการตั้งค่าโฟกัสช่องมองภาพ</string>
     <string name="pref_focus_category">ตัวเลื่อนโฟกัส</string>
     <string name="pref_focus_vf_category">ปุ่มโฟกัส</string>
-    <string name="pref_restart">ใช้รีสตาร์ท</string>
+    <string name="pref_restart_title">ใช้รีสตาร์ท</string>
     <string name="pref_viewfinder_format_title">เปลี่ยนรูปแบบของช่องมองภาพ</string>
     <string name="pref_noisemodeler_title">Noise Modeler</string>
     <string name="pref_resampling_title">การสุ่มตัวอย่างใหม่: %s</string>

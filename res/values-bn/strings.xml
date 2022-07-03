@@ -751,7 +751,7 @@ Frequent Faces-এর ডেটা শুধুমাত্র এই ডিভ�
     <string name="pref_focus_mode_vf_title">ভিউফাইন্ডার মেনু ফোকাস সেটিংস সক্ষম করুন</string>
     <string name="pref_focus_category">ফোকাস স্লাইডার</string>
     <string name="pref_focus_vf_category">ফোকাস বোতাম</string>
-    <string name="pref_restart">পুনরায় চালু করুন</string>
+    <string name="pref_restart_title">পুনরায় চালু করুন</string>
     <string name="pref_viewfinder_format_title">ভিউফাইন্ডার ফর্ম্যাটটি পরিবর্তন করুন</string>
     <string name="pref_noisemodeler_title">অনাকাঙ্খিত তথ্য মডেলার</string>
     <string name="pref_resampling_title">পুনঃনির্মাণ: %s</string>

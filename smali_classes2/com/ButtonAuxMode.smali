@@ -1798,7 +1798,13 @@
     goto/32 :goto_21
 
     :goto_17
-    const-wide/16 v0, 0x96
+    const-string v0, "pref_restart_time_key"
+
+    invoke-static {v0}, Lcom/FixBSG;->MenuValue(Ljava/lang/String;)I
+
+    move-result v0
+
+    int-to-long v0, v0
 
     goto/32 :goto_1a
 

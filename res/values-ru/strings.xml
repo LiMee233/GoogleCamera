@@ -759,7 +759,7 @@
     <string name="pref_focus_mode_vf_title">Включить настройки фокуса в меню видоискателя</string>
     <string name="pref_focus_category">Слайдер фокусировки</string>
     <string name="pref_focus_vf_category">Кнопки фокусировки</string>
-    <string name="pref_restart">Использовать перезагрузку</string>
+    <string name="pref_restart_title">Использовать перезагрузку</string>
     <string name="pref_viewfinder_format_title">Изменить формат видоискателя</string>
     <string name="pref_noisemodeler_title">Модели шума</string>
     <string name="pref_resampling_title">Выборка кадров: %s</string>

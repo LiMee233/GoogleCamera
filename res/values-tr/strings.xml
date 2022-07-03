@@ -761,7 +761,7 @@ Bir kaç Not:
     <string name="pref_focus_mode_vf_title">Vizör menüsü odak ayarlarını etkinleştir</string>
     <string name="pref_focus_category">Odak kaydırıcı</string>
     <string name="pref_focus_vf_category">Odak butonu</string>
-    <string name="pref_restart">Yeniden başlatmayı kullan</string>
+    <string name="pref_restart_title">Yeniden başlatmayı kullan</string>
     <string name="pref_viewfinder_format_title">Vizör biçimini değiştir.</string>
     <string name="pref_noisemodeler_title">Gürültü Modelleyici</string>
     <string name="pref_resampling_title">Yeniden örnekleme: %s</string>

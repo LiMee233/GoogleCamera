@@ -761,7 +761,7 @@ Notas:
     <string name="pref_focus_mode_vf_title">Ativar as configurações de foco do menu do visor</string>
     <string name="pref_focus_category">Controle deslizante de foco</string>
     <string name="pref_focus_vf_category">Botões de foco</string>
-    <string name="pref_restart">Use reiniciar</string>
+    <string name="pref_restart_title">Use reiniciar</string>
     <string name="pref_viewfinder_format_title">Alterar o formato do visor</string>
     <string name="pref_noisemodeler_title">Modelador de Ruído</string>
     <string name="pref_resampling_title">Reamostragem: %s</string>

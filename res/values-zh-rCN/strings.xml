@@ -437,6 +437,11 @@
     <string name="thermal_recording_disasbled_chip_text">设备过热，请关闭相机，直到设备冷却为止。</string>
     <string name="thermal_recording_stopped_chip_text">录制已停止，请关闭相机，直到设备冷却为止。</string>
     <string name="thermal_video_quality_chip_text">设备过热，视频画质可能会受到影响。</string>
+    <string name="time_100_ms">100 毫秒</string>
+    <string name="time_200_ms">200 毫秒</string>
+    <string name="time_300_ms">300 毫秒</string>
+    <string name="time_400_ms">400 毫秒</string>
+    <string name="time_500_ms">500 毫秒</string>
     <string name="time_difference_now">现在</string>
     <string name="time_difference_short_days_and_hours">%1$s%2$s﻿</string>
     <string name="time_difference_short_hours_and_minutes">%1$s%2$s﻿</string>
@@ -508,6 +513,7 @@
     <string name="lens_3_key_desc">第三颗摄像头</string>
     <string name="lens_4_key">4×</string>
     <string name="lens_4_key_desc">第四颗摄像头</string>
+    <string name="pref_shown_in_aux_panel">在镜头切换面板中显示</string>
     <string name="awb_off_key">关闭</string>
     <string name="awb_off_key_desc">Google 自动白平衡已关闭</string>
     <string name="awb_on_key">开启</string>
@@ -757,7 +763,12 @@
     <string name="pref_focus_mode_vf_title">启用取景器菜单对焦设置</string>
     <string name="pref_focus_category">对焦滑块</string>
     <string name="pref_focus_vf_category">对焦按钮</string>
-    <string name="pref_restart">切换辅助镜头时重新加载</string>
+    <string name="pref_restart_title">切换辅助镜头时重新启动</string>
+    <string name="pref_restart_summary">"重新启动可以使切换镜头后相机更稳定，比如可以使用副摄录制视频、在切换镜头后更完整地加载设置。
+
+重新启动延迟指切换辅助镜头后应用重启的延迟，较低的延迟可以加快重启速度，但可能导致镜头切换失败；较高的延迟较稳定。"</string>
+    <string name="pref_restart_time_title">重新启动延迟</string>
+    <string name="pref_restart_time_summary">重新启动延迟：%s</string>
     <string name="pref_viewfinder_format_title">取景器格式</string>
     <string name="pref_noisemodeler_title">自定义降噪模型</string>
     <string name="pref_resampling_title">重采样：%s</string>
@@ -766,7 +777,7 @@
     <string name="pref_black_level_summary">有助于修复粉红偏色</string>
     <string name="pref_sabre_options_title">超分辨率变焦</string>
     <string name="pref_color_filter_arrangement_title">滤色排布</string>
-    <string name="pixel_binning_button">取景器按钮</string>
+    <string name="viewfinder_button">取景器按钮</string>
     <string name="pref_shasta_title">Shasta 因子</string>
     <string name="pref_maxmag_title">最大缩放等级</string>
     <string name="pref_maxmag_summary">自定义最大缩放等级为：%s</string>
