@@ -545,8 +545,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="pref_author">GCam 7.4 Nikita-tól</string>
     <string name="pref_base">A következő Google Camera verzió alapján</string>
     <string name="pref_credit">Ezt a verziót a következő fejlesztők készítették</string>
-    <string name="pref_check_version">Új verzió keresése</string>
-    <string name="pref_update">Frissítések ellenőrzése és változási napló</string>
     <string name="pref_gallery_title">Harmadik féltől származó galéria használata</string>
     <string name="pref_gallery_summary">Alapértelmezett galéria a Google Fotók</string>
     <string name="lib_dehaze_title">Ködtelenítés</string>
@@ -665,7 +663,6 @@ Néhány jegyzet:
     <string name="google_awb_auto_desc">Google AWB autómatikus állapotban tartása</string>
     <string name="google_awb_on_desc">Google AWB bekapcsolva tartása</string>
     <string name="google_awb">GOOGLE AWB</string>
-    <string name="google_awb_desc">Google AWB mód beállításai</string>
     <string name="astrophoto">ASZTROFOTÓZÁS</string>
     <string name="off_astrophoto">KI</string>
     <string name="off_astrophoto_desc">Asztrofotózás ki</string>
@@ -673,14 +670,10 @@ Néhány jegyzet:
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">Exponálás-kiegyenlítés</string>
     <string name="exposure_comp_summary">Aktiválja a kézi expozíciókompenzáció beállításait</string>
-    <string name="exposure_ns_title">Exponálás-kiegyenlítés (Éjszakai Mód)</string>
-    <string name="exposure_front_title">Exponálás-kiegyenlítés (Előlapi kamera)</string>
     <string name="exposure_front_summary">Előlapi kamera: %s</string>
-    <string name="exposure_title_main">Exponálás-kiegyenlítés (Fő kamera)</string>
     <string name="chroma_high">Wavelet Chroma (Magas Frekvencia) Zajszűrési Szintek</string>
     <string name="chroma_low">Wavelet Chroma (Alacsony Frekvencia) Zajszűrési Szintek</string>
     <string name="pref_experimental_title">Tapasztalati</string>
-    <string name="pref_experimental">A kísérleti tesztbeállítások beállításai</string>
     <string name="jpeg_format">JPEG formátum kényszerítése</string>
     <string name="raw_format">RAW szenzor formátum kényszerítése</string>
     <string name="dots">Pöttyök csökkentése</string>
@@ -725,7 +718,6 @@ Néhány jegyzet:
     <string name="pref_dcip3_summary">RGB színtér</string>
     <string name="lib_spatial_title">Térbeliség</string>
     <string name="lib_iso_title">ISO</string>
-    <string name="pref_share_xml">Konfigurációs fájlok megosztása</string>
     <string name="lib_denoise_title">Zajszűrés</string>
     <string name="lib_processing_title">Feldolgozás</string>
     <string name="lib_processing_summary">Részletgazdagabb képek</string>
@@ -736,7 +728,6 @@ Néhány jegyzet:
     <string name="lib_depth_title">Élesség mélysége</string>
     <string name="pref_instantaneous_hdr_plus_title">Azonnali javított HDR+ használata</string>
     <string name="pref_instantaneous_hdr_plus_summary">Pixel 4 javított HDR+ használata a HDR+ helyett. A minőség eltérő lehet a sima javított HDR+-hoz képest.</string>
-    <string name="pref_awb_front_summary">Előlapi kamera: %s</string>
     <string name="donations">Adományi linkek</string>
     <string name="donations_summary">Támogasd a fejlesztőt</string>
     <string name="opmodes_title">Eszköz HAL-ának engedélyezése</string>
@@ -763,13 +754,11 @@ Néhány jegyzet:
     <string name="pref_aux_icon">Ikon beállítása a következőre: %s</string>
     <string name="disable_hfr">A 240 FPS lassító gomb elrejtése</string>
     <string name="pref_manual_camera_array_title">Haladó manuális fényképezőgép-azonosító</string>
-    <string name="exposure_portrait_title">Expozíció kompenzáció (Portré)</string>
     <string name="pref_focus_mode_vf_title">A kereső menü fókuszbeállításainak engedélyezése</string>
     <string name="pref_focus_category">Fókusz csúszka</string>
     <string name="pref_focus_vf_category">Fókusz gombok</string>
     <string name="pref_restart">Használja az újraindítást</string>
     <string name="pref_viewfinder_format_title">A kereső formátumának módosítása</string>
-    <string name="exposure_aux_title">Expozíció kompenzáció (Objektív Opciók)</string>
     <string name="pref_noisemodeler_title">Zajmodellező</string>
     <string name="pref_resampling_title">Újramintavétel: %s</string>
     <string name="lib_denoise_modeler_title">Zajszűrés: %s</string>

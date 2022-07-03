@@ -548,8 +548,6 @@
     <string name="pref_author">GCam 7.4 от Nikita</string>
     <string name="pref_base">Основано на Google Camera версии</string>
     <string name="pref_credit">Эта версия была сделана всеми этими разработчиками</string>
-    <string name="pref_check_version">Проверить обновления</string>
-    <string name="pref_update">Проверьте обновления и список изменений</string>
     <string name="pref_gallery_title">Использовать стороннюю галерею</string>
     <string name="pref_gallery_summary">Галерея по умолчанию - Google Фото</string>
     <string name="lib_dehaze_title">Дехейз</string>
@@ -667,7 +665,6 @@
     <string name="google_awb_auto_desc">Google AWB авто</string>
     <string name="google_awb_on_desc">Google AWB включен</string>
     <string name="google_awb">Google AWB</string>
-    <string name="google_awb_desc">Параметры режима Google AWB</string>
     <string name="astrophoto">АСТРОФОТОГРАФИЯ</string>
     <string name="off_astrophoto">ВЫКЛ</string>
     <string name="off_astrophoto_desc">Режим астрофотографии выключен</string>
@@ -675,14 +672,10 @@
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">Компенсация экспозиции</string>
     <string name="exposure_comp_summary">Активировать настройки компенсации экспозиции вручную</string>
-    <string name="exposure_ns_title">Компенсация экспозиции (Ночной режим)</string>
-    <string name="exposure_front_title">Компенсация экспозиции (Фронтальная камера)</string>
     <string name="exposure_front_summary">Фронтальная камера: %s</string>
-    <string name="exposure_title_main">Компенсация экспозиции (Основная камера)</string>
     <string name="chroma_high">Уровни ряби яркостного шумоподавления (высокая частота)</string>
     <string name="chroma_low">Уровни ряби цветового шумоподавления (низкая частота)</string>
     <string name="pref_experimental_title">Экспериментальные функции</string>
-    <string name="pref_experimental">Настройки для экспериментального тестирования функций</string>
     <string name="jpeg_format">Принудительный формат JPEG</string>
     <string name="raw_format">Принудительный формат RAW Sensor</string>
     <string name="dots">Уменьшить точки</string>
@@ -727,7 +720,6 @@
     <string name="pref_dcip3_summary">Цветовое пространство RGB</string>
     <string name="lib_spatial_title">Пространственные</string>
     <string name="lib_iso_title">ISO</string>
-    <string name="pref_share_xml">Поделиться конфигами XML</string>
     <string name="lib_denoise_title">Понижение уровня шума</string>
     <string name="lib_processing_title">Обработка</string>
     <string name="lib_processing_summary">Более детальные фотографии</string>
@@ -738,7 +730,6 @@
     <string name="lib_depth_title">Глубина резкости</string>
     <string name="pref_instantaneous_hdr_plus_title">Использовать мгновенный расширенный HDR+</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Отключить HDR+ и использовать расширенный HDR+ от Pixel's 4. Качество может отличаться от обычного расширенного HDR+."</string>
-    <string name="pref_awb_front_summary">Фронтальная камера: %s</string>
     <string name="donations">Ссылки на пожертвования</string>
     <string name="donations_summary">Поддержи разработчика</string>
     <string name="opmodes_title">Включить HALs устройства</string>
@@ -765,13 +756,11 @@
     <string name="pref_aux_icon">Выбрать иконку: %s</string>
     <string name="disable_hfr">Скрыть кнопку 240FPS в режиме замедленной съемки</string>
     <string name="pref_manual_camera_array_title">Расширенный выбор ID камеры</string>
-    <string name="exposure_portrait_title">Компенсация экспозиции (Портрет)</string>
     <string name="pref_focus_mode_vf_title">Включить настройки фокуса в меню видоискателя</string>
     <string name="pref_focus_category">Слайдер фокусировки</string>
     <string name="pref_focus_vf_category">Кнопки фокусировки</string>
     <string name="pref_restart">Использовать перезагрузку</string>
     <string name="pref_viewfinder_format_title">Изменить формат видоискателя</string>
-    <string name="exposure_aux_title">Компенсация экспозиции (Модули)</string>
     <string name="pref_noisemodeler_title">Модели шума</string>
     <string name="pref_resampling_title">Выборка кадров: %s</string>
     <string name="lib_denoise_modeler_title">Шумоподавление: %s</string>

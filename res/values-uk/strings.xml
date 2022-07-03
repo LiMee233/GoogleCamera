@@ -545,8 +545,6 @@
     <string name="pref_author">GCam 7.4 by Nikita</string>
     <string name="pref_base">Засновано на Google Camera версії</string>
     <string name="pref_credit">Ця версія була зроблена ціми розробниками</string>
-    <string name="pref_check_version">Перевірити наявність нової версії</string>
-    <string name="pref_update">Перевірити оновлення та зміни</string>
     <string name="pref_gallery_title">Використовувати сторонню галерею</string>
     <string name="pref_gallery_summary">Галерея Google Photos за замовчуванням</string>
     <string name="lib_dehaze_title">Антитуман</string>
@@ -665,7 +663,6 @@
     <string name="google_awb_auto_desc">Тримати Google AWB Увімкнено</string>
     <string name="google_awb_on_desc">Тримати Google AWB Увімкнено</string>
     <string name="google_awb">Автобаланс білого Google</string>
-    <string name="google_awb_desc">Налаштування автобаланса білого Google</string>
     <string name="astrophoto">Астрофото</string>
     <string name="off_astrophoto">Вимкн.</string>
     <string name="off_astrophoto_desc">Астрофото Вимкнено</string>
@@ -673,14 +670,10 @@
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">Компенсація експозиції</string>
     <string name="exposure_comp_summary">Налаштування компенсації експозиції</string>
-    <string name="exposure_ns_title">Компенсація експозиції (Нічной режим)</string>
-    <string name="exposure_front_title">Компенсація експозиції (Фронтальна камера)</string>
     <string name="exposure_front_summary">Фронтальна камера: %s</string>
-    <string name="exposure_title_main">Компенсація експозиції (Основна камера)</string>
     <string name="chroma_high">Рівні антишуму Wavelet Chroma (Високі частоти)</string>
     <string name="chroma_low">Рівні антишуму Wavelet Chroma (Низькі частоти)</string>
     <string name="pref_experimental_title">Експериментальні функції</string>
-    <string name="pref_experimental">Налаштування для експериментального тестування функцій</string>
     <string name="jpeg_format">Примусовий формат JPEG</string>
     <string name="raw_format">Примусовий формат RAW Sensor</string>
     <string name="dots">Зменшити крапки</string>
@@ -725,7 +718,6 @@
     <string name="pref_dcip3_summary">Кольоровий простір RGB</string>
     <string name="lib_spatial_title">Простір</string>
     <string name="lib_iso_title">ISO</string>
-    <string name="pref_share_xml">Поділитися конфігами XML</string>
     <string name="lib_denoise_title">Антишум</string>
     <string name="lib_processing_title">Опрацювання</string>
     <string name="lib_processing_summary">Більш детальні фото</string>
@@ -736,7 +728,6 @@
     <string name="lib_depth_title">Глибина різкості</string>
     <string name="pref_instantaneous_hdr_plus_title">Використовувати миттєвий підвищений HDR+</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Відключити HDR+ та використовувати Pixel's 4 підвищений HDR+ постійно. Якість може відрізнятися від звичайного підвищеного HDR+."</string>
-    <string name="pref_awb_front_summary">Передня камера: %s</string>
     <string name="donations">Посилання на пожертви</string>
     <string name="donations_summary">Допомогти розробнику</string>
     <string name="opmodes_title">Увімкнути HAL приладу</string>
@@ -763,13 +754,11 @@
     <string name="pref_aux_icon">Встановити значок: %s</string>
     <string name="disable_hfr">Сховати кнопку сповільненого руху 240FPS</string>
     <string name="pref_manual_camera_array_title">Ручне встановлення Camera ID</string>
-    <string name="exposure_portrait_title">Компенсація витримки (Портрет)</string>
     <string name="pref_focus_mode_vf_title">Ввімкнути меню фокусу шукача</string>
     <string name="pref_focus_category">Слайдер фокусу</string>
     <string name="pref_focus_vf_category">Кнопки фокусу</string>
     <string name="pref_restart">Використовувати перезапуск</string>
     <string name="pref_viewfinder_format_title">Змінити формат шукача</string>
-    <string name="exposure_aux_title">Компенсація експозиції (Опції камери)</string>
     <string name="pref_noisemodeler_title">Моделювання шуму</string>
     <string name="pref_resampling_title">Передискретизація: %s</string>
     <string name="lib_denoise_modeler_title">Антишум: %s</string>

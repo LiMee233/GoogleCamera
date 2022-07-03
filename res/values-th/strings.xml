@@ -548,8 +548,6 @@
     <string name="pref_author">GCam 7.4 โดย Nikita</string>
     <string name="pref_base">สร้างโดยอ้างอิงจาก Google Camera เวอร์ชั่น</string>
     <string name="pref_credit">เวอร์ชั่นนี้ถูกสร้างโดยนักพัฒนาเหล่านี้ ได้แก่</string>
-    <string name="pref_check_version">ตรวจสอบเวอร์ชั่นใหม่</string>
-    <string name="pref_update">ตรวจสอบการอัพเดทและรายละเอียดของการแปลี่ยนแปลง</string>
     <string name="pref_gallery_title">ใช้แกลอรี่อื่น</string>
     <string name="pref_gallery_summary">แกลอรี่เริ่มต้นตือ Google Photos</string>
     <string name="lib_dehaze_title">Dehaze</string>
@@ -668,7 +666,6 @@
     <string name="google_awb_auto_desc">ล็อค Google AWB อัตโนมัติ</string>
     <string name="google_awb_on_desc">ล็อคเปิดการใช้งาน Google AWB</string>
     <string name="google_awb">GOOGLE AWB</string>
-    <string name="google_awb_desc">การตั้งค่าโหมด Google AWB</string>
     <string name="astrophoto">การถ่ายภาพดวงดาว</string>
     <string name="off_astrophoto">ปิด</string>
     <string name="off_astrophoto_desc">ปิดโหมดการถ่ายภาพดวงดาว</string>
@@ -676,14 +673,10 @@
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">การชดเชยแสง</string>
     <string name="exposure_comp_summary">เปิดการใช้งานการตั้งค่าการชดเชยแสงด้วยตนเอง</string>
-    <string name="exposure_ns_title">การชดเชยแสง (โหมด Night Sight)</string>
-    <string name="exposure_front_title">การชดเชยแสง (กล้องหน้า)</string>
     <string name="exposure_front_summary">กล้องหน้า: %s</string>
-    <string name="exposure_title_main">การชดเชนแสง (เลนส์หลัก)</string>
     <string name="chroma_high">Wavelet Chroma (High Frequency) Denoise Levels</string>
     <string name="chroma_low">Wavelet Chroma (Low Frequency) Denoise Levels</string>
     <string name="pref_experimental_title">การทดลอง</string>
-    <string name="pref_experimental">การตั้งค่าสำหรับฟีเจอร์ที่ยังอยู่ในขั้นตอนของการทดลอง</string>
     <string name="jpeg_format">Force JPEG Format</string>
     <string name="raw_format">Force RAW Sensor Format</string>
     <string name="dots">Reduce Dots</string>
@@ -728,7 +721,6 @@
     <string name="pref_dcip3_summary">พื้นที่สี RGB</string>
     <string name="lib_spatial_title">ระยะ</string>
     <string name="lib_iso_title">ISO</string>
-    <string name="pref_share_xml">แบ่งปันไฟล์ XML</string>
     <string name="lib_denoise_title">Denoise</string>
     <string name="lib_processing_title">การประมวลผล</string>
     <string name="lib_processing_summary">รายละเอียดในภาพถ่ายสูงขึ้น</string>
@@ -739,7 +731,6 @@
     <string name="lib_depth_title">ความคมชัดลึก</string>
     <string name="pref_instantaneous_hdr_plus_title">ใช้งานโหมด HDR+ ขั้นสูงแบบทันที</string>
     <string name="pref_instantaneous_hdr_plus_summary">ปิดการใช้งาน HDR+ และใช้ HDR+ ขั้นสูงของ Pixel 4 อย่างถาวร คุณภาพอาจแตกต่างจาก HDR+ ขั้นสูงแบบทั่วไป</string>
-    <string name="pref_awb_front_summary">กล้องหน้า: %s</string>
     <string name="donations">ลิงค์บริจาค</string>
     <string name="donations_summary">สนับสนุนนักพัฒนา</string>
     <string name="opmodes_title">เปิดใช้งาน HALs ของอุปกรณ์</string>
@@ -766,13 +757,11 @@
     <string name="pref_aux_icon">ตั้งค่าไอคอน: %s</string>
     <string name="disable_hfr">ซ่อนปุ่ม slowmo 240FPS</string>
     <string name="pref_manual_camera_array_title">ID กล้องด้วยตนเองขั้นสูง</string>
-    <string name="exposure_portrait_title">การชดเชยแสง (โหมดบุคคล)</string>
     <string name="pref_focus_mode_vf_title">เปิดใช้งานเมนูการตั้งค่าโฟกัสช่องมองภาพ</string>
     <string name="pref_focus_category">ตัวเลื่อนโฟกัส</string>
     <string name="pref_focus_vf_category">ปุ่มโฟกัส</string>
     <string name="pref_restart">ใช้รีสตาร์ท</string>
     <string name="pref_viewfinder_format_title">เปลี่ยนรูปแบบของช่องมองภาพ</string>
-    <string name="exposure_aux_title">การชดเชยแสง (ตัวเลือกเลนส์)</string>
     <string name="pref_noisemodeler_title">Noise Modeler</string>
     <string name="pref_resampling_title">การสุ่มตัวอย่างใหม่: %s</string>
     <string name="lib_denoise_modeler_title">Denoise: %s</string>
