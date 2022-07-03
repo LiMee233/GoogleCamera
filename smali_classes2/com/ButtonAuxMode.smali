@@ -1798,7 +1798,7 @@
     goto/32 :goto_21
 
     :goto_17
-    const-wide/16 v0, 0x1f4
+    const-wide/16 v0, 0x96
 
     goto/32 :goto_1a
 
