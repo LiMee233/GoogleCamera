@@ -633,7 +633,7 @@
     <string name="pref_raw_sensor_title">ใช้ RAW เซนเซอร์</string>
     <string name="pref_raw_sensor_summary">ถ้าปิดการใช้งาน จะใช้ RAW10</string>
     <string name="pref_config_name_title">บันทึก</string>
-    <string name="pref_config_name_summary">ไฟล์ XML จะถูกบันทึกไว้ที่ /GCam/Configs7</string>
+    <string name="pref_config_name_summary">ไฟล์ XML จะถูกบันทึกไว้ที่ /Documents/GCamConfigs</string>
     <string name="pref_config_nickname_title">ชื่อเล่น</string>
     <string name="pref_config_nickname_summary">ให้เครดิตไฟล์ XML ของคุณด้วยชื่อเล่นของคุณ</string>
     <string name="pref_config_changelog_title">รายละเอียดการเปลี่ยนแปลง</string>

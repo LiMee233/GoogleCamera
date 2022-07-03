@@ -624,7 +624,7 @@ Frequent Faces-এর ডেটা শুধুমাত্র এই ডিভ�
     <string name="pref_raw_sensor_title">RAW সেন্সর ব্যবহার করুন</string>
     <string name="pref_raw_sensor_summary">যদি অক্ষম থাকে তবে এটি RAW10 ব্যবহার করবে</string>
     <string name="pref_config_name_title">সংরক্ষণ করুন</string>
-    <string name="pref_config_name_summary">এক্সএমএল /GCam/Configs7 এ সংরক্ষণ করা হবে</string>
+    <string name="pref_config_name_summary">এক্সএমএল /Documents/GCamConfigs এ সংরক্ষণ করা হবে</string>
     <string name="pref_config_nickname_title">ডাকনাম</string>
     <string name="pref_config_nickname_summary">আপনার ডাক নাম দিয়ে আপনার এক্সএমএল ক্রেডিট করুন</string>
     <string name="pref_config_changelog_title">চেঞ্জলগ</string>

@@ -630,7 +630,7 @@
     <string name="pref_raw_sensor_title">使用 RAW 传感器</string>
     <string name="pref_raw_sensor_summary">如果关闭，将会使用 RAW10</string>
     <string name="pref_config_name_title">保存</string>
-    <string name="pref_config_name_summary">输入 XML 文件名称（扩展名会自动添加），文件会被保存至 /GCam/Configs7</string>
+    <string name="pref_config_name_summary">输入 XML 文件名称（扩展名会自动添加），文件会被保存至 /Documents/GCamConfigs</string>
     <string name="pref_config_nickname_title">昵称</string>
     <string name="pref_config_nickname_summary">使用您的昵称标记 XML</string>
     <string name="pref_config_changelog_title">更新日志</string>

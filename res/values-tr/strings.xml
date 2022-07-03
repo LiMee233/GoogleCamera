@@ -634,7 +634,7 @@ Bir kaç Not:
     <string name="pref_raw_sensor_title">RAW Sensörü Kullan</string>
     <string name="pref_raw_sensor_summary">Devredışıysa, RAW10 kullanılacak</string>
     <string name="pref_config_name_title">Kaydet</string>
-    <string name="pref_config_name_summary">XML /GCam/Configs7 dizininde kaydedilecek</string>
+    <string name="pref_config_name_summary">XML /Documents/GCamConfigs dizininde kaydedilecek</string>
     <string name="pref_config_nickname_title">Rumuz</string>
     <string name="pref_config_nickname_summary">"XML'nizi isimlendirin"</string>
     <string name="pref_config_changelog_title">Değişiklik Kaydı</string>

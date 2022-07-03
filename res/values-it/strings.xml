@@ -633,7 +633,7 @@ Alcune note:
     <string name="pref_raw_sensor_title">Usa il sensore RAW</string>
     <string name="pref_raw_sensor_summary">Se disattivato, utilizzerà RAW10</string>
     <string name="pref_config_name_title">Salva</string>
-    <string name="pref_config_name_summary">Il file XML verrà salvato in /GCam/Configs7</string>
+    <string name="pref_config_name_summary">Il file XML verrà salvato in /Documents/GCamConfigs</string>
     <string name="pref_config_nickname_title">Nickname</string>
     <string name="pref_config_nickname_summary">Firma il tuo XML con il tuo nickname</string>
     <string name="pref_config_changelog_title">Changelog</string>

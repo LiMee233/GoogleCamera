@@ -188,7 +188,7 @@
     goto/32 :goto_21
 
     :goto_1b
-    const-string v1, "/GCam/Configs7/"
+    const-string v1, "/Documents/GCamConfigs/"
 
     goto/32 :goto_34
 

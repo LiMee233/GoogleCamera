@@ -138,7 +138,7 @@ Beberapa catatan:
     <string name="pref_raw_sensor_title">Gunakan Sensor RAW</string>
     <string name="pref_raw_sensor_summary">Jika dinonaktifkan, ini akan menggunakan RAW10</string>
     <string name="pref_config_name_title">Simpan</string>
-    <string name="pref_config_name_summary">XML akan tersimpan di /GCam/Configs7</string>
+    <string name="pref_config_name_summary">XML akan tersimpan di /Documents/GCamConfigs</string>
     <string name="pref_config_nickname_title">Nama Panggilan</string>
     <string name="pref_config_nickname_summary">Cantumkan XML anda dengan nama panggilan anda</string>
     <string name="pref_config_changelog_title">Perubahan</string>

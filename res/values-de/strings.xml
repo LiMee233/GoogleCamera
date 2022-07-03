@@ -633,7 +633,7 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_raw_sensor_title">Benutze RAW Sensor</string>
     <string name="pref_raw_sensor_summary">Wenn deaktiviert wird RAW10 benutzt</string>
     <string name="pref_config_name_title">Sichern</string>
-    <string name="pref_config_name_summary">XML wird in /GCam/Configs7 gesichert</string>
+    <string name="pref_config_name_summary">XML wird in /Documents/GCamConfigs gesichert</string>
     <string name="pref_config_nickname_title">Nickname</string>
     <string name="pref_config_nickname_summary">Dein Nickname in der XML</string>
     <string name="pref_config_changelog_title">Änderungen</string>

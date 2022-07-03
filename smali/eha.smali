@@ -756,7 +756,7 @@
     goto/32 :goto_d
 
     :goto_9
-    const-string v0, "/GCam/Configs7/"
+    const-string v0, "/Documents/GCamConfigs/"
 
     goto/32 :goto_a
 

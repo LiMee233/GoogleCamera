@@ -9609,7 +9609,7 @@
     goto/32 :goto_5
 
     :goto_b
-    const-string v3, "/GCam/Configs7/"
+    const-string v3, "/Documents/GCamConfigs/"
 
     goto/32 :goto_6
 .end method
