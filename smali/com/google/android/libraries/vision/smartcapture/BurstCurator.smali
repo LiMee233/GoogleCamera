@@ -21,194 +21,60 @@
     :try_start_0
     const-string v0, "smartcapture_native"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v1, Lnzj;->j:Lnzj;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :catch_0
     move-exception v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {v1}, Lnzj;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     if-eqz v1, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
 
     :cond_0
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     const-string v2, "Dalvik"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_7
     goto/32 :goto_8
 
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     throw v0
-
-    nop
 .end method
 
 .method private constructor <init>(J)V
@@ -216,269 +82,77 @@
 
     goto/32 :goto_d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p2}, Lpcb;->a()I
 
     move-result v2
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0, v1, v2}, Lpcc;-><init>(Ljava/lang/Object;I)V
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-object v1, p2, Lpcb;->a:Lpdx;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     sget-object p2, Lphf;->e:Lpcb;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iput-object p1, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->a:Lpcd;
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     return-void
 
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-interface {p1, v0, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     iput-wide p1, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->b:J
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     iput-boolean p1, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     new-instance v0, Lpcc;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     invoke-static {}, Lpcd;->a()Lpcd;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     iget-object p1, p1, Lpcd;->b:Ljava/util/Map;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_8
-
-    nop
-
-    nop
 .end method
 
 .method public static a(Lphi;)Lcom/google/android/libraries/vision/smartcapture/BurstCurator;
@@ -486,235 +160,71 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Lpax;->b()[B
 
     move-result-object p0
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     cmp-long p0, v0, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
 
     :goto_4
     const-wide/16 v2, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-instance p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     invoke-static {p0}, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->nativeCreateFromOptions([B)J
 
     move-result-wide v0
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-direct {p0, v0, v1}, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;-><init>(J)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     throw p0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     new-instance p0, Ljava/lang/RuntimeException;
 
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     goto/32 :goto_8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     const-string v0, "Could not initialize BurstCurator."
 
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
 
     :goto_c
     if-nez p0, :cond_0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private native nativeClose(J)V
@@ -730,138 +240,42 @@
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     iput-boolean v0, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {p0, v0, v1}, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->nativeClose(J)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iget-boolean v0, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     if-eqz v0, :cond_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_7
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_7
     iget-wide v0, p0, Lcom/google/android/libraries/vision/smartcapture/BurstCurator;->b:J
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 .end method
 
 .method protected final finalize()V
@@ -874,84 +288,26 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception v0
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public native nativeProcessYUV(JLjava/nio/Buffer;IILjava/nio/Buffer;IILjava/nio/Buffer;IIII[B)[B

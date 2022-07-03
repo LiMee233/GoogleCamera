@@ -12,64 +12,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const-string v0, "com.google.android.gms.flags.IFlagProvider"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0, p1, v0}, Lazi;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
 .end method
 
 
@@ -79,39 +33,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final getIntFlagValue(Ljava/lang/String;II)I
@@ -119,39 +47,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getLongFlagValue(Ljava/lang/String;JI)J
@@ -159,39 +61,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getStringFlagValue(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
@@ -199,47 +75,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final init(Lkuv;)V
@@ -247,33 +89,11 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method

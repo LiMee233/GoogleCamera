@@ -16,46 +16,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lbg;->b:Landroid/database/sqlite/SQLiteStatement;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0, p1}, Lbf;-><init>(Landroid/database/sqlite/SQLiteProgram;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 
@@ -65,60 +37,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lbg;->b:Landroid/database/sqlite/SQLiteStatement;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return v0
-
-    nop
 
     :goto_2
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteStatement;->executeUpdateDelete()I
 
     move-result v0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

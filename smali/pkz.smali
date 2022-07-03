@@ -20,102 +20,28 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     iput p2, p0, Lpkz;->b:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iput-object p1, p0, Lpkz;->a:Lcom/google/vr/vrcore/controller/api/ControllerServiceBridge;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iput-object p3, p0, Lpkz;->c:Lpkv;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -125,102 +51,26 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget v1, p0, Lpkz;->b:I
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {v0, v1, v2}, Lcom/google/vr/vrcore/controller/api/ControllerServiceBridge;->a(ILpkv;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iget-object v0, p0, Lpkz;->a:Lcom/google/vr/vrcore/controller/api/ControllerServiceBridge;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object v2, p0, Lpkz;->c:Lpkv;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

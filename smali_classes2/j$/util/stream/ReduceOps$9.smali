@@ -13,52 +13,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p2, p0, Lj$/util/stream/ReduceOps$9;->val$operator:Lj$/util/function/LongBinaryOperator;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
 
     :goto_2
     invoke-direct {p0, p1}, Lj$/util/stream/ReduceOps$ReduceOp;-><init>(Lj$/util/stream/StreamShape;)V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -68,75 +34,23 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v0, v1}, Lj$/util/stream/ReduceOps$9ReducingSink;-><init>(Lj$/util/function/LongBinaryOperator;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_1
     iget-object v1, p0, Lj$/util/stream/ReduceOps$9;->val$operator:Lj$/util/function/LongBinaryOperator;
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     new-instance v0, Lj$/util/stream/ReduceOps$9ReducingSink;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public bridge synthetic makeSink()Lj$/util/stream/ReduceOps$AccumulatingSink;
@@ -144,43 +58,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Lj$/util/stream/ReduceOps$9;->makeSink()Lj$/util/stream/ReduceOps$9ReducingSink;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

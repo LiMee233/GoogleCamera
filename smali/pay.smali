@@ -12,43 +12,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -58,35 +28,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
 .end method
 
 .method public final a()Lpbq;
@@ -94,41 +42,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Lpby;)V
@@ -136,37 +56,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final b()[B
@@ -174,49 +70,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic clone()Ljava/lang/Object;
@@ -224,47 +84,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final d()Lpdw;
@@ -272,37 +98,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
 .end method
 
 .method public final e()Lpec;
@@ -310,45 +112,11 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

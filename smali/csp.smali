@@ -13,58 +13,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lcsp;->a:Lcsr;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Lcsk;-><init>()V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -74,16 +34,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method
 
 .method public a(ZZ)V
@@ -91,54 +43,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lcsp;->a:Lcsr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {v0, p1, p2}, Lcsr;->b(ZZ)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
 .end method
 
 .method public final f()V
@@ -146,46 +62,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Lcsr;->a:Ljava/lang/String;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {v0}, Lkqt;->b(Ljava/lang/String;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final g()V
@@ -193,42 +81,16 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Lcsr;->a:Ljava/lang/String;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
 
     :goto_2
     invoke-static {v0}, Lkqt;->b(Ljava/lang/String;)V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

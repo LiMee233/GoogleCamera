@@ -124,7 +124,7 @@
     goto :goto_0
 
     :cond_2
-    nop
+
 
     :goto_0
     invoke-virtual {p0, p2}, Landroid/support/v7/widget/ActionBarContainer;->setWillNotDraw(Z)V
@@ -544,7 +544,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     invoke-virtual {v1, p1, v0}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
 
@@ -556,7 +556,7 @@
     goto :goto_2
 
     :cond_2
-    nop
+
 
     invoke-virtual {v1, p1, v0}, Landroid/graphics/drawable/Drawable;->setVisible(ZZ)Z
 

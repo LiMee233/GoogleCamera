@@ -365,7 +365,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     if-lez p1, :cond_1
@@ -643,7 +643,7 @@
     goto :goto_3
 
     :cond_3
-    nop
+
 
     :goto_3
     add-int/lit8 v8, v8, 0x1
@@ -706,7 +706,7 @@
     const/4 v3, 0x0
 
     :goto_5
-    nop
+
 
     const/4 v4, 0x0
 
@@ -1281,7 +1281,7 @@
     goto :goto_c
 
     :cond_13
-    nop
+
 
     :goto_c
     iget-boolean v1, v6, Lqd;->a:Z
@@ -1613,7 +1613,7 @@
     goto :goto_18
 
     :cond_27
-    nop
+
 
     const/4 v4, 0x0
 
@@ -1750,7 +1750,7 @@
     goto :goto_1c
 
     :cond_2c
-    nop
+
 
     :goto_1c
     const/4 v1, 0x1
@@ -1824,7 +1824,7 @@
 
     :cond_33
     :goto_1e
-    nop
+
 
     :goto_1f
     if-eqz v2, :cond_35

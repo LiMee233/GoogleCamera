@@ -1503,7 +1503,7 @@
     return-void
 
     :cond_2
-    nop
+
 
     invoke-virtual {p1, v4}, Landroid/support/v8/renderscript/BaseObj;->getID(Landroid/support/v8/renderscript/RenderScript;)J
 
@@ -1822,8 +1822,6 @@
     cmp-long v2, p1, v0
 
     if-ltz v2, :cond_0
-
-    nop
 
     const/16 v0, 0x8
 

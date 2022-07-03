@@ -17,54 +17,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p1, p0, Lj$/util/Comparator$$Lambda$3;->arg$1:Lj$/util/function/ToIntFunction;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -74,60 +38,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {v0, p1, p2}, Lj$/util/Comparator$$CC;->lambda$comparingInt$7b0bb60$1$Comparator$$CC(Lj$/util/function/ToIntFunction;Ljava/lang/Object;Ljava/lang/Object;)I
 
     move-result p1
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lj$/util/Comparator$$Lambda$3;->arg$1:Lj$/util/function/ToIntFunction;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return p1
-
-    nop
 .end method
 
 .method public reversed()Ljava/util/Comparator;
@@ -135,49 +59,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p0}, Lj$/util/Comparator$$CC;->reversed$$dflt$$(Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public thenComparing(Ljava/util/Comparator;)Ljava/util/Comparator;
@@ -185,41 +75,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p0, p1}, Lj$/util/Comparator$$CC;->thenComparing$$dflt$$(Ljava/util/Comparator;Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method

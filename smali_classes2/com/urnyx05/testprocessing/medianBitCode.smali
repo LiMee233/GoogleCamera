@@ -15,94 +15,28 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/16 v0, 0xcd8
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     sput v0, Lcom/urnyx05/testprocessing/medianBitCode;->bitCode32Length:I
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput v0, Lcom/urnyx05/testprocessing/medianBitCode;->bitCode64Length:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     const/16 v0, 0xdb8
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>()V
@@ -110,39 +44,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public static getBitCode32()[B
@@ -150,47 +58,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {}, Lcom/urnyx05/testprocessing/medianBitCode;->getBitCode32Internal()[B
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private static getBitCode32Internal()[B
@@ -198,204 +74,58 @@
 
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {v2, v4, v0, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     array-length v3, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-static {}, Lcom/urnyx05/testprocessing/medianBitCode;->getSegment32_0()[B
 
     move-result-object v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     .local v2, "seg":[B
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     array-length v3, v2
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     add-int/2addr v1, v3
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     const/4 v4, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     new-array v0, v0, [B
 
-    nop
-
-    nop
-
     .local v0, "bc":[B
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     const/4 v1, 0x0
 
-    nop
-
-    nop
-
     .local v1, "offset":I
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     sget v0, Lcom/urnyx05/testprocessing/medianBitCode;->bitCode32Length:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
 .end method
 
 .method public static getBitCode64()[B
@@ -403,47 +133,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {}, Lcom/urnyx05/testprocessing/medianBitCode;->getBitCode64Internal()[B
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private static getBitCode64Internal()[B
@@ -451,190 +149,58 @@
 
     goto/32 :goto_8
 
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     array-length v3, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     array-length v3, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     const/4 v1, 0x0
 
-    nop
-
-    nop
-
     .local v1, "offset":I
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     new-array v0, v0, [B
 
-    nop
-
-    nop
-
-    nop
-
     .local v0, "bc":[B
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_5
     const/4 v4, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     invoke-static {v2, v4, v0, v1, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_7
     invoke-static {}, Lcom/urnyx05/testprocessing/medianBitCode;->getSegment64_0()[B
 
     move-result-object v2
 
-    nop
-
     .local v2, "seg":[B
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_8
     sget v0, Lcom/urnyx05/testprocessing/medianBitCode;->bitCode64Length:I
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     add-int/2addr v1, v3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method private static getSegment32_0()[B
@@ -642,47 +208,21 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/16 v0, 0xcd8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     new-array v0, v0, [B
-
-    nop
 
     fill-array-data v0, :array_0
 
     .local v0, "data":[B
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-object v0
-
-    nop
 
     :array_0
     .array-data 1
@@ -3982,47 +3522,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/16 v0, 0xdb8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :array_0
     .array-data 1
@@ -7543,16 +7049,8 @@
     :goto_2
     new-array v0, v0, [B
 
-    nop
-
-    nop
-
     fill-array-data v0, :array_0
 
     .local v0, "data":[B
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method

@@ -16,62 +16,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Lgnc;->a:Lgne;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -81,111 +37,33 @@
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/RelativeLayout;->setTranslationY(F)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-void
 
-    nop
-
     :goto_3
     check-cast p1, Landroid/animation/Animator;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object p1, v0, Lgne;->a:Landroid/widget/RelativeLayout;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iget-object v0, p0, Lgnc;->a:Lgne;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 .end method
 
 .method public final andThen(Lj$/util/function/Consumer;)Lj$/util/function/Consumer;
@@ -193,31 +71,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/util/function/Consumer$$CC;->andThen$$dflt$$(Lj$/util/function/Consumer;Lj$/util/function/Consumer;)Lj$/util/function/Consumer;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
 .end method

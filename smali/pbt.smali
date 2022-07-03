@@ -17,77 +17,23 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/16 v0, 0x64
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iput v0, p0, Lpbt;->b:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static a(J)J
@@ -95,142 +41,38 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-wide p0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     neg-long p0, p0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     ushr-long v0, p0, v0
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     xor-long/2addr p0, v0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     and-long/2addr p0, v2
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     const-wide/16 v2, 0x1
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method static a([BII)Lpbt;
@@ -238,22 +80,8 @@
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0, p0, p1, p2}, Lpbr;-><init>([BII)V
@@ -265,80 +93,28 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_3
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :catch_0
     move-exception p0
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-instance v0, Lpbr;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method
 
 .method public static f(I)I
@@ -346,80 +122,28 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_0
     neg-int p0, p0
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     and-int/lit8 p0, p0, 0x1
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     xor-int/2addr p0, v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return p0
 
-    nop
-
-    nop
-
     :goto_4
     ushr-int/lit8 v0, p0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method
 
 

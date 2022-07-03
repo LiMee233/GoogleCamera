@@ -16,46 +16,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lfxs;->a:Lfxm;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 
@@ -65,84 +37,26 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lfxs;->a:Lfxm;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-object v0, v0, Lfxm;->i:Lnza;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-static {v0, v1}, Lpmb;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto/32 :goto_2
-
-    nop
-
-    nop
 .end method

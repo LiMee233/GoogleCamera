@@ -16,54 +16,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iput-object p1, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -74,21 +38,9 @@
     :try_start_0
     iget-object v0, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
     invoke-virtual {v0, p1}, Landroid/hardware/camera2/CaptureResult;->get(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
 
     move-result-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {p1, v0}, Loux;->a(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
@@ -96,55 +48,19 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
     :catchall_0
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final b()Ljava/util/List;
@@ -152,54 +68,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
 
     :goto_2
     invoke-virtual {v0}, Landroid/hardware/camera2/CaptureResult;->getKeys()Ljava/util/List;
 
     move-result-object v0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final c()Lmlh;
@@ -207,94 +89,30 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_0
     iget-object v1, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, v1}, Lmfo;-><init>(Landroid/hardware/camera2/CaptureRequest;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_3
     invoke-virtual {v1}, Landroid/hardware/camera2/CaptureResult;->getRequest()Landroid/hardware/camera2/CaptureRequest;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     new-instance v0, Lmfo;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final d()J
@@ -302,70 +120,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {v0}, Landroid/hardware/camera2/CaptureResult;->getFrameNumber()J
 
     move-result-wide v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-wide v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final e()I
@@ -373,72 +141,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lmfq;->a:Landroid/hardware/camera2/CaptureResult;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {v0}, Landroid/hardware/camera2/CaptureResult;->getSequenceId()I
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getControlPostRawSensitivityBoost()Ljava/lang/Object;
@@ -446,260 +162,84 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/16 v0, 0x64
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     :goto_2
     goto/32 :goto_7
-
-    nop
-
-    nop
 
     :goto_3
     sget-object v0, Landroid/hardware/camera2/CaptureResult;->CONTROL_POST_RAW_SENSITIVITY_BOOST:Landroid/hardware/camera2/CaptureResult$Key;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
 
     :goto_4
     check-cast v0, Ljava/lang/Integer;
 
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     const/16 v2, 0xc80
 
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     const/16 v2, 0x64
 
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     const/16 v0, 0xc80
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     if-gt v2, v1, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     if-gt v1, v2, :cond_1
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :cond_1
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     invoke-virtual {p0, v0}, Lmfq;->a(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 .end method
 
 .method public final getFalseLogicalMultiCamera()Ljava/lang/String;
@@ -708,86 +248,28 @@
     :try_start_0
     sget-object v0, Landroid/hardware/camera2/CaptureResult;->LOGICAL_MULTI_CAMERA_ACTIVE_PHYSICAL_ID:Landroid/hardware/camera2/CaptureResult$Key;
 
-    nop
-
     invoke-virtual {p0, v0}, Lmfq;->a(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
     check-cast v0, Ljava/lang/String;
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :goto_0
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     goto :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     const-string v0, ""
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :catchall_0
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

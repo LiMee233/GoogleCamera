@@ -251,7 +251,7 @@
     invoke-static/range {v2 .. v8}, Ljx;->a(Landroid/view/View;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
 
     :goto_1
-    nop
+
 
     invoke-virtual {v1, v0, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
@@ -299,7 +299,7 @@
     goto :goto_2
 
     :cond_2
-    nop
+
 
     const/4 p1, 0x1
 
@@ -402,7 +402,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     const/16 v0, 0x2e
 
@@ -491,7 +491,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     const/4 v0, 0x2
@@ -796,7 +796,7 @@
     goto :goto_1
 
     :cond_0
-    nop
+
 
     invoke-static {v1, v2}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -926,7 +926,7 @@
     goto :goto_5
 
     :cond_9
-    nop
+
 
     :goto_8
     iget-object v7, v8, Lzq;->a:Lzn;
@@ -1145,7 +1145,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     if-eqz v1, :cond_4
@@ -2394,7 +2394,7 @@
     invoke-virtual {v5, v3, p1, p2}, Lzn;->a(Landroid/view/View;Landroid/view/View;I)V
 
     :cond_1
-    nop
+
 
     invoke-virtual {v4, p2, v1}, Lzq;->a(IZ)V
 
@@ -2612,7 +2612,7 @@
     move/from16 v14, p6
 
     :cond_6
-    nop
+
 
     :goto_3
     add-int/lit8 v10, v10, 0x1
@@ -2743,7 +2743,7 @@
     move/from16 v14, p5
 
     :cond_4
-    nop
+
 
     :goto_3
     add-int/lit8 v3, v3, 0x1
@@ -2751,7 +2751,7 @@
     goto :goto_0
 
     :cond_5
-    nop
+
 
     aput v4, p4, v2
 
@@ -2899,7 +2899,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     invoke-virtual {v3, p4, p2}, Lzq;->a(IZ)V
 
@@ -3066,7 +3066,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     invoke-direct {p0, v0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->b(I)I
@@ -5344,7 +5344,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     invoke-direct {p0, p1, v2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->a(Landroid/view/MotionEvent;I)Z
 

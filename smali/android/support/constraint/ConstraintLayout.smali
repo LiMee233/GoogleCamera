@@ -1452,7 +1452,7 @@
     goto :goto_f
 
     :cond_24
-    nop
+
 
     invoke-virtual {v11, v6}, Lcq;->f(I)V
 
@@ -1463,7 +1463,7 @@
     goto :goto_f
 
     :cond_25
-    nop
+
 
     const/4 v8, 0x1
 
@@ -1509,7 +1509,7 @@
     goto :goto_10
 
     :cond_26
-    nop
+
 
     invoke-virtual {v11, v6}, Lcq;->g(I)V
 
@@ -1520,7 +1520,7 @@
     goto :goto_10
 
     :cond_27
-    nop
+
 
     const/4 v6, 0x1
 
@@ -1965,7 +1965,7 @@
 
     :cond_3c
     :goto_1a
-    nop
+
 
     const/4 v10, -0x2
 
@@ -1997,7 +1997,7 @@
 
     :cond_3e
     :goto_1c
-    nop
+
 
     const/4 v14, -0x2
 
@@ -2132,8 +2132,6 @@
 
     if-eq v12, v9, :cond_4d
 
-    nop
-
     invoke-virtual {v11}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v12
@@ -2194,17 +2192,13 @@
     move-result v9
 
     :goto_23
-    nop
+
 
     invoke-virtual {v11, v13, v9}, Landroid/view/View;->measure(II)V
-
-    nop
 
     invoke-virtual {v11}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v9
-
-    nop
 
     invoke-virtual {v11}, Landroid/view/View;->getMeasuredHeight()I
 
@@ -2347,7 +2341,7 @@
     goto :goto_26
 
     :cond_4b
-    nop
+
 
     invoke-virtual {v11}, Landroid/view/View;->getBaseline()I
 
@@ -2368,8 +2362,6 @@
     :cond_4c
     :goto_26
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
-
-    nop
 
     invoke-virtual {v11}, Landroid/view/View;->getMeasuredState()I
 

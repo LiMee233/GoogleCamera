@@ -24,73 +24,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sput-object v0, Ltg;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     new-instance v0, Ltf;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0}, Ltf;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>()V
@@ -98,33 +48,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -132,220 +62,74 @@
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     if-eq p1, v0, :cond_0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
 
     :cond_0
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iput v0, p0, Ltg;->b:I
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :goto_4
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     iput-boolean v0, p0, Ltg;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
 
     :goto_9
     iput v0, p0, Ltg;->a:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_a
     goto :goto_d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>(Ltg;)V
@@ -353,145 +137,43 @@
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
     :goto_0
     iput-boolean p1, p0, Ltg;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget v0, p1, Ltg;->a:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_2
     iput v0, p0, Ltg;->b:I
 
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     iput v0, p0, Ltg;->a:I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iget-boolean p1, p1, Ltg;->c:Z
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     iget v0, p1, Ltg;->b:I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -501,143 +183,37 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget v0, p0, Ltg;->a:I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_4
     if-gez v0, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     return v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method final b()V
@@ -645,60 +221,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, -0x1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iput v0, p0, Ltg;->a:I
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final describeContents()I
@@ -706,41 +240,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
@@ -748,126 +254,36 @@
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-boolean p2, p0, Ltg;->c:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     iget p2, p0, Ltg;->a:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     iget p2, p0, Ltg;->b:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

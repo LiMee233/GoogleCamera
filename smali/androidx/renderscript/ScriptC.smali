@@ -195,7 +195,7 @@
     if-gtz v5, :cond_1
 
     .line 106
-    nop
+
 
     .line 111
     .end local v4    # "bytesLeft":I
@@ -207,10 +207,10 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     .line 112
-    nop
+
 
     .line 115
-    nop
+
 
     .line 117
     :try_start_3

@@ -9,43 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public getGvrApi()Lcom/google/vr/ndk/base/GvrApi;
@@ -53,31 +23,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
 .end method
 
 .method public getUiLayout()Lcom/google/vr/ndk/base/GvrUiLayout;
@@ -85,41 +37,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public onPause()V
@@ -127,43 +51,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public onResume()V
@@ -171,41 +65,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public setAsyncReprojectionEnabled(Z)Z
@@ -213,47 +79,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public setPresentationView(Landroid/view/View;)V
@@ -261,43 +93,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public shutdown()V
@@ -305,31 +107,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw v0
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

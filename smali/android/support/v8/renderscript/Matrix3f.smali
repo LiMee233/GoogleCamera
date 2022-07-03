@@ -194,7 +194,7 @@
     goto :goto_1
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0, v1, v0, v3}, Landroid/support/v8/renderscript/Matrix3f;->set(IIF)V
 
@@ -312,7 +312,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     sub-float/2addr v2, p1

@@ -422,7 +422,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     aput-wide v1, p7, p2
 
@@ -449,7 +449,7 @@
     invoke-virtual {p4, p0, p3}, Landroid/support/v8/renderscript/ScriptGroup$Input;->addReference(Landroid/support/v8/renderscript/ScriptGroup$Closure;Landroid/support/v8/renderscript/Script$FieldID;)V
 
     :goto_2
-    nop
+
 
     aput-wide v1, p5, p2
 
@@ -520,7 +520,7 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     :goto_0
     return-object v0

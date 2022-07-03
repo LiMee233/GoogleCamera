@@ -18,71 +18,23 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iput-object p2, p0, Llba;->a:Llbs;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Llba;->b:Ljava/util/concurrent/Executor;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_3
     return-void
-
-    nop
-
-    nop
 .end method
 
 
@@ -92,84 +44,26 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Llba;->b:Ljava/util/concurrent/Executor;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v1, p0, p1}, Llaz;-><init>(Llba;Llbl;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     new-instance v1, Llaz;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -21,29 +21,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, p1, p2}, Lojy;-><init>(Ljava/util/SortedSet;Ljava/lang/Object;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
 .end method
 
 
@@ -53,35 +37,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
 .end method
 
 .method final b()Ljava/util/NavigableSet;
@@ -89,66 +53,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     check-cast v0, Ljava/util/NavigableSet;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-super {p0}, Lojy;->c()Ljava/util/SortedSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
-
-    nop
 .end method
 
 .method public final bridge synthetic c()Ljava/util/SortedSet;
@@ -156,51 +74,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final ceiling(Ljava/lang/Object;)Ljava/lang/Object;
@@ -208,104 +90,38 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     monitor-enter v0
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
     invoke-interface {v1, p1}, Ljava/util/NavigableSet;->ceiling(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
     return-object p1
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic d()Ljava/util/Set;
@@ -313,37 +129,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
 .end method
 
 .method public final descendingIterator()Ljava/util/Iterator;
@@ -351,58 +145,22 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {v0}, Ljava/util/NavigableSet;->descendingIterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
 
     :goto_2
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final descendingSet()Ljava/util/NavigableSet;
@@ -410,199 +168,55 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     throw v1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     monitor-enter v0
 
-    nop
-
-    nop
-
     :try_start_0
     iget-object v1, p0, Loju;->a:Ljava/util/NavigableSet;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     if-nez v1, :cond_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1}, Ljava/util/NavigableSet;->descendingSet()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v2, p0, Loju;->h:Ljava/lang/Object;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {v1, v2}, Lojz;->a(Ljava/util/NavigableSet;Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
     iput-object v1, p0, Loju;->a:Ljava/util/NavigableSet;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object v1
-
-    nop
 
     :cond_0
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object v1
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final floor(Ljava/lang/Object;)Ljava/lang/Object;
@@ -610,130 +224,38 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     monitor-enter v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
     invoke-interface {v1, p1}, Ljava/util/NavigableSet;->floor(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final headSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -741,128 +263,44 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
 
     :goto_1
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     monitor-enter v0
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1, p1, p2}, Ljava/util/NavigableSet;->headSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     iget-object p2, p0, Loju;->h:Ljava/lang/Object;
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {p1, p2}, Lojz;->a(Ljava/util/NavigableSet;Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object p1
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final headSet(Ljava/lang/Object;)Ljava/util/SortedSet;
@@ -870,72 +308,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0, p1, v0}, Loju;->headSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final higher(Ljava/lang/Object;)Ljava/lang/Object;
@@ -943,118 +329,38 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     monitor-enter v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1, p1}, Ljava/util/NavigableSet;->higher(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final lower(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1062,118 +368,38 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     monitor-enter v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1, p1}, Ljava/util/NavigableSet;->lower(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
     return-object p1
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     throw p1
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final pollFirst()Ljava/lang/Object;
@@ -1181,126 +407,38 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v1
 
-    nop
-
-    nop
-
     :goto_2
     monitor-enter v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
     invoke-interface {v1}, Ljava/util/NavigableSet;->pollFirst()Ljava/lang/Object;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
     return-object v1
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final pollLast()Ljava/lang/Object;
@@ -1308,112 +446,38 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     monitor-enter v0
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1}, Ljava/util/NavigableSet;->pollLast()Ljava/lang/Object;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
 
-    nop
-
     return-object v1
-
-    nop
 
     :catchall_0
     move-exception v1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final subSet(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -1421,120 +485,44 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     monitor-enter v0
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1, p1, p2, p3, p4}, Ljava/util/NavigableSet;->subSet(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     iget-object p2, p0, Loju;->h:Ljava/lang/Object;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {p1, p2}, Lojz;->a(Ljava/util/NavigableSet;Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
     monitor-exit v0
 
-    nop
-
     return-object p1
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     throw p1
-
-    nop
 .end method
 
 .method public final subSet(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/SortedSet;
@@ -1542,85 +530,25 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v1, 0x0
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {p0, p1, v0, p2, v1}, Loju;->subSet(Ljava/lang/Object;ZLjava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final tailSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
@@ -1628,140 +556,44 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loju;->h:Ljava/lang/Object;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     monitor-enter v0
-
-    nop
-
-    nop
 
     :try_start_0
     invoke-virtual {p0}, Loju;->b()Ljava/util/NavigableSet;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v1, p1, p2}, Ljava/util/NavigableSet;->tailSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object p2, p0, Loju;->h:Ljava/lang/Object;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {p1, p2}, Lojz;->a(Ljava/util/NavigableSet;Ljava/lang/Object;)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final tailSet(Ljava/lang/Object;)Ljava/util/SortedSet;
@@ -1769,60 +601,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {p0, p1, v0}, Loju;->tailSet(Ljava/lang/Object;Z)Ljava/util/NavigableSet;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method

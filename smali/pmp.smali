@@ -13,20 +13,8 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :array_0
     .array-data 2
@@ -327,63 +315,17 @@
     :goto_1
     new-array v0, v0, [C
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     fill-array-data v0, :array_0
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     sput-object v0, Lpmp;->a:[C
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     const/16 v0, 0x124
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

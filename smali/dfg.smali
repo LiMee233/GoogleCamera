@@ -16,50 +16,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p1, p0, Ldfg;->a:Ldfl;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -69,110 +37,34 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw v1
-
-    nop
 
     :goto_1
     monitor-enter v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :try_start_0
     iget-object v1, p0, Ldfg;->a:Ldfl;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v2, v1, Ldfl;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    nop
-
-    nop
-
     if-eqz v2, :cond_1
-
-    nop
-
-    nop
-
-    nop
 
     iget-object v2, v1, Ldfl;->e:Ljavax/microedition/khronos/egl/EGLSurface;
 
-    nop
-
-    nop
-
     if-eqz v2, :cond_1
-
-    nop
 
     iget-object v2, v1, Ldfl;->j:Ldfk;
 
-    nop
-
-    nop
-
     iget-object v1, v1, Ldfl;->g:Ljavax/microedition/khronos/opengles/GL10;
-
-    nop
-
-    nop
 
     check-cast v2, Lfkg;
 
-    nop
-
-    nop
-
     iget-object v2, v2, Lfkg;->u:Leiw;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     if-nez v2, :cond_0
 
-    nop
-
     goto :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     invoke-virtual {v2, v1}, Leiw;->onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V
@@ -180,169 +72,47 @@
     :goto_2
     iget-object v1, p0, Ldfg;->a:Ldfl;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v2, v1, Ldfl;->f:Ljavax/microedition/khronos/egl/EGL10;
-
-    nop
 
     iget-object v3, v1, Ldfl;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v1, v1, Ldfl;->e:Ljavax/microedition/khronos/egl/EGLSurface;
-
-    nop
-
-    nop
-
-    nop
 
     invoke-interface {v2, v3, v1}, Ljavax/microedition/khronos/egl/EGL10;->eglSwapBuffers(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     iget-object v1, p0, Ldfg;->a:Ldfl;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     const/4 v2, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     iput-boolean v2, v1, Ldfl;->h:Z
-
-    nop
-
-    nop
 
     :cond_1
     iget-object v1, p0, Ldfg;->a:Ldfl;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v1, v1, Ldfl;->k:Ljava/lang/Object;
-
-    nop
 
     invoke-virtual {v1}, Ljava/lang/Object;->notifyAll()V
 
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception v1
 
-    nop
-
-    nop
-
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-object v0, p0, Ldfg;->a:Ldfl;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object v0, v0, Ldfl;->k:Ljava/lang/Object;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -335,7 +335,7 @@
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     :cond_4
-    nop
+
 
     const-string v1, " fastest="
 

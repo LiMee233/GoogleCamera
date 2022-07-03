@@ -121,7 +121,7 @@
     goto :goto_1
 
     :cond_2
-    nop
+
 
     invoke-direct {p0, v6, v3}, Landroid/support/v8/renderscript/ScriptGroup$Builder;->calcOrderRecurse(Landroid/support/v8/renderscript/ScriptGroup$Node;I)Z
 

@@ -9,31 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Logh;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
 .end method
 
 
@@ -43,54 +25,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v0, p0}, Logl;-><init>(Logh;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     new-instance v0, Logl;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
-
-    nop
 .end method
 
 .method public abstract b()Loki;
@@ -101,58 +47,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
 
     :goto_1
     new-instance v0, Logp;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, p0}, Logp;-><init>(Logh;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final g()Logs;
@@ -160,62 +66,16 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     new-instance v0, Loge;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, p0}, Loge;-><init>(Logf;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

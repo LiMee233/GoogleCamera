@@ -289,7 +289,7 @@
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
     :cond_4
-    nop
+
 
     invoke-direct {p0, v2}, Landroid/support/v7/widget/ButtonBarLayout;->a(I)I
 
@@ -382,7 +382,7 @@
     goto :goto_3
 
     :cond_7
-    nop
+
 
     :goto_3
     invoke-static {p0}, Ljx;->j(Landroid/view/View;)I

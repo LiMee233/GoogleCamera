@@ -13,62 +13,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p1, p0, Ljxs;->a:Lj$/util/function/Consumer;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -78,42 +34,16 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     iget-object v0, p0, Ljxs;->a:Lj$/util/function/Consumer;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0, p1}, Lj$/util/function/Consumer;->accept(Ljava/lang/Object;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method

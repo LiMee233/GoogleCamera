@@ -1159,7 +1159,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     invoke-direct {p0, p1, p2}, Landroid/support/wearable/complications/TimeDifferenceText;->a(J)J

@@ -206,7 +206,7 @@
 
     :cond_2
     :goto_1
-    nop
+
 
     const-string v0, "format_format_string"
 
@@ -243,7 +243,7 @@
     goto :goto_2
 
     :cond_3
-    nop
+
 
     :goto_2
     new-instance v2, Landroid/support/wearable/complications/TimeFormatText;

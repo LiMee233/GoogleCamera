@@ -13,70 +13,22 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sput-object v0, Laao;->a:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_1
     const/16 v0, 0xc9
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     new-array v0, v0, [F
 
-    nop
-
     fill-array-data v0, :array_0
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
@@ -292,54 +244,16 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0, v0}, Laaq;-><init>([F)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_2
     sget-object v0, Laao;->a:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

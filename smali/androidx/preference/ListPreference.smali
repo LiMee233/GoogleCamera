@@ -151,7 +151,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     const/4 v4, 0x0
@@ -231,7 +231,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     if-ltz v1, :cond_2

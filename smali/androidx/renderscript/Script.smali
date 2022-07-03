@@ -1501,7 +1501,7 @@
     .catch Ljava/io/UnsupportedEncodingException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 233
-    nop
+
 
     .line 234
     return-void

@@ -17,73 +17,23 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lj$/util/function/Function$$Lambda$1;->arg$1:Lj$/util/function/Function;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p2, p0, Lj$/util/function/Function$$Lambda$1;->arg$2:Lj$/util/function/Function;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -93,91 +43,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lj$/util/function/Function$$Lambda$1;->arg$1:Lj$/util/function/Function;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-static {v0, v1, p1}, Lj$/util/function/Function$$CC;->lambda$andThen$1$Function$$CC(Lj$/util/function/Function;Lj$/util/function/Function;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iget-object v1, p0, Lj$/util/function/Function$$Lambda$1;->arg$2:Lj$/util/function/Function;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

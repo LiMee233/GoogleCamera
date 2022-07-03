@@ -21,73 +21,23 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iput-object p1, p0, Lcqy;->a:Lbhs;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p2, p0, Lcqy;->b:Lcqx;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
-
-    nop
 .end method
 
 
@@ -97,104 +47,28 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Lbhs;->a()V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-object v0, p0, Lcqy;->a:Lbhs;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-interface {v0}, Lcqx;->a()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     iget-object v0, p0, Lcqy;->b:Lcqx;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final j()V
@@ -202,46 +76,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lcqy;->b:Lcqx;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Lcqx;->b()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
 .end method
 
 .method public final run()V
@@ -249,16 +95,6 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method

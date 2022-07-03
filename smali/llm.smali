@@ -18,59 +18,23 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lllm;->b:Llln;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iput-object p2, p0, Lllm;->a:Llkl;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -80,108 +44,32 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v1, p0, Lllm;->a:Llkl;
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v0, v1}, Llln;->b(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-interface {v1}, Llkl;->a()Ljava/lang/Object;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object v0, p0, Lllm;->b:Llln;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Llra;Ljava/util/concurrent/Executor;)Llqu;
@@ -189,94 +77,28 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     new-instance v1, Llll;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0, v1, p2}, Llkl;->a(Llra;Ljava/util/concurrent/Executor;)Llqu;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Lllm;->a:Llkl;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-direct {v1, p0, p1}, Llll;-><init>(Lllm;Llra;)V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

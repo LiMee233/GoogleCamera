@@ -191,7 +191,7 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     :goto_0
     and-int/2addr v0, v1
@@ -259,7 +259,7 @@
     goto :goto_4
 
     :cond_5
-    nop
+
 
     :goto_4
     invoke-static {p0, v1}, Luf;->a(Landroid/view/View;Ljava/lang/CharSequence;)V
@@ -344,12 +344,12 @@
     move v4, v3
 
     :goto_0
-    nop
+
 
     invoke-virtual {v0, v1, v1, v2, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     :cond_2
-    nop
+
 
     const/4 v2, 0x0
 
@@ -380,7 +380,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     invoke-virtual {p0, v1}, Landroid/support/v7/view/menu/ActionMenuItemView;->setVisibility(I)V

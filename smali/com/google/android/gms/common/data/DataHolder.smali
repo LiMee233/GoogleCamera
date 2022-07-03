@@ -123,7 +123,7 @@
     goto :goto_2
 
     :cond_2
-    nop
+
 
     :goto_2
     if-ne v0, v2, :cond_3

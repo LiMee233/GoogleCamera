@@ -9,45 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, p1, p2}, Ljava/util/concurrent/ScheduledThreadPoolExecutor;-><init>(ILjava/util/concurrent/ThreadFactory;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -57,29 +25,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
 
     :goto_1
     invoke-static {p2}, Llje;->a(Ljava/util/concurrent/RunnableScheduledFuture;)Ljava/util/concurrent/RunnableScheduledFuture;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method protected final decorateTask(Ljava/util/concurrent/Callable;Ljava/util/concurrent/RunnableScheduledFuture;)Ljava/util/concurrent/RunnableScheduledFuture;
@@ -87,27 +41,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p2}, Llje;->a(Ljava/util/concurrent/RunnableScheduledFuture;)Ljava/util/concurrent/RunnableScheduledFuture;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
 .end method

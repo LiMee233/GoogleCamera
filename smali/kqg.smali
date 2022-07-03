@@ -26,175 +26,53 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lkqg;->c:Ljava/util/Set;
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p1, p0, Lkqg;->e:Lkqh;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iput-boolean p1, p0, Lkqg;->d:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
 
     :goto_4
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_6
     iput-object p1, p0, Lkqg;->f:Lktf;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     iput-object p3, p0, Lkqg;->b:Lkpi;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9
     iput-object p2, p0, Lkqg;->a:Lkof;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -204,166 +82,50 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     if-nez v0, :cond_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
 
     :cond_0
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     if-nez v0, :cond_1
 
-    nop
-
     goto/32 :goto_8
-
-    nop
 
     :cond_1
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-boolean v0, p0, Lkqg;->d:Z
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iget-object v2, p0, Lkqg;->c:Ljava/util/Set;
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object v0, p0, Lkqg;->f:Lktf;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     return-void
 
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     iget-object v1, p0, Lkqg;->a:Lkof;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_7
     invoke-interface {v1, v0, v2}, Lkof;->a(Lktf;Ljava/util/Set;)V
 
     :goto_8
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Lkng;)V
@@ -371,110 +133,38 @@
 
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, v0, Lkqh;->n:Landroid/os/Handler;
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
     :goto_2
     invoke-direct {v1, p0, p1}, Lkqf;-><init>(Lkqg;Lkng;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     sget-object v1, Lkqh;->a:Lcom/google/android/gms/common/api/Status;
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-instance v1, Lkqf;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     iget-object v0, p0, Lkqg;->e:Lkqh;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final b(Lkng;)V
@@ -482,230 +172,68 @@
 
     goto/32 :goto_c
 
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {v0, p1}, Lkqd;->a(Lkng;)V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     sget-object v1, Lkqh;->a:Lcom/google/android/gms/common/api/Status;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     check-cast v0, Lkqd;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
     :goto_4
     iget-object v1, v1, Lkqh;->n:Landroid/os/Handler;
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     invoke-static {v1}, Lcqh;->a(Landroid/os/Handler;)V
 
     goto/32 :goto_a
 
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     iget-object v1, p0, Lkqg;->b:Lkpi;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-interface {v1}, Lkof;->d()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9
     iget-object v0, v0, Lkqh;->k:Ljava/util/Map;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     iget-object v1, v0, Lkqd;->b:Lkof;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     iget-object v1, v0, Lkqd;->h:Lkqh;
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     iget-object v0, p0, Lkqg;->e:Lkqh;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method

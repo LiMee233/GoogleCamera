@@ -20,285 +20,83 @@
 
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const-string v3, "BE"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     sput-object v0, Lj$/time/chrono/ThaiBuddhistEra;->BEFORE_BE:Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     new-array v3, v3, [Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     sput-object v1, Lj$/time/chrono/ThaiBuddhistEra;->BE:Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     sput-object v3, Lj$/time/chrono/ThaiBuddhistEra;->$VALUES:[Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
 
     :goto_5
     invoke-direct {v0, v1, v2}, Lj$/time/chrono/ThaiBuddhistEra;-><init>(Ljava/lang/String;I)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     const/4 v4, 0x1
 
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     aput-object v1, v3, v4
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-direct {v1, v3, v4}, Lj$/time/chrono/ThaiBuddhistEra;-><init>(Ljava/lang/String;I)V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9
     new-instance v0, Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     return-void
 
-    nop
-
-    nop
-
     :goto_b
     const-string v1, "BEFORE_BE"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
 
     :goto_c
     const/4 v2, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     new-instance v1, Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     aput-object v0, v3, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_f
     const/4 v3, 0x2
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -306,33 +104,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
 .end method
 
 .method public static values()[Lj$/time/chrono/ThaiBuddhistEra;
@@ -340,81 +118,25 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {v0}, [Lj$/time/chrono/ThaiBuddhistEra;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     check-cast v0, [Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sget-object v0, Lj$/time/chrono/ThaiBuddhistEra;->$VALUES:[Lj$/time/chrono/ThaiBuddhistEra;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_3
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -424,45 +146,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->adjustInto$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/Temporal;)Lj$/time/temporal/Temporal;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public get(Lj$/time/temporal/TemporalField;)I
@@ -470,39 +162,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->get$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/TemporalField;)I
 
     move-result p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public getLong(Lj$/time/temporal/TemporalField;)J
@@ -510,41 +178,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->getLong$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/TemporalField;)J
 
     move-result-wide v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     return-wide v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public getValue()I
@@ -552,45 +194,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public isSupported(Lj$/time/temporal/TemporalField;)Z
@@ -598,41 +210,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->isSupported$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/TemporalField;)Z
 
     move-result p1
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public query(Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
@@ -640,43 +226,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->query$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/TemporalQuery;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public range(Lj$/time/temporal/TemporalField;)Lj$/time/temporal/ValueRange;
@@ -684,43 +242,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/time/chrono/Era$$CC;->range$$dflt$$(Lj$/time/chrono/Era;Lj$/time/temporal/TemporalField;)Lj$/time/temporal/ValueRange;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

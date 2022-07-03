@@ -13,73 +13,21 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sput-object v0, Lmkq;->a:Lmkr;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
 
     :goto_2
     invoke-direct {v0}, Lmkr;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     new-instance v0, Lmkr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

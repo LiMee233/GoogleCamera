@@ -9,31 +9,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljw;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 
@@ -43,50 +25,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p1}, Landroid/view/View;->isScreenReaderFocusable()Z
 
     move-result p1
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
 
     :goto_2
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method

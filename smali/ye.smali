@@ -9,41 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
 .end method
 
 .method public final onCommand(Ljava/lang/String;IIILandroid/os/Bundle;Z)Landroid/os/Bundle;
@@ -51,43 +23,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onCreate(Landroid/view/SurfaceHolder;)V
@@ -95,35 +37,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final onDestroy()V
@@ -131,45 +51,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onTouchEvent(Landroid/view/MotionEvent;)V
@@ -179,41 +67,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final onVisibilityChanged(Z)V
@@ -221,39 +81,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final setTouchEventsEnabled(Z)V
@@ -263,43 +97,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

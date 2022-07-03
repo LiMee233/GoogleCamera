@@ -1878,7 +1878,7 @@
     const/4 v0, 0x2
 
     .line 871
-    nop
+
 
     .line 880
     :goto_6
@@ -2077,8 +2077,6 @@
     invoke-direct {v0, v1}, Landroidx/renderscript/RSIllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1

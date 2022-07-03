@@ -251,7 +251,7 @@
     invoke-virtual {v5, p0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     :cond_1
-    nop
+
 
     invoke-virtual {v2, v1}, Lvw;->c(I)Ljava/lang/CharSequence;
 
@@ -565,7 +565,7 @@
     iput-object v8, p0, Landroid/support/v7/widget/SwitchCompat;->I:Landroid/content/res/ColorStateList;
 
     :goto_a
-    nop
+
 
     invoke-virtual {v6, v1, v1}, Lvw;->d(II)I
 
@@ -592,7 +592,7 @@
     invoke-virtual {p0}, Landroid/support/v7/widget/SwitchCompat;->requestLayout()V
 
     :cond_13
-    nop
+
 
     invoke-virtual {v6, v3, v7}, Lvw;->a(II)I
 
@@ -686,7 +686,7 @@
     goto :goto_e
 
     :cond_1a
-    nop
+
 
     :goto_e
     invoke-virtual {v7, v3}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
@@ -702,7 +702,7 @@
     goto :goto_f
 
     :cond_1b
-    nop
+
 
     :goto_f
     invoke-virtual {v3, v8}, Landroid/text/TextPaint;->setTextSkewX(F)V
@@ -1136,7 +1136,7 @@
     goto :goto_3
 
     :cond_6
-    nop
+
 
     :goto_3
     iget-object v1, p0, Landroid/support/v7/widget/SwitchCompat;->f:Landroid/graphics/drawable/Drawable;
@@ -1230,7 +1230,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     iget-object v1, p0, Landroid/support/v7/widget/SwitchCompat;->k:Landroid/graphics/drawable/Drawable;
@@ -2194,7 +2194,7 @@
     goto :goto_2
 
     :cond_6
-    nop
+
 
     :goto_2
     cmpl-float v0, v4, v0
@@ -2376,7 +2376,7 @@
     goto :goto_5
 
     :cond_11
-    nop
+
 
     invoke-virtual {p0, v5}, Landroid/support/v7/widget/SwitchCompat;->playSoundEffect(I)V
 

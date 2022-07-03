@@ -82,8 +82,6 @@
 
     return-void
 
-    nop
-
     :array_0
     .array-data 4
         0x7f040003
@@ -243,7 +241,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     iput-boolean v1, p0, Landroid/support/v7/widget/ActionBarOverlayLayout;->o:Z
@@ -845,7 +843,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     iget-object p1, p0, Landroid/support/v7/widget/ActionBarOverlayLayout;->s:Landroid/graphics/Rect;
@@ -1494,7 +1492,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     iput p2, p0, Landroid/support/v7/widget/ActionBarOverlayLayout;->q:I

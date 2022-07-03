@@ -21,50 +21,20 @@
 
     goto/32 :goto_c
 
-    nop
-
-    nop
-
     :goto_0
     new-array v0, v0, [I
-
-    nop
 
     fill-array-data v0, :array_1
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     sput-object v0, Lcd;->c:[I
 
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :array_0
     .array-data 4
@@ -122,287 +92,73 @@
     :goto_3
     sput-object v0, Lcd;->b:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
 
     :goto_4
     sput-object v0, Lcd;->e:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3
 
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     sput-object v0, Lcd;->d:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     const/16 v0, 0xc
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     const/4 v0, 0x2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
 
     :goto_9
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_a
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_4
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     const/16 v0, 0xa
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     const/4 v0, 0x3
 
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     sput-object v0, Lcd;->a:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_0
 
     goto/32 :goto_d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_f
     const/4 v0, 0x6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

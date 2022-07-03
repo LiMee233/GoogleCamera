@@ -274,7 +274,7 @@
     move-result-object v1
 
     :cond_0
-    nop
+
 
     const-string v2, "statusCode"
 

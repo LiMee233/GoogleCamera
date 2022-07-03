@@ -21,58 +21,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-wide p1, p0, Lpon;->a:J
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Lpom;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -82,37 +42,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-wide v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-wide v0, p0, Lpon;->a:J
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method

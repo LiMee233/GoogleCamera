@@ -4941,7 +4941,7 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     :goto_0
     return-wide v0

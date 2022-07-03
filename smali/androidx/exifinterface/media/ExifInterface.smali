@@ -4097,7 +4097,7 @@
     sput-object v0, Landroidx/exifinterface/media/ExifInterface;->sNonZeroTimePattern:Ljava/util/regex/Pattern;
 
     .line 3893
-    nop
+
 
     .line 3894
     const-string v0, "^([0-9][0-9]):([0-9][0-9]):([0-9][0-9])$"
@@ -4159,8 +4159,6 @@
         0x0t
     .end array-data
 
-    nop
-
     :array_6
     .array-data 1
         0x4ft
@@ -4174,8 +4172,6 @@
         0x49t
         0x49t
     .end array-data
-
-    nop
 
     :array_7
     .array-data 1
@@ -6074,7 +6070,7 @@
     const/4 v12, 0x6
 
     .line 5859
-    nop
+
 
     .line 5868
     :goto_2
@@ -6346,7 +6342,7 @@
     invoke-virtual {v3}, Landroid/media/MediaMetadataRetriever;->release()V
 
     .line 5904
-    nop
+
 
     .line 5905
     return-void
@@ -7068,8 +7064,6 @@
 
     throw v3
 
-    nop
-
     :pswitch_data_0
     .packed-switch -0x40
         :pswitch_0
@@ -7769,7 +7763,7 @@
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface;->setThumbnailData(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;)V
 
     .line 6114
-    nop
+
 
     .line 6125
     .end local v2    # "length":I
@@ -7778,7 +7772,7 @@
     .end local v5    # "dataCrcValue":I
     .end local v6    # "crc":Ljava/util/zip/CRC32;
     :goto_2
-    nop
+
 
     .line 6126
     return-void
@@ -8750,13 +8744,13 @@
     if-ne v5, v1, :cond_4
 
     .line 6192
-    nop
+
 
     .line 6209
     .end local v3    # "code":[B
     .end local v4    # "chunkSize":I
     :goto_2
-    nop
+
 
     .line 6210
     return-void
@@ -9366,7 +9360,7 @@
     .end annotation
 
     .line 7040
-    nop
+
 
     .line 7041
     const-string v0, "JPEGInterchangeFormat"
@@ -9379,7 +9373,7 @@
 
     .line 7042
     .local v0, "jpegInterchangeFormatAttribute":Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
-    nop
+
 
     .line 7043
     const-string v1, "JPEGInterchangeFormatLength"
@@ -9548,7 +9542,7 @@
 
     .line 7082
     .local v3, "stripOffsetsAttribute":Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
-    nop
+
 
     .line 7083
     const-string v4, "StripByteCounts"
@@ -10069,7 +10063,7 @@
     invoke-static {v0}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 5214
-    nop
+
 
     .line 5215
     return-void
@@ -10217,10 +10211,10 @@
     if-nez v7, :cond_0
 
     .line 5321
-    nop
+
 
     .line 5374
-    nop
+
 
     .line 5375
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10268,10 +10262,10 @@
     if-gez v11, :cond_1
 
     .line 5331
-    nop
+
 
     .line 5374
-    nop
+
 
     .line 5375
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10320,10 +10314,10 @@
     if-gez v11, :cond_4
 
     .line 5346
-    nop
+
 
     .line 5374
-    nop
+
 
     .line 5375
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10378,10 +10372,10 @@
     if-eq v13, v9, :cond_5
 
     .line 5354
-    nop
+
 
     .line 5374
-    nop
+
 
     .line 5375
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10446,7 +10440,7 @@
     const/4 v3, 0x1
 
     .line 5374
-    nop
+
 
     .line 5375
     invoke-virtual {v2}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10650,7 +10644,7 @@
 
     .line 5406
     :cond_1
-    nop
+
 
     .line 5407
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10840,7 +10834,7 @@
 
     .line 5433
     :cond_0
-    nop
+
 
     .line 5434
     invoke-virtual {v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->close()V
@@ -10942,7 +10936,7 @@
     .end annotation
 
     .line 7162
-    nop
+
 
     .line 7163
     const-string v0, "BitsPerSample"
@@ -10990,7 +10984,7 @@
     if-ne v2, v4, :cond_3
 
     .line 7173
-    nop
+
 
     .line 7174
     const-string v2, "PhotometricInterpretation"
@@ -13454,7 +13448,7 @@
     int-to-long v13, v3
 
     .line 6862
-    nop
+
 
     .line 6882
     :goto_9
@@ -14787,7 +14781,7 @@
     invoke-static {v2}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 6385
-    nop
+
 
     .line 6388
     invoke-static {v0, v1}, Landroidx/exifinterface/media/ExifInterface;->copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I
@@ -14960,7 +14954,7 @@
     invoke-direct {v1, v0}, Landroidx/exifinterface/media/ExifInterface;->writeExifSegment(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;)I
 
     .line 6463
-    nop
+
 
     .end local v6    # "exifChunkLength":I
     .end local v8    # "bytesRead":I
@@ -15343,7 +15337,7 @@
     .restart local p2    # "outputStream":Ljava/io/OutputStream;
     :cond_c
     :goto_3
-    nop
+
 
     .line 6570
     :goto_4
@@ -15542,7 +15536,7 @@
     invoke-static {v7}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 6618
-    nop
+
 
     .line 6619
     return-void
@@ -15635,7 +15629,7 @@
 
     .line 7012
     .local v0, "thumbnailData":Ljava/util/HashMap;
-    nop
+
 
     .line 7013
     const-string v1, "Compression"
@@ -17279,7 +17273,7 @@
     invoke-virtual {v1, v8}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->write([B)V
 
     .line 7432
-    nop
+
 
     .line 7446
     :goto_7
@@ -17764,7 +17758,7 @@
 
     .line 4446
     .restart local v2    # "resultOrientation":I
-    nop
+
 
     .line 4452
     :goto_0
@@ -17776,8 +17770,6 @@
 
     .line 4453
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -17884,7 +17876,7 @@
 
     .line 4407
     .restart local v2    # "resultOrientation":I
-    nop
+
 
     .line 4413
     :goto_0
@@ -17896,8 +17888,6 @@
 
     .line 4414
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -18881,8 +18871,6 @@
 
     return v1
 
-    nop
-
     :pswitch_data_0
     .packed-switch 0x3
         :pswitch_2
@@ -19187,7 +19175,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 4792
-    nop
+
 
     .line 4821
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
@@ -19313,7 +19301,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 4816
-    nop
+
 
     .line 4821
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
@@ -19389,7 +19377,7 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 4821
-    nop
+
 
     .end local v4    # "e":Ljava/lang/Exception;
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
@@ -20048,7 +20036,7 @@
     invoke-static {v1}, Landroidx/exifinterface/media/ExifInterface;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 4697
-    nop
+
 
     .line 4699
     const/4 v0, 0x0
@@ -20181,7 +20169,7 @@
     invoke-virtual {v3}, Ljava/io/File;->delete()Z
 
     .line 4733
-    nop
+
 
     .line 4736
     const/4 v5, 0x0

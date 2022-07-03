@@ -160,7 +160,7 @@
     const/4 p5, 0x0
 
     :goto_1
-    nop
+
 
     :goto_2
     if-ge v0, v1, :cond_9
@@ -460,10 +460,10 @@
     goto :goto_5
 
     :cond_4
-    nop
+
 
     :goto_5
-    nop
+
 
     invoke-static {v12, v15}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -488,7 +488,7 @@
     goto :goto_6
 
     :cond_5
-    nop
+
 
     :goto_6
     if-nez v4, :cond_6
@@ -527,7 +527,7 @@
     goto :goto_8
 
     :cond_7
-    nop
+
 
     :goto_7
     move v9, v1
@@ -718,7 +718,7 @@
     return-void
 
     :cond_11
-    nop
+
 
     :goto_c
     add-int/lit8 v5, v5, 0x1

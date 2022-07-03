@@ -308,7 +308,7 @@
     iput-object p1, p0, Landroid/support/wearable/view/CircledImageView;->t:Ljava/lang/Integer;
 
     :cond_4
-    nop
+
 
     const/16 p1, 0xe
 
@@ -880,7 +880,7 @@
     const/high16 v4, 0x3f800000    # 1.0f
 
     :goto_2
-    nop
+
 
     invoke-static {v7, v4}, Ljava/lang/Math;->min(FF)F
 
@@ -1053,7 +1053,7 @@
     move p1, p2
 
     :goto_2
-    nop
+
 
     invoke-static {p1, v4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 

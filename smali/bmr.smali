@@ -9,41 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -53,37 +25,11 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

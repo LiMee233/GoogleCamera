@@ -19,195 +19,53 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     new-array v1, v0, [I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput-object v1, Lmgk;->b:[F
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     new-array v1, v0, [Landroid/util/Size;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_4
     sput-object v1, Lmgk;->c:[Landroid/util/Size;
 
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
 
     :goto_5
     return-void
 
-    nop
-
-    nop
-
     :goto_6
     new-array v1, v0, [F
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     sput-object v0, Lmgk;->d:[B
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     sput-object v1, Lmgk;->a:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     new-array v0, v0, [B
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 

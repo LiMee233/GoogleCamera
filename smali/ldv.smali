@@ -9,52 +9,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, v0, p1}, Lkpk;-><init>(Lkoh;Lkop;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     sget-object v0, Llcz;->a:Lkoh;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -64,46 +30,16 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     invoke-super {p0, p1}, Lkpk;->a(Lkov;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     check-cast p1, Lkov;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method

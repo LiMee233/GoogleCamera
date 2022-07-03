@@ -42,368 +42,108 @@
 
     goto/32 :goto_f
 
-    nop
-
-    nop
-
     :goto_0
     sput-object v0, Lkmt;->h:Ljava/util/List;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0}, Lkmo;-><init>()V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     new-instance v0, Lkoh;
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     sput-object v0, Lkmt;->m:Lohs;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     move-object v1, v0
 
-    nop
-
-    nop
-
     goto/32 :goto_13
-
-    nop
-
-    nop
 
     :goto_6
     sget-object v3, Lkmt;->m:Lohs;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_10
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     const/4 v6, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     new-instance v0, Lkmo;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     sput-object v0, Lkmt;->a:Lkoh;
 
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_12
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     const-string v2, "ClearcutLogger.API"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_11
-
-    nop
-
-    nop
 
     :goto_c
     sput-object v0, Lkmt;->l:Lohg;
 
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     const/4 v0, -0x1
 
-    nop
-
-    nop
-
     goto/32 :goto_14
-
-    nop
-
-    nop
 
     :goto_e
     invoke-direct {v0}, Lohg;-><init>()V
 
     goto/32 :goto_c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_f
     new-instance v0, Lohg;
 
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_10
     sget-object v4, Lkmt;->l:Lohg;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_11
     const/4 v5, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
 
     :goto_12
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_13
     invoke-direct/range {v1 .. v6}, Lkoh;-><init>(Ljava/lang/String;Lohs;Lohg;[B[B)V
 
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_14
     sput v0, Lkmt;->b:I
 
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lkmz;Lkmr;)V
@@ -411,353 +151,97 @@
 
     goto/32 :goto_8
 
-    nop
-
-    nop
-
     :goto_0
     iput-object p2, p0, Lkmt;->e:Ljava/lang/String;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iput-object p4, p0, Lkmt;->g:Lkmr;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Lkmt;->d:Ljava/lang/String;
 
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iput-object p3, p0, Lkmt;->k:Lkmz;
 
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     iput v0, p0, Lkmt;->f:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     iput v1, p0, Lkmt;->j:I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_10
-
-    nop
-
-    nop
 
     :goto_8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_e
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9
     iput v1, p0, Lkmt;->j:I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     iput-object v2, p0, Lkmt;->c:Landroid/content/Context;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_b
     iput v0, p0, Lkmt;->f:I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     const/4 v1, 0x1
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     const/4 v0, -0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :goto_f
     invoke-direct {v2}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     goto/32 :goto_11
 
-    nop
-
-    nop
-
-    nop
-
     :goto_10
     new-instance v2, Ljava/util/concurrent/CopyOnWriteArrayList;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_11
     iput-object v2, p0, Lkmt;->i:Ljava/util/List;
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 .end method
 
 
@@ -767,46 +251,16 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v0, p0, p1}, Lkmq;-><init>(Lkmt;[B)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_1
     return-object v0
-
-    nop
-
-    nop
 
     :goto_2
     new-instance v0, Lkmq;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method

@@ -422,7 +422,7 @@
     iput v1, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->a:I
 
     :cond_0
-    nop
+
 
     const/4 v1, 0x1
 
@@ -439,7 +439,7 @@
     iput-object v1, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->b:Landroid/graphics/drawable/Drawable;
 
     :cond_1
-    nop
+
 
     const/16 v1, 0xe
 
@@ -462,7 +462,7 @@
     iput v1, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->c:I
 
     :cond_2
-    nop
+
 
     const/16 v1, 0x11
 
@@ -485,7 +485,7 @@
     iput v1, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->d:I
 
     :cond_3
-    nop
+
 
     const/16 v1, 0x10
 
@@ -506,7 +506,7 @@
     iput-object v1, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->e:Landroid/graphics/Typeface;
 
     :cond_4
-    nop
+
 
     const/16 v1, 0x13
 
@@ -527,7 +527,7 @@
     iput-object v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->f:Landroid/graphics/Typeface;
 
     :cond_5
-    nop
+
 
     const/16 v0, 0xf
 
@@ -550,7 +550,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->g:I
 
     :cond_6
-    nop
+
 
     const/16 v0, 0x12
 
@@ -573,7 +573,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->h:I
 
     :cond_7
-    nop
+
 
     const/16 v0, 0x9
 
@@ -596,7 +596,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->j:I
 
     :cond_8
-    nop
+
 
     const/4 v0, 0x2
 
@@ -619,7 +619,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->k:I
 
     :cond_9
-    nop
+
 
     const/4 v0, 0x5
 
@@ -642,7 +642,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->n:I
 
     :cond_a
-    nop
+
 
     const/4 v0, 0x6
 
@@ -665,7 +665,7 @@
     invoke-virtual {p1, v0}, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->a(I)V
 
     :cond_b
-    nop
+
 
     const/4 v0, 0x4
 
@@ -688,7 +688,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->l:I
 
     :cond_c
-    nop
+
 
     const/4 v0, 0x3
 
@@ -711,7 +711,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->m:I
 
     :cond_d
-    nop
+
 
     const/4 v0, 0x7
 
@@ -734,7 +734,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->o:I
 
     :cond_e
-    nop
+
 
     const/16 v0, 0xc
 
@@ -757,7 +757,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->p:I
 
     :cond_f
-    nop
+
 
     const/16 v0, 0xa
 
@@ -780,7 +780,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->q:I
 
     :cond_10
-    nop
+
 
     const/16 v0, 0xd
 
@@ -803,7 +803,7 @@
     iput v0, p1, Landroid/support/wearable/complications/rendering/ComplicationStyle$Builder;->r:I
 
     :cond_11
-    nop
+
 
     const/16 v0, 0x8
 
@@ -1615,7 +1615,7 @@
     goto :goto_a
 
     :cond_11
-    nop
+
 
     :goto_a
     const/high16 v11, 0x43b00000    # 352.0f

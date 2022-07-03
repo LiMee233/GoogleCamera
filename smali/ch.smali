@@ -15,70 +15,20 @@
 
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sput-object v0, Lch;->a:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_0
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :array_0
     .array-data 4
@@ -288,86 +238,22 @@
     :goto_3
     const/16 v0, 0x6f
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     sput-object v0, Lch;->b:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     const/16 v0, 0x56
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

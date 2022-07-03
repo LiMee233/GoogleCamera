@@ -203,7 +203,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     const/16 p2, 0xb
 

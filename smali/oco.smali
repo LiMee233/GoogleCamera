@@ -16,37 +16,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0, p1}, Lodb;-><init>(Ljava/util/Map;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 
@@ -56,47 +32,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Ljava/lang/Object;Ljava/util/Collection;)Ljava/util/Collection;
@@ -104,79 +46,25 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0, p1, p2, v0}, Lodb;->a(Ljava/lang/Object;Ljava/util/List;Locx;)Ljava/util/List;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object p1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     check-cast p2, Ljava/util/List;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Ljava/lang/Object;)Ljava/util/List;
@@ -184,68 +72,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-super {p0, p1}, Lodb;->b(Ljava/lang/Object;)Ljava/util/Collection;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     check-cast p1, Ljava/util/List;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;)Ljava/util/Collection;
@@ -253,55 +93,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0, p1}, Loco;->a(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

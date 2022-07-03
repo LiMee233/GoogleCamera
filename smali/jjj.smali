@@ -12,41 +12,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -56,22 +28,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method
 
 .method public final b()Landroid/view/GestureDetector$OnGestureListener;
@@ -79,52 +37,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-object v0
-
-    nop
 
     :goto_2
     new-instance v0, Landroid/view/GestureDetector$SimpleOnGestureListener;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final c()Landroid/view/View$OnTouchListener;
@@ -132,37 +56,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final d()Z
@@ -170,35 +70,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x1
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
@@ -206,28 +84,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
@@ -235,45 +93,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
@@ -281,18 +107,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V
@@ -300,20 +116,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final surfaceChanged(Landroid/view/SurfaceHolder;III)V
@@ -321,16 +125,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method
 
 .method public final surfaceCreated(Landroid/view/SurfaceHolder;)V
@@ -338,20 +134,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final surfaceDestroyed(Landroid/view/SurfaceHolder;)V
@@ -359,16 +143,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method
 
 .method public final surfaceRedrawNeeded(Landroid/view/SurfaceHolder;)V
@@ -376,22 +152,6 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

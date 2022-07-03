@@ -3443,7 +3443,7 @@
     .param p3, "array"    # Ljava/lang/Object;
 
     .line 1290
-    nop
+
 
     .line 1291
     const/4 v0, 0x1
@@ -3591,7 +3591,7 @@
     .param p3, "array"    # Ljava/lang/Object;
 
     .line 1155
-    nop
+
 
     .line 1156
     const/4 v0, 0x0
@@ -3727,7 +3727,7 @@
     .param p3, "array"    # Ljava/lang/Object;
 
     .line 2164
-    nop
+
 
     .line 2165
     const/4 v0, 0x1
@@ -3875,7 +3875,7 @@
     .param p3, "array"    # Ljava/lang/Object;
 
     .line 2029
-    nop
+
 
     .line 2030
     const/4 v0, 0x0
@@ -4084,7 +4084,7 @@
     .param p5, "array"    # Ljava/lang/Object;
 
     .line 1495
-    nop
+
 
     .line 1496
     const/4 v0, 0x1
@@ -4519,7 +4519,7 @@
     .param p5, "array"    # Ljava/lang/Object;
 
     .line 2336
-    nop
+
 
     .line 2337
     const/4 v0, 0x1
@@ -4931,7 +4931,7 @@
     .param p7, "array"    # Ljava/lang/Object;
 
     .line 1754
-    nop
+
 
     .line 1755
     const/4 v0, 0x1
@@ -6528,7 +6528,7 @@
     .line 482
     :cond_1
     :goto_0
-    nop
+
 
     .line 486
     iget-object v0, p0, Landroidx/renderscript/Allocation;->mRS:Landroidx/renderscript/RenderScript;

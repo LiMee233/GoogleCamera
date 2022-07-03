@@ -18,71 +18,23 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iput-object p2, p0, Lihk;->a:Lmna;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Lihk;->b:Lcom/google/android/apps/camera/stats/Instrumentation;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -92,111 +44,31 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v2, v1}, Liif;-><init>(Lmna;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_1
     iget-object v0, p0, Lihk;->b:Lcom/google/android/apps/camera/stats/Instrumentation;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v1, p0, Lihk;->a:Lmna;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-object v2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-virtual {v0, v2}, Lcom/google/android/apps/camera/stats/Instrumentation;->a(Lcom/google/android/apps/camera/stats/timing/TimingSession;)V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     new-instance v2, Liif;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

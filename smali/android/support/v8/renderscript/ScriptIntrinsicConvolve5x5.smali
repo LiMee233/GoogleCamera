@@ -257,7 +257,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0, v1, v0}, Landroid/support/v8/renderscript/Script;->setVar(ILandroid/support/v8/renderscript/FieldPacker;)V
 

@@ -13,44 +13,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lirh;->b:Liri;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Liqo;-><init>()V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method
 
 
@@ -60,60 +34,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lirh;->b:Liri;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v0}, Liri;->j()V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public e()V
@@ -121,28 +53,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final f()V
@@ -150,20 +62,6 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 .end method

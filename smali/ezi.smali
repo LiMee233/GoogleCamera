@@ -22,208 +22,58 @@
 
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object v0, p0, Lezi;->c:Ljava/lang/Object;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Lezi;->a:Lmus;
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iput-boolean v0, p0, Lezi;->d:Z
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     new-instance v0, Ljava/util/HashSet;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     new-instance v0, Ljava/lang/Object;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
     :goto_a
     iput-object v0, p0, Lezi;->b:Ljava/util/Set;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -233,83 +83,25 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw v1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lezi;->c:Ljava/lang/Object;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_2
     monitor-enter v0
 
-    nop
-
-    nop
-
     :try_start_0
     new-instance v1, Lezh;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     iget-object v2, p0, Lezi;->a:Lmus;
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-interface {v2}, Lmus;->a()Lmuu;
 
     move-result-object v2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     invoke-static {v2}, Lnzd;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -317,60 +109,20 @@
 
     iget-object v2, p0, Lezi;->b:Ljava/util/Set;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     invoke-interface {v2, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     monitor-exit v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     return-object v1
-
-    nop
-
-    nop
-
-    nop
 
     :catchall_0
     move-exception v1
 
-    nop
-
     monitor-exit v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final b()V
@@ -378,114 +130,28 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Lmus;->b()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iput-boolean v0, p0, Lezi;->d:Z
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     iget-object v0, p0, Lezi;->a:Lmus;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final c()Loxj;
@@ -493,66 +159,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {v0}, Lmus;->c()Loxj;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lezi;->a:Lmus;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 .end method

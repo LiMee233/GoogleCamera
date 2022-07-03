@@ -13,64 +13,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, p2, p3, p4}, Lj$/util/stream/ReferencePipeline$StatelessOp;-><init>(Lj$/util/stream/AbstractPipeline;Lj$/util/stream/StreamShape;I)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p5, p0, Lj$/util/stream/ReferencePipeline$3;->val$mapper:Lj$/util/function/Function;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -80,48 +34,16 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     new-instance p1, Lj$/util/stream/ReferencePipeline$3$1;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p1, p0, p2}, Lj$/util/stream/ReferencePipeline$3$1;-><init>(Lj$/util/stream/ReferencePipeline$3;Lj$/util/stream/Sink;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-object p1
-
-    nop
-
-    nop
 .end method

@@ -12,29 +12,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
 .end method
 
 
@@ -44,42 +28,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     check-cast p1, Lhod;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {p1}, Lhod;->c()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final andThen(Lj$/util/function/Consumer;)Lj$/util/function/Consumer;
@@ -87,39 +47,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Lj$/util/function/Consumer$$CC;->andThen$$dflt$$(Lj$/util/function/Consumer;Lj$/util/function/Consumer;)Lj$/util/function/Consumer;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

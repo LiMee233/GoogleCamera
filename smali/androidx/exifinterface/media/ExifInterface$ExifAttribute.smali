@@ -1319,7 +1319,7 @@
     packed-switch v4, :pswitch_data_0
 
     .line 3314
-    nop
+
 
     .line 3320
     goto/16 :goto_18
@@ -1358,10 +1358,10 @@
     .line 3311
     .end local v5    # "i":I
     :cond_0
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_1
@@ -1423,10 +1423,10 @@
     .line 3304
     .end local v5    # "i":I
     :cond_1
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_3
@@ -1504,10 +1504,10 @@
     .line 3297
     .end local v5    # "i":I
     :cond_2
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_5
@@ -1567,10 +1567,10 @@
     .line 3288
     .end local v5    # "i":I
     :cond_3
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_7
@@ -1630,10 +1630,10 @@
     .line 3281
     .end local v5    # "i":I
     :cond_4
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_9
@@ -1707,10 +1707,10 @@
     .line 3274
     .end local v5    # "i":I
     :cond_5
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_b
@@ -1770,10 +1770,10 @@
     .line 3265
     .end local v5    # "i":I
     :cond_6
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_d
@@ -1833,10 +1833,10 @@
     .line 3258
     .end local v5    # "i":I
     :cond_7
-    nop
+
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_f
@@ -1974,7 +1974,7 @@
 
     .line 3249
     :goto_13
-    nop
+
 
     .end local v6    # "ch":I
     add-int/lit8 v4, v4, 0x1
@@ -1993,7 +1993,7 @@
     .catchall {:try_start_10 .. :try_end_10} :catchall_0
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_11
@@ -2065,7 +2065,7 @@
     .catchall {:try_start_12 .. :try_end_12} :catchall_0
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_13
@@ -2104,7 +2104,7 @@
     .catchall {:try_start_14 .. :try_end_14} :catchall_0
 
     .line 3320
-    nop
+
 
     .line 3322
     :try_start_15
@@ -2171,7 +2171,7 @@
     .catchall {:try_start_17 .. :try_end_17} :catchall_0
 
     .line 3318
-    nop
+
 
     .line 3320
     if-eqz v2, :cond_f

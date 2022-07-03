@@ -17,58 +17,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0, p2}, Loef;-><init>(Loep;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private final a(Loip;)Loef;
@@ -76,117 +36,37 @@
 
     goto/32 :goto_d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     if-nez v0, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_b
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iget-object v0, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v0, p1}, Loip;->a(Loip;)Z
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {v0, p1}, Loip;->b(Loip;)Loip;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     new-instance p1, Loer;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_5
     invoke-direct {p1, v0}, Loer;-><init>(Loep;)V
@@ -194,116 +74,36 @@
     :goto_6
     goto/32 :goto_c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_7
     iget-object v0, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     goto :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_9
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     invoke-static {p1, v0}, Loef;->a(Loip;Loep;)Loef;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     iget-object v0, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_c
     return-object p1
 
-    nop
-
-    nop
-
     :goto_d
     iget-object v0, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 .end method
 
 .method public static b(Ljava/lang/Comparable;Ljava/lang/Comparable;)Z
@@ -311,145 +111,47 @@
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
     :goto_0
     return p0
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     if-eqz p0, :cond_0
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     const/4 p0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     return p0
 
-    nop
-
     :goto_5
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     invoke-static {p0, p1}, Loip;->c(Ljava/lang/Comparable;Ljava/lang/Comparable;)I
 
     move-result p0
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_7
     if-nez p1, :cond_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
 
     :cond_1
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -459,70 +161,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     check-cast p1, Ljava/lang/Comparable;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {p0, p1, p2}, Loiu;->d(Ljava/lang/Comparable;Z)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic a(Ljava/lang/Object;ZLjava/lang/Object;Z)Lohb;
@@ -530,87 +182,25 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p0, p1, p2, p3, p4}, Loiu;->b(Ljava/lang/Comparable;ZLjava/lang/Comparable;Z)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     check-cast p1, Ljava/lang/Comparable;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     check-cast p3, Ljava/lang/Comparable;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a()Loip;
@@ -618,233 +208,69 @@
 
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {v0, v1}, Loip;->a(Loek;Loek;)Loip;
 
     move-result-object v0
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_1
     sget-object v1, Lodo;->b:Lodo;
 
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-object v3, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-virtual {v2, v1, v3}, Loek;->b(Lodo;Loep;)Loek;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iget-object v2, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     sget-object v0, Lodo;->b:Lodo;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     iget-object v2, v2, Loip;->a:Loek;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-virtual {v2, v0, v3}, Loek;->a(Lodo;Loep;)Loek;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     iget-object v2, v2, Loip;->b:Loek;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     iget-object v3, p0, Loiu;->a:Loep;
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_b
     iget-object v2, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
 .end method
 
 .method public final ad()Loki;
@@ -852,83 +278,25 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     new-instance v0, Loir;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Loiu;->m()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, p0, v1}, Loir;-><init>(Loiu;Ljava/lang/Comparable;)V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     return-object v0
-
-    nop
 .end method
 
 .method public final b(Ljava/lang/Comparable;ZLjava/lang/Comparable;Z)Loef;
@@ -936,296 +304,94 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     if-eqz p2, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_a
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-object p1
 
-    nop
-
     :goto_2
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {p0, p1}, Loiu;->a(Loip;)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-interface {p1, p3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     invoke-static {p1, p2, p3, p4}, Loip;->a(Ljava/lang/Comparable;Lodo;Ljava/lang/Comparable;Lodo;)Loip;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     invoke-static {p2}, Lodo;->a(Z)Lodo;
 
     move-result-object p2
 
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-static {p4}, Lodo;->a(Z)Lodo;
 
     move-result-object p4
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     iget-object p2, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     if-eqz p4, :cond_1
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :cond_1
     goto/32 :goto_b
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     new-instance p1, Loer;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     invoke-direct {p1, p2}, Loer;-><init>(Loep;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     goto/16 :goto_2
-
-    nop
-
-    nop
 
     :goto_e
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_f
     if-nez v0, :cond_2
 
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_2
     goto/32 :goto_d
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic b(Ljava/lang/Object;Z)Lohb;
@@ -1233,66 +399,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     check-cast p1, Ljava/lang/Comparable;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {p0, p1, p2}, Loiu;->c(Ljava/lang/Comparable;Z)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final c(Ljava/lang/Comparable;Z)Loef;
@@ -1300,85 +420,29 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p1, p2}, Loip;->a(Ljava/lang/Comparable;Lodo;)Loip;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0, p1}, Loiu;->a(Loip;)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-static {p2}, Lodo;->a(Z)Lodo;
 
     move-result-object p2
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final contains(Ljava/lang/Object;)Z
@@ -1386,121 +450,41 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     if-nez p1, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :cond_0
     :try_start_0
     iget-object v1, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     check-cast p1, Ljava/lang/Comparable;
-
-    nop
-
-    nop
 
     invoke-virtual {v1, p1}, Loip;->c(Ljava/lang/Comparable;)Z
 
     move-result p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
     :try_end_0
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_2
     return p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :catch_0
     move-exception p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_4
     return v0
-
-    nop
-
-    nop
 .end method
 
 .method public final containsAll(Ljava/util/Collection;)Z
@@ -1508,53 +492,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p0, p1}, Loed;->a(Ljava/util/Collection;Ljava/util/Collection;)Z
 
     move-result p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final d(Ljava/lang/Comparable;Z)Loef;
@@ -1562,85 +508,29 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {p1, p2}, Loip;->b(Ljava/lang/Comparable;Lodo;)Loip;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-static {p2}, Lodo;->a(Z)Lodo;
 
     move-result-object p2
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {p0, p1}, Loiu;->a(Loip;)Loef;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method
 
 .method public final d()Loki;
@@ -1648,65 +538,25 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Loiu;->n()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     new-instance v0, Lois;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {v0, p0, v1}, Lois;-><init>(Loiu;Ljava/lang/Comparable;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic descendingIterator()Ljava/util/Iterator;
@@ -1714,39 +564,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
 
     :goto_1
     invoke-virtual {p0}, Loiu;->d()Loki;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final e()Z
@@ -1754,43 +580,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return v0
-
-    nop
-
-    nop
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -1798,543 +594,163 @@
 
     goto/32 :goto_8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loiu;->m()Ljava/lang/Comparable;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     if-nez v1, :cond_0
 
-    nop
-
-    nop
-
     goto/32 :goto_13
-
-    nop
 
     :cond_0
     goto/32 :goto_10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     if-nez p1, :cond_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1a
-
-    nop
 
     :cond_1
     goto/32 :goto_19
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {v1}, Loiu;->m()Ljava/lang/Comparable;
 
     move-result-object v2
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
 
     :goto_4
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_12
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     invoke-virtual {p1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
 
     :goto_6
     goto/16 :goto_13
 
-    nop
-
-    nop
-
     :goto_7
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
 
     :goto_9
     invoke-virtual {p0}, Loiu;->n()Ljava/lang/Comparable;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_14
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     return p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b
     goto/32 :goto_1c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     invoke-virtual {v2, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
-    nop
-
     goto/32 :goto_16
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     if-nez p1, :cond_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1a
-
-    nop
 
     :cond_2
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_e
     if-ne p1, p0, :cond_3
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
 
     :cond_3
     goto/32 :goto_18
 
-    nop
-
-    nop
-
     :goto_f
     iget-object v3, v1, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
 
     :goto_10
     move-object v1, p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_15
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_11
     invoke-super {p0, p1}, Loef;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
 
     :goto_12
     return p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_13
     goto/32 :goto_11
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_14
     invoke-virtual {v1}, Loiu;->n()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_15
     check-cast v1, Loiu;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_17
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_16
     if-eqz v2, :cond_4
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
 
     :cond_4
     goto/32 :goto_6
 
-    nop
-
-    nop
-
-    nop
-
     :goto_17
     iget-object v2, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_18
     instance-of v1, p1, Loiu;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_19
     return v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1a
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1b
     invoke-virtual {p1, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1c
     return v0
-
-    nop
 .end method
 
 .method public final bridge synthetic first()Ljava/lang/Object;
@@ -2342,45 +758,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loiu;->m()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
 .end method
 
 .method public final hashCode()I
@@ -2388,37 +774,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
 
     :goto_1
     invoke-static {p0}, Lojm;->a(Ljava/util/Set;)I
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final isEmpty()Z
@@ -2426,47 +790,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic iterator()Ljava/util/Iterator;
@@ -2474,47 +804,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loiu;->ad()Loki;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
 .end method
 
 .method public final k()Logc;
@@ -2522,92 +820,28 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     new-instance v0, Lofo;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, p0}, Lofo;-><init>(Loiu;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-boolean v0, v0, Loep;->b:Z
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic last()Ljava/lang/Object;
@@ -2615,41 +849,15 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Loiu;->n()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final m()Ljava/lang/Comparable;
@@ -2657,100 +865,30 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v1, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
-    nop
-
     :goto_3
     iget-object v0, v0, Loip;->a:Loek;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_4
     invoke-virtual {v0, v1}, Loek;->a(Loep;)Ljava/lang/Comparable;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final n()Ljava/lang/Comparable;
@@ -2758,98 +896,30 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, v0, Loip;->b:Loek;
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {v0, v1}, Loek;->b(Loep;)Ljava/lang/Comparable;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     iget-object v1, p0, Loiu;->a:Loep;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final size()I
@@ -2857,336 +927,100 @@
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
 
     :goto_1
     if-ltz v0, :cond_0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :cond_0
     goto/32 :goto_8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     sub-long/2addr v1, v3
 
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-virtual {p0}, Loiu;->m()Ljava/lang/Comparable;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     return v0
 
-    nop
-
     :goto_6
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     add-int/lit8 v0, v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     long-to-int v0, v1
 
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     check-cast v1, Ljava/lang/Integer;
 
-    nop
-
-    nop
-
     goto/32 :goto_10
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     check-cast v0, Ljava/lang/Integer;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     invoke-virtual {p0}, Loiu;->n()Ljava/lang/Comparable;
 
     move-result-object v1
 
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     const-wide/32 v3, 0x7fffffff
 
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d
     int-to-long v3, v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_e
     cmp-long v0, v1, v3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_f
     const v0, 0x7fffffff
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_10
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
-    nop
-
     goto/32 :goto_11
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_11
     int-to-long v1, v1
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method writeReplace()Ljava/lang/Object;
@@ -3194,86 +1028,26 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v1, p0, Loiu;->e:Loip;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_1
     new-instance v0, Loit;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v2, p0, Loiu;->a:Loep;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {v0, v1, v2}, Loit;-><init>(Loip;Loep;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

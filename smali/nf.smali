@@ -65,718 +65,206 @@
 
     goto/32 :goto_28
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     new-array v4, v2, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v4, :array_3
 
     goto/32 :goto_46
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     sput-object v0, Lnf;->l:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput-object v1, Lnf;->b:[I
 
-    nop
-
     goto/32 :goto_2a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     sput-object v2, Lnf;->v:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
 
     :goto_4
     new-array v0, v0, [I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_32
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     new-array v1, v1, [I
-
-    nop
 
     fill-array-data v1, :array_d
 
     goto/32 :goto_3d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_6
     const/4 v1, 0x6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_43
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     const v2, 0x101013f
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_22
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     const/16 v2, 0x10
 
-    nop
-
     goto/32 :goto_1b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     sput-object v1, Lnf;->p:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_2d
-
-    nop
-
-    nop
 
     :goto_a
     const/4 v4, 0x7
 
-    nop
-
     goto/32 :goto_4a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     sput-object v0, Lnf;->k:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_41
-
-    nop
-
-    nop
 
     :goto_c
     new-array v2, v2, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_14
 
     goto/32 :goto_e
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     sput-object v1, Lnf;->c:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     sput-object v2, Lnf;->x:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_f
     const/4 v2, 0x2
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_25
-
-    nop
-
-    nop
 
     :goto_10
     sput-object v3, Lnf;->m:[I
 
-    nop
-
     goto/32 :goto_45
-
-    nop
-
-    nop
-
-    nop
 
     :goto_11
     new-array v4, v4, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v4, :array_6
 
     goto/32 :goto_42
 
-    nop
-
-    nop
-
-    nop
-
     :goto_12
     const/16 v2, 0x1e
 
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
 
     :goto_13
     new-array v1, v2, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v1, :array_10
 
     goto/32 :goto_44
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_14
     const/16 v4, 0x7d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_35
-
-    nop
-
-    nop
 
     :goto_15
     sput-object v0, Lnf;->r:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_19
-
-    nop
-
-    nop
 
     :goto_16
     new-array v1, v0, [I
-
-    nop
-
-    nop
 
     fill-array-data v1, :array_f
 
     goto/32 :goto_3c
 
-    nop
-
-    nop
-
     :goto_17
     const v2, 0x10100b3
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3e
-
-    nop
-
-    nop
 
     :goto_18
     new-array v2, v1, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_11
 
     goto/32 :goto_3a
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_19
     const/4 v0, 0x3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_16
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1a
     sput-object v2, Lnf;->d:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1b
     new-array v2, v2, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_13
 
     goto/32 :goto_21
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1c
     sput-object v0, Lnf;->a:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1d
     sput-object v1, Lnf;->z:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1e
     const/16 v0, 0x9
 
-    nop
-
-    nop
-
     goto/32 :goto_38
-
-    nop
-
-    nop
 
     :goto_1f
     aput v2, v1, v3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_20
     new-array v2, v2, [I
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_2
 
     goto/32 :goto_39
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_21
     sput-object v2, Lnf;->w:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_12
-
-    nop
-
-    nop
 
     :goto_22
     aput v2, v1, v3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_23
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_18
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_24
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :array_0
     .array-data 4
@@ -1219,845 +707,235 @@
     :goto_25
     new-array v3, v2, [I
 
-    nop
-
     fill-array-data v3, :array_b
 
     goto/32 :goto_49
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_26
     sput-object v4, Lnf;->h:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_2c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_27
     new-array v1, v0, [I
 
-    nop
-
     goto/32 :goto_17
-
-    nop
-
-    nop
-
-    nop
 
     :goto_28
     const/16 v0, 0x1d
 
-    nop
-
     goto/32 :goto_3f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_29
     const/4 v2, 0x4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2a
     new-array v1, v0, [I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2b
     aput v4, v0, v3
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2c
     const/16 v4, 0x15
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_11
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2d
     const/16 v1, 0x17
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2e
     const/4 v0, 0x1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_27
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2f
     sput-object v4, Lnf;->j:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_30
     sput-object v1, Lnf;->y:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_36
-
-    nop
-
-    nop
-
-    nop
 
     :goto_31
     new-array v1, v1, [I
-
-    nop
 
     fill-array-data v1, :array_c
 
     goto/32 :goto_9
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_32
     const v4, 0x7f04002c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_33
     const/16 v2, 0xe
 
-    nop
-
     goto/32 :goto_40
-
-    nop
-
-    nop
-
-    nop
 
     :goto_34
     sput-object v0, Lnf;->A:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_24
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_35
     new-array v4, v4, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v4, :array_7
 
     goto/32 :goto_2f
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_36
     new-array v1, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v1, :array_16
 
     goto/32 :goto_1d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_37
     new-array v4, v2, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v4, :array_4
 
     goto/32 :goto_47
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_38
     new-array v3, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v3, :array_9
 
     goto/32 :goto_10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_39
     sput-object v2, Lnf;->e:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_29
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3a
     sput-object v2, Lnf;->u:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_33
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3b
     sput-object v2, Lnf;->n:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3c
     sput-object v1, Lnf;->s:[I
 
-    nop
-
-    nop
-
     goto/32 :goto_13
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3d
     sput-object v1, Lnf;->q:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_48
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3e
     const/4 v3, 0x0
 
-    nop
-
     goto/32 :goto_1f
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3f
     new-array v0, v0, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_0
 
     goto/32 :goto_1c
 
-    nop
-
-    nop
-
-    nop
-
     :goto_40
     new-array v2, v2, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_12
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_41
     new-array v0, v2, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_8
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_42
     sput-object v4, Lnf;->i:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_14
-
-    nop
-
-    nop
 
     :goto_43
     new-array v2, v1, [I
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_1
 
     goto/32 :goto_1a
 
-    nop
-
-    nop
-
     :goto_44
     sput-object v1, Lnf;->t:[I
 
-    nop
-
     goto/32 :goto_23
-
-    nop
-
-    nop
 
     :goto_45
     new-array v2, v2, [I
-
-    nop
-
-    nop
 
     fill-array-data v2, :array_a
 
     goto/32 :goto_3b
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_46
     sput-object v4, Lnf;->f:[I
 
-    nop
-
     goto/32 :goto_37
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_47
     sput-object v4, Lnf;->g:[I
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_48
     new-array v0, v0, [I
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_e
 
     goto/32 :goto_15
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_49
     sput-object v3, Lnf;->o:[I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_31
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4a
     new-array v4, v4, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v4, :array_5
 
     goto/32 :goto_26
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4b
     new-array v1, v1, [I
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v1, :array_15
 
     goto/32 :goto_30
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4c
     const/16 v2, 0x8
 
-    nop
-
-    nop
-
     goto/32 :goto_20
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4d
     new-array v0, v0, [I
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     fill-array-data v0, :array_17
 
     goto/32 :goto_34
-
-    nop
-
-    nop
-
-    nop
 .end method

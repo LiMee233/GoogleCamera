@@ -9,80 +9,28 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0, p1}, Lkkq;-><init>(Lkkt;)V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iget-object p1, p1, Lkkt;->g:Lkui;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {v0, p1}, Lkmk;-><init>(Lkui;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     new-instance v0, Lkmk;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     return-void
-
-    nop
 .end method
 
 
@@ -92,18 +40,6 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -13,59 +13,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lowu;->a:Loxj;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Lowt;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     invoke-static {p1}, Lnzd;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     return-void
-
-    nop
 .end method
 
 
@@ -75,56 +39,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0, p1, p2}, Loxj;->a(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final cancel(Z)Z
@@ -132,58 +58,20 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0, p1}, Loxj;->cancel(Z)Z
 
     move-result p1
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final get()Ljava/lang/Object;
@@ -191,70 +79,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0}, Loxj;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
@@ -262,70 +100,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0, p1, p2, p3}, Loxj;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final isCancelled()Z
@@ -333,64 +121,20 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Loxj;->isCancelled()Z
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 .end method
 
 .method public final isDone()Z
@@ -398,50 +142,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0}, Loxj;->isDone()Z
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -449,72 +163,18 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lowu;->a:Loxj;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

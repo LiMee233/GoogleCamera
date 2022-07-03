@@ -13,380 +13,108 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v1, Lj$/util/stream/Collector$Characteristics;->UNORDERED:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {v0, v1}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-static {v0}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     sget-object v0, Lj$/util/stream/Collector$Characteristics;->CONCURRENT:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-static {v0, v1, v2}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     sget-object v0, Lj$/util/stream/Collector$Characteristics;->CONCURRENT:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
 
     :goto_6
     sget-object v2, Lj$/util/stream/Collector$Characteristics;->IDENTITY_FINISH:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     return-void
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8
     sput-object v0, Lj$/util/stream/Collectors;->CH_ID:Ljava/util/Set;
 
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_a
     sget-object v1, Lj$/util/stream/Collector$Characteristics;->UNORDERED:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     sget-object v0, Lj$/util/stream/Collector$Characteristics;->UNORDERED:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_11
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     goto/32 :goto_10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_d
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v0
 
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     invoke-static {v0, v1}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_f
     invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     goto/32 :goto_12
 
-    nop
-
-    nop
-
-    nop
-
     :goto_10
     invoke-static {}, Ljava/util/Collections;->emptySet()Ljava/util/Set;
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
-    nop
-
     :goto_11
     sget-object v1, Lj$/util/stream/Collector$Characteristics;->IDENTITY_FINISH:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_12
     sget-object v0, Lj$/util/stream/Collector$Characteristics;->IDENTITY_FINISH:Lj$/util/stream/Collector$Characteristics;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method static synthetic access$000()Lj$/util/function/Function;
@@ -394,39 +122,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {}, Lj$/util/stream/Collectors;->castingIdentity()Lj$/util/function/Function;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method private static castingIdentity()Lj$/util/function/Function;
@@ -434,35 +138,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Lj$/util/stream/Collectors$$Lambda$1;->$instance:Lj$/util/function/Function;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method static final synthetic lambda$castingIdentity$1$Collectors(Ljava/lang/Object;)Ljava/lang/Object;
@@ -470,22 +152,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     return-object p0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method static final synthetic lambda$toCollection$2$Collectors(Ljava/util/Collection;Ljava/util/Collection;)Ljava/util/Collection;
@@ -493,37 +161,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {p0, p1}, Ljava/util/Collection;->addAll(Ljava/util/Collection;)Z
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_1
     return-object p0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method static final synthetic lambda$toList$3$Collectors(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
@@ -531,33 +175,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p0
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {p0, p1}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static toCollection(Lj$/util/function/Supplier;)Lj$/util/stream/Collector;
@@ -565,109 +189,33 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v2, Lj$/util/stream/Collectors$$Lambda$3;->$instance:Lj$/util/function/BinaryOperator;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     sget-object v3, Lj$/util/stream/Collectors;->CH_ID:Ljava/util/Set;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sget-object v1, Lj$/util/stream/Collectors$$Lambda$2;->$instance:Lj$/util/function/BiConsumer;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     new-instance v0, Lj$/util/stream/Collectors$CollectorImpl;
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     invoke-direct {v0, p0, v1, v2, v3}, Lj$/util/stream/Collectors$CollectorImpl;-><init>(Lj$/util/function/Supplier;Lj$/util/function/BiConsumer;Lj$/util/function/BinaryOperator;Ljava/util/Set;)V
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static toList()Lj$/util/stream/Collector;
@@ -675,128 +223,36 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v3, Lj$/util/stream/Collectors$$Lambda$6;->$instance:Lj$/util/function/BinaryOperator;
 
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     sget-object v2, Lj$/util/stream/Collectors$$Lambda$5;->$instance:Lj$/util/function/BiConsumer;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
 
-    nop
-
     :goto_3
     new-instance v0, Lj$/util/stream/Collectors$CollectorImpl;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     sget-object v4, Lj$/util/stream/Collectors;->CH_ID:Ljava/util/Set;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     invoke-direct {v0, v1, v2, v3, v4}, Lj$/util/stream/Collectors$CollectorImpl;-><init>(Lj$/util/function/Supplier;Lj$/util/function/BiConsumer;Lj$/util/function/BinaryOperator;Ljava/util/Set;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_6
     sget-object v1, Lj$/util/stream/Collectors$$Lambda$4;->$instance:Lj$/util/function/Supplier;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

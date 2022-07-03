@@ -12,27 +12,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -42,24 +28,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public a(IIF)V
@@ -67,18 +37,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 .end method
 
 .method public a(Z)V
@@ -86,24 +46,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 .end method
 
 .method public a(ZZ)V
@@ -111,24 +55,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public f()V
@@ -136,26 +64,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public g()V
@@ -163,16 +73,8 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 .end method
 
 .method public i()V
@@ -180,16 +82,6 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 .end method

@@ -9,43 +9,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getBoolean(I)Z
@@ -53,37 +23,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final getColor(I)I
@@ -91,33 +37,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final getColorStateList(I)Landroid/content/res/ColorStateList;
@@ -125,39 +51,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final getConfiguration()Landroid/content/res/Configuration;
@@ -165,39 +65,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDimension(I)F
@@ -205,37 +79,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDimensionPixelOffset(I)I
@@ -243,47 +93,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDimensionPixelSize(I)I
@@ -291,35 +107,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDisplayMetrics()Landroid/util/DisplayMetrics;
@@ -327,35 +121,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 v0, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw v0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public getDrawable(I)Landroid/graphics/drawable/Drawable;
@@ -363,41 +135,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDrawable(ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
@@ -405,35 +149,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final getDrawableForDensity(II)Landroid/graphics/drawable/Drawable;
@@ -441,37 +163,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getDrawableForDensity(IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
@@ -479,43 +177,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getFraction(III)F
@@ -523,43 +191,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
@@ -567,51 +205,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getIntArray(I)[I
@@ -619,39 +219,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getInteger(I)I
@@ -659,37 +233,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final getLayout(I)Landroid/content/res/XmlResourceParser;
@@ -697,41 +247,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getMovie(I)Landroid/graphics/Movie;
@@ -739,43 +261,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final getQuantityString(II)Ljava/lang/String;
@@ -783,41 +275,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
 .end method
 
 .method public final varargs getQuantityString(II[Ljava/lang/Object;)Ljava/lang/String;
@@ -825,51 +289,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getQuantityText(II)Ljava/lang/CharSequence;
@@ -877,53 +303,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getResourceEntryName(I)Ljava/lang/String;
@@ -931,35 +317,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getResourceName(I)Ljava/lang/String;
@@ -967,41 +331,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getResourcePackageName(I)Ljava/lang/String;
@@ -1009,39 +345,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getResourceTypeName(I)Ljava/lang/String;
@@ -1049,53 +359,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getString(I)Ljava/lang/String;
@@ -1103,37 +373,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final varargs getString(I[Ljava/lang/Object;)Ljava/lang/String;
@@ -1141,41 +387,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getStringArray(I)[Ljava/lang/String;
@@ -1183,39 +401,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getText(I)Ljava/lang/CharSequence;
@@ -1223,37 +415,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
 .end method
 
 .method public final getText(ILjava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -1261,53 +429,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getTextArray(I)[Ljava/lang/CharSequence;
@@ -1315,45 +443,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getValue(ILandroid/util/TypedValue;Z)V
@@ -1361,35 +457,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getValue(Ljava/lang/String;Landroid/util/TypedValue;Z)V
@@ -1397,37 +471,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getValueForDensity(IILandroid/util/TypedValue;Z)V
@@ -1435,45 +485,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final getXml(I)Landroid/content/res/XmlResourceParser;
@@ -1481,41 +499,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
@@ -1523,39 +513,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final obtainTypedArray(I)Landroid/content/res/TypedArray;
@@ -1563,49 +527,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final openRawResource(I)Ljava/io/InputStream;
@@ -1613,29 +541,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method
 
 .method public final openRawResource(ILandroid/util/TypedValue;)Ljava/io/InputStream;
@@ -1643,41 +555,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final openRawResourceFd(I)Landroid/content/res/AssetFileDescriptor;
@@ -1685,41 +569,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final parseBundleExtra(Ljava/lang/String;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
@@ -1727,33 +583,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final parseBundleExtras(Landroid/content/res/XmlResourceParser;Landroid/os/Bundle;)V
@@ -1761,37 +597,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     throw p1
-
-    nop
-
-    nop
 .end method
 
 .method public final updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
@@ -1799,47 +611,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     throw p1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const/4 p1, 0x0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

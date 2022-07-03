@@ -20,88 +20,28 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     iput-object p2, p0, Lgyn;->b:Lpmr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iput-object p1, p0, Lgyn;->a:Lpmr;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     return-void
 
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     iput-object p3, p0, Lgyn;->c:Lpmr;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 .end method
 
 .method public static a(Lpmr;Lpmr;Lpmr;)Lgyn;
@@ -109,50 +49,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0, p0, p1, p2}, Lgyn;-><init>(Lpmr;Lpmr;Lpmr;)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     new-instance v0, Lgyn;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -162,262 +70,74 @@
 
     goto/32 :goto_a
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-static {v0, v1, v2}, Lgyh;->a(Llqv;Lfvw;Lnza;)Llwf;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
 
-    nop
-
     :goto_2
     check-cast v2, Lnza;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-interface {v2}, Lpmr;->get()Ljava/lang/Object;
 
     move-result-object v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     check-cast v1, Lfyp;
 
-    nop
-
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5
     iget-object v2, p0, Lgyn;->c:Lpmr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6
     iget-object v1, p0, Lgyn;->b:Lpmr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     check-cast v0, Llqv;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     invoke-interface {v0}, Lpmr;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
     goto/32 :goto_7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     invoke-static {v0, v1}, Lpmb;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_a
     iget-object v0, p0, Lgyn;->a:Lpmr;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c
     invoke-virtual {v1}, Lfyp;->a()Lfvw;
 
     move-result-object v1
 
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -30,8 +30,6 @@
 
     return-void
 
-    nop
-
     :array_0
     .array-data 4
         0x10100d4
@@ -77,7 +75,7 @@
     invoke-virtual {p0, p2}, Landroid/support/v7/view/menu/ExpandedMenuView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_0
-    nop
+
 
     const/4 p2, 0x1
 

@@ -13,44 +13,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljco;-><init>()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_2
     iput-object p1, p0, Ljcr;->b:Ljct;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -60,120 +34,38 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v0, p0, Ljcr;->b:Ljct;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v0}, Lcom/google/android/apps/camera/bottombar/BottomBarController;->startPanoramaCalibration()V
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-object v0, p0, Ljcr;->b:Ljct;
 
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :goto_4
     invoke-interface {v0}, Ljpt;->p()V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_5
     iget-object v0, v0, Ljct;->g:Lcom/google/android/apps/camera/bottombar/BottomBarController;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_6
     iget-object v0, v0, Ljct;->h:Ljpt;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final f()V
@@ -181,58 +73,18 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Ljct;->f:Ljava/lang/String;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {v0}, Lkqt;->b(Ljava/lang/String;)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
 .end method
 
 .method public final g()V
@@ -240,56 +92,16 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     invoke-static {v0}, Lkqt;->b(Ljava/lang/String;)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     sget-object v0, Ljct;->f:Ljava/lang/String;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -16,69 +16,23 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v1, v0}, Lowi;-><init>(Ljava/lang/Object;)V
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sget-object v0, Lmvd;->a:Lmvd;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     new-instance v1, Lowi;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private constructor <init>(Lmwp;)V
@@ -86,54 +40,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     iput-object p1, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static a(Lmwp;)Lmws;
@@ -141,48 +59,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object v0
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0, p0}, Lmws;-><init>(Lmwp;)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
     :goto_2
     new-instance v0, Lmws;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static b(Lmwp;)Lmws;
@@ -190,114 +78,34 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Lowp;->a:Lowp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p0}, Lmws;->a(Lmwp;)Lmws;
 
     move-result-object p0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object p0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-static {}, Lmvk;->a()Lmvs;
 
     move-result-object v1
 
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_4
     invoke-interface {p0, v0, v1}, Lmwp;->a(Ljava/util/concurrent/Executor;Lmve;)Lmwp;
 
     move-result-object p0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public static d()Lmws;
@@ -305,45 +113,13 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     sget-object v0, Lmwr;->a:Lmws;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -353,56 +129,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0, p1, p2}, Lmwp;->a(Ljava/util/concurrent/Executor;Lmve;)Lmwp;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
 
     :goto_2
     return-object p1
-
-    nop
 .end method
 
 .method public final a(Ljava/util/concurrent/Executor;Lmve;Lmve;)Lmwp;
@@ -410,64 +150,20 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-interface {v0, p1, p2, p3}, Lmwp;->a(Ljava/util/concurrent/Executor;Lmve;Lmve;)Lmwp;
 
     move-result-object p1
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Ljava/util/concurrent/Executor;Lmwt;)Lmwp;
@@ -475,58 +171,20 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0, p1, p2}, Lmwp;->a(Ljava/util/concurrent/Executor;Lmwt;)Lmwp;
 
     move-result-object p1
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic a(Ljava/util/concurrent/Executor;Lnec;)Lmwp;
@@ -534,51 +192,15 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
 
     :goto_1
     invoke-virtual {p0, p1, p2}, Lmws;->b(Ljava/util/concurrent/Executor;Lnec;)Lmws;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a()Loxj;
@@ -586,60 +208,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Lmwp;->a()Loxj;
 
     move-result-object v0
 
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-object v0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final a(Lmvr;)V
@@ -647,54 +229,18 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     invoke-interface {v0, p1}, Lmwp;->a(Lmvr;)V
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final b(Ljava/util/concurrent/Executor;Lnec;)Lmws;
@@ -702,106 +248,30 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {v1, p1, p2}, Lmwp;->a(Ljava/util/concurrent/Executor;Lnec;)Lmwp;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     iget-object v1, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     new-instance v0, Lmws;
 
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {v0, p1}, Lmws;-><init>(Lmwp;)V
 
     goto/32 :goto_4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final b()Z
@@ -809,70 +279,20 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-interface {v0}, Lmwp;->b()Z
 
     move-result v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final bridge synthetic c()Ljava/lang/Object;
@@ -880,89 +300,25 @@
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {v0}, Lmwp;->c()Ljava/lang/Object;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
 
-    nop
-
     :goto_2
     iget-object v0, p0, Lmws;->a:Lmwp;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     check-cast v0, Lmvd;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -970,76 +326,20 @@
 
     goto/32 :goto_0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     return-object v0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -126,7 +126,7 @@
     if-nez v0, :cond_3
 
     :goto_1
-    nop
+
 
     invoke-static {v4, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -165,7 +165,7 @@
     if-nez v0, :cond_7
 
     :goto_4
-    nop
+
 
     invoke-static {v4, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 

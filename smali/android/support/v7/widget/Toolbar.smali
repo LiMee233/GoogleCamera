@@ -505,7 +505,7 @@
 
     :cond_10
     :goto_6
-    nop
+
 
     const/16 p1, 0x1d
 
@@ -528,7 +528,7 @@
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
     :cond_11
-    nop
+
 
     const/16 p1, 0x14
 
@@ -551,7 +551,7 @@
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
     :cond_12
-    nop
+
 
     const/16 p1, 0xe
 
@@ -691,7 +691,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     add-int/2addr p2, v4
@@ -1029,10 +1029,10 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     :goto_0
-    nop
+
 
     invoke-static {p5, v0}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -2942,7 +2942,7 @@
     goto :goto_e
 
     :cond_16
-    nop
+
 
     :goto_e
     add-int/2addr v6, v4
@@ -2996,7 +2996,7 @@
     const/4 v1, 0x0
 
     :goto_10
-    nop
+
 
     const/4 v2, 0x0
 
@@ -3117,7 +3117,7 @@
     goto :goto_13
 
     :cond_1c
-    nop
+
 
     :goto_13
     move/from16 v8, p5
@@ -3135,7 +3135,7 @@
     const/4 v1, 0x0
 
     :goto_14
-    nop
+
 
     const/4 v2, 0x1
 
@@ -3258,7 +3258,7 @@
     goto :goto_17
 
     :cond_21
-    nop
+
 
     :goto_17
     iget-object v1, v0, Landroid/support/v7/widget/Toolbar;->K:Ljava/util/ArrayList;
@@ -3649,7 +3649,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     invoke-virtual/range {p0 .. p0}, Landroid/support/v7/widget/Toolbar;->j()I
@@ -3815,7 +3815,7 @@
     goto :goto_3
 
     :cond_3
-    nop
+
 
     :goto_3
     iget-object v0, v7, Landroid/support/v7/widget/Toolbar;->x:Landroid/widget/ImageView;
@@ -3877,7 +3877,7 @@
     goto :goto_4
 
     :cond_4
-    nop
+
 
     :goto_4
     invoke-virtual/range {p0 .. p0}, Landroid/support/v7/widget/Toolbar;->getChildCount()I
@@ -4158,7 +4158,7 @@
     goto :goto_b
 
     :cond_b
-    nop
+
 
     :goto_a
     move v10, v0
@@ -4249,7 +4249,7 @@
     goto :goto_c
 
     :cond_e
-    nop
+
 
     :goto_c
     add-int/lit8 v14, v14, 0x1

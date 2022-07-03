@@ -267,7 +267,7 @@
     invoke-direct/range {v0 .. v8}, Landroidx/renderscript/ScriptGroup$Closure;->retrieveValueAndDependenceInfo(Landroidx/renderscript/RenderScript;ILandroidx/renderscript/Script$FieldID;Ljava/lang/Object;[J[I[J[J)V
 
     .line 195
-    nop
+
 
     .end local v18    # "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Landroidx/renderscript/Script$FieldID;Ljava/lang/Object;>;"
     .end local v19    # "obj":Ljava/lang/Object;
@@ -650,7 +650,7 @@
     invoke-direct/range {v0 .. v8}, Landroidx/renderscript/ScriptGroup$Closure;->retrieveValueAndDependenceInfo(Landroidx/renderscript/RenderScript;ILandroidx/renderscript/Script$FieldID;Ljava/lang/Object;[J[I[J[J)V
 
     .line 157
-    nop
+
 
     .end local v11    # "entry":Ljava/util/Map$Entry;, "Ljava/util/Map$Entry<Landroidx/renderscript/Script$FieldID;Ljava/lang/Object;>;"
     .end local v16    # "obj":Ljava/lang/Object;

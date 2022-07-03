@@ -839,7 +839,7 @@
     goto :goto_5
 
     :cond_5
-    nop
+
 
     const-string p0, "RenderScript_jni"
 

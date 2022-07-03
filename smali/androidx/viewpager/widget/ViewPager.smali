@@ -301,7 +301,7 @@
     return-object p1
 
     :cond_2
-    nop
+
 
     const/4 p2, 0x0
 
@@ -518,7 +518,7 @@
     goto :goto_4
 
     :cond_6
-    nop
+
 
     :goto_4
     move-object v9, v13
@@ -526,7 +526,7 @@
     goto :goto_5
 
     :cond_7
-    nop
+
 
     :goto_5
     invoke-direct {p0}, Landroidx/viewpager/widget/ViewPager;->e()I
@@ -1128,7 +1128,7 @@
     goto :goto_2
 
     :cond_3
-    nop
+
 
     :goto_2
     move v2, v8
@@ -1136,7 +1136,7 @@
     goto :goto_3
 
     :cond_4
-    nop
+
 
     :goto_3
     add-int/lit8 v6, v6, 0x1
@@ -1256,7 +1256,7 @@
     goto :goto_0
 
     :cond_3
-    nop
+
 
     :goto_2
     invoke-static {}, Landroid/view/FocusFinder;->getInstance()Landroid/view/FocusFinder;
@@ -1364,7 +1364,7 @@
 
     :cond_b
     :goto_5
-    nop
+
 
     :goto_6
     if-eqz v4, :cond_c
@@ -1609,7 +1609,7 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     invoke-virtual {p1, v1}, Landroid/view/KeyEvent;->hasModifiers(I)Z
 
@@ -1624,7 +1624,7 @@
     goto :goto_0
 
     :cond_2
-    nop
+
 
     invoke-virtual {p1, v3}, Landroid/view/KeyEvent;->hasModifiers(I)Z
 
@@ -1641,7 +1641,7 @@
     goto :goto_0
 
     :cond_3
-    nop
+
 
     invoke-virtual {p1, v3}, Landroid/view/KeyEvent;->hasModifiers(I)Z
 
@@ -1882,7 +1882,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     if-eqz v1, :cond_2
@@ -2067,7 +2067,7 @@
     goto :goto_1
 
     :cond_5
-    nop
+
 
     :goto_1
     invoke-virtual {v7, v10}, Landroid/view/MotionEvent;->getX(I)F
@@ -2236,7 +2236,7 @@
     invoke-interface {v0, v11}, Landroid/view/ViewParent;->requestDisallowInterceptTouchEvent(Z)V
 
     :cond_d
-    nop
+
 
     invoke-virtual {v6, v11}, Landroidx/viewpager/widget/ViewPager;->a(I)V
 
@@ -2660,7 +2660,7 @@
     goto :goto_3
 
     :cond_7
-    nop
+
 
     :goto_3
     add-int/lit8 v10, v10, 0x1
@@ -2968,7 +2968,7 @@
     goto :goto_4
 
     :cond_6
-    nop
+
 
     :goto_4
     const/high16 v10, -0x80000000
@@ -3080,7 +3080,7 @@
     goto :goto_9
 
     :cond_f
-    nop
+
 
     :goto_9
     add-int/lit8 v5, v5, 0x1

@@ -83,7 +83,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     :goto_0
     iput-object v0, p0, Landroid/support/wearable/watchface/decomposition/WatchFaceDecomposition;->a:Ljava/util/List;
@@ -97,7 +97,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     iput-object v1, p0, Landroid/support/wearable/watchface/decomposition/WatchFaceDecomposition;->b:Ljava/util/List;
@@ -111,7 +111,7 @@
     goto :goto_2
 
     :cond_2
-    nop
+
 
     :goto_2
     iput-object v2, p0, Landroid/support/wearable/watchface/decomposition/WatchFaceDecomposition;->c:Ljava/util/List;
@@ -125,7 +125,7 @@
     goto :goto_3
 
     :cond_3
-    nop
+
 
     :goto_3
     iput-object p1, p0, Landroid/support/wearable/watchface/decomposition/WatchFaceDecomposition;->d:Ljava/util/List;

@@ -12,29 +12,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
 
     :goto_1
     invoke-direct {p0, p1, p2, p3, p4}, Locz;-><init>(Lodb;Ljava/lang/Object;Ljava/util/List;Locx;)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method

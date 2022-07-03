@@ -187,7 +187,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     invoke-virtual {v4, v8}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
@@ -212,7 +212,7 @@
     goto :goto_2
 
     :cond_3
-    nop
+
 
     :goto_2
     const/4 v6, 0x1
@@ -243,7 +243,7 @@
     goto :goto_3
 
     :cond_5
-    nop
+
 
     :goto_3
     const/4 v6, 0x1
@@ -316,7 +316,7 @@
     goto :goto_4
 
     :cond_9
-    nop
+
 
     :goto_4
     const/4 v6, 0x1
@@ -378,7 +378,7 @@
     goto :goto_5
 
     :cond_c
-    nop
+
 
     :goto_5
     const/4 v6, 0x1
@@ -431,7 +431,7 @@
     goto :goto_6
 
     :cond_e
-    nop
+
 
     :goto_6
     const/4 v6, 0x1
@@ -460,7 +460,7 @@
     goto :goto_7
 
     :cond_10
-    nop
+
 
     throw v8
 
@@ -579,7 +579,7 @@
     goto :goto_7
 
     :cond_19
-    nop
+
 
     :goto_7
     add-int/lit8 v10, v10, 0x1

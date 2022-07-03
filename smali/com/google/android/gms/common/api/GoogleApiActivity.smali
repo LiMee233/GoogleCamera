@@ -71,7 +71,7 @@
     return-void
 
     :cond_0
-    nop
+
 
     const-string v2, "pending_intent"
 

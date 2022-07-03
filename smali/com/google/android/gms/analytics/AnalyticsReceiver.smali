@@ -281,7 +281,7 @@
     goto :goto_3
 
     :cond_6
-    nop
+
 
     :goto_3
     iget-wide v14, v0, Llay;->f:J

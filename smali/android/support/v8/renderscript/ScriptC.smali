@@ -131,7 +131,7 @@
     goto :goto_1
 
     :cond_0
-    nop
+
 
     :goto_1
     invoke-virtual {v1, v2, v4, v6}, Ljava/io/InputStream;->read([BII)I

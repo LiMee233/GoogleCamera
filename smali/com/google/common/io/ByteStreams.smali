@@ -893,8 +893,6 @@
 
     if-ne p0, v1, :cond_3
 
-    nop
-
     invoke-static {p1, v2}, Lcom/google/common/io/ByteStreams;->combineBuffers(Ljava/util/Deque;I)[B
 
     move-result-object p0

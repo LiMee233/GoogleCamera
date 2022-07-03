@@ -233,7 +233,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     invoke-virtual {v0}, Ljava/text/SimpleDateFormat;->getTimeZone()Ljava/util/TimeZone;
 
@@ -534,7 +534,7 @@
     goto :goto_4
 
     :cond_a
-    nop
+
 
     :goto_4
     invoke-direct {p0, p1, p2}, Landroid/support/wearable/complications/TimeFormatText;->a(J)J

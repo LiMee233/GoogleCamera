@@ -17,57 +17,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     iput-object p2, p0, Lj$/util/function/Predicate$$Lambda$2;->arg$2:Lj$/util/function/Predicate;
 
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_2
     iput-object p1, p0, Lj$/util/function/Predicate$$Lambda$2;->arg$1:Lj$/util/function/Predicate;
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
 
     :goto_3
     return-void
-
-    nop
 .end method
 
 
@@ -77,67 +43,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
     :goto_0
     return p1
-
-    nop
 
     :goto_1
     iget-object v0, p0, Lj$/util/function/Predicate$$Lambda$2;->arg$1:Lj$/util/function/Predicate;
 
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_2
     invoke-static {v0, v1, p1}, Lj$/util/function/Predicate$$CC;->lambda$or$2$Predicate$$CC(Lj$/util/function/Predicate;Lj$/util/function/Predicate;Ljava/lang/Object;)Z
 
     move-result p1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     iget-object v1, p0, Lj$/util/function/Predicate$$Lambda$2;->arg$2:Lj$/util/function/Predicate;
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

@@ -74,7 +74,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     const-string v0, "#padding_"
 

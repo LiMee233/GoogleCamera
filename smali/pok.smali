@@ -17,65 +17,23 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     const-wide/16 v1, 0x0
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {v0, v1, v2}, Lpok;-><init>(J)V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     new-instance v0, Lpok;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>(J)V
@@ -83,37 +41,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0, p1, p2}, Lpon;-><init>(J)V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -123,91 +57,21 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     div-long/2addr v0, v2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     const-wide/16 v2, 0x3e8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-wide v0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_3
     iget-wide v0, p0, Lpon;->a:J
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
 .end method

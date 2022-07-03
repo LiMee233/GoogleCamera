@@ -1166,7 +1166,7 @@
 
     .line 1458
     :goto_7
-    nop
+
 
     .line 1459
     invoke-virtual {v0, v6, v8, v9}, Landroidx/renderscript/RenderScript;->nLoadSO(ZILjava/lang/String;)Z
@@ -1712,7 +1712,7 @@
 
     .line 194
     .local v4, "info":Landroid/content/pm/ApplicationInfo;
-    nop
+
 
     .line 195
     const-wide/16 v6, 0x0
@@ -5992,7 +5992,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 793
-    nop
+
 
     .line 794
     const/16 v0, 0x17

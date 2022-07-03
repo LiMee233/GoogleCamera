@@ -252,7 +252,7 @@
     goto :goto_3
 
     :cond_3
-    nop
+
 
     :goto_3
     iget-boolean v8, p0, Lcom/google/android/gms/common/stats/WakeLockEvent;->o:Z

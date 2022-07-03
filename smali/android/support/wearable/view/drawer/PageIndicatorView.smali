@@ -580,7 +580,7 @@
     add-int/2addr v1, v2
 
     :goto_1
-    nop
+
 
     const/4 v2, 0x0
 

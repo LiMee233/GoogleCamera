@@ -15,67 +15,23 @@
 
     goto/32 :goto_3
 
-    nop
-
-    nop
-
     :goto_0
     invoke-direct {v0}, Lj$/util/stream/Collectors$$Lambda$5;-><init>()V
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_1
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput-object v0, Lj$/util/stream/Collectors$$Lambda$5;->$instance:Lj$/util/function/BiConsumer;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
 
     :goto_3
     new-instance v0, Lj$/util/stream/Collectors$$Lambda$5;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private constructor <init>()V
@@ -83,37 +39,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -123,48 +55,16 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
     :goto_1
     check-cast p1, Ljava/util/List;
 
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

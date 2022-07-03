@@ -169,878 +169,256 @@
 
     goto/32 :goto_a7
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2c
 
     goto/32 :goto_81
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_30
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX351_MAIN_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     sput v0, Lcom/AwbModData;->NEXUS_DEFAULT_WB_CALIB_GRGB:F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_79
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_16
 
     goto/32 :goto_41
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5
     sput-object v0, Lcom/AwbModData;->SAVITAR_GM1_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_72
-
-    nop
-
-    nop
 
     :goto_6
     const/16 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_CEPHEUS_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_c5
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV13855_BG12k21k_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5e
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_e4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_75
-
-    nop
-
-    nop
 
     :goto_c
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_13
 
     goto/32 :goto_b7
 
-    nop
-
-    nop
-
     :goto_d
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_77
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e0
-
-    nop
-
-    nop
-
-    nop
 
     :goto_f
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_15
 
     goto/32 :goto_3f
 
-    nop
-
-    nop
-
     :goto_10
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_49
 
     goto/32 :goto_c0
 
-    nop
-
-    nop
-
-    nop
-
     :goto_11
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3l6_BG12k21k_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_b0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_12
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_5
 
     goto/32 :goto_7c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_13
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX398_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_14
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_17
 
     goto/32 :goto_15
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_15
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_OFILM_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_4f
-
-    nop
-
-    nop
-
-    nop
 
     :goto_16
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1d
 
     goto/32 :goto_1d
 
-    nop
-
-    nop
-
     :goto_17
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX471_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4d
-
-    nop
-
-    nop
-
-    nop
 
     :goto_18
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX371_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_19
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_26
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1a
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_9
 
     goto/32 :goto_7b
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_1b
     sput-object v0, Lcom/AwbModData;->NIKITA_SF846_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_ad
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1c
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_VIOLET_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_6a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1d
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_SEMCO_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_cd
-
-    nop
-
-    nop
 
     :goto_1e
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_1e
 
     goto/32 :goto_7
 
-    nop
-
-    nop
-
     :goto_1f
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_2b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_20
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_de
-
-    nop
-
-    nop
-
-    nop
 
     :goto_21
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX398_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_25
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_22
     const/16 v1, 0x9
 
-    nop
-
-    nop
-
     goto/32 :goto_4c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_23
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_51
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_24
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
     goto/32 :goto_66
-
-    nop
-
-    nop
 
     :goto_25
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d2
-
-    nop
-
-    nop
 
     :goto_26
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_d
 
     goto/32 :goto_a6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_27
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
     goto/32 :goto_58
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_28
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_29
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_34
 
     goto/32 :goto_8e
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2a
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_27
 
     goto/32 :goto_4e
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2b
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_22
 
     goto/32 :goto_1c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_2c
     return-void
-
-    nop
 
     :array_0
     .array-data 4
@@ -2041,3714 +1419,1076 @@
     :goto_2d
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX351_WIDE_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e1
-
-    nop
-
-    nop
 
     :goto_2e
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_3d
 
     goto/32 :goto_57
 
-    nop
-
-    nop
-
-    nop
-
     :goto_2f
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2e
 
     goto/32 :goto_dd
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_30
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_41
 
     goto/32 :goto_1b
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_31
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV48C_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_6
-
-    nop
-
-    nop
 
     :goto_32
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_VIOLET_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e7
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_33
     const/16 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d4
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_34
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_ASUS_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_2c
-
-    nop
-
-    nop
-
-    nop
 
     :goto_35
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX689_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_36
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_25
 
     goto/32 :goto_87
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_37
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a5
-
-    nop
-
-    nop
 
     :goto_38
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2018_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_39
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3e
 
     goto/32 :goto_2d
 
-    nop
-
-    nop
-
-    nop
-
     :goto_3a
     sput-object v0, Lcom/AwbModData;->SAVITAR_GW1_BG12k21k_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_6b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3b
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3c
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_FRONT_WB_CALIB_R_G:[F
 
-    nop
-
     goto/32 :goto_27
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3d
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX686_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3e
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_8c
-
-    nop
-
-    nop
 
     :goto_3f
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_c3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_40
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2
 
     goto/32 :goto_e8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_41
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_OFILM_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_42
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_83
-
-    nop
-
-    nop
 
     :goto_43
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3T2_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_e5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_44
     const v0, 0x3f7e8000
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c1
-
-    nop
-
-    nop
 
     :goto_45
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_LG_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_46
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_49
-
-    nop
-
-    nop
-
-    nop
 
     :goto_47
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_48
     sput-object v0, Lcom/AwbModData;->SAVITAR_SAMSUNG_HMX_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_24
-
-    nop
-
-    nop
 
     :goto_49
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_36
 
     goto/32 :goto_13
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4a
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_6
 
     goto/32 :goto_38
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4b
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
     goto/32 :goto_4a
-
-    nop
-
-    nop
 
     :goto_4c
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3a
 
     goto/32 :goto_35
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_4d
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_4e
     sput-object v0, Lcom/AwbModData;->SAVITAR_HMX_BG12k21k_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d5
-
-    nop
-
-    nop
 
     :goto_4f
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_a8
-
-    nop
-
-    nop
-
-    nop
 
     :goto_50
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2018_WB_CALIB_R_G:[F
 
-    nop
-
     goto/32 :goto_97
-
-    nop
-
-    nop
-
-    nop
 
     :goto_51
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_4a
 
     goto/32 :goto_63
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_52
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_bd
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_53
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_4b
 
     goto/32 :goto_34
 
-    nop
-
-    nop
-
-    nop
-
     :goto_54
     const/4 v1, 0x5
 
-    nop
-
     goto/32 :goto_12
-
-    nop
-
-    nop
-
-    nop
 
     :goto_55
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_29
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_56
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_CEPHEUS_WB_CALIB_R_G:[F
 
-    nop
-
     goto/32 :goto_e
-
-    nop
-
-    nop
-
-    nop
 
     :goto_57
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX351_MAIN_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_58
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_c
 
     goto/32 :goto_dc
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_59
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_37
 
     goto/32 :goto_21
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5a
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_73
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_5b
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1a
 
     goto/32 :goto_ae
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5c
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3
 
     goto/32 :goto_cb
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_5d
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_23
 
     goto/32 :goto_32
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5e
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2f
 
     goto/32 :goto_11
 
-    nop
-
-    nop
-
-    nop
-
     :goto_5f
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3T2_BG12k21k_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_55
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_60
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_XIAOMI_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_ea
-
-    nop
-
-    nop
 
     :goto_61
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_35
 
     goto/32 :goto_7e
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_62
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_74
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_63
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_ASUS_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_c4
-
-    nop
-
-    nop
-
-    nop
 
     :goto_64
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_42
 
     goto/32 :goto_d1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_65
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV13855_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_b5
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_66
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_46
 
     goto/32 :goto_b8
 
-    nop
-
-    nop
-
     :goto_67
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
     goto/32 :goto_2a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_68
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_98
-
-    nop
-
-    nop
-
-    nop
 
     :goto_69
     const/16 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6a
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
     goto/32 :goto_5d
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6b
     const/16 v1, 0xa
 
-    nop
-
     goto/32 :goto_c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6c
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_59
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6d
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_f
 
     goto/32 :goto_9d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_6e
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_2e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_6f
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX689_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_8b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_70
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_11
 
     goto/32 :goto_a3
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_71
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_b
 
     goto/32 :goto_3c
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_72
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
     goto/32 :goto_6d
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_73
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_21
 
     goto/32 :goto_b4
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_74
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1b
 
     goto/32 :goto_8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_75
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_29
 
     goto/32 :goto_e3
 
-    nop
-
-    nop
-
     :goto_76
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3f
 
     goto/32 :goto_b9
 
-    nop
-
-    nop
-
-    nop
-
     :goto_77
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_7
 
     goto/32 :goto_50
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_78
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_71
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_79
     const v0, 0x3f802008    # 1.0009775f
 
-    nop
-
-    nop
-
     goto/32 :goto_cf
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7a
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_10
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7b
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_95
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7c
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2017_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4b
-
-    nop
-
-    nop
 
     :goto_7d
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_33
 
     goto/32 :goto_5f
 
-    nop
-
-    nop
-
     :goto_7e
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX361_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_46
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_7f
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_ac
-
-    nop
-
-    nop
-
-    nop
 
     :goto_80
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX371_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_22
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_81
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3l6_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_85
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_82
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_FRONT_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_78
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_83
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_32
 
     goto/32 :goto_d7
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_84
     sput-object v0, Lcom/AwbModData;->SAVITAR_HMX_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_67
-
-    nop
-
-    nop
 
     :goto_85
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_93
-
-    nop
-
-    nop
 
     :goto_86
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_47
 
     goto/32 :goto_60
 
-    nop
-
-    nop
-
     :goto_87
     sput-object v0, Lcom/AwbModData;->SAVITAR_HMX_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_68
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_88
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_e
 
     goto/32 :goto_5
 
-    nop
-
-    nop
-
-    nop
-
     :goto_89
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX363_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_5a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8a
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_44
 
     goto/32 :goto_a2
 
-    nop
-
-    nop
-
     :goto_8b
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b6
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8c
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1
 
     goto/32 :goto_ab
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_8d
     sput-object v0, Lcom/AwbModData;->SAVITAR_GW1_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_b2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8e
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX361_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_bf
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_8f
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_88
-
-    nop
-
-    nop
 
     :goto_90
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
     goto/32 :goto_91
-
-    nop
-
-    nop
-
-    nop
 
     :goto_91
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_4
 
     goto/32 :goto_99
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_92
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
     goto/32 :goto_40
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_93
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2d
 
     goto/32 :goto_9f
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_94
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2a
 
     goto/32 :goto_17
 
-    nop
-
-    nop
-
     :goto_95
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9a
-
-    nop
-
-    nop
-
-    nop
 
     :goto_96
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_SEMCO_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_da
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_97
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_98
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_24
 
     goto/32 :goto_84
 
-    nop
-
-    nop
-
     :goto_99
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2017_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_54
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9a
     new-array v0, v1, [F
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_a
 
     goto/32 :goto_82
 
-    nop
-
-    nop
-
     :goto_9b
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_48
 
     goto/32 :goto_45
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9c
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_8
 
     goto/32 :goto_c6
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_9d
     sput-object v0, Lcom/AwbModData;->SAVITAR_GM1_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_a9
-
-    nop
-
-    nop
-
-    nop
 
     :goto_9e
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_31
 
     goto/32 :goto_d3
 
-    nop
-
-    nop
-
     :goto_9f
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3l6_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_47
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a0
     sput-object v0, Lcom/AwbModData;->SAVITAR_HMX_BG12k21k_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_20
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a1
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
     goto/32 :goto_df
-
-    nop
-
-    nop
 
     :goto_a2
     sput-object v0, Lcom/AwbModData;->SAVITAR_SAMSUNG_HMX_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_33
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a3
     sput-object v0, Lcom/AwbModData;->SAVITAR_GW1_WB_CALIB_B_G:[F
 
-    nop
-
     goto/32 :goto_a1
-
-    nop
-
-    nop
 
     :goto_a4
     const/16 v1, 0x9
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_a5
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_40
 
     goto/32 :goto_db
 
-    nop
-
-    nop
-
-    nop
-
     :goto_a6
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_TELE_WB_CALIB_R_G:[F
 
-    nop
-
     goto/32 :goto_8f
-
-    nop
-
-    nop
 
     :goto_a7
     const v0, 0x3f800000    # 1.0f
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
 
     :goto_a8
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_18
 
     goto/32 :goto_be
 
-    nop
-
-    nop
-
-    nop
-
     :goto_a9
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
     goto/32 :goto_aa
-
-    nop
-
-    nop
-
-    nop
 
     :goto_aa
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_10
 
     goto/32 :goto_8d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_ab
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2016_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_92
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ac
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_19
 
     goto/32 :goto_65
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_ad
     const/16 v1, 0x5
 
-    nop
-
     goto/32 :goto_64
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ae
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV13855_BG12k21k_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_62
-
-    nop
-
-    nop
 
     :goto_af
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX586_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3b
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b0
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_ca
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b1
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_14
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b2
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_70
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b3
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_7d
-
-    nop
-
-    nop
 
     :goto_b4
     sput-object v0, Lcom/AwbModData;->SAVITAR_IMX363_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b5
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_5b
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b6
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3c
 
     goto/32 :goto_2
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_b7
     sput-object v0, Lcom/AwbModData;->SAVITAR_GW1_BG12k21k_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_52
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_b8
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_XIAOMI_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_e9
-
-    nop
-
-    nop
 
     :goto_b9
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX351_WIDE_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_37
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ba
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1f
 
     goto/32 :goto_56
 
-    nop
-
-    nop
-
     :goto_bb
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_39
 
     goto/32 :goto_80
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_bc
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX471_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_28
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_bd
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_14
 
     goto/32 :goto_af
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_be
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV13855_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_7f
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_bf
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_61
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c0
     sput-object v0, Lcom/AwbModData;->NIKITA_IMX298_LG_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_23
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c1
     sput v0, Lcom/AwbModData;->NEXUS_DEFAULT_2019_TELE_WB_CALIB_GRGB:F
 
-    nop
-
-    nop
-
     goto/32 :goto_d6
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c2
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_0
 
     goto/32 :goto_ce
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_c3
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_4
-
-    nop
-
-    nop
 
     :goto_c4
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_53
-
-    nop
-
-    nop
 
     :goto_c5
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_ba
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c6
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_e6
-
-    nop
-
-    nop
 
     :goto_c7
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_bb
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_c8
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_43
 
     goto/32 :goto_31
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_c9
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_39
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ca
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_30
 
     goto/32 :goto_43
 
-    nop
-
-    nop
-
-    nop
-
     :goto_cb
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2016_FRONT_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_90
-
-    nop
-
-    nop
-
-    nop
 
     :goto_cc
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_26
 
     goto/32 :goto_a0
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_cd
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ce
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2016_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_3e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_cf
     sput v0, Lcom/AwbModData;->NEXUS_DEFAULT_2019_FRONT_WB_CALIB_GRGB:F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_44
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d0
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_2b
 
     goto/32 :goto_bc
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_d1
     sput-object v0, Lcom/AwbModData;->SAVITAR_OV48C_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_69
-
-    nop
-
-    nop
 
     :goto_d2
     new-array v0, v1, [F
-
-    nop
 
     fill-array-data v0, :array_38
 
     goto/32 :goto_18
 
-    nop
-
-    nop
-
     :goto_d3
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3T2_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_42
-
-    nop
-
-    nop
 
     :goto_d4
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_45
 
     goto/32 :goto_48
 
-    nop
-
-    nop
-
     :goto_d5
     const/16 v1, 0xa
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_cc
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d6
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_c2
-
-    nop
-
-    nop
 
     :goto_d7
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3T2_BG12k21k_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_b3
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d8
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_94
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_d9
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_3b
 
     goto/32 :goto_6f
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_da
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_16
-
-    nop
-
-    nop
-
-    nop
 
     :goto_db
     sput-object v0, Lcom/AwbModData;->NIKITA_SF846_WB_CALIB_R_G:[F
 
-    nop
-
     goto/32 :goto_1
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_dc
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2019_TELE_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_19
-
-    nop
-
-    nop
 
     :goto_dd
     sput-object v0, Lcom/AwbModData;->ULTRA_S5K3l6_BG12k21k_WB_CALIB_R_G:[F
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_de
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_28
 
     goto/32 :goto_3d
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_df
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_12
 
     goto/32 :goto_3a
 
-    nop
-
-    nop
-
     :goto_e0
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_20
 
     goto/32 :goto_89
 
-    nop
-
-    nop
-
-    nop
-
     :goto_e1
     const/16 v1, 0x8
 
-    nop
-
     goto/32 :goto_76
-
-    nop
-
-    nop
 
     :goto_e2
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
     goto/32 :goto_5c
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e3
     sput-object v0, Lcom/AwbModData;->ULTRA_IMX686_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_d8
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e4
     new-array v0, v1, [F
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     fill-array-data v0, :array_1c
 
     goto/32 :goto_96
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_e5
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_9e
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e6
     const/4 v1, 0x5
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_1a
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e7
     const/16 v1, 0x8
 
-    nop
-
-    nop
-
     goto/32 :goto_36
-
-    nop
-
-    nop
 
     :goto_e8
     sput-object v0, Lcom/AwbModData;->NEXUS_EXPERIMENTAL_2016_FRONT_WB_CALIB_B_G:[F
 
-    nop
-
-    nop
-
     goto/32 :goto_e2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_e9
     const/16 v1, 0x10
 
-    nop
-
     goto/32 :goto_86
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_ea
     const/16 v1, 0x10
 
-    nop
-
-    nop
-
     goto/32 :goto_9b
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method public constructor <init>()V
@@ -5756,33 +2496,11 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
 .end method

@@ -15,79 +15,23 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
 
     :goto_1
     new-instance v0, Lj$/time/temporal/TemporalQueries$$Lambda$2;
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_3
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_2
     sput-object v0, Lj$/time/temporal/TemporalQueries$$Lambda$2;->$instance:Lj$/time/temporal/TemporalQuery;
 
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 
     :goto_3
     invoke-direct {v0}, Lj$/time/temporal/TemporalQueries$$Lambda$2;-><init>()V
 
     goto/32 :goto_2
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 .method private constructor <init>()V
@@ -95,33 +39,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-void
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
 .end method
 
 
@@ -131,41 +55,13 @@
 
     goto/32 :goto_1
 
-    nop
-
-    nop
-
-    nop
-
-    nop
-
     :goto_0
     return-object p1
-
-    nop
-
-    nop
-
-    nop
 
     :goto_1
     invoke-static {p1}, Lj$/time/temporal/TemporalQueries;->lambda$static$2$TemporalQueries(Lj$/time/temporal/TemporalAccessor;)Lj$/time/temporal/TemporalUnit;
 
     move-result-object p1
 
-    nop
-
-    nop
-
-    nop
-
     goto/32 :goto_0
-
-    nop
-
-    nop
-
-    nop
-
-    nop
 .end method

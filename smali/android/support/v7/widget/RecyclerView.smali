@@ -640,7 +640,7 @@
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/RecyclerView;->setDescendantFocusability(I)V
 
     :cond_3
-    nop
+
 
     invoke-virtual {v4, v2, v2}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
@@ -1020,7 +1020,7 @@
     move-result-object v1
 
     :goto_0
-    nop
+
 
     const/4 v2, 0x0
 
@@ -1102,7 +1102,7 @@
     const/4 v5, 0x0
 
     :goto_1
-    nop
+
 
     :try_start_3
     invoke-virtual {v4, v3}, Ljava/lang/reflect/Constructor;->setAccessible(Z)V
@@ -1653,7 +1653,7 @@
     goto :goto_5
 
     :cond_7
-    nop
+
 
     :goto_5
     iget v3, v6, Lwl;->a:I
@@ -2339,7 +2339,7 @@
 
     :cond_2
     :goto_2
-    nop
+
 
     :goto_3
     add-int/lit8 v5, v5, 0x1
@@ -2347,7 +2347,7 @@
     goto :goto_0
 
     :cond_3
-    nop
+
 
     aput v3, p1, v2
 
@@ -2356,7 +2356,7 @@
     return-void
 
     :cond_4
-    nop
+
 
     const/4 v0, -0x1
 
@@ -2675,7 +2675,7 @@
     return-object p1
 
     :cond_0
-    nop
+
 
     const-string p1, "."
 
@@ -3558,7 +3558,7 @@
     goto :goto_3
 
     :cond_4
-    nop
+
 
     :goto_3
     const/4 v12, 0x0
@@ -3583,7 +3583,7 @@
     goto :goto_4
 
     :cond_6
-    nop
+
 
     :goto_4
     const/4 v12, 0x1
@@ -3611,7 +3611,7 @@
     goto :goto_6
 
     :cond_8
-    nop
+
 
     :goto_6
     if-eqz v12, :cond_9
@@ -3729,7 +3729,7 @@
     goto :goto_c
 
     :cond_10
-    nop
+
 
     :goto_c
     if-eqz v12, :cond_11
@@ -4172,7 +4172,7 @@
     goto :goto_4
 
     :cond_8
-    nop
+
 
     :goto_4
     if-eqz v4, :cond_b
@@ -4207,7 +4207,7 @@
     goto :goto_5
 
     :cond_a
-    nop
+
 
     :goto_5
     invoke-virtual {v4}, Landroid/view/View;->requestFocus()Z
@@ -4498,7 +4498,7 @@
     goto :goto_1
 
     :cond_1
-    nop
+
 
     :goto_1
     if-eqz v1, :cond_5
@@ -4825,7 +4825,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     const-string v1, "Cannot add item decoration during a scroll  or layout"
 
@@ -5520,7 +5520,7 @@
     goto :goto_0
 
     :cond_1
-    nop
+
 
     :goto_0
     iget-object v0, p0, Landroid/support/v7/widget/RecyclerView;->mRightGlow:Landroid/widget/EdgeEffect;
@@ -5553,7 +5553,7 @@
     goto :goto_1
 
     :cond_3
-    nop
+
 
     :goto_1
     iget-object p1, p0, Landroid/support/v7/widget/RecyclerView;->mTopGlow:Landroid/widget/EdgeEffect;
@@ -5905,7 +5905,7 @@
     return-void
 
     :cond_5
-    nop
+
 
     const-string v0, "No layout manager attached; skipping layout"
 
@@ -6607,7 +6607,7 @@
     goto :goto_a
 
     :cond_d
-    nop
+
 
     :goto_a
     or-int/2addr v3, v1
@@ -6617,7 +6617,7 @@
     goto :goto_b
 
     :cond_e
-    nop
+
 
     :goto_b
     if-nez v3, :cond_10
@@ -6718,7 +6718,7 @@
     return-void
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->getMeasuredWidth()I
 
@@ -6788,7 +6788,7 @@
     return-void
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->getMeasuredHeight()I
 
@@ -6858,7 +6858,7 @@
     return-void
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->getMeasuredHeight()I
 
@@ -6928,7 +6928,7 @@
     return-void
 
     :cond_0
-    nop
+
 
     invoke-virtual {p0}, Landroid/support/v7/widget/RecyclerView;->getMeasuredWidth()I
 
@@ -7775,10 +7775,10 @@
     goto :goto_b
 
     :cond_12
-    nop
+
 
     :goto_b
-    nop
+
 
     const/4 v3, 0x1
 
@@ -8046,7 +8046,7 @@
     goto :goto_9
 
     :cond_c
-    nop
+
 
     :goto_9
     if-nez v6, :cond_d
@@ -8125,7 +8125,7 @@
     return-object v4
 
     :cond_12
-    nop
+
 
     :goto_c
     move-object v0, v1
@@ -8155,7 +8155,7 @@
     return-object p1
 
     :cond_14
-    nop
+
 
     invoke-direct {p0, v0, v4}, Landroid/support/v7/widget/RecyclerView;->requestChildOnScreen(Landroid/view/View;Landroid/view/View;)V
 
@@ -9683,7 +9683,7 @@
     goto :goto_5
 
     :cond_5
-    nop
+
 
     invoke-virtual {v7, v2, v5}, Lvh;->a(IZ)V
 
@@ -9729,7 +9729,7 @@
     goto :goto_6
 
     :cond_a
-    nop
+
 
     invoke-virtual {v7, v2, v5}, Lvh;->a(IZ)V
 
@@ -9969,7 +9969,7 @@
 
     :cond_3
     :goto_1
-    nop
+
 
     :goto_2
     iget-object v0, p0, Landroid/support/v7/widget/RecyclerView;->mGapWorker:Lsw;
@@ -10526,7 +10526,7 @@
     if-eqz v0, :cond_d
 
     :goto_1
-    nop
+
 
     invoke-virtual {p0, v2}, Landroid/support/v7/widget/RecyclerView;->setScrollState(I)V
 
@@ -10552,7 +10552,7 @@
     iput-boolean v1, p0, Landroid/support/v7/widget/RecyclerView;->mIgnoreMotionEventTillDown:Z
 
     :goto_2
-    nop
+
 
     invoke-virtual {p1, v1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
@@ -10612,10 +10612,10 @@
     goto :goto_3
 
     :cond_c
-    nop
+
 
     :goto_3
-    nop
+
 
     invoke-virtual {p0, v0, v1}, Landroid/support/v7/widget/RecyclerView;->startNestedScroll(II)Z
 
@@ -11530,7 +11530,7 @@
     if-nez v0, :cond_1b
 
     :cond_1a
-    nop
+
 
     invoke-virtual {v6, v8}, Landroid/support/v7/widget/RecyclerView;->setScrollState(I)V
 
@@ -11540,7 +11540,7 @@
     goto :goto_12
 
     :cond_1c
-    nop
+
 
     invoke-virtual {v7, v8}, Landroid/view/MotionEvent;->getPointerId(I)I
 
@@ -11579,10 +11579,10 @@
     goto :goto_10
 
     :cond_1d
-    nop
+
 
     :goto_10
-    nop
+
 
     invoke-virtual {v6, v10, v8}, Landroid/support/v7/widget/RecyclerView;->startNestedScroll(II)Z
 
@@ -11880,7 +11880,7 @@
     goto :goto_0
 
     :cond_0
-    nop
+
 
     const-string v1, "Cannot remove item decoration during a scroll  or layout"
 
@@ -13421,7 +13421,7 @@
     goto :goto_4
 
     :cond_8
-    nop
+
 
     :goto_4
     if-eqz p2, :cond_9

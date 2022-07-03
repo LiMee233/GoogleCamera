@@ -391,7 +391,7 @@
     goto :goto_4
 
     :cond_b
-    nop
+
 
     invoke-virtual {v4, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
 
@@ -739,7 +739,7 @@
     goto :goto_e
 
     :cond_1f
-    nop
+
 
     :goto_e
     invoke-virtual {v3, v1}, Landroid/widget/ImageView;->setVisibility(I)V

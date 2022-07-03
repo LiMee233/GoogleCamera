@@ -367,7 +367,7 @@
     .line 351
     :cond_1
     :goto_0
-    nop
+
 
     .line 357
     iput p1, p0, Landroidx/renderscript/Type$Builder;->mYuv:I
