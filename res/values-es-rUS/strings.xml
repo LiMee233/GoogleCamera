@@ -552,7 +552,6 @@ Rostros frecuentes también estará disponible cuando abras la Cámara desde la 
     <string name="pref_update">Buscar actualizaciones y registros de cambios</string>
     <string name="pref_gallery_title">Usar Galería de terceros</string>
     <string name="pref_gallery_summary">"Google Fotos es la galería predeterminada "</string>
-    <string name="lib_experimental_title">Lib Patcher (Experimental)</string>
     <string name="lib_dehaze_title">Quitar neblina</string>
     <string name="pref_frames_summary">El valor predeterminado es 0</string>
     <string name="pref_astro_title">Activar Astrofotografía</string>
@@ -560,7 +559,6 @@ Rostros frecuentes también estará disponible cuando abras la Cámara desde la 
     <string name="pref_aemode_back_title">Cámara trasera</string>
     <string name="pref_aemode_front_title">Cámara frontal</string>
     <string name="pref_enable_patcher_title">Habilitar Lib Patcher</string>
-    <string name="pref_enable_patcher_summary">Si está deshabilitado, se usarán los valores predeterminados</string>
     <string name="lib_sharpness_title">Nitidez</string>
     <string name="lib_luma_title">Corrección en ruido Luma</string>
     <string name="lib_chroma_title">Corrección en ruido de color alto</string>
@@ -694,12 +692,6 @@ Algunas observaciones:
     <string name="pref_stream_config_title">Configuración de transmisión</string>
     <string name="pref_stream_config">Para admitir esta función, los OEM se agregan en HAL, donde se activan mediante enteros dados que se pasan al HAL en configure_streams, lo que permite que la aplicación de cámara personalizada use la API del sistema</string>
     <string name="pref_stream_mode_title">Modo de transmisión</string>
-    <string name="pref_main_stream_mode_title">Configuración de transmisión principal</string>
-    <string name="pref_front_stream_mode_title">Configuración de transmisión frontal</string>
-    <string name="pref_video_stream_mode_title">Configuración de transmisión de Video</string>
-    <string name="pref_portrait_stream_mode_title">Configuración de transmisión de retrato</string>
-    <string name="pref_ns_stream_mode_title">Configuración de transmisión Nocturna</string>
-    <string name="pref_slowmo_stream_mode_title">Configuración de transmisión de cámara lenta</string>
     <string name="pref_experimental_stream_mode_title">Configuración de transmisión Experimental</string>
     <string name="pref_settings_title">Ajustes</string>
     <string name="pref_settings_on_title">Encendido</string>
@@ -744,8 +736,6 @@ Algunas observaciones:
     <string name="pref_focus_tracking_summary">Habilitar seguimiento del enfoque</string>
     <string name="lib_gammacurve_on_title">Habilitar Curva de Gamma</string>
     <string name="lib_temp_radius_title">Radio de reducción de ruido temporal</string>
-    <string name="pref_focus_time_tittle">Tiempo del seguimiento del enfoque</string>
-    <string name="pref_focus_time_summary">Tiempo del seguimiento del enfoque: %s</string>
     <string name="lib_depth_title">Profundidad de campo</string>
     <string name="pref_instantaneous_hdr_plus_title">Use HDR+ mejorado Instantáneo</string>
     <string name="pref_instantaneous_hdr_plus_summary">Desactivar HDR+ y usar HDR+ mejorado del Pixel 4 permanentemente. La calidad puede ser diferente que el modo HDR+ mejorado normal</string>
@@ -753,8 +743,6 @@ Algunas observaciones:
     <string name="donations">Enlaces de donación.</string>
     <string name="donations_summary">Ayuda al desarrollador</string>
     <string name="opmodes_title">Habilitar dispositivos HALs</string>
-    <string name="ngcam">Gcam por Nikita</string>
-    <string name="pref_sabre_title">Habilitar Sabre</string>
     <string name="pref_sabre_summary">Zoom combinado para los dispositivos soportados.</string>
     <string name="lib_curve_x1_title">X1 (Mitad Izquierda)</string>
     <string name="lib_curve_x2_title">X2 (Mitad Derecha)</string>

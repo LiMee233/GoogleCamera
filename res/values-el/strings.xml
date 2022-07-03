@@ -549,7 +549,6 @@
     <string name="pref_update">Έλεγχος για ενημερώσεις και αρχείο καταγραφής</string>
     <string name="pref_gallery_title">Χρησιμοποιήστε συλλογή τρίτων</string>
     <string name="pref_gallery_summary">Η προεπιλεγμένη συλλογή είναι το Google Photos</string>
-    <string name="lib_experimental_title">Lib Patcher (Πειραματικό)</string>
     <string name="lib_dehaze_title">Μείωση ομίχλης</string>
     <string name="pref_frames_summary">Η προεπιλεγμένη τιμή είναι 0</string>
     <string name="pref_astro_title">Ενεργοποίηση Αστροφωτογραφίας</string>
@@ -557,7 +556,6 @@
     <string name="pref_aemode_back_title">Πίσω Κάμερα</string>
     <string name="pref_aemode_front_title">Μπροστινή Κάμερα</string>
     <string name="pref_enable_patcher_title">Ενεργοποίηση Lib Patcher</string>
-    <string name="pref_enable_patcher_summary">Εάν είναι απενεργοποιημένο, θα χρησιμοποιήσει τις προεπιλεγμένες τιμές</string>
     <string name="lib_sharpness_title">Ευκρίνεια</string>
     <string name="lib_luma_title">Luma μείωση θορύβου</string>
     <string name="lib_chroma_title">Υψυλό Chroma μείωση θορύβου</string>
@@ -691,12 +689,6 @@
     <string name="pref_stream_config_title">Διαμόρφωση ροής</string>
     <string name="pref_stream_config">Για την υποστήριξη αυτής της δυνατότητας, οι OEM προστίθενται σε HAL όπου ενεργοποιούνται από δεδομένους ακέραιους αριθμούς που μεταβιβάζονται στο HAL σε configure_streams που επιτρέπει στην προσαρμοσμένη εφαρμογή κάμερας να χρησιμοποιεί το API του συστήματος</string>
     <string name="pref_stream_mode_title">Λειτουργία ροής</string>
-    <string name="pref_main_stream_mode_title">Διαμόρφωση κύριας ροής</string>
-    <string name="pref_front_stream_mode_title">Διαμόρφωση μπροστινής ροής</string>
-    <string name="pref_video_stream_mode_title">Διαμόρφωση ροής βίντεο</string>
-    <string name="pref_portrait_stream_mode_title">Διαμόρφωση ροής πορτρέτου</string>
-    <string name="pref_ns_stream_mode_title">Διαμόρφωση νυχτερινής ροής</string>
-    <string name="pref_slowmo_stream_mode_title">Διαμόρφωση ροής αργής κίνησης</string>
     <string name="pref_experimental_stream_mode_title">Διαμόρφωση πειραματικής ροής</string>
     <string name="pref_settings_title">Ρυθμίσεις</string>
     <string name="pref_settings_on_title">ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ</string>
@@ -741,8 +733,6 @@
     <string name="pref_focus_tracking_summary">Ενεργοποίηση εστίασης παρακολούθησης</string>
     <string name="lib_gammacurve_on_title">Ενεργοποίηση καμπύλης γάμμα</string>
     <string name="lib_temp_radius_title">Χρονική ακτίνα μείωσης θορύβου</string>
-    <string name="pref_focus_time_tittle">Χρόνος εστίασης αφής:</string>
-    <string name="pref_focus_time_summary">Χρόνος εστίασης αφής: %s</string>
     <string name="lib_depth_title">Βάθος ευκρίνειας</string>
     <string name="pref_instantaneous_hdr_plus_title">Χρησιμοποιήστε στιγμιαία HDR + Ενισχυμένο</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Απενεργοποιήστε το HDR + και χρησιμοποιήστε μόνιμα το Pixel's 4 HDR + Ενισχυμένο. Η ποιότητα μπορεί να διαφέρει από την κανονική HDR + Ενισχυμένο."</string>
@@ -750,8 +740,6 @@
     <string name="donations">Σύνδεσμοι δωρεάς</string>
     <string name="donations_summary">Υποστήριξη του προγραμματιστή</string>
     <string name="opmodes_title">Ενεργοποίηση HALs συσκευής</string>
-    <string name="ngcam">GCam by Nikita</string>
-    <string name="pref_sabre_title">Ενεργοποίηση του Sabre</string>
     <string name="pref_sabre_summary">Συγχώνευση ζουμ για υποστηριζόμενες συσκευές</string>
     <string name="lib_curve_x1_title">X1 (αριστερό μισό)</string>
     <string name="lib_curve_x2_title">X2 (δεξί μισό)</string>

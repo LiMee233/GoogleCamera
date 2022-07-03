@@ -552,7 +552,6 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="pref_update">Controlla aggiornamenti e cambiamenti</string>
     <string name="pref_gallery_title">Usa una galleria alternativa</string>
     <string name="pref_gallery_summary">La galleria predefinita è Google Foto</string>
-    <string name="lib_experimental_title">Patcher della libreria (Sperimentale)</string>
     <string name="lib_dehaze_title">Riduzione foschia</string>
     <string name="pref_frames_summary">Il valore predefinito è 0</string>
     <string name="pref_astro_title">Abilita astrofotografia</string>
@@ -560,7 +559,6 @@ La funzionalità Volti familiari è disponibile quando apri l'app Fotocamera dal
     <string name="pref_aemode_back_title">Camera posteriore</string>
     <string name="pref_aemode_front_title">Camera anteriore</string>
     <string name="pref_enable_patcher_title">Attiva Patcher della libreria</string>
-    <string name="pref_enable_patcher_summary">Se disabilitato, userà i valori predefiniti</string>
     <string name="lib_sharpness_title">Nitidezza</string>
     <string name="lib_luma_title">Riduzione rumore di luminanza</string>
     <string name="lib_chroma_title">Riduzione rumore di crominanza su alte frequenze</string>
@@ -694,12 +692,6 @@ Alcune note:
     <string name="pref_stream_config_title">Configurazione flusso</string>
     <string name="pref_stream_config">"Per supportare questa funzione, gli OEM vengono aggiunti in HAL dove vengono attivati da numeri interi predefiniti che vengono passati all'HAL su configure_streams che consente all'app fotocamera personalizzata di utilizzare le API di sistema"</string>
     <string name="pref_stream_mode_title">Modalità flusso</string>
-    <string name="pref_main_stream_mode_title">Configurazione stream Principale</string>
-    <string name="pref_front_stream_mode_title">Configurazione flusso Frontale</string>
-    <string name="pref_video_stream_mode_title">Configurazione flusso Video</string>
-    <string name="pref_portrait_stream_mode_title">Configurazione flusso Ritratto</string>
-    <string name="pref_ns_stream_mode_title">Configurazione flusso Notturna</string>
-    <string name="pref_slowmo_stream_mode_title">Configurazione flusso Slow-motion</string>
     <string name="pref_experimental_stream_mode_title">Configurazione flusso Sperimentale</string>
     <string name="pref_settings_title">Impostazioni</string>
     <string name="pref_settings_on_title">Acceso</string>
@@ -744,8 +736,6 @@ Alcune note:
     <string name="pref_focus_tracking_summary">Attiva focus tracking</string>
     <string name="lib_gammacurve_on_title">Attiva Curva Gamma</string>
     <string name="lib_temp_radius_title">Raggio riduzione del rumore temporale</string>
-    <string name="pref_focus_time_tittle">Tempo di messa a fuoco al tocco:</string>
-    <string name="pref_focus_time_summary">Tempo di messa a fuoco al tocco: %s</string>
     <string name="lib_depth_title">Profondità nitida</string>
     <string name="pref_instantaneous_hdr_plus_title">Usa HDR+ Avanzato istantaneo</string>
     <string name="pref_instantaneous_hdr_plus_summary">Disattiva HDR+ e usa HDR+ Avanzato di Pixel 4 come predefinito. La qualità potrebbe differire dal normale HDR+ Avanzato.</string>
@@ -753,8 +743,6 @@ Alcune note:
     <string name="donations">Link per donazioni</string>
     <string name="donations_summary">Supporta lo sviluppatore</string>
     <string name="opmodes_title">Abilita gli HAL del dispositivo</string>
-    <string name="ngcam">GCam by Nikita</string>
-    <string name="pref_sabre_title">Abilita Sabre</string>
     <string name="pref_sabre_summary">Zoom merge per dispositivi supportati</string>
     <string name="lib_curve_x1_title">X1 (parte sinistra)</string>
     <string name="lib_curve_x2_title">X2 (parte destra)</string>

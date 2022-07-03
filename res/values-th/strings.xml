@@ -552,7 +552,6 @@
     <string name="pref_update">ตรวจสอบการอัพเดทและรายละเอียดของการแปลี่ยนแปลง</string>
     <string name="pref_gallery_title">ใช้แกลอรี่อื่น</string>
     <string name="pref_gallery_summary">แกลอรี่เริ่มต้นตือ Google Photos</string>
-    <string name="lib_experimental_title">Lib Patcher (การทดลอง)</string>
     <string name="lib_dehaze_title">Dehaze</string>
     <string name="pref_frames_summary">ค่าเริ่มต้นคือ 0</string>
     <string name="pref_astro_title">เปิดใช้งานการถ่ายภาพดวงดาว</string>
@@ -560,7 +559,6 @@
     <string name="pref_aemode_back_title">กล้องหลัง</string>
     <string name="pref_aemode_front_title">กล้องหน้า</string>
     <string name="pref_enable_patcher_title">เปิดใช้งาน Lib Patcher</string>
-    <string name="pref_enable_patcher_summary">ถ้าปิดการใช้งาน จะใช้ค่าเริ่มต้น</string>
     <string name="lib_sharpness_title">ความชัดเจน</string>
     <string name="lib_luma_title">Luma Denoise</string>
     <string name="lib_chroma_title">Chroma Denoise สูง</string>
@@ -694,12 +692,6 @@
     <string name="pref_stream_config_title">การกำหนดค่าสตรีม</string>
     <string name="pref_stream_config">เพื่อรองรับคุณสมบัตินี้ OEM จะถูกเพิ่มใน HAL ซึ่งจะถูกทริกเกอร์โดยจำนวนเต็มที่กำหนดซึ่งส่งผ่านไปยัง HAL บน configure_streams ซึ่งทำให้แอปกล้องที่กำหนดเองสามารถใช้ API ของระบบได้</string>
     <string name="pref_stream_mode_title">โหมดสตรีม</string>
-    <string name="pref_main_stream_mode_title">การกำหนดค่าสตรีมหลัก</string>
-    <string name="pref_front_stream_mode_title">การกำหนดค่าสตรีมกล้องด้านหน้า</string>
-    <string name="pref_video_stream_mode_title">การกำหนดค่าสตรีมวิดีโอ</string>
-    <string name="pref_portrait_stream_mode_title">การกำหนดค่าสตรีมแนวตั้ง</string>
-    <string name="pref_ns_stream_mode_title">การกำหนดค่าสตรีมกลางคืน</string>
-    <string name="pref_slowmo_stream_mode_title">การกำหนดค่าสตรีมแบบเคลื่อนไหวช้า</string>
     <string name="pref_experimental_stream_mode_title">การกำหนดค่าสตรีมทดลอง</string>
     <string name="pref_settings_title">การตั้งค่า</string>
     <string name="pref_settings_on_title">เปิด</string>
@@ -744,8 +736,6 @@
     <string name="pref_focus_tracking_summary">เปิดการใช้งานการติดตามโฟกัส</string>
     <string name="lib_gammacurve_on_title">เปิดการใช้งานเส้นโค้งแกมม่า</string>
     <string name="lib_temp_radius_title">Temporal denoise radius</string>
-    <string name="pref_focus_time_tittle">Touch focus time:</string>
-    <string name="pref_focus_time_summary">Touch focus time: %s</string>
     <string name="lib_depth_title">ความคมชัดลึก</string>
     <string name="pref_instantaneous_hdr_plus_title">ใช้งานโหมด HDR+ ขั้นสูงแบบทันที</string>
     <string name="pref_instantaneous_hdr_plus_summary">ปิดการใช้งาน HDR+ และใช้ HDR+ ขั้นสูงของ Pixel 4 อย่างถาวร คุณภาพอาจแตกต่างจาก HDR+ ขั้นสูงแบบทั่วไป</string>
@@ -753,8 +743,6 @@
     <string name="donations">ลิงค์บริจาค</string>
     <string name="donations_summary">สนับสนุนนักพัฒนา</string>
     <string name="opmodes_title">เปิดใช้งาน HALs ของอุปกรณ์</string>
-    <string name="ngcam">GCam โดย Nikita</string>
-    <string name="pref_sabre_title">เปิดใช้งาน Sabre</string>
     <string name="pref_sabre_summary">Zoom merge สำหรับอุปกรณ์ที่รองรับ</string>
     <string name="lib_curve_x1_title">X1 (ครึ่งซ้าย)</string>
     <string name="lib_curve_x2_title">X2 (ครึ่งขวา)</string>

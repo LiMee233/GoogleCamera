@@ -549,7 +549,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="pref_update">Frissítések ellenőrzése és változási napló</string>
     <string name="pref_gallery_title">Harmadik féltől származó galéria használata</string>
     <string name="pref_gallery_summary">Alapértelmezett galéria a Google Fotók</string>
-    <string name="lib_experimental_title">Lib Patcher (Kísérleti)</string>
     <string name="lib_dehaze_title">Ködtelenítés</string>
     <string name="pref_frames_summary">Alapértelmezett érték a 0</string>
     <string name="pref_astro_title">Asztrofotózás engedélyezése</string>
@@ -557,7 +556,6 @@ Az Ismerős arcok akkor áll rendelkezésre, amikor a lezárási képernyőről 
     <string name="pref_aemode_back_title">Hátsó kamera</string>
     <string name="pref_aemode_front_title">Előlapi kamera</string>
     <string name="pref_enable_patcher_title">Lib Patcher engedélyezése</string>
-    <string name="pref_enable_patcher_summary">Tiltás esetén az alapértelmezett értékeket fogja használni</string>
     <string name="lib_sharpness_title">Élesség</string>
     <string name="lib_luma_title">Luma zajszűrés</string>
     <string name="lib_chroma_title">Magas Chroma zajszűrés</string>
@@ -691,12 +689,6 @@ Néhány jegyzet:
     <string name="pref_stream_config_title">Stream konfiguráció</string>
     <string name="pref_stream_config">Annak érdekében, hogy ez a funckió harmadik fél kameráján működjön, a confugre_streams-on keresztül egész számokat kell átadni a HAL-nak, melynek következében az egyedi fényképező alkalmazás használni tudja a rendszer API-ját.</string>
     <string name="pref_stream_mode_title">Stream mód</string>
-    <string name="pref_main_stream_mode_title">Fő Stream Konfiguráció</string>
-    <string name="pref_front_stream_mode_title">Előlapi Stream Konfiguráció</string>
-    <string name="pref_video_stream_mode_title">Videó Stream Konfiguráció</string>
-    <string name="pref_portrait_stream_mode_title">Portré Stream Konfiguráció</string>
-    <string name="pref_ns_stream_mode_title">Éjszakai Stream Konfiguráció</string>
-    <string name="pref_slowmo_stream_mode_title">Lassított Felvétel Stream Konfiguráció</string>
     <string name="pref_experimental_stream_mode_title">Tapasztalati Stream Konfiguráció</string>
     <string name="pref_settings_title">Beállítások</string>
     <string name="pref_settings_on_title">BE</string>
@@ -741,8 +733,6 @@ Néhány jegyzet:
     <string name="pref_focus_tracking_summary">Fókuszkövetés engedélyezése</string>
     <string name="lib_gammacurve_on_title">Gamma-görbe engedélyezése</string>
     <string name="lib_temp_radius_title">Ideiglenes zajszűrési sugár</string>
-    <string name="pref_focus_time_tittle">Érintési fókuszidő:</string>
-    <string name="pref_focus_time_summary">Érintési fókuszidő: %s</string>
     <string name="lib_depth_title">Élesség mélysége</string>
     <string name="pref_instantaneous_hdr_plus_title">Azonnali javított HDR+ használata</string>
     <string name="pref_instantaneous_hdr_plus_summary">Pixel 4 javított HDR+ használata a HDR+ helyett. A minőség eltérő lehet a sima javított HDR+-hoz képest.</string>
@@ -750,8 +740,6 @@ Néhány jegyzet:
     <string name="donations">Adományi linkek</string>
     <string name="donations_summary">Támogasd a fejlesztőt</string>
     <string name="opmodes_title">Eszköz HAL-ának engedélyezése</string>
-    <string name="ngcam">GCam Nikita-tól</string>
-    <string name="pref_sabre_title">Sabre engedélyezése</string>
     <string name="pref_sabre_summary">Zoom egyesítés a támogatott eszközök számára</string>
     <string name="lib_curve_x1_title">X1 (Bal oldali fél)</string>
     <string name="lib_curve_x2_title">X2 (Jobb oldali fél)</string>

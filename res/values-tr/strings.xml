@@ -552,7 +552,6 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="pref_update">Güncelleme ve değişiklik kaydını kontrol et</string>
     <string name="pref_gallery_title">3.Parti galeri kullan</string>
     <string name="pref_gallery_summary">"Varsayılan galeri Google Fotoğraflar'dır"</string>
-    <string name="lib_experimental_title">Lib Yaması (Deneysel)</string>
     <string name="lib_dehaze_title">Karartma</string>
     <string name="pref_frames_summary">"Varsayılan değer 0'dır"</string>
     <string name="pref_astro_title">Astrofotografiyi etkinleştir</string>
@@ -560,7 +559,6 @@ Tanıdık Yüzler, Kamera'yı kilit ekranında açtığınızda kullanılabilir.
     <string name="pref_aemode_back_title">Arka Kamera</string>
     <string name="pref_aemode_front_title">Ön Kamera</string>
     <string name="pref_enable_patcher_title">Lib Yamasını Etkinleştir</string>
-    <string name="pref_enable_patcher_summary">Devre dışı bırakılırsa, varsayılan değerleri kullanır</string>
     <string name="lib_sharpness_title">Keskinlik</string>
     <string name="lib_luma_title">Luma Gürültü Azaltma</string>
     <string name="lib_chroma_title">Yüksek Chroma Gürültü Azaltma</string>
@@ -695,12 +693,6 @@ Bir kaç Not:
     <string name="pref_stream_config_title">Akış ayarı</string>
     <string name="pref_stream_config">"Bu özelliği desteklemek için OEM'ler, özel kamera uygulamasının sistem API'sını kullanmasını sağlayan configure_streams üzerinde HAL'ye iletilen belirli tamsayılarla tetiklendikleri HAL'a eklenir."</string>
     <string name="pref_stream_mode_title">Akış Modu</string>
-    <string name="pref_main_stream_mode_title">Ana akış ayarı</string>
-    <string name="pref_front_stream_mode_title">Ön Akış ayarı</string>
-    <string name="pref_video_stream_mode_title">Video Akış Ayarı</string>
-    <string name="pref_portrait_stream_mode_title">Portre Akış ayarı</string>
-    <string name="pref_ns_stream_mode_title">Gece Akış ayarı</string>
-    <string name="pref_slowmo_stream_mode_title">Yavaş Çekim Akış ayarı</string>
     <string name="pref_experimental_stream_mode_title">Deneysel Akış ayarı</string>
     <string name="pref_settings_title">Ayarları</string>
     <string name="pref_settings_on_title">Açık</string>
@@ -745,8 +737,6 @@ Bir kaç Not:
     <string name="pref_focus_tracking_summary">Odak takibini etkinleştir</string>
     <string name="lib_gammacurve_on_title">Gamma Eğrisini etkinleştir</string>
     <string name="lib_temp_radius_title">Geçici gürültü azaltma yarıçapı</string>
-    <string name="pref_focus_time_tittle">Dokunma odak zamanı:</string>
-    <string name="pref_focus_time_summary">Dokunma odak zamanı: %s</string>
     <string name="lib_depth_title">Keskin Derinlik</string>
     <string name="pref_instantaneous_hdr_plus_title">Anında HDR + Gelişmiş kullanın</string>
     <string name="pref_instantaneous_hdr_plus_summary">"HDR+'ı devre dışı bırakın ve Pixel'in 4 HDR+ Gelişmiş özelliğini kalıcı olarak kullanın. Kalite, normal HDR+ Gelişmiş'den farklı olabilir."</string>
@@ -754,8 +744,6 @@ Bir kaç Not:
     <string name="donations">Bağış Linkleri</string>
     <string name="donations_summary">Geliştiriciyi destekle!</string>
     <string name="opmodes_title">"Aygıt HAL'leri etkinleştir"</string>
-    <string name="ngcam">Nikita tarafından GCam</string>
-    <string name="pref_sabre_title">Sabreyi etkinleştir</string>
     <string name="pref_sabre_summary">Desteklenen aygıtlarda zoom birleştir</string>
     <string name="lib_curve_x1_title">X1 (Sol Yarı)</string>
     <string name="lib_curve_x2_title">X2 (Sağ Yarı)</string>

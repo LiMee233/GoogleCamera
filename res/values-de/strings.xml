@@ -552,7 +552,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_update">Überprüfe auf Aktualisierung und Änderungsprotokoll</string>
     <string name="pref_gallery_title">Benutze Drittanbieter-Gallerie</string>
     <string name="pref_gallery_summary">Standard Galerie-App ist Google Fotos</string>
-    <string name="lib_experimental_title">Lib-Patcher (Experimentell)</string>
     <string name="lib_dehaze_title">Dunst entfernen</string>
     <string name="pref_frames_summary">Standardwert ist 0</string>
     <string name="pref_astro_title">Aktiviere Astro-Fotografie</string>
@@ -560,7 +559,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_aemode_back_title">Rückkamera</string>
     <string name="pref_aemode_front_title">Frontkamera</string>
     <string name="pref_enable_patcher_title">Aktiviere Lib-Patcher</string>
-    <string name="pref_enable_patcher_summary">Wenn deaktiviert werden Standardwerte benutzt</string>
     <string name="lib_sharpness_title">Schärfe</string>
     <string name="lib_luma_title">Luma Entrauschung</string>
     <string name="lib_chroma_title">Hohe Chroma Entrauschung</string>
@@ -694,12 +692,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_stream_config_title">Stream Konfiguration</string>
     <string name="pref_stream_config">Um diese Funktion zu unterstützen müssen Hersteller HALs hinzugefügt werden und werden durch einen Integer in der configure_streams Datei an die HALs übergeben, damit die benutzerdefinierte Kamera-App die System-API benutzen kann.</string>
     <string name="pref_stream_mode_title">Stream Modus</string>
-    <string name="pref_main_stream_mode_title">Generell</string>
-    <string name="pref_front_stream_mode_title">Front</string>
-    <string name="pref_video_stream_mode_title">Video</string>
-    <string name="pref_portrait_stream_mode_title">Portrait</string>
-    <string name="pref_ns_stream_mode_title">Nacht</string>
-    <string name="pref_slowmo_stream_mode_title">Zeitlupe</string>
     <string name="pref_experimental_stream_mode_title">Experimentelle Stream Konfiguration</string>
     <string name="pref_settings_title">Einstellungen</string>
     <string name="pref_settings_on_title">AN</string>
@@ -744,8 +736,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_focus_tracking_summary">Aktiviere Fokusverfolgung</string>
     <string name="lib_gammacurve_on_title">Aktiviere Gammakorrektur</string>
     <string name="lib_temp_radius_title">Tempoärer Entrausch-Radius</string>
-    <string name="pref_focus_time_tittle">Berührungsfokus-Zeit</string>
-    <string name="pref_focus_time_summary">Berührungsfokus-Zeit: %s</string>
     <string name="lib_depth_title">Schärfentiefe</string>
     <string name="pref_instantaneous_hdr_plus_title">Benutze augenblicklich verbessertes HDR+</string>
     <string name="pref_instantaneous_hdr_plus_summary">Deaktiviere HDR+ und benutze immer verbessertes HDR+ vom Pixel 4. Die Qualtität vom regulärem verbesserten HDR+ kann hier abweichen.</string>
@@ -753,8 +743,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="donations">"Spenden URL's"</string>
     <string name="donations_summary">Unterstütze den/die Entwickler</string>
     <string name="opmodes_title">"Aktiviere Geräte HAL's"</string>
-    <string name="ngcam">GCam von Nikita</string>
-    <string name="pref_sabre_title">Aktiviere Sabre</string>
     <string name="pref_sabre_summary">\"Zoom merge\" für unterstützte Geräte</string>
     <string name="lib_curve_x1_title">X1 (linke Hälfte)</string>
     <string name="lib_curve_x2_title">X2 (rechte Hälfte)</string>

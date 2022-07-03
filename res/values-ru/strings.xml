@@ -552,7 +552,6 @@
     <string name="pref_update">Проверьте обновления и список изменений</string>
     <string name="pref_gallery_title">Использовать стороннюю галерею</string>
     <string name="pref_gallery_summary">Галерея по умолчанию - Google Фото</string>
-    <string name="lib_experimental_title">Обработка изображения (экспериментально)</string>
     <string name="lib_dehaze_title">Дехейз</string>
     <string name="pref_frames_summary">Значение по умолчанию 0</string>
     <string name="pref_astro_title">Включить астрофотографию</string>
@@ -560,7 +559,6 @@
     <string name="pref_aemode_back_title">Основная камера</string>
     <string name="pref_aemode_front_title">Фронтальная камера</string>
     <string name="pref_enable_patcher_title">Включить обработку изображения</string>
-    <string name="pref_enable_patcher_summary">Если отключено, будут использоваться значения по умолчанию</string>
     <string name="lib_sharpness_title">Резкость</string>
     <string name="lib_luma_title">Яркостное шумоподавление</string>
     <string name="lib_chroma_title">Высокое цветовое шумоподавление</string>
@@ -693,12 +691,6 @@
     <string name="pref_stream_config_title">Настройки режимов</string>
     <string name="pref_stream_config">Для работы данной функции в сторонней камере используются системные API за счет HAL в configure_stream, которые были зайдействованы в работе над значениями, заданными производителями</string>
     <string name="pref_stream_mode_title">Метод режима</string>
-    <string name="pref_main_stream_mode_title">Основная камера</string>
-    <string name="pref_front_stream_mode_title">Фронтальная камера</string>
-    <string name="pref_video_stream_mode_title">Видео</string>
-    <string name="pref_portrait_stream_mode_title">Портрет</string>
-    <string name="pref_ns_stream_mode_title">Ночная съемка</string>
-    <string name="pref_slowmo_stream_mode_title">Замедленная съемка</string>
     <string name="pref_experimental_stream_mode_title">Эксперементально</string>
     <string name="pref_settings_title">Настройки</string>
     <string name="pref_settings_on_title">ВКЛ</string>
@@ -743,8 +735,6 @@
     <string name="pref_focus_tracking_summary">Включить отслеживание фокуса</string>
     <string name="lib_gammacurve_on_title">Включить гамма-кривую</string>
     <string name="lib_temp_radius_title">Радиус временного шумоподавления</string>
-    <string name="pref_focus_time_tittle">Время тач-фокуса:</string>
-    <string name="pref_focus_time_summary">Время тач-фокуса: %s</string>
     <string name="lib_depth_title">Глубина резкости</string>
     <string name="pref_instantaneous_hdr_plus_title">Использовать мгновенный расширенный HDR+</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Отключить HDR+ и использовать расширенный HDR+ от Pixel's 4. Качество может отличаться от обычного расширенного HDR+."</string>
@@ -752,8 +742,6 @@
     <string name="donations">Ссылки на пожертвования</string>
     <string name="donations_summary">Поддержи разработчика</string>
     <string name="opmodes_title">Включить HALs устройства</string>
-    <string name="ngcam">GCam от Nikita</string>
-    <string name="pref_sabre_title">Использовать Sabre</string>
     <string name="pref_sabre_summary">Увеличивает детализацию для поддерживаемых устройств</string>
     <string name="lib_curve_x1_title">X1 (левая половина)</string>
     <string name="lib_curve_x2_title">Х2 (правая половина)</string>

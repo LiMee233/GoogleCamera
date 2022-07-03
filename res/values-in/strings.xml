@@ -546,7 +546,6 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="pref_update">Cek untuk pembaruan dan log perubahan</string>
     <string name="pref_gallery_title">Gunakan aplikasi pihak ketiga</string>
     <string name="pref_gallery_summary">Google Foto sebagai galeri bawaan</string>
-    <string name="lib_experimental_title">Lib Patcher (Eksperimental)</string>
     <string name="lib_dehaze_title">Dehaze</string>
     <string name="pref_frames_summary">Nilai bawaan adalah 0</string>
     <string name="pref_astro_title">Aktifkan Astrofotografi</string>
@@ -554,7 +553,6 @@ Wajah Favorit akan tersedia ketika Anda membuka Kamera dari layar kunci."</strin
     <string name="pref_aemode_back_title">Kamera Belakang</string>
     <string name="pref_aemode_front_title">Kamera Depan</string>
     <string name="pref_enable_patcher_title">Aktifkan Lib Patcher</string>
-    <string name="pref_enable_patcher_summary">Jika dimatikan, akan menggunakan pengaturan bawaan</string>
     <string name="lib_sharpness_title">Ketajaman</string>
     <string name="lib_luma_title">Luma Denoise</string>
     <string name="lib_chroma_title">Chroma Denoise Tinggi</string>
@@ -688,12 +686,6 @@ Beberapa catatan:
     <string name="pref_stream_config_title">Konfigurasi Stream</string>
     <string name="pref_stream_config">Untuk mendukung fitur ini, OEM ditambahkan di HAL di mana mereka dipicu oleh bilangan bulat tertentu yang diteruskan ke HAL pada aliran konfigurasi yang memungkinkan aplikasi kamera kustom untuk menggunakan API sistem</string>
     <string name="pref_stream_mode_title">Mode Stream</string>
-    <string name="pref_main_stream_mode_title">Konfigurasi Stream Kamera Utama</string>
-    <string name="pref_front_stream_mode_title">Konfigurasi Stream Kamera Depan</string>
-    <string name="pref_video_stream_mode_title">Konfigurasi Stream Video</string>
-    <string name="pref_portrait_stream_mode_title">"Konfigurasi Stream Portrait "</string>
-    <string name="pref_ns_stream_mode_title">Konfigurasi Stream Foto Malam</string>
-    <string name="pref_slowmo_stream_mode_title">Konfigurasi Stream Gerak Lambat</string>
     <string name="pref_experimental_stream_mode_title">Konfigurasi Stream Experimental</string>
     <string name="pref_settings_title">Setelan</string>
     <string name="pref_settings_on_title">Aktif</string>
@@ -738,8 +730,6 @@ Beberapa catatan:
     <string name="pref_focus_tracking_summary">Aktifkan Pelacakan Fokus</string>
     <string name="lib_gammacurve_on_title">Aktifkan Kurva Gamma</string>
     <string name="lib_temp_radius_title">"Radius Temporal Denoise "</string>
-    <string name="pref_focus_time_tittle">Waktu Sentuhan Fokus</string>
-    <string name="pref_focus_time_summary">Waktu sentuhan fokus: %s</string>
     <string name="lib_depth_title">Kedalaman ketajaman</string>
     <string name="pref_instantaneous_hdr_plus_title">"Gunakan Instan HDR+ Disempurnakan "</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Nonaktifkan HDR + dan gunakan Pixel 4 HDR + Disempurnakan secara permanen.  Kualitas mungkin akan berbeda dari HDR + Disempurnakan biasa."</string>
@@ -747,8 +737,6 @@ Beberapa catatan:
     <string name="donations">Link Donasi</string>
     <string name="donations_summary">Dukung pengembang</string>
     <string name="opmodes_title">Aktifkan perangkat HAL</string>
-    <string name="ngcam">GCam oleh Nikita</string>
-    <string name="pref_sabre_title">Aktifkan Sabre</string>
     <string name="pref_sabre_summary">Penggabungan zoom untuk perangkat yang didukung</string>
     <string name="lib_curve_x1_title">X1 (Setengah Bagian Kiri)</string>
     <string name="lib_curve_x2_title">X2 (Setengah Bagian Kanan)</string>

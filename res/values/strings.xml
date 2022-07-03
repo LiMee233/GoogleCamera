@@ -608,7 +608,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_update">Check for updates and changelog</string>
     <string name="pref_gallery_title">Use a third-party gallery</string>
     <string name="pref_gallery_summary">Default gallery is Google Photos</string>
-    <string name="lib_experimental_title">Lib Patcher (Experimental)</string>
     <string name="lib_dehaze_title">Dehaze</string>
     <string name="pref_frames_summary">Default value is 0</string>
     <string name="pref_astro_title">Enable Astrophotography</string>
@@ -616,7 +615,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_aemode_back_title">Back camera</string>
     <string name="pref_aemode_front_title">Front camera</string>
     <string name="pref_enable_patcher_title">Enable Lib Patcher</string>
-    <string name="pref_enable_patcher_summary">If disabled, it will use default values</string>
     <string name="lib_sharpness_title">Sharpness</string>
     <string name="lib_luma_title">Luma Denoise</string>
     <string name="lib_chroma_title">High Chroma Denoise</string>
@@ -749,12 +747,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_stream_config_title">Stream Config</string>
     <string name="pref_stream_config">To support this feature, OEMs are added in HAL where they are triggered by given integers that are passed to the HAL on configure_streams which enables the custom camera app to use the system API</string>
     <string name="pref_stream_mode_title">Stream Mode</string>
-    <string name="pref_main_stream_mode_title">Main Stream Config</string>
-    <string name="pref_front_stream_mode_title">Front Stream Config</string>
-    <string name="pref_video_stream_mode_title">Video Stream Config</string>
-    <string name="pref_portrait_stream_mode_title">Portrait Stream Config</string>
-    <string name="pref_ns_stream_mode_title">Night Stream Config</string>
-    <string name="pref_slowmo_stream_mode_title">Slow Motion Stream Config</string>
     <string name="pref_experimental_stream_mode_title">Experimental Stream Config</string>
     <string name="pref_settings_title">Settings</string>
     <string name="pref_settings_on_title">ON</string>
@@ -799,8 +791,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_focus_tracking_summary">Enable focus tracking</string>
     <string name="lib_gammacurve_on_title">Enable Gamma Curve</string>
     <string name="lib_temp_radius_title">Temporal denoise radius</string>
-    <string name="pref_focus_time_tittle">Touch focus time:</string>
-    <string name="pref_focus_time_summary">Touch focus time: %s</string>
     <string name="lib_depth_title">Sharp Depth</string>
     <string name="pref_instantaneous_hdr_plus_title">Use instantaneous HDR+ Enhanced</string>
     <string name="pref_instantaneous_hdr_plus_summary">"Deactivate HDR+ and use Pixel's 4 HDR+ Enhanced permanently. Quality may be different than regular HDR+ Enhanced."</string>
@@ -808,8 +798,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="donations">Donation links</string>
     <string name="donations_summary">Support the developer</string>
     <string name="opmodes_title">Enable device HALs</string>
-    <string name="ngcam">GCam by Nikita</string>
-    <string name="pref_sabre_title">Enable Sabre</string>
     <string name="pref_sabre_summary">Zoom merge for supported devices</string>
     <string name="lib_curve_x1_title">X1 (Left Half)</string>
     <string name="lib_curve_x2_title">X2 (Right Half)</string>

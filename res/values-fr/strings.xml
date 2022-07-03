@@ -552,7 +552,6 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="pref_update">Recherche des mise à jour et journal des modifications</string>
     <string name="pref_gallery_title">Utiliser une galerie tierce</string>
     <string name="pref_gallery_summary">Google Photos comme Galerie par Défaut</string>
-    <string name="lib_experimental_title">Lib Patcher (Expérimentale)</string>
     <string name="lib_dehaze_title">Enlever la brume</string>
     <string name="pref_frames_summary">La valeur par défaut est de 0</string>
     <string name="pref_astro_title">Activer Astrophotographie</string>
@@ -560,7 +559,6 @@ La fonctionnalité Visages fréquents est disponible lorsque vous ouvrez l'appli
     <string name="pref_aemode_back_title">Caméra arrière</string>
     <string name="pref_aemode_front_title">Caméra avant</string>
     <string name="pref_enable_patcher_title">Lib Patcher activé</string>
-    <string name="pref_enable_patcher_summary">Si désactivé, utilisation des valeurs par défaut</string>
     <string name="lib_sharpness_title">Netteté</string>
     <string name="lib_luma_title">Débruitage Luma</string>
     <string name="lib_chroma_title">Débruitage Chroma Haut</string>
@@ -694,12 +692,6 @@ Quelques remarques:
     <string name="pref_stream_config_title">Config Stream</string>
     <string name="pref_stream_config">Pour supporter cette fonctionnalité, les OEM sont ajoutés dans HAL où ils sont déclenchés par des entiers donnés qui sont passés à HAL sur configure_streams qui permet à l’application de caméra personnalisée d’utiliser l’API système</string>
     <string name="pref_stream_mode_title">Mode Stream</string>
-    <string name="pref_main_stream_mode_title">Config Stream Principal</string>
-    <string name="pref_front_stream_mode_title">Config Stream Frontale</string>
-    <string name="pref_video_stream_mode_title">Config Stream Vidéo</string>
-    <string name="pref_portrait_stream_mode_title">Config Stream Portrait</string>
-    <string name="pref_ns_stream_mode_title">Config Stream Nuit</string>
-    <string name="pref_slowmo_stream_mode_title">Config Stream Slow motion</string>
     <string name="pref_experimental_stream_mode_title">Config Streaming Expérimental</string>
     <string name="pref_settings_title">Paramètres</string>
     <string name="pref_settings_on_title">Activer</string>
@@ -744,8 +736,6 @@ Quelques remarques:
     <string name="pref_focus_tracking_summary">Activer le suivi de mise en point</string>
     <string name="lib_gammacurve_on_title">Activé les Courbes Gammas</string>
     <string name="lib_temp_radius_title">Rayon de débruitage temporel</string>
-    <string name="pref_focus_time_tittle">Toucher le délai de mise en point</string>
-    <string name="pref_focus_time_summary">Toucher le délai de mise en point : %s</string>
     <string name="lib_depth_title">Profondeur de Champ</string>
     <string name="pref_instantaneous_hdr_plus_title">Utilisez instantanément HDR+ Enhanced</string>
     <string name="pref_instantaneous_hdr_plus_summary">Désactivez HDR+ et utilisez Pixel 4 HDR+ Enhanced en permanence. La qualité peut être différente de celle du HDR+ Enhanced normal.</string>
@@ -753,8 +743,6 @@ Quelques remarques:
     <string name="donations">Lien de Donation</string>
     <string name="donations_summary">Supporter le Développeur</string>
     <string name="opmodes_title">"Activer HALs de l'appareil"</string>
-    <string name="ngcam">GCam par Nikita</string>
-    <string name="pref_sabre_title">Activer Sabre</string>
     <string name="pref_sabre_summary">Fusion du Zomm pour les téléphones supporté</string>
     <string name="lib_curve_x1_title">X1 (Moitié Gauche)</string>
     <string name="lib_curve_x2_title">X2 (Moitié Droite)</string>

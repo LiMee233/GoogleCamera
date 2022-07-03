@@ -3817,7 +3817,6 @@
     <public type="string" name="pref_update" id="0x7f1303f1" />
     <public type="string" name="pref_gallery_title" id="0x7f1303f2" />
     <public type="string" name="pref_gallery_summary" id="0x7f1303f3" />
-    <public type="string" name="lib_experimental_title" id="0x7f1303f4" />
     <public type="string" name="lib_dehaze_title" id="0x7f1303f5" />
     <public type="string" name="pref_frames_summary" id="0x7f1303f6" />
     <public type="string" name="pref_astro_title" id="0x7f1303f7" />
@@ -3825,7 +3824,6 @@
     <public type="string" name="pref_aemode_back_title" id="0x7f1303f9" />
     <public type="string" name="pref_aemode_front_title" id="0x7f1303fa" />
     <public type="string" name="pref_enable_patcher_title" id="0x7f1303fb" />
-    <public type="string" name="pref_enable_patcher_summary" id="0x7f1303fc" />
     <public type="string" name="lib_sharpness_title" id="0x7f1303fd" />
     <public type="string" name="lib_luma_title" id="0x7f1303fe" />
     <public type="string" name="lib_chroma_title" id="0x7f1303ff" />
@@ -3941,12 +3939,6 @@
     <public type="string" name="pref_stream_config_title" id="0x7f13046e" />
     <public type="string" name="pref_stream_config" id="0x7f13046f" />
     <public type="string" name="pref_stream_mode_title" id="0x7f130470" />
-    <public type="string" name="pref_main_stream_mode_title" id="0x7f130471" />
-    <public type="string" name="pref_front_stream_mode_title" id="0x7f130472" />
-    <public type="string" name="pref_video_stream_mode_title" id="0x7f130473" />
-    <public type="string" name="pref_portrait_stream_mode_title" id="0x7f130474" />
-    <public type="string" name="pref_ns_stream_mode_title" id="0x7f130475" />
-    <public type="string" name="pref_slowmo_stream_mode_title" id="0x7f130476" />
     <public type="string" name="pref_experimental_stream_mode_title" id="0x7f130477" />
     <public type="string" name="pref_settings_title" id="0x7f130478" />
     <public type="string" name="pref_settings_on_title" id="0x7f130479" />
@@ -3991,8 +3983,6 @@
     <public type="string" name="pref_focus_tracking_summary" id="0x7f1304a1" />
     <public type="string" name="lib_gammacurve_on_title" id="0x7f1304a2" />
     <public type="string" name="lib_temp_radius_title" id="0x7f1304a3" />
-    <public type="string" name="pref_focus_time_tittle" id="0x7f1304a4" />
-    <public type="string" name="pref_focus_time_summary" id="0x7f1304a5" />
     <public type="string" name="lib_depth_title" id="0x7f1304a6" />
     <public type="string" name="pref_instantaneous_hdr_plus_title" id="0x7f1304a7" />
     <public type="string" name="pref_instantaneous_hdr_plus_summary" id="0x7f1304a8" />
@@ -4000,8 +3990,6 @@
     <public type="string" name="donations" id="0x7f1304aa" />
     <public type="string" name="donations_summary" id="0x7f1304ab" />
     <public type="string" name="opmodes_title" id="0x7f1304ac" />
-    <public type="string" name="ngcam" id="0x7f1304ad" />
-    <public type="string" name="pref_sabre_title" id="0x7f1304ae" />
     <public type="string" name="pref_sabre_summary" id="0x7f1304af" />
     <public type="string" name="lib_curve_x1_title" id="0x7f1304b0" />
     <public type="string" name="lib_curve_x2_title" id="0x7f1304b1" />
