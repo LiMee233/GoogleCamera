@@ -2336,8 +2336,6 @@
     <public type="drawable" name="viewfinder_rounded_background" id="0x7f08026c" />
     <public type="drawable" name="quantum_gm_ic_google_awb_off_white_24" id="0x7f080272" />
     <public type="drawable" name="quantum_gm_ic_google_awb_on_white_24" id="0x7f080273" />
-    <public type="drawable" name="abc_1_shortcuts_nightsight" id="0x7f080279" />
-    <public type="drawable" name="abc_1_shortcuts_portrait" id="0x7f08027a" />
     <public type="drawable" name="abc_seekbar_12mp" id="0x7f08027b" />
     <public type="drawable" name="abc_seekbar_48mp" id="0x7f08027c" />
     <public type="drawable" name="abc_seekbar_aperture" id="0x7f08027d" />
