@@ -2088,40 +2088,40 @@ Y2 = 15"</item>
         <item>934</item>
     </string-array>
     <string-array name="pref_aux_icon_entries">
-        <item>Oneplus One tree</item>
-        <item>Oneplus Double tree</item>
-        <item>Oneplus Triple tree</item>
-        <item>Flower</item>
-        <item>Camera-iris</item>
-        <item>Samsung One tree</item>
-        <item>Samsung Double tree</item>
-        <item>Samsung Triple tree</item>
-        <item>Portrait</item>
-        <item>Mountain</item>
-        <item>1x</item>
-        <item>2x</item>
-        <item>3x</item>
-        <item>4x</item>
-        <item>5x</item>
-        <item>Dots</item>
+        <item>@string/perf_aux_icon_oneplus_one_tree</item>
+        <item>@string/perf_aux_icon_oneplus_double_tree</item>
+        <item>@string/perf_aux_icon_oneplus_triple_tree</item>
+        <item>@string/perf_aux_icon_samsung_one_tree</item>
+        <item>@string/perf_aux_icon_samsung_double_tree</item>
+        <item>@string/perf_aux_icon_samsung_triple_tree</item>
+        <item>@string/perf_aux_icon_flower</item>
+        <item>@string/perf_aux_icon_mountain</item>
+        <item>@string/perf_aux_icon_portrait</item>
+        <item>@string/perf_aux_icon_iris</item>
+        <item>@string/perf_aux_icon_dot</item>
+        <item>@string/perf_aux_icon_1x</item>
+        <item>@string/perf_aux_icon_2x</item>
+        <item>@string/perf_aux_icon_3x</item>
+        <item>@string/perf_aux_icon_4x</item>
+        <item>@string/perf_aux_icon_5x</item>
     </string-array>
     <string-array name="pref_aux_icon_entryvalues">
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
-        <item>5</item>
         <item>6</item>
         <item>7</item>
         <item>8</item>
-        <item>9</item>
+        <item>4</item>
         <item>10</item>
+        <item>9</item>
+        <item>5</item>
+        <item>16</item>
         <item>11</item>
         <item>12</item>
         <item>13</item>
         <item>14</item>
         <item>15</item>
-        <item>16</item>
     </string-array>
     <string-array name="pref_viewfinder_format_entries">
         <item>@string/pref_default</item>
