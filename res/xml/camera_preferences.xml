@@ -152,10 +152,9 @@
 
                     <!-- 对焦按钮 -->
                     <PreferenceCategory android:title="@string/pref_focus_vf_category" android:key="pref_focus_vf_category_key">
-                        <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_tune_black_24dp" android:layout="@layout/preference_with_margin" android:title="@string/pref_focus_mode_vf_title" android:key="pref_topbar_manual_focus_key" android:defaultValue="false" />
-                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_infinity_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_infinity_desc" android:key="pref_topbar_focus_infinty_key" android:summary="" android:dependency="pref_topbar_manual_focus_key" android:defaultValue="1.0" />
-                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_landscape_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_far_desc" android:key="pref_topbar_focus_far_key" android:summary="" android:dependency="pref_topbar_manual_focus_key" android:defaultValue="2.2" />
-                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_people_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_near_desc" android:key="pref_topbar_focus_near_key" android:summary="" android:dependency="pref_topbar_manual_focus_key" android:defaultValue="13.14" />
+                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_infinity_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_infinity_desc" android:key="pref_topbar_focus_infinty_key" android:summary="" android:defaultValue="1.0" />
+                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_landscape_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_far_desc" android:key="pref_topbar_focus_far_key" android:summary="" android:defaultValue="2.2" />
+                        <EditTextPreference android:icon="@drawable/quantum_gm_ic_people_white_24" android:layout="@layout/preference_with_margin_dependent" android:maxLength="5" android:numeric="decimal" android:title="@string/af_off_near_desc" android:key="pref_topbar_focus_near_key" android:summary="" android:defaultValue="13.14" />
                     </PreferenceCategory>
 
                     <!-- 对焦滑块 -->

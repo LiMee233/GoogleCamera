@@ -262,7 +262,6 @@ Beberapa catatan:
     <string name="pref_aux_icon">Setel ikon: %s</string>
     <string name="disable_hfr">Sembunyikan tombol slowmo 240FPS</string>
     <string name="pref_manual_camera_array_title">ID Kamera manual lanjutan</string>
-    <string name="pref_focus_mode_vf_title">Aktifkan pengaturan fokus menu jendela bidik</string>
     <string name="pref_focus_category">Penggeser fokus</string>
     <string name="pref_focus_vf_category">Tombol fokus</string>
     <string name="pref_restart_title">Go</string>

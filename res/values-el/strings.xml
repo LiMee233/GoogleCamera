@@ -754,7 +754,6 @@
     <string name="pref_aux_icon">Επιλογή εικονιδίου: %s</string>
     <string name="disable_hfr">Απόκρυψη κουμπιού slowmo 240FPS</string>
     <string name="pref_manual_camera_array_title">Προηγμένο μη αυτόματο αναγνωριστικό κάμερας</string>
-    <string name="pref_focus_mode_vf_title">Ενεργοποίηση ρυθμίσεων εστίασης μενού σκοπεύτρου</string>
     <string name="pref_focus_category">Ρυθμιστικό εστίασης</string>
     <string name="pref_focus_vf_category">Κουμπιά εστίασης</string>
     <string name="pref_restart_title">Χρησιμοποιήστε την επανεκκίνηση</string>

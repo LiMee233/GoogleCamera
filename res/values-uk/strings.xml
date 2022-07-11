@@ -754,7 +754,6 @@
     <string name="pref_aux_icon">Встановити значок: %s</string>
     <string name="disable_hfr">Сховати кнопку сповільненого руху 240FPS</string>
     <string name="pref_manual_camera_array_title">Ручне встановлення Camera ID</string>
-    <string name="pref_focus_mode_vf_title">Ввімкнути меню фокусу шукача</string>
     <string name="pref_focus_category">Слайдер фокусу</string>
     <string name="pref_focus_vf_category">Кнопки фокусу</string>
     <string name="pref_restart_title">Використовувати перезапуск</string>
