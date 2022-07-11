@@ -688,7 +688,8 @@
     <string name="astrophoto">天文摄影</string>
     <string name="off_astrophoto">关闭</string>
     <string name="off_astrophoto_desc">天文摄影已关闭</string>
-    <string name="astrophoto_desc">天文摄影选项</string>
+    <string name="astrophoto_desc">天文摄影模式使用 1 秒曝光时间</string>
+    <string name="astrophoto_summary">将天文摄影的 8 秒曝光时间选项替换为 1 秒，不影响天文摄影的其他曝光时间。</string>
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">曝光补偿</string>
     <string name="exposure_comp_summary">手动调节曝光补偿</string>

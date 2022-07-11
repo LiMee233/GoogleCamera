@@ -746,7 +746,8 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="astrophoto">ASTROPHOTOGRAPHY</string>
     <string name="off_astrophoto">OFF</string>
     <string name="off_astrophoto_desc">Astrophotography off</string>
-    <string name="astrophoto_desc">Astrophotography options</string>
+    <string name="astrophoto_desc">Enable 1s exposure time of Astrophotography mode</string>
+    <string name="astrophoto_summary">Replace the 8s exposure time of astrophotography with 1s, other exposure time of astrophotography is not affected.</string>
     <string name="pref_mod">Nikita GCam</string>
     <string name="exposure_comp">Exposure Compensation</string>
     <string name="exposure_comp_summary">Activate Manual Exposure Compensation Settings</string>
