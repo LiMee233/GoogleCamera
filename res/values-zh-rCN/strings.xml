@@ -776,9 +776,8 @@
     <string name="pref_aux_icon">设置图标：%s</string>
     <string name="disable_hfr">隐藏 240FPS 慢动作按钮</string>
     <string name="pref_manual_camera_array_title">自定义镜头 ID</string>
-    <string name="pref_focus_mode_vf_title">启用取景器菜单对焦设置</string>
     <string name="pref_focus_category">对焦滑块</string>
-    <string name="pref_focus_vf_category">对焦按钮</string>
+    <string name="pref_focus_vf_category">取景器菜单对焦按钮的实际焦距</string>
     <string name="pref_restart_title">切换辅助镜头时重新启动</string>
     <string name="pref_restart_summary">"重新启动可以使切换镜头后相机更稳定，比如可以使用副摄录制视频、在切换镜头后更完整地加载设置。
 

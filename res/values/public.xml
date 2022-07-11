@@ -4000,7 +4000,6 @@
     <public type="string" name="disable_hfr" id="0x7f1304c4" />
     <public type="string" name="pref_model_12" id="0x7f1304c5" />
     <public type="string" name="pref_manual_camera_array_title" id="0x7f1304c6" />
-    <public type="string" name="pref_focus_mode_vf_title" id="0x7f1304c8" />
     <public type="string" name="pref_focus_category" id="0x7f1304c9" />
     <public type="string" name="pref_focus_vf_category" id="0x7f1304ca" />
     <public type="string" name="pref_restart_title" id="0x7f1304cb" />

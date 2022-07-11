@@ -835,9 +835,8 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="disable_hfr">Hide 240FPS slowmo button</string>
     <string name="pref_model_12">Pixel 4a</string>
     <string name="pref_manual_camera_array_title">Advanced manual Camera ID</string>
-    <string name="pref_focus_mode_vf_title">Enable viewfinder menu focus settings</string>
     <string name="pref_focus_category">Focus slider</string>
-    <string name="pref_focus_vf_category">Focus buttons</string>
+    <string name="pref_focus_vf_category">Actually focus length for viewfinder menu focus button</string>
     <string name="pref_restart_title">Use restart</string>
     <string name="pref_restart_summary">"Use restart can make the camera more stable after switching lenses, such as being able to record video with aux camera, and loading settings more fully.
 

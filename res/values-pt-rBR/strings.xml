@@ -758,7 +758,6 @@ Notas:
     <string name="pref_aux_icon">Definir ícone: %s</string>
     <string name="disable_hfr">Ocultar botão slowmo de 240FPS</string>
     <string name="pref_manual_camera_array_title">ID de câmera manual avançado</string>
-    <string name="pref_focus_mode_vf_title">Ativar as configurações de foco do menu do visor</string>
     <string name="pref_focus_category">Controle deslizante de foco</string>
     <string name="pref_focus_vf_category">Botões de foco</string>
     <string name="pref_restart_title">Use reiniciar</string>

@@ -758,7 +758,6 @@ Bir kaç Not:
     <string name="pref_aux_icon">Simge ayarla: %s</string>
     <string name="disable_hfr">240FPS yavaş çekim butonunu sakla</string>
     <string name="pref_manual_camera_array_title">Gelişmiş Manuel Camera ID</string>
-    <string name="pref_focus_mode_vf_title">Vizör menüsü odak ayarlarını etkinleştir</string>
     <string name="pref_focus_category">Odak kaydırıcı</string>
     <string name="pref_focus_vf_category">Odak butonu</string>
     <string name="pref_restart_title">Yeniden başlatmayı kullan</string>

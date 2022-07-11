@@ -757,7 +757,6 @@ Du kannst \"Oft fotografierte Gesichter\" nutzen, wenn du die Kamera über den S
     <string name="pref_aux_icon">Icon festlegen: %s</string>
     <string name="disable_hfr">240FPS Slowmo-Schaltfläche ausblenden</string>
     <string name="pref_manual_camera_array_title">Erweiterte manuelle Kamera-ID</string>
-    <string name="pref_focus_mode_vf_title">Aktiviere die Fokuseinstellung im Sucher</string>
     <string name="pref_focus_category">Fokusregler</string>
     <string name="pref_focus_vf_category">Fokustaste</string>
     <string name="pref_restart_title">Neustart nutzen</string>

@@ -756,7 +756,6 @@
     <string name="pref_aux_icon">Выбрать иконку: %s</string>
     <string name="disable_hfr">Скрыть кнопку 240FPS в режиме замедленной съемки</string>
     <string name="pref_manual_camera_array_title">Расширенный выбор ID камеры</string>
-    <string name="pref_focus_mode_vf_title">Включить настройки фокуса в меню видоискателя</string>
     <string name="pref_focus_category">Слайдер фокусировки</string>
     <string name="pref_focus_vf_category">Кнопки фокусировки</string>
     <string name="pref_restart_title">Использовать перезагрузку</string>

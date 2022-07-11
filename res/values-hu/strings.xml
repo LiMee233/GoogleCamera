@@ -754,7 +754,6 @@ Néhány jegyzet:
     <string name="pref_aux_icon">Ikon beállítása a következőre: %s</string>
     <string name="disable_hfr">A 240 FPS lassító gomb elrejtése</string>
     <string name="pref_manual_camera_array_title">Haladó manuális fényképezőgép-azonosító</string>
-    <string name="pref_focus_mode_vf_title">A kereső menü fókuszbeállításainak engedélyezése</string>
     <string name="pref_focus_category">Fókusz csúszka</string>
     <string name="pref_focus_vf_category">Fókusz gombok</string>
     <string name="pref_restart_title">Használja az újraindítást</string>
