@@ -516,6 +516,8 @@
     <string name="volume_key_zoom">变焦</string>
     <string name="warm_light_on_with_flash">屏幕将会变亮</string>
     <string name="wear_install_notification_toast">在手表上完成设置</string>
+    <string name="pref_about_dev_limee">开发者： Li Mee</string>
+    <string name="pref_based_on_nikita_camera">基于 Nikita GCam</string>
     <string name="pref_version_number">版本</string>
     <string name="wide_angle_accessibility_peek">已拍摄广角照片</string>
     <string name="zoom_ffc_wide_tooltip">缩小屏幕画面可拍摄视野更宽广的自拍照</string>
@@ -524,9 +526,9 @@
     <string name="lens_1_key">1×</string>
     <string name="lens_1_key_desc">主摄</string>
     <string name="lens_2_key">2×</string>
-    <string name="lens_2_key_desc">副摄</string>
+    <string name="lens_2_key_desc">广角镜头</string>
     <string name="lens_3_key">3×</string>
-    <string name="lens_3_key_desc">第三颗摄像头</string>
+    <string name="lens_3_key_desc">微距镜头</string>
     <string name="lens_4_key">4×</string>
     <string name="lens_4_key_desc">第四颗摄像头</string>
     <string name="pref_shown_in_aux_panel">在镜头切换面板中显示</string>
