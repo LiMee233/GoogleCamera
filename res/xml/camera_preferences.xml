@@ -619,7 +619,7 @@
                 <ListPreference android:icon="@drawable/ics_magnify_plus_outline" android:entries="@array/pref_maxmag_entries" android:layout="@layout/hide" android:title="@string/pref_maxmag_title" android:key="pref_maxmag_key" android:summary="@string/pref_maxmag_summary" android:defaultValue="0" android:entryValues="@array/pref_maxmag_entryvalues" />
 
                 <!-- 流配置 -->
-                <PreferenceScreen android:icon="@drawable/ic_vconf" android:layout="@layout/preference_with_margin" android:title="@string/pref_stream_config_title" android:key="pref_opmodes_key">
+                <PreferenceScreen android:icon="@drawable/ic_vconf" android:layout="@layout/hide" android:title="@string/pref_stream_config_title" android:key="pref_opmodes_key">
                     <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:layout="@layout/preference_with_switch_button_dynamic" android:title="@string/opmodes_title" android:key="pref_opmodes_in" android:summaryOn="@string/frequent_faces_on" android:summaryOff="@string/frequent_faces_off" />
                     <Preference android:icon="@drawable/quantum_gm_ic_info_outline_black_24" android:layout="@layout/preference_with_margin_dependent" android:key="pref_opmodes_info" android:summary="@string/pref_stream_config" />
                     <ListPreference android:icon="@drawable/ic_blank_24" android:entries="@array/pref_stream_entries" android:layout="@layout/preference_with_margin_dependent" android:title="@string/pref_stream_mode_title" android:key="pref_stream_opmode_key" android:summary="%s" android:dependency="pref_opmodes_in" android:defaultValue="2" android:entryValues="@array/pref_stream_entryvalues" />
