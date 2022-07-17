@@ -8470,7 +8470,7 @@
     goto/16 :goto_21
 
     :goto_4
-    goto/32 :goto_14
+    goto/32 :goto_2a
 
     :goto_5
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -8557,11 +8557,6 @@
     new-instance v5, Ljava/lang/StringBuilder;
 
     goto/32 :goto_12
-
-    :goto_14
-    const-string v0, "GammaCurve.log"
-
-    goto/32 :goto_2b
 
     :goto_15
     const/16 v3, 0x20
@@ -8670,11 +8665,6 @@
 
     :goto_2a
     return-void
-
-    :goto_2b
-    invoke-virtual {p0, v0, v1}, LlibPatcher;->writeToFile(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_2a
 
     :goto_2c
     invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -8846,7 +8836,7 @@
     goto/16 :goto_22
 
     :goto_4
-    goto/32 :goto_1a
+    goto/32 :goto_b
 
     :goto_5
     mul-int/lit8 v1, v2, 0x2
@@ -8944,11 +8934,6 @@
 
     goto/32 :goto_2f
 
-    :goto_17
-    invoke-virtual {p0, v0, v1}, LlibPatcher;->writeToFile(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_b
-
     :goto_18
     invoke-direct {p0, v5, v6, v1, v3}, LlibPatcher;->writeBytes(JLjava/lang/String;Ljava/lang/Integer;)Ljava/lang/String;
 
@@ -8958,11 +8943,6 @@
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     goto/32 :goto_2c
-
-    :goto_1a
-    const-string v0, "ToneCurve.log"
-
-    goto/32 :goto_17
 
     :goto_1b
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -9524,92 +9504,4 @@
     move-result-object p3
 
     goto/32 :goto_5
-.end method
-
-.method public writeToFile(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 4
-
-    goto/32 :goto_a
-
-    :goto_0
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    goto/32 :goto_b
-
-    :goto_1
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    goto/32 :goto_9
-
-    :goto_2
-    goto :goto_3
-
-    :catch_0
-    move-exception p1
-
-    :goto_3
-    goto/32 :goto_8
-
-    :goto_4
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    goto/32 :goto_0
-
-    :goto_5
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
-
-    move-result-object v1
-
-    goto/32 :goto_4
-
-    :goto_6
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    goto/32 :goto_7
-
-    :goto_7
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    goto/32 :goto_1
-
-    :goto_8
-    return-void
-
-    :goto_9
-    invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
-
-    :try_start_0
-    invoke-virtual {v0}, Ljava/io/File;->createNewFile()Z
-
-    new-instance p1, Ljava/io/FileOutputStream;
-
-    invoke-direct {p1, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
-
-    new-instance v0, Ljava/io/OutputStreamWriter;
-
-    invoke-direct {v0, p1}, Ljava/io/OutputStreamWriter;-><init>(Ljava/io/OutputStream;)V
-
-    invoke-virtual {v0, p2}, Ljava/io/OutputStreamWriter;->append(Ljava/lang/CharSequence;)Ljava/io/Writer;
-
-    invoke-virtual {v0}, Ljava/io/OutputStreamWriter;->close()V
-
-    invoke-virtual {p1}, Ljava/io/FileOutputStream;->flush()V
-
-    invoke-virtual {p1}, Ljava/io/FileOutputStream;->close()V
-    :try_end_0
-    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
-
-    goto/32 :goto_2
-
-    :goto_a
-    new-instance v0, Ljava/io/File;
-
-    goto/32 :goto_5
-
-    :goto_b
-    const-string v3, "/Documents/GCamConfigs/"
-
-    goto/32 :goto_6
 .end method

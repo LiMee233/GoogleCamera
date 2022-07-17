@@ -633,12 +633,6 @@ Notas:
     <string name="libpatcher_4th">Quarta lente</string>
     <string name="pref_raw_sensor_title">Usar sensor RAW</string>
     <string name="pref_raw_sensor_summary">Se desativado, ele usará o RAW10</string>
-    <string name="pref_config_name_title">Salvar</string>
-    <string name="pref_config_name_summary">Os XMLS ficam salvos em /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Apelido</string>
-    <string name="pref_config_nickname_summary">De crédito ao seu XML com um apelido</string>
-    <string name="pref_config_changelog_title">Changelog</string>
-    <string name="pref_config_changelog_summary">Adicione o changelog ao seu XML</string>
     <string name="pref_config_title">XMLs</string>
     <string name="image_process">Processando Imagem</string>
     <string name="curves">Curvas</string>

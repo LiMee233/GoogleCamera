@@ -629,12 +629,6 @@ Néhány jegyzet:
     <string name="libpatcher_4th">Negyedik kamera</string>
     <string name="pref_raw_sensor_title">RAW Szenzor használata</string>
     <string name="pref_raw_sensor_summary">Tiltás esetén a RAW10-et fogja használni</string>
-    <string name="pref_config_name_title">Mentés</string>
-    <string name="pref_config_name_summary">A konfigurációs fájlt a /Documents/GCamConfigs mappába menti</string>
-    <string name="pref_config_nickname_title">Becenév</string>
-    <string name="pref_config_nickname_summary">Hozz létre egy konfigurációs fájlt a beceneveddel</string>
-    <string name="pref_config_changelog_title">Változási napló</string>
-    <string name="pref_config_changelog_summary">Adj hozzá változási naplót a konfigurációs fájlodhoz</string>
     <string name="pref_config_title">Konfigurációs fájlok</string>
     <string name="image_process">Képfeldolgozás</string>
     <string name="curves">Görbék</string>

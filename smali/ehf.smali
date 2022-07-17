@@ -1406,271 +1406,105 @@
 .method public final SetSummaryEditTextPreference()V
     .locals 2
 
-    goto/32 :goto_27
-
-    :goto_0
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_26
-
-    :goto_1
-    const-string v0, "s_focus_key"
-
-    goto/32 :goto_5
-
-    :goto_2
-    const-string v0, "pref_config_changelog_key"
-
-    goto/32 :goto_d
-
-    :goto_3
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_8
-
-    :goto_4
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_12
-
-    :goto_5
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_1d
-
-    :goto_6
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_2
-
-    :goto_7
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_0
-
-    :goto_8
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_c
-
-    :goto_9
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_1
-
-    :goto_a
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_b
-
-    :goto_b
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_29
-
-    :goto_c
-    return-void
-
-    :goto_d
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_20
-
-    :goto_e
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_22
-
-    :goto_f
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_2a
-
-    :goto_10
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_7
-
-    :goto_11
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_21
-
-    :goto_12
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_13
-
-    :goto_13
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_2b
-
-    :goto_14
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_11
-
-    :goto_15
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_9
-
-    :goto_16
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_f
-
-    :goto_17
-    const-string v0, "pref_topbar_focus_near_key"
-
-    goto/32 :goto_1f
-
-    :goto_18
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_6
-
-    :goto_19
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_25
-
-    :goto_1a
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_3
-
-    :goto_1b
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_1a
-
-    :goto_1c
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_18
-
-    :goto_1d
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_16
-
-    :goto_1e
-    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
-
-    move-result-object v1
-
-    goto/32 :goto_e
-
-    :goto_1f
-    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v0
-
-    goto/32 :goto_2c
-
-    :goto_20
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_14
-
-    :goto_21
     const-string v0, "pref_topbar_focus_infinty_key"
 
-    goto/32 :goto_4
-
-    :goto_22
-    const-string v0, "inf_focus_key"
-
-    goto/32 :goto_10
-
-    :goto_23
     invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
-    goto/32 :goto_1c
+    check-cast v0, Landroid/preference/EditTextPreference;
 
-    :goto_24
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
     const-string v0, "pref_topbar_focus_far_key"
 
-    goto/32 :goto_2d
-
-    :goto_25
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_15
-
-    :goto_26
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_28
-
-    :goto_27
-    const-string v0, "pref_config_nickname_key"
-
-    goto/32 :goto_23
-
-    :goto_28
-    const-string v0, "2m_focus_key"
-
-    goto/32 :goto_19
-
-    :goto_29
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_17
-
-    :goto_2a
-    const-string v0, "m_focus_key"
-
-    goto/32 :goto_1b
-
-    :goto_2b
-    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
-
-    goto/32 :goto_24
-
-    :goto_2c
-    check-cast v0, Landroid/preference/EditTextPreference;
-
-    goto/32 :goto_1e
-
-    :goto_2d
     invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
-    goto/32 :goto_a
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    const-string v0, "pref_topbar_focus_near_key"
+
+    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    const-string v0, "inf_focus_key"
+
+    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    const-string v0, "2m_focus_key"
+
+    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    const-string v0, "s_focus_key"
+
+    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    const-string v0, "m_focus_key"
+
+    invoke-virtual {p0, v0}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/EditTextPreference;
+
+    invoke-virtual {v0}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+
+    return-void
 .end method
 
 .method public SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
@@ -5700,7 +5534,7 @@
     :goto_2
     invoke-direct {p0, v1}, Lehf;->b(Ljava/lang/String;)V
 
-    goto/32 :goto_9c
+    goto/32 :goto_c0
 
     :goto_3
     invoke-direct {p0, v1}, Lehf;->b(Ljava/lang/String;)V
@@ -6049,11 +5883,6 @@
 
     goto/32 :goto_66
 
-    :goto_41
-    const-string v1, "pref_config_name_key"
-
-    goto/32 :goto_75
-
     :goto_42
     const-string v1, "pref_category_libpatcher_macro"
 
@@ -6324,13 +6153,6 @@
 
     goto/32 :goto_e
 
-    :goto_75
-    invoke-virtual {p0, v1}, Lehf;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    goto/32 :goto_cb
-
     :goto_76
     const v4, 0x7f1302bb
 
@@ -6484,11 +6306,6 @@
 
     goto/32 :goto_9b
 
-    :goto_96
-    invoke-direct {p0, v1}, Lehf;->b(Ljava/lang/String;)V
-
-    goto/32 :goto_c0
-
     :goto_97
     invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -6516,11 +6333,6 @@
 
     goto/32 :goto_3e
 
-    :goto_9c
-    const-string v1, "pref_category_config_xml"
-
-    goto/32 :goto_96
-
     :goto_9d
     invoke-direct {p0, v1}, Lehf;->b(Ljava/lang/String;)V
 
@@ -6543,11 +6355,6 @@
 
     goto/32 :goto_b8
 
-    :goto_a1
-    invoke-direct {v2, v0}, Leha;-><init>(Landroid/app/Activity;)V
-
-    goto/32 :goto_e0
-
     :goto_a2
     const v7, 0x7f13032f
 
@@ -6556,7 +6363,7 @@
     :goto_a3
     invoke-virtual {v1, v2}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    goto/32 :goto_41
+    goto/32 :goto_8e
 
     :goto_a4
     check-cast v1, Landroid/preference/ListPreference;
@@ -6761,11 +6568,6 @@
 
     goto/32 :goto_64
 
-    :goto_cb
-    new-instance v2, Leha;
-
-    goto/32 :goto_a1
-
     :goto_cc
     invoke-direct {p0, v1}, Lehf;->b(Ljava/lang/String;)V
 
@@ -6874,11 +6676,6 @@
     move-result-object v2
 
     goto/32 :goto_101
-
-    :goto_e0
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    goto/32 :goto_8e
 
     :goto_e1
     const-string v2, "pref_category_social_share"
@@ -7074,193 +6871,67 @@
 .method public final onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V
     .locals 8
 
-    goto/32 :goto_19
-
-    :goto_0
-    const-string v3, "2m_focus_key"
-
-    goto/32 :goto_22
-
-    :goto_1
-    sget p1, Lcom/FixBSG;->sHdr_process:I
-
-    goto/32 :goto_24
-
-    :goto_2
-    const-string v3, "pref_topbar_focus_near_key"
-
-    goto/32 :goto_1e
-
-    :goto_3
-    return-void
-
-    :goto_4
-    const-string v3, "pref_config_changelog_key"
-
-    goto/32 :goto_1f
-
-    :goto_5
     const-string v3, "pref_topbar_focus_infinty_key"
 
-    goto/32 :goto_1a
+    const-string v4, "1.0"
 
-    :goto_6
     invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
 
-    goto/32 :goto_4
-
-    :goto_7
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_f
-
-    :goto_8
-    invoke-direct {p0}, Lehf;->a()V
-
-    :goto_9
-    goto/32 :goto_1
-
-    :goto_a
-    const-string v4, "2.2"
-
-    goto/32 :goto_d
-
-    :goto_b
-    if-nez p1, :cond_0
-
-    goto/32 :goto_9
-
-    :cond_0
-    goto/32 :goto_8
-
-    :goto_c
-    const-string v4, "2.2"
-
-    goto/32 :goto_10
-
-    :goto_d
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_2
-
-    :goto_e
-    const-string v3, "inf_focus_key"
-
-    goto/32 :goto_14
-
-    :goto_f
     const-string v3, "pref_topbar_focus_far_key"
 
-    goto/32 :goto_a
+    const-string v4, "2.2"
 
-    :goto_10
     invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
 
-    goto/32 :goto_0
+    const-string v3, "pref_topbar_focus_near_key"
 
-    :goto_11
-    const-string v4, "15"
+    const-string v4, "13.14"
 
-    goto/32 :goto_23
+    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
 
-    :goto_12
+    const-string v3, "inf_focus_key"
+
+    const-string v4, "1.51"
+
+    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v3, "s_focus_key"
+
+    const-string v4, "2.2"
+
+    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v3, "2m_focus_key"
+
+    const-string v4, "3.21"
+
+    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
+
     const-string v3, "m_focus_key"
 
-    goto/32 :goto_11
+    const-string v4, "15"
 
-    :goto_13
+    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string p1, "Reboot settings CameraSettingsActivity"
+
     invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
-    goto/32 :goto_b
+    if-eqz p1, :cond_0
 
-    :goto_14
-    const-string v4, "1.51"
+    invoke-direct {p0}, Lehf;->a()V
 
-    goto/32 :goto_15
+    :cond_0
+    sget p1, Lcom/FixBSG;->sHdr_process:I
 
-    :goto_15
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
+    if-nez p1, :cond_1
 
-    goto/32 :goto_25
-
-    :goto_16
-    sput-boolean p0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
-
-    :goto_17
-    goto/32 :goto_3
-
-    :goto_18
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_5
-
-    :goto_19
-    const-string v3, "pref_config_nickname_key"
-
-    goto/32 :goto_1c
-
-    :goto_1a
-    const-string v4, "1.0"
-
-    goto/32 :goto_7
-
-    :goto_1b
     const/4 p0, 0x1
 
-    goto/32 :goto_16
-
-    :goto_1c
-    const-string v4, ""
-
-    goto/32 :goto_6
-
-    :goto_1d
-    const-string p1, "Reboot settings CameraSettingsActivity"
-
-    goto/32 :goto_13
-
-    :goto_1e
-    const-string v4, "13.14"
-
-    goto/32 :goto_21
-
-    :goto_1f
-    const-string v4, ""
-
-    goto/32 :goto_18
-
-    :goto_20
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_12
-
-    :goto_21
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_e
-
-    :goto_22
-    const-string v4, "3.21"
-
-    goto/32 :goto_20
-
-    :goto_23
-    invoke-virtual {p0, v3, v4}, Lehf;->SetTextAndSummary(Ljava/lang/String;Ljava/lang/String;)V
-
-    goto/32 :goto_1d
-
-    :goto_24
-    if-eqz p1, :cond_1
-
-    goto/32 :goto_17
+    sput-boolean p0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
 
     :cond_1
-    goto/32 :goto_1b
-
-    :goto_25
-    const-string v3, "s_focus_key"
-
-    goto/32 :goto_c
+    return-void
 .end method

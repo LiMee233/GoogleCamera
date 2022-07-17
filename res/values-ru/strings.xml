@@ -631,12 +631,6 @@
     <string name="libpatcher_4th">4-й объектив</string>
     <string name="pref_raw_sensor_title">Использовать RAW SENSOR</string>
     <string name="pref_raw_sensor_summary">Если отключено, он будет использовать RAW10</string>
-    <string name="pref_config_name_title">Сохранить</string>
-    <string name="pref_config_name_summary">Конфиг будет сохранен в /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Никнейм</string>
-    <string name="pref_config_nickname_summary">Создайте конфиг со своим ником</string>
-    <string name="pref_config_changelog_title">Список изменений</string>
-    <string name="pref_config_changelog_summary">Добавьте список изменений вашего конфига</string>
     <string name="pref_config_title">Конфиги</string>
     <string name="image_process">Обработка изображений</string>
     <string name="curves">Кривые</string>

@@ -632,12 +632,6 @@ Algunas observaciones:
     <string name="libpatcher_4th">4ta Lente</string>
     <string name="pref_raw_sensor_title">Usar sensor RAW</string>
     <string name="pref_raw_sensor_summary">Si está deshabilitado usará RAW10</string>
-    <string name="pref_config_name_title">Guardar</string>
-    <string name="pref_config_name_summary">El XML se guardará en /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Apodo</string>
-    <string name="pref_config_nickname_summary">Coloca tu Apodo a tu XML</string>
-    <string name="pref_config_changelog_title">Registro de cambios</string>
-    <string name="pref_config_changelog_summary">Agregué Registro de cambios a su XML</string>
     <string name="pref_config_title">Configuraciones</string>
     <string name="image_process">Procesando imagen</string>
     <string name="curves">Curvas</string>

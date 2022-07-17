@@ -392,7 +392,6 @@ doNotCompress:
 - res/drawable/abc_text_cursor_material.xml
 - res/drawable/abc_vector_test.xml
 - res/drawable/account_box_outline.xml
-- res/drawable/account_circle_outline.xml
 - res/drawable/account_search_outline.xml
 - res/drawable/adjust.xml
 - res/drawable/avd_hide_password.xml
@@ -434,7 +433,6 @@ doNotCompress:
 - res/drawable/education_toast_background.xml
 - res/drawable/enabled_button_urnyx05.xml
 - res/drawable/face_recognition.xml
-- res/drawable/file_settings_variant_outline.xml
 - res/drawable/filter_tilt_shift.xml
 - res/drawable/format_color_fill.xml
 - res/drawable/format_list_text.xml
@@ -711,7 +709,6 @@ doNotCompress:
 - res/drawable/quantum_gm_ic_remove_circle_outline_gm_grey_24.xml
 - res/drawable/quantum_gm_ic_room_gm_grey_24.xml
 - res/drawable/quantum_gm_ic_room_white_24.xml
-- res/drawable/quantum_gm_ic_save_gm_grey_24.xml
 - res/drawable/quantum_gm_ic_settings_white_24.xml
 - res/drawable/quantum_gm_ic_share_black_24.xml
 - res/drawable/quantum_gm_ic_slow_motion_video_white_24.xml

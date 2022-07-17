@@ -2346,7 +2346,6 @@
     <public type="drawable" name="ic_lib_exposure" id="0x7f080282" />
     <public type="drawable" name="ic_merge" id="0x7f080283" />
     <public type="drawable" name="account_box_outline" id="0x7f080284" />
-    <public type="drawable" name="account_circle_outline" id="0x7f080285" />
     <public type="drawable" name="account_search_outline" id="0x7f080286" />
     <public type="drawable" name="adjust" id="0x7f080287" />
     <public type="drawable" name="camera_iris" id="0x7f080288" />
@@ -2356,7 +2355,6 @@
     <public type="drawable" name="camera_timer" id="0x7f08028c" />
     <public type="drawable" name="enabled_button_urnyx05" id="0x7f08028d" />
     <public type="drawable" name="face_recognition" id="0x7f08028e" />
-    <public type="drawable" name="file_settings_variant_outline" id="0x7f08028f" />
     <public type="drawable" name="format_color_fill" id="0x7f080290" />
     <public type="drawable" name="format_list_text" id="0x7f080291" />
     <public type="drawable" name="ic_about_24" id="0x7f080292" />
@@ -2431,7 +2429,6 @@
     <public type="drawable" name="quantum_gm_ic_google_awb_auto_white_24" id="0x7f0802d8" />
     <public type="drawable" name="quantum_gm_ic_help_gm_grey_24" id="0x7f0802d9" />
     <public type="drawable" name="quantum_gm_ic_infinity_white_24" id="0x7f0802da" />
-    <public type="drawable" name="quantum_gm_ic_save_gm_grey_24" id="0x7f0802db" />
     <public type="drawable" name="quantum_gm_ic_video_camera_back_gm_grey_24" id="0x7f0802dc" />
     <public type="drawable" name="quantum_gm_ic_video_camera_cheetah_gm_grey_24" id="0x7f0802dd" />
     <public type="drawable" name="quantum_ic_folder_shared_grey_24" id="0x7f0802de" />
@@ -3874,12 +3871,6 @@
     <public type="string" name="libpatcher_4th" id="0x7f130433" />
     <public type="string" name="pref_raw_sensor_title" id="0x7f130434" />
     <public type="string" name="pref_raw_sensor_summary" id="0x7f130435" />
-    <public type="string" name="pref_config_name_title" id="0x7f130436" />
-    <public type="string" name="pref_config_name_summary" id="0x7f130437" />
-    <public type="string" name="pref_config_nickname_title" id="0x7f130438" />
-    <public type="string" name="pref_config_nickname_summary" id="0x7f130439" />
-    <public type="string" name="pref_config_changelog_title" id="0x7f13043a" />
-    <public type="string" name="pref_config_changelog_summary" id="0x7f13043b" />
     <public type="string" name="pref_config_title" id="0x7f13043c" />
     <public type="string" name="image_process" id="0x7f13043d" />
     <public type="string" name="curves" id="0x7f13043e" />

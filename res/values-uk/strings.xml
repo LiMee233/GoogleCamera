@@ -629,12 +629,6 @@
     <string name="libpatcher_4th">4та камера</string>
     <string name="pref_raw_sensor_title">Використовувати RAW Sensor</string>
     <string name="pref_raw_sensor_summary">Якщо вимкнено, буде використано RAW10</string>
-    <string name="pref_config_name_title">Зберегти</string>
-    <string name="pref_config_name_summary">XML буде збережено у /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Нік</string>
-    <string name="pref_config_nickname_summary">Доповни XML своїм ніком</string>
-    <string name="pref_config_changelog_title">Зміни</string>
-    <string name="pref_config_changelog_summary">Додати список змін у XML</string>
     <string name="pref_config_title">Конфігурації</string>
     <string name="image_process">Обробка зображення</string>
     <string name="curves">Криві</string>

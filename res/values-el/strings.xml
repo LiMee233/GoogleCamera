@@ -629,12 +629,6 @@
     <string name="libpatcher_4th">4ος Φακός</string>
     <string name="pref_raw_sensor_title">Χρησιμοποιήστε τον αισθητήρα RAW</string>
     <string name="pref_raw_sensor_summary">Εάν απενεργοποιηθεί, θα χρησιμοποιήσει το RAW10</string>
-    <string name="pref_config_name_title">Αποθήκευση</string>
-    <string name="pref_config_name_summary">Το XML θα αποθηκευτεί στο / GCam / Configs7</string>
-    <string name="pref_config_nickname_title">Ψευδώνυμο</string>
-    <string name="pref_config_nickname_summary">Πιστοποιήστε το XML σας με το ψευδώνυμό σας</string>
-    <string name="pref_config_changelog_title">Αρχείο αλλαγών</string>
-    <string name="pref_config_changelog_summary">Προσθέστε το Αρχείο αλλαγών του XML σας</string>
     <string name="pref_config_title">Διαμορφώσεις</string>
     <string name="image_process">Επεξεργασία εικόνας</string>
     <string name="curves">Καμπύλες</string>

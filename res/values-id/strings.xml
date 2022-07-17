@@ -137,12 +137,6 @@ Beberapa catatan:
     <string name="libpatcher_4th">Lensa keempat</string>
     <string name="pref_raw_sensor_title">Gunakan Sensor RAW</string>
     <string name="pref_raw_sensor_summary">Jika dinonaktifkan, ini akan menggunakan RAW10</string>
-    <string name="pref_config_name_title">Simpan</string>
-    <string name="pref_config_name_summary">XML akan tersimpan di /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Nama Panggilan</string>
-    <string name="pref_config_nickname_summary">Cantumkan XML anda dengan nama panggilan anda</string>
-    <string name="pref_config_changelog_title">Perubahan</string>
-    <string name="pref_config_changelog_summary">Tambahkan changelog pada XML Anda</string>
     <string name="pref_config_title">Konfigurasi</string>
     <string name="image_process">Pemrosesan Gambar</string>
     <string name="curves">Kurva</string>

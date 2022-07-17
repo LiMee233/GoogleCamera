@@ -24,11 +24,7 @@
 
 .field private hideNavBar:Z
 
-.field isDoubleClick:Z
-
 .field private isShown:Z
-
-.field lastTouchUpTime:J
 
 .field private leftSideCancelButton:Landroid/widget/ImageButton;
 
@@ -57,122 +53,33 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
 
-    goto/32 :goto_0
-
-    :goto_0
     invoke-direct {p0, p1, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    goto/32 :goto_2
-
-    :goto_1
-    iput-boolean p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->hideNavBar:Z
-
-    goto/32 :goto_5
-
-    :goto_2
     sget-object p2, Ljyh;->a:Ljyh;
 
-    goto/32 :goto_d
+    iput-object p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->orientation:Ljyh;
 
-    :goto_3
     const/4 p2, 0x0
 
-    goto/32 :goto_6
-
-    :goto_4
-    iput p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->backgroundColor:I
-
-    goto/32 :goto_c
-
-    :goto_5
-    const/4 p2, 0x1
-
-    goto/32 :goto_10
-
-    :goto_6
     iput-boolean p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->isShown:Z
 
-    goto/32 :goto_1
+    iput-boolean p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->hideNavBar:Z
 
-    :goto_7
+    const/4 p2, 0x1
+
+    iput-boolean p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->useUnimakLayout:Z
+
     sget p2, Lcom/google/android/apps/camera/bottombar/R$color;->bottom_bar_background_color:I
 
-    goto/32 :goto_8
-
-    :goto_8
     invoke-virtual {p1, p2}, Landroid/content/Context;->getColor(I)I
 
     move-result p2
 
-    goto/32 :goto_4
+    iput p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->backgroundColor:I
 
-    :goto_9
-    new-instance v0, Landroid/view/GestureDetector;
-
-    goto/32 :goto_12
-
-    :goto_a
-    const-wide/16 v0, 0x0
-
-    goto/32 :goto_e
-
-    :goto_b
-    invoke-direct {v0, p1, v1}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
-
-    goto/32 :goto_15
-
-    :goto_c
     invoke-direct {p0, p1}, Lcom/google/android/apps/camera/bottombar/BottomBar;->inflate(Landroid/content/Context;)V
 
-    goto/32 :goto_13
-
-    :goto_d
-    iput-object p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->orientation:Ljyh;
-
-    goto/32 :goto_3
-
-    :goto_e
-    iput-wide v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->lastTouchUpTime:J
-
-    goto/32 :goto_11
-
-    :goto_f
-    iput-object p1, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->appContext:Landroid/content/Context;
-
-    goto/32 :goto_9
-
-    :goto_10
-    iput-boolean p2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->useUnimakLayout:Z
-
-    goto/32 :goto_7
-
-    :goto_11
-    iput-boolean v2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->isDoubleClick:Z
-
-    goto/32 :goto_f
-
-    :goto_12
-    new-instance v1, Lcom/google/android/apps/camera/bottombar/XmlConfig$GestureListener;
-
-    goto/32 :goto_16
-
-    :goto_13
-    const/4 v2, 0x0
-
-    goto/32 :goto_a
-
-    :goto_14
     return-void
-
-    :goto_15
-    iput-object v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->gestureDetector:Landroid/view/GestureDetector;
-
-    goto/32 :goto_14
-
-    :goto_16
-    invoke-direct {v1, p0, v2}, Lcom/google/android/apps/camera/bottombar/XmlConfig$GestureListener;-><init>(Lcom/google/android/apps/camera/bottombar/BottomBar;Lcom/google/android/apps/camera/bottombar/XmlConfig$GestureListener;)V
-
-    goto/32 :goto_b
 .end method
 
 .method private adjustPadding()V
@@ -2058,27 +1965,6 @@
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/LinearLayout;->onSizeChanged(IIII)V
 
     goto/32 :goto_0
-.end method
-
-.method public onTouchEvent(Landroid/view/MotionEvent;)Z
-    .locals 1
-
-    goto/32 :goto_0
-
-    :goto_0
-    iget-object v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->gestureDetector:Landroid/view/GestureDetector;
-
-    goto/32 :goto_2
-
-    :goto_1
-    return v0
-
-    :goto_2
-    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
-
-    move-result v0
-
-    goto/32 :goto_1
 .end method
 
 .method public setBottomBarConstant()V

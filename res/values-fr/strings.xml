@@ -632,12 +632,6 @@ Quelques remarques:
     <string name="libpatcher_4th">4ème lentille</string>
     <string name="pref_raw_sensor_title">Utilise le capteur RAW</string>
     <string name="pref_raw_sensor_summary">Si désactivé, utilisation de RAW10</string>
-    <string name="pref_config_name_title">Sauvegarder</string>
-    <string name="pref_config_name_summary">Ce XML sera sauvegardé dans /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Pseudo</string>
-    <string name="pref_config_nickname_summary">Signer votre XML avec votre pseudo</string>
-    <string name="pref_config_changelog_title">Journal de modifications</string>
-    <string name="pref_config_changelog_summary">Ajouter le journal de modifications à votre XML</string>
     <string name="pref_config_title">Configs</string>
     <string name="image_process">"Traitement de l'Image"</string>
     <string name="curves">Courbes</string>

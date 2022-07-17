@@ -712,12 +712,6 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="libpatcher_4th">4th lens</string>
     <string name="pref_raw_sensor_title">Use RAW Sensor</string>
     <string name="pref_raw_sensor_summary">If disabled, it will use RAW10</string>
-    <string name="pref_config_name_title">Save</string>
-    <string name="pref_config_name_summary">The XML will be saved in /Documents/GCamConfigs</string>
-    <string name="pref_config_nickname_title">Nickname</string>
-    <string name="pref_config_nickname_summary">Credit your XML with your nickname</string>
-    <string name="pref_config_changelog_title">Changelog</string>
-    <string name="pref_config_changelog_summary">Add the changelog of your XML</string>
     <string name="pref_config_title">Configs</string>
     <string name="image_process">Image Processing</string>
     <string name="curves">Curves</string>
