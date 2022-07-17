@@ -60,23 +60,23 @@
             <PreferenceCategory android:title="@string/photo" android:key="pref_category_nikita">
 
                 <!-- 设备模型 -->
-                <PreferenceScreen android:icon="@drawable/camera_party_mode" android:layout="@layout/preference_with_margin" android:title="@string/pref_devicemodel_title" android:key="devicemodel_key" android:summary="@string/pref_devicemodel_summary">
+                <PreferenceScreen android:icon="@drawable/camera_party_mode" android:layout="@layout/hide" android:title="@string/pref_devicemodel_title" android:key="devicemodel_key" android:summary="@string/pref_devicemodel_summary">
 
                     <!-- 界面 -->
-                    <PreferenceCategory android:layout="@layout/hide" android:title="@string/interface" android:key="pref_interface_key">
-                        <ListPreference android:icon="@drawable/ic_interface" android:entries="@array/pref_interface_entries" android:layout="@layout/hide" android:title="@string/pref_interface_title" android:key="pref_interface_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_interface_entryvalues" />
+                    <PreferenceCategory android:title="@string/interface" android:key="pref_interface_key">
+                        <ListPreference android:icon="@drawable/ic_interface" android:entries="@array/pref_interface_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_interface_title" android:key="pref_interface_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_interface_entryvalues" />
                     </PreferenceCategory>
 
                     <!-- 配置 -->
-                    <PreferenceCategory android:title="@string/pref_config_title" android:layout="@layout/hide" android:key="pref_isdevice_key">
-                        <ListPreference android:icon="@drawable/device_hub_24px" android:entries="@array/pref_isdevice_entries" android:layout="@layout/hide" android:title="@string/pref_model_title" android:key="pref_isdevice_key" android:summary="%s" android:defaultValue="0" android:dialogTitle="@string/pref_config_title" android:entryValues="@array/pref_isdevice_entryvalues" />
+                    <PreferenceCategory android:title="@string/pref_config_title" android:key="pref_isdevice_key">
+                        <ListPreference android:icon="@drawable/device_hub_24px" android:entries="@array/pref_isdevice_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_model_title" android:key="pref_isdevice_key" android:summary="%s" android:defaultValue="0" android:dialogTitle="@string/pref_config_title" android:entryValues="@array/pref_isdevice_entryvalues" />
                     </PreferenceCategory>
 
                     <!-- Google 自动白平衡 -->
                     <PreferenceCategory android:title="@string/awb" android:key="pref_awb_category_key">
                         <PreferenceScreen android:icon="@drawable/quantum_gm_ic_device_thermostat_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_ehn_awb_title" android:key="pref_awb_settings_key" android:summary="">
                             <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_tune_black_24dp" android:layout="@layout/preference_with_margin" android:title="PseudoCT" android:key="pref_pseudoct_key" android:summaryOn="@string/frequent_faces_on" android:summaryOff="@string/frequent_faces_off" />
-                            <ListPreference android:icon="@drawable/ic_aux_1" android:entries="@array/pref_awb_entries" android:layout="@layout/preference_with_margin" android:title="@string/lens_1_key_desc" android:key="pref_awb_back_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_awb_entryvalues" />
+                            <ListPreference android:icon="@drawable/ic_aux_1" android:entries="@array/pref_awb_entries" android:layout="@layout/preference_with_margin" android:title="@string/lens_1_key_desc" android:key="pref_awb_back_key" android:summary="%s" android:defaultValue="2" android:entryValues="@array/pref_awb_entryvalues" />
                             <ListPreference android:icon="@drawable/ic_camera_front_24" android:entries="@array/pref_awb_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_front_title" android:key="pref_awb_front_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_awb_entryvalues" />
                             <ListPreference android:icon="@drawable/ic_aux_2" android:entries="@array/pref_awb_entries" android:layout="@layout/preference_with_margin" android:title="@string/lens_2_key_desc" android:key="pref_awb_tele_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_awb_entryvalues" />
                             <ListPreference android:icon="@drawable/ic_aux_3" android:entries="@array/pref_awb_entries" android:layout="@layout/preference_with_margin" android:title="@string/lens_3_key_desc" android:key="pref_awb_wide_key" android:summary="%s" android:defaultValue="5" android:entryValues="@array/pref_awb_entryvalues" />
@@ -88,7 +88,7 @@
                     <!-- HDR+ -->
                     <PreferenceCategory android:title="@string/hdr" android:key="pref_hdrplus_category_key">
                         <ListPreference android:icon="@drawable/ic_camera_rear_24" android:entries="@array/pref_model_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_back_title" android:key="pref_model_back_key" android:summary="%s" android:defaultValue="10" android:entryValues="@array/pref_model_entryvalues" />
-                        <ListPreference android:icon="@drawable/ic_camera_front_24" android:entries="@array/pref_model_entries_front" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_front_title" android:key="pref_model_front_key" android:summary="%s" android:defaultValue="10" android:entryValues="@array/pref_model_entryvalues_front" />
+                        <ListPreference android:icon="@drawable/ic_camera_front_24" android:entries="@array/pref_model_entries_front" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_front_title" android:key="pref_model_front_key" android:summary="%s" android:defaultValue="2" android:entryValues="@array/pref_model_entryvalues_front" />
                         <ListPreference android:icon="@drawable/ic_aux_2" android:entries="@array/pref_model_entries_front" android:layout="@layout/preference_with_margin" android:title="@string/lens_2_key_desc" android:key="pref_model_aux_tele_key" android:summary="%s" android:defaultValue="10" android:entryValues="@array/pref_model_entryvalues_front" />
                         <ListPreference android:icon="@drawable/ic_aux_3" android:entries="@array/pref_model_entries_front" android:layout="@layout/preference_with_margin" android:title="@string/lens_3_key_desc" android:key="pref_model_aux_wide_key" android:summary="%s" android:defaultValue="10" android:entryValues="@array/pref_model_entryvalues_front" />
                         <ListPreference android:icon="@drawable/ic_aux_4" android:entries="@array/pref_model_entries_front" android:layout="@layout/hide" android:title="@string/lens_4_key_desc" android:key="pref_model_aux_macro_key" android:summary="%s" android:defaultValue="10" android:entryValues="@array/pref_model_entryvalues_front" />
@@ -98,7 +98,7 @@
                     <!-- 噪声建模器 -->
                     <PreferenceCategory android:title="@string/pref_noisemodeler_title" android:key="pref_noisemodeler_category_key">
                         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_camera_rear_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_back_title" android:key="pref_noise_modeler_toggle_back_key" />
-                        <ListPreference android:icon="@drawable/ic_camera_rear_24" android:entries="@array/pref_noisemodeler_entries" android:layout="@layout/preference_with_button" android:title="@string/lib_denoise_title" android:key="pref_noise_modeler_main_key" android:summary="@string/lib_denoise_modeler_title" android:dependency="pref_noise_modeler_toggle_back_key" android:defaultValue="IMX363_GOOGLE" android:entryValues="@array/pref_noisemodeler_entryvalues" />
+                        <ListPreference android:icon="@drawable/ic_camera_rear_24" android:entries="@array/pref_noisemodeler_entries" android:layout="@layout/preference_with_button" android:title="@string/lib_denoise_title" android:key="pref_noise_modeler_main_key" android:summary="@string/lib_denoise_modeler_title" android:dependency="pref_noise_modeler_toggle_back_key" android:defaultValue="ULTRA_IMX582" android:entryValues="@array/pref_noisemodeler_entryvalues" />
                         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_camera_front_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_front_title" android:key="pref_noise_modeler_toggle_front_key" />
                         <ListPreference android:icon="@drawable/ic_camera_front_24" android:entries="@array/pref_noisemodeler_entries" android:layout="@layout/preference_with_button" android:title="@string/lib_denoise_title" android:key="pref_noise_modeler_front_key" android:summary="@string/lib_denoise_modeler_title" android:dependency="pref_noise_modeler_toggle_front_key" android:defaultValue="IMX363_GOOGLE" android:entryValues="@array/pref_noisemodeler_entryvalues" />
                         <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_aux_category" android:layout="@layout/preference_with_margin" android:title="@string/pref_aux_title" android:key="pref_noise_modeler_toggle_aux_key" />
@@ -119,7 +119,7 @@
                 </PreferenceScreen>
 
                 <!-- HDR+ 的 ISO / 曝光时间 -->
-                <PreferenceScreen android:icon="@drawable/ic_aemode" android:layout="@layout/preference_with_margin" android:title="@string/pref_aemode_title" android:key="screen_aemode_key" android:summary="@string/pref_aemode_summary">
+                <PreferenceScreen android:icon="@drawable/ic_aemode" android:layout="@layout/hide" android:title="@string/pref_aemode_title" android:key="screen_aemode_key" android:summary="@string/pref_aemode_summary">
 
                     <!-- ISO / 曝光时间 -->
                     <PreferenceCategory android:layout="@layout/preference_category_first_layout" android:title="@string/pref_aemode_category_title" android:key="pref_aemode_category_key">
@@ -193,7 +193,7 @@
                 </PreferenceScreen>
 
                 <!-- 黑度等级 -->
-                <PreferenceScreen android:icon="@drawable/ic_blacklevel" android:layout="@layout/preference_with_margin" android:title="@string/pref_black_level_title" android:key="pref_blacklevel_key" android:summary="">
+                <PreferenceScreen android:icon="@drawable/ic_blacklevel" android:layout="@layout/hide" android:title="@string/pref_black_level_title" android:key="pref_blacklevel_key" android:summary="">
                     <Preference android:icon="@drawable/quantum_gm_ic_info_outline_black_24" android:layout="@layout/preference_with_margin_dependent" android:key="pref_blacklevel_info" android:summary="@string/pref_black_level_summary" />
                     <EditTextPreference android:icon="@drawable/ic_camera_rear_24" android:layout="@layout/preference_with_margin" android:hint="0" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/pref_aemode_back_title" android:key="pref_blacklevel_back_key" android:defaultValue="0" android:dialogTitle="@string/pref_aemode_back_title" android:inputType="numberDecimal" />
                     <EditTextPreference android:icon="@drawable/ic_camera_front_24" android:layout="@layout/preference_with_margin" android:hint="0" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/pref_aemode_front_title" android:key="pref_blacklevel_front_key" android:defaultValue="0" android:dialogTitle="@string/pref_aemode_front_title" android:inputType="numberDecimal" />
@@ -205,7 +205,7 @@
                 </PreferenceScreen>
 
                 <!-- Lib Patcher -->
-                <PreferenceScreen android:icon="@drawable/ic_contrast" android:layout="@layout/preference_with_margin" android:title="@string/lib_group_title" android:key="lib_group_key" android:summary="@string/lib_group_summary">
+                <PreferenceScreen android:icon="@drawable/ic_contrast" android:layout="@layout/hide" android:title="@string/lib_group_title" android:key="lib_group_key" android:summary="@string/lib_group_summary">
 
                     <!-- 曲线 -->
                     <PreferenceCategory android:title="@string/curves" android:key="emptycategory">
@@ -611,7 +611,7 @@
 
             <!-- 其他 -->
             <PreferenceCategory android:title="@string/extra" android:key="pref_category_nikita1">
-                <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_dcip3" android:layout="@layout/preference_with_margin" android:title="@string/pref_dcip3_title" android:key="pref_dcip3_option_available_key" android:summary="@string/pref_dcip3_summary" />
+                <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_dcip3" android:layout="@layout/hide" android:title="@string/pref_dcip3_title" android:key="pref_dcip3_option_available_key" android:summary="@string/pref_dcip3_summary" />
                 <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_hexagon" android:layout="@layout/preference_with_margin" android:title="@string/pref_hexagon_title" android:key="pref_hexagon_key" android:summary="@string/pref_hexagon_summary" />
                 <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/account_search_outline" android:layout="@layout/preference_with_margin" android:title="@string/pref_pzoom_title" android:key="pref_pzoom_key" android:summary="@string/pref_pzoom_summary" />
                 <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/image_multiple_outline" android:layout="@layout/hide" android:title="@string/pref_gallery_title" android:key="pref_gallery_key" android:summary="@string/pref_gallery_summary" />
@@ -657,20 +657,20 @@
                 </PreferenceScreen>
 
                 <!-- 实验性 -->
-                <PreferenceScreen android:icon="@drawable/ic_more" android:layout="@layout/preference_with_margin" android:title="@string/pref_experimental_title" android:key="pref_extra_key">
+                <PreferenceScreen android:icon="@drawable/ic_more" android:layout="@layout/hide" android:title="@string/pref_experimental_title" android:key="pref_extra_key">
                     <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_evc_brightness_24px" android:layout="@layout/preference_with_margin" android:title="@string/gl_preview" android:key="pref_gl_preview_key" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_motion_recording_circle" android:layout="@layout/hide" android:title="@string/micro_desc" android:key="pref_gl_preview_motion_key" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/format_list_text" android:layout="@layout/hide" android:title="@string/af_data_hide" android:key="pref_af_data_hide_key" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_pixel_binning" android:layout="@layout/hide" android:title="@string/pixel_binning" android:key="pref_pixel_binning_key" android:summary="" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_spatial" android:layout="@layout/hide" android:title="Dotfix" android:key="pref_dotfix_key" android:summaryOn="raw10" android:summaryOff="raw_sensor" android:disableDependentsState="true" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_motion_recording_circle" android:layout="@layout/preference_with_margin" android:title="@string/micro_desc" android:key="pref_gl_preview_motion_key" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/format_list_text" android:layout="@layout/preference_with_margin" android:title="@string/af_data_hide" android:key="pref_af_data_hide_key" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_pixel_binning" android:layout="@layout/preference_with_margin" android:title="@string/pixel_binning" android:key="pref_pixel_binning_key" android:summary="" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ic_spatial" android:layout="@layout/preference_with_margin" android:title="Dotfix" android:key="pref_dotfix_key" android:summaryOn="raw10" android:summaryOff="raw_sensor" android:disableDependentsState="true" />
                     <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/weather_sunny" android:layout="@layout/preference_with_margin_dependent" android:title="Black Spot" android:key="pref_blackspot_key" android:summary="" android:dependency="pref_dotfix_key" />
                     <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/ics_whitepoint" android:layout="@layout/preference_with_margin" android:title="@string/dots" android:key="pref_erasedots_key" android:summary="" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/camera_retake_outline" android:layout="@layout/hide" android:title="@string/jpeg_format" android:key="pref_force_jpeg_key" android:summary="" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/camera_retake_outline" android:layout="@layout/hide" android:title="@string/raw_format" android:key="pref_force_rawsensor_key" android:summary="" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/camera_retake_outline" android:layout="@layout/preference_with_margin" android:title="@string/jpeg_format" android:key="pref_force_jpeg_key" android:summary="" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/camera_retake_outline" android:layout="@layout/preference_with_margin" android:title="@string/raw_format" android:key="pref_force_rawsensor_key" android:summary="" />
                     <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_astrophoto_white_24" android:layout="@layout/preference_with_margin" android:title="@string/astrophoto_desc" android:key="pref_astro_button_key" android:summary="@string/astrophoto_summary" />
-                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_slow_motion_video_white_24" android:layout="@layout/hide" android:title="@string/mode_video_slomo" android:key="pref_hfr_fps_key" android:summary="@string/disable_hfr" />
-                    <ListPreference android:icon="@drawable/quantum_ic_aspect_ratio_grey600_24" android:entries="@array/pref_viewfinder_format_entries" android:layout="@layout/hide" android:title="@string/pref_viewfinder_format_title" android:key="pref_viewfinder_format_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/pref_viewfinder_format_entryvalues" />
-                    <ListPreference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:entries="@array/pref_log_mode_entries" android:layout="@layout/hide" android:title="@string/log_mode" android:key="pref_set_log_mode_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/pref_log_mode_entryvalues" />
+                    <com.google.android.apps.camera.ui.preference.ManagedSwitchPreference android:icon="@drawable/quantum_gm_ic_slow_motion_video_white_24" android:layout="@layout/preference_with_margin" android:title="@string/mode_video_slomo" android:key="pref_hfr_fps_key" android:summary="@string/disable_hfr" />
+                    <ListPreference android:icon="@drawable/quantum_ic_aspect_ratio_grey600_24" android:entries="@array/pref_viewfinder_format_entries" android:layout="@layout/preference_with_margin" android:title="@string/pref_viewfinder_format_title" android:key="pref_viewfinder_format_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/pref_viewfinder_format_entryvalues" />
+                    <ListPreference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:entries="@array/pref_log_mode_entries" android:layout="@layout/preference_with_margin" android:title="@string/log_mode" android:key="pref_set_log_mode_key" android:summary="%s" android:defaultValue="0" android:entryValues="@array/pref_log_mode_entryvalues" />
                 </PreferenceScreen>
             </PreferenceCategory>
         </PreferenceScreen>
