@@ -45,7 +45,7 @@
     goto/32 :goto_3
 
     :goto_1
-    const/4 v2, 0x1
+    const/4 v2, 0x0
 
     goto/32 :goto_0
 
