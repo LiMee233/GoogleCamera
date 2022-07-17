@@ -1961,6 +1961,12 @@
 
     invoke-virtual {v0, v1, v4}, Lcib;->t(Ljava/lang/String;Ljava/lang/String;)V
 
+    const-string v1, "pref_tracking_focus_key"
+
+    const-string v4, "1"
+
+    invoke-virtual {v0, v1, v4}, Lcib;->t(Ljava/lang/String;Ljava/lang/String;)V
+
     # End set custom key default value
 
     const-string v1, "pref_video_stabilization_key"
