@@ -63,6 +63,7 @@ Clean your lens for better photo quality."</string>
     <string name="ae_af_lock_label">Exposure and focus lock</string>
     <string name="af_ae_lock">AF / AE Lock</string>
     <string name="af_desc">Focus options</string>
+    <string name="af_desc_summary">Focus Tracking and manual focus slider</string>
     <string name="af_off_far_acc_desc">Lock focus to far</string>
     <string name="af_off_far_desc">Far</string>
     <string name="af_off_infinity_acc_desc">Lock focus to infinity</string>
@@ -656,7 +657,7 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="awb">AWB</string>
     <string name="pref_default">Default</string>
     <string name="pref_pzoom_title">Disable zoom in portrait mode</string>
-    <string name="pref_pzoom_summary">Default zoom is 1.5x</string>
+    <string name="pref_pzoom_summary">Disable forced 1.5x zoom in portrait mode</string>
     <string name="pref_enable_libpatcher_summary">"A few notes
 
 1. These settings modify the final look of images, which means there is no best setting and should be adjusted according to your personal tastes after doing your own testing.
@@ -769,7 +770,7 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_settings_off_title">OFF</string>
     <string name="telegram">Telegram channel</string>
     <string name="exposure_title">Exposure compensation</string>
-    <string name="auto_exp_title">Activate manual exposure compensation settings</string>
+    <string name="auto_exp_title">Manually adjust exposure compensation</string>
     <string name="pref_portrait_single">Save portraits to /DCIM/Camera</string>
     <string name="pref_portrait_single_summary">Stop creating separate folders for each portrait photo</string>
     <string name="pref_frames_auto">Auto</string>
@@ -794,7 +795,8 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_hexagon_title">Disable Hexagon DSP</string>
     <string name="pref_hexagon_summary">Increase performance in HDR+</string>
     <string name="pref_quality_jpg_title">JPEG quality</string>
-    <string name="pref_compress_jpeg_summary">The final JPEG quality is: %s</string>
+    <string name="pref_compress_jpeg_summary">"%s
+Higer quality takes up more storage space, but it's difficult for people to distinguish them. The highest quality is often not the best choice."</string>
     <string name="pref_dcip3_title">Enable DCI-P3</string>
     <string name="pref_dcip3_summary">RGB color space</string>
     <string name="lib_spatial_title">Spatial</string>
@@ -851,6 +853,7 @@ Restart delay means the delay of applation to restart after switching aux camera
     <string name="pref_black_level_title">Black Level</string>
     <string name="pref_black_level_summary">Helps to fix pink tint</string>
     <string name="pref_sabre_options_title">Super res zoom (Sabre)</string>
+    <string name="pref_sabre_options_summary">Improve the clarity of zoomed photos</string>
     <string name="pref_color_filter_arrangement_title">Color filter arrangement</string>
     <string name="viewfinder_button">Viewfinder button</string>
     <string name="pref_shasta_title">Shasta factor</string>

@@ -63,6 +63,7 @@
     <string name="ae_af_lock_label">曝光和对焦锁定</string>
     <string name="af_ae_lock">自动对焦 / 自动曝光锁定</string>
     <string name="af_desc">焦距选项</string>
+    <string name="af_desc_summary">对焦追踪和手动对焦滑块</string>
     <string name="af_off_far_acc_desc">将焦距锁定为远距离</string>
     <string name="af_off_far_desc">远距离</string>
     <string name="af_off_infinity_acc_desc">将焦距锁定为无限远</string>
@@ -597,7 +598,7 @@
     <string name="awb">Google 自动白平衡</string>
     <string name="pref_default">默认</string>
     <string name="pref_pzoom_title">禁用人像模式默认缩放</string>
-    <string name="pref_pzoom_summary">默认缩放为 1.5×</string>
+    <string name="pref_pzoom_summary">禁用人像模式中强制的 1.5 倍缩放</string>
     <string name="pref_enable_libpatcher_summary">"一些提示
 
 1. 这些设置会影响最终成像，这意味着没有最佳设置，可根据个人喜好进行调整。
@@ -711,7 +712,7 @@
     <string name="pref_settings_off_title">关闭</string>
     <string name="telegram">Telegram 频道</string>
     <string name="exposure_title">曝光补偿</string>
-    <string name="auto_exp_title">激活手动曝光补偿设置</string>
+    <string name="auto_exp_title">手动调节曝光补偿</string>
     <string name="pref_portrait_single">将人像照片储存至 /DCIM/Camera</string>
     <string name="pref_portrait_single_summary">不为每张人像照片创建单独的文件夹</string>
     <string name="pref_frames_auto">自动</string>
@@ -736,7 +737,8 @@
     <string name="pref_hexagon_title">禁用 Hexagon DSP</string>
     <string name="pref_hexagon_summary">增强 HDR+ 性能</string>
     <string name="pref_quality_jpg_title">JPEG 质量</string>
-    <string name="pref_compress_jpeg_summary">%s ，较高的质量会占用较大的存储空间。</string>
+    <string name="pref_compress_jpeg_summary">"%s
+较高的质量会占用较大的存储空间且人眼难以辨别，最高质量往往不是最好的选择。"</string>
     <string name="pref_dcip3_title">使用 DCI-P3 色域</string>
     <string name="pref_dcip3_summary">RGB 色彩空间</string>
     <string name="lib_spatial_title">空间 (Spatial)</string>
@@ -792,6 +794,7 @@
     <string name="pref_black_level_title">黑度等级</string>
     <string name="pref_black_level_summary">有助于修复粉红偏色</string>
     <string name="pref_sabre_options_title">超分辨率变焦</string>
+    <string name="pref_sabre_options_summary">提高变焦后照片的清晰度</string>
     <string name="pref_color_filter_arrangement_title">滤色排布</string>
     <string name="viewfinder_button">取景器按钮</string>
     <string name="pref_shasta_title">Shasta 因子</string>
