@@ -1065,6 +1065,8 @@
     <public type="color" name="bright_foreground_material_light" id="0x7f06003a" />
     <public type="color" name="button_material_dark" id="0x7f060043" />
     <public type="color" name="button_material_light" id="0x7f060044" />
+    <public type="color" name="camera_accent_color" id="0x7f06003b" />
+    <public type="color" name="camera_accent_color_light" id="0x7f06003c" />
     <public type="color" name="camera_black_background" id="0x7f060045" />
     <public type="color" name="camera_button_cancel_color" id="0x7f060046" />
     <public type="color" name="camera_google_blue_600" id="0x7f060047" />
@@ -3148,7 +3150,6 @@
     <public type="layout" name="photo_item_view" id="0x7f0e0081" />
     <public type="layout" name="photosphere_calibration_overlay" id="0x7f0e0082" />
     <public type="layout" name="preference" id="0x7f0e0083" />
-    <public type="layout" name="preference_category_first_layout" id="0x7f0e0085" />
     <public type="layout" name="preference_category_layout" id="0x7f0e0086" />
     <public type="layout" name="preference_frequent_faces" id="0x7f0e008b" />
     <public type="layout" name="preference_with_action_button" id="0x7f0e0096" />

@@ -290,7 +290,7 @@
     goto/32 :goto_25
 
     :goto_31
-    const p5, 0x7f0600c1
+    const p5, 0x7f06003b
 
     goto/32 :goto_45
 

@@ -148,7 +148,7 @@
     goto/32 :goto_0
 
     :goto_9
-    const p1, 0x7f060047
+    const p1, 0x7f06003b
 
     :goto_a
     goto/32 :goto_7

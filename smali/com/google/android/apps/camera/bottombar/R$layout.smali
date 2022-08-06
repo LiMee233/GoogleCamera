@@ -112,8 +112,6 @@
 
 .field public static final notification_template_part_time:I = 0x7f0e007c
 
-.field public static final preference_category_first_layout:I = 0x7f0e0085
-
 .field public static final preference_category_layout:I = 0x7f0e0086
 
 .field public static final preference_frequent_faces:I = 0x7f0e008b
