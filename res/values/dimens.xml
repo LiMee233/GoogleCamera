@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">@dimen/camera_settings_entry_left_margin</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72.0dip</dimen>
     <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
     <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
@@ -57,7 +57,8 @@
     <dimen name="camera_google_subhead_2">14.0sp</dimen>
     <dimen name="camera_settings_entry_left_margin">24.0dip</dimen>
     <dimen name="camera_settings_icon_size">24.0dip</dimen>
-    <dimen name="camera_settings_preference_font_size">16.0sp</dimen>
+    <dimen name="camera_settings_preference_summary_font_size">14.0sp</dimen>
+    <dimen name="camera_settings_preference_font_size">19.0sp</dimen>
     <dimen name="camera_settings_switch_button_font_size">20.0sp</dimen>
     <dimen name="camera_settings_switch_button_icon_size">32.0dip</dimen>
     <dimen name="camera_switch_button_ripple_diameter">64.0dip</dimen>
@@ -414,6 +415,7 @@
     <dimen name="portrait_button_outer_radius">34.0dip</dimen>
     <dimen name="portrait_button_outer_ring_radius">28.0dip</dimen>
     <dimen name="power_saving_mode_indicator_top_margin">50.0dip</dimen>
+    <dimen name="preference_with_switch_button_background_radius">32dip</dimen>
     <dimen name="recording_control_button_diameter">48.0dip</dimen>
     <dimen name="recording_time_landscape_vertical_margin">16.0dip</dimen>
     <dimen name="remote_control_battery_text_length">38.0dip</dimen>
