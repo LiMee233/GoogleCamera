@@ -695,7 +695,7 @@
 
         <!-- 关于 -->
         <PreferenceScreen android:icon="@drawable/ic_about_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/version" android:key="pref_category_about">
-            <Preference android:title="Google Camera for Redmi K40 Pixel Experience" android:summary="@string/pref_about_dev_limee" android:key="pref_category_about_limee">
+            <Preference android:title="Google Camera for Redmi K40" android:summary="@string/pref_about_dev_limee" android:key="pref_category_about_limee">
                 <intent android:action="android.intent.action.VIEW" android:data="https://github.com/LiMee233" />
             </Preference>
             <Preference android:title="@string/pref_based_on_nikita_camera" android:summary="@string/pref_version_number" android:key="pref_category_about_icon">
