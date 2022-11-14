@@ -1,0 +1,61 @@
+.class public final Lgmr;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lpyn;
+
+
+# instance fields
+.field private final a:Lqkb;
+
+
+# direct methods
+.method public constructor <init>(Lqkb;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lgmr;->a:Lqkb;
+
+    return-void
+.end method
+
+.method public static b(Lqkb;)Lgmr;
+    .locals 1
+
+    new-instance v0, Lgmr;
+
+    invoke-direct {v0, p0}, Lgmr;-><init>(Lqkb;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a()Lgmq;
+    .locals 2
+
+    iget-object v0, p0, Lgmr;->a:Lqkb;
+
+    check-cast v0, Ldga;
+
+    invoke-virtual {v0}, Ldga;->a()Llip;
+
+    move-result-object v0
+
+    new-instance v1, Lgmq;
+
+    invoke-direct {v1, v0}, Lgmq;-><init>(Llip;)V
+
+    return-object v1
+.end method
+
+.method public final bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Lgmr;->a()Lgmq;
+
+    move-result-object v0
+
+    return-object v0
+.end method
