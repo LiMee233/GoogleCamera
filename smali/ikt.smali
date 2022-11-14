@@ -39,11 +39,7 @@
 
     sget-object v3, Ljava/util/Locale;->US:Ljava/util/Locale;
 
-    const-string v4, "pref_date_key"
-
-    invoke-static {v4}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
+    const-string v4, "yyyyMMdd_HHmmss"
 
     new-instance v11, Ljava/lang/StringBuilder;
 
@@ -52,14 +48,6 @@
     invoke-virtual {v11, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v12, "\'"
-
-    invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v12, "suffix_key"
-
-    invoke-static {v12}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v12
 
     invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -145,13 +133,13 @@
 
     iput-object v1, v3, Lmbf;->l:Landroid/content/Context;
 
-    sget-object v1, Lsgcam/Shamim;->Prefix:Ljava/lang/String;
+    const-string v1, "IMG_"
 
     iput-object v1, v3, Lmbf;->a:Ljava/lang/String;
 
     iput-object v1, v3, Lmbf;->b:Ljava/lang/String;
 
-    sget-object v1, Lsgcam/Shamim;->VideoPrefix:Ljava/lang/String;
+    const-string v1, "VID_"
 
     iput-object v1, v3, Lmbf;->c:Ljava/lang/String;
 

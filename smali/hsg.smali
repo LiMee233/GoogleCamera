@@ -86,7 +86,10 @@
 
     move-object v4, p3
 
-    move-object v5, p4
+    # The last parameter is p4 (a String).
+    # This pass the camera's mode.
+    # Leave it empty and there will be no suffix.
+    const-string v5, ""
 
     invoke-virtual/range {v1 .. v6}, Lhsg;->b(JLdxg;Ljava/lang/String;Lhsr;)Lhsf;
 

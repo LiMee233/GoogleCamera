@@ -2745,22 +2745,6 @@
 
     sput v0, Lsgcam/Shamim;->GetSubjectPortrait:I
 
-    const-string v0, "prefix_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lsgcam/Shamim;->Prefix:Ljava/lang/String;
-
-    const-string v0, "videoprefix_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lsgcam/Shamim;->VideoPrefix:Ljava/lang/String;
-
     const-string v0, "pref_con_key"
 
     invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
