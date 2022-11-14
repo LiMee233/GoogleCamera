@@ -271,75 +271,17 @@
 .method public AuxName()V
     .locals 2
 
-    const-string v0, "1x"
+    const-string v0, "1×"
 
     iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameMain:Ljava/lang/String;
 
-    const-string v0, "2x"
+    const-string v0, ".6"
 
     iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameTele:Ljava/lang/String;
 
-    const-string v0, "3x"
+    const-string v0, "2"
 
     iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameWide:Ljava/lang/String;
-
-    const-string v0, "4x"
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameInfinity:Ljava/lang/String;
-
-    const-string v0, "5x"
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonName5:Ljava/lang/String;
-
-    const-string v0, "pref_lenses_names_enable_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_manual_camera_name_key_main"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameMain:Ljava/lang/String;
-
-    const-string v0, "pref_manual_camera_name_key_2"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameTele:Ljava/lang/String;
-
-    const-string v0, "pref_manual_camera_name_key_3"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameWide:Ljava/lang/String;
-
-    const-string v0, "pref_manual_camera_name_key_4"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameInfinity:Ljava/lang/String;
-
-    const-string v0, "pref_manual_camera_name_key_5"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonName5:Ljava/lang/String;
-
-    :cond_0
     return-void
 .end method
 
@@ -450,7 +392,7 @@
 .end method
 
 .method public getBackground(IILjava/lang/String;)Landroid/widget/Button;
-    .locals 3
+    .locals 4
 
     invoke-virtual {p0, p2}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->findViewById(I)Landroid/view/View;
 
@@ -462,11 +404,7 @@
 
     if-ne v1, p1, :cond_0
 
-    const-string v1, "pref_aux_text_color_enable"
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
+    const-string v1, "#dd000000"
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -477,11 +415,7 @@
     goto :goto_0
 
     :cond_0
-    const-string v1, "pref_aux_text_color_disable"
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
+    const-string v1, "#ddffffff"
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -512,64 +446,26 @@
 .method public getVisibilityById(I)I
     .locals 3
 
-    const-string v0, "pref_show_buttons_key"
-
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     if-eq p1, v1, :cond_0
 
-    const/4 v2, 0x2
+    const/4 v2, 0x1
 
-    if-eq p1, v2, :cond_1
+    if-eq p1, v2, :cond_0
 
-    const/4 v2, 0x3
+    const/4 v3, 0x2
 
-    if-eq p1, v2, :cond_2
-
-    const/4 v2, 0x4
-
-    if-eq p1, v2, :cond_3
-
-    move-object p1, v0
+    if-eq p1, v3, :cond_0
 
     goto :goto_0
 
     :cond_0
-    const-string p1, "pref_aux_tele_key"
-
-    goto :goto_0
-
-    :cond_1
-    const-string p1, "pref_aux_wide_key"
-
-    goto :goto_0
-
-    :cond_2
-    const-string p1, "pref_aux_4_key"
-
-    goto :goto_0
-
-    :cond_3
-    const-string p1, "pref_aux_5_key"
-
-    :goto_0
-    invoke-static {p1}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result p1
-
-    if-ne p1, v1, :cond_4
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result p1
-
-    if-ne p1, v1, :cond_4
-
     const/4 p1, 0x0
 
     goto :goto_1
 
-    :cond_4
+    :goto_0
     const/16 p1, 0x8
 
     :goto_1

@@ -338,18 +338,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_aux_text_color_enable"
-
-    const-string v8, "#ff000000"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_aux_text_color_disable"
-
-    const-string v8, "#ffffffff"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_notificationlog_berviewer_txt"
 
     const-string v8, "#fff5f5f5"

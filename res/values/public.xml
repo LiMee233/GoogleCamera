@@ -422,8 +422,6 @@
     <public type="array" name="pref_focus_value_entryvalues" id="0x7f03014f" />
     <public type="array" name="pref_set_focus_entries" id="0x7f030150" />
     <public type="array" name="pref_set_focus_entryvalues" id="0x7f030151" />
-    <public type="array" name="pref_aux_layout_entries" id="0x7f030152" />
-    <public type="array" name="pref_aux_layout_entryvalues" id="0x7f030153" />
     <public type="array" name="lib_hex_sabremotionfix_entries" id="0x7f030154" />
     <public type="array" name="lib_hex_sabremotionfix_entryvalues" id="0x7f030155" />
     <public type="array" name="lib_hex_redgreen_entries" id="0x7f030156" />
@@ -6536,7 +6534,6 @@
     <public type="id" name="graphView" id="0x7f0b03ca" />
     <public type="id" name="seekbar1" id="0x7f0b03cb" />
     <public type="id" name="aux_butt_horizontal" id="0x7f0b03cc" />
-    <public type="id" name="aux_butt_vertical" id="0x7f0b03cd" />
     <public type="id" name="astro_time" id="0x7f0b03ce" />
     <public type="integer" name="abc_config_activityDefaultDur" id="0x7f0c0000" />
     <public type="integer" name="abc_config_activityShortDur" id="0x7f0c0001" />

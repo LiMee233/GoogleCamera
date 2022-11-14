@@ -794,6 +794,5 @@
     <item type="id" name="graphView" />
     <item type="id" name="seekbar1" />
     <item type="id" name="aux_butt_horizontal" />
-    <item type="id" name="aux_butt_vertical" />
     <item type="id" name="astro_time" />
 </resources>
