@@ -2681,14 +2681,6 @@
 
     sput v0, Lsgcam/Shamim;->OriginalReso:I
 
-    const-string v0, "pref_disable_front_lib_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->RestartFront:I
-
     const-string v0, "pref_sunlight_key"
 
     invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I

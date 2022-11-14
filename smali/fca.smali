@@ -4661,34 +4661,6 @@
 
     sput-boolean p0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
 
-    const-string v1, "pref_disable_front_lib_key"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-nez v1, :cond_b
-
-    const-string v1, "pref_front_active_values_key"
-
-    const/4 v0, 0x0
-
-    invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/Fix/Pref;->setMenuValue(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v1, "pref_frontcam_value_restart_key"
-
-    const/4 v0, 0x0
-
-    invoke-static {v0}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Lcom/Fix/Pref;->setMenuValue(Ljava/lang/String;Ljava/lang/String;)V
-
     :cond_b
     return-void
 .end method
