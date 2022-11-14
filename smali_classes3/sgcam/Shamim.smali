@@ -2418,14 +2418,6 @@
 .method public static GetOpmodeIntValue()I
     .locals 9
 
-    const-string v1, "pref_enable_operation_mode_key"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
     invoke-static {}, Lsgcam/Shamim;->GetOpmodePref()Ljava/lang/String;
 
     move-result-object v1
@@ -2434,24 +2426,86 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
+    # Set default stream for video and slow motion mode of all lens
+    const-string v2, "pref_operation_mode_motion_key_front"
 
-    move-result v1
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_video_key_front"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_motion_key"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_video_key"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_motion_key_2"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_video_key_2"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_motion_key_3"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v2, "pref_operation_mode_video_key_3"
+
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    # For which preference is not existing, this will return 0.
+    # So we can delete useless preferences.
+    const/4 v1, 0x0
+
+    goto :goto_0
 
     :cond_0
+    const v1, 0xf004    # DEC: 61444 (EISV2)
+
+    :goto_0
     return v1
 .end method
 
 .method public static GetOpmodePref()Ljava/lang/String;
     .locals 9
-
-    const-string v1, "pref_enable_custom_operation_mode_key"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-nez v1, :cond_5
 
     sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
 
@@ -2511,67 +2565,6 @@
     const-string v5, "pref_operation_mode_key"
 
     :goto_0
-    return-object v5
-
-    :cond_5
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v3, Ljrj;->b:Ljrj;
-
-    if-ne v2, v3, :cond_6
-
-    const-string v5, "pref_custom_operation_mode_normal_key"
-
-    goto :goto_1
-
-    :cond_6
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v3, Ljrj;->c:Ljrj;
-
-    if-ne v2, v3, :cond_7
-
-    const-string v5, "pref_custom_operation_mode_video_key"
-
-    goto :goto_1
-
-    :cond_7
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v3, Ljrj;->f:Ljrj;
-
-    if-ne v2, v3, :cond_8
-
-    const-string v5, "pref_custom_operation_mode_motion_key"
-
-    goto :goto_1
-
-    :cond_8
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v3, Ljrj;->m:Ljrj;
-
-    if-ne v2, v3, :cond_9
-
-    const-string v5, "pref_custom_operation_mode_night_key"
-
-    goto :goto_1
-
-    :cond_9
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v3, Ljrj;->g:Ljrj;
-
-    if-ne v2, v3, :cond_a
-
-    const-string v5, "pref_custom_operation_mode_portrait_key"
-
-    goto :goto_1
-
-    :cond_a
-    const-string v5, "pref_custom_operation_mode_key"
-
-    :goto_1
     return-object v5
 .end method
 

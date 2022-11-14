@@ -115,10 +115,6 @@
     <public type="array" name="pref_grid_mode_entries" id="0x7f030016" />
     <public type="array" name="pref_grid_mode_entryvalues" id="0x7f030017" />
     <public type="array" name="color_correction_entries" id="0x7f030018" />
-    <public type="array" name="pref_stream_entries" id="0x7f030019" />
-    <public type="array" name="pref_stream_entryvalues" id="0x7f03001a" />
-    <public type="array" name="opmode_entries" id="0x7f03001b" />
-    <public type="array" name="opmode_entryvalues" id="0x7f03001c" />
     <public type="array" name="pref_qjpg_entries" id="0x7f03001d" />
     <public type="array" name="pref_qjpg_entryvalues" id="0x7f03001e" />
     <public type="array" name="pref_volume_action_entries" id="0x7f03001f" />

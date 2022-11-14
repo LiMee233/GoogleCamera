@@ -508,118 +508,18 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Livy;->g:Lqkb;
-
-    iget-object v3, p0, Livy;->c:Lqkb;
-
     iget-object v4, p0, Livy;->f:Lqkb;
 
-    iget-object v5, p0, Livy;->b:Lqkb;
-
-    iget-object v6, p0, Livy;->a:Lqkb;
-
-    const-string v8, "pref_stream_opmode_key"
-
-    invoke-static {v8}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v8
-
-    const v9, 0x0
-
-    if-eq v8, v9, :cond_1
-
-    const v9, 0x1
-
-    if-eq v8, v9, :cond_0
-
-    const v9, 0x2
-
-    if-eq v8, v9, :cond_3
-
-    const v9, 0x3
-
-    if-eq v8, v9, :cond_4
-
-    const v9, 0x4
-
-    if-eq v8, v9, :cond_5
-
-    iget-boolean v7, v0, Llze;->e:Z
-
-    if-eqz v7, :cond_1
-
-    :cond_0
-    invoke-interface {v5}, Lqkb;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Llsm;
-
-    goto :goto_0
-
-    :cond_1
-    iget-object v1, v1, Llnd;->b:Llnn;
-
-    sget-object v5, Llnn;->b:Llnn;
-
-    invoke-virtual {v1, v5}, Llnn;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    invoke-interface {v6}, Lqkb;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Llsm;
-
-    goto :goto_0
-
-    :cond_2
-    iget-boolean v1, v0, Llze;->c:Z
-
-    if-eqz v1, :cond_4
-
-    :cond_3
     invoke-interface {v4}, Lqkb;->get()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Llsm;
 
-    goto :goto_0
-
-    :cond_4
-    iget-boolean v1, v0, Llze;->b:Z
-
-    if-eqz v1, :cond_5
-
-    invoke-interface {v3}, Lqkb;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Llsm;
-
-    goto :goto_0
-
-    :cond_5
-    iget-boolean v0, v0, Llze;->a:Z
-
-    if-eqz v0, :cond_6
-
-    invoke-interface {v2}, Lqkb;->get()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Llsm;
-
-    :goto_0
     invoke-static {v0}, Lqly;->aj(Ljava/lang/Object;)V
 
     return-object v0
 
-    :cond_6
     new-instance v0, Ljava/lang/IllegalStateException;
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
