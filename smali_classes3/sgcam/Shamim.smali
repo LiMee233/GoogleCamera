@@ -2673,14 +2673,6 @@
 
     sput v0, Lsgcam/Shamim;->Aemodef:I
 
-    const-string v0, "pref_max_zoom_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->Zoom:I
-
     const-string v0, "pref_originial_reso_key"
 
     invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
@@ -2760,6 +2752,12 @@
     move-result-object v0
 
     sput-object v0, Lsgcam/Shamim;->LibDirectory:Ljava/lang/String;
+
+    # Now do not read value from preference.
+
+    const/16 v0, 0xa    # DEC: 10
+
+    sput v0, Lsgcam/Shamim;->Zoom:I
 
     return-void
 .end method
