@@ -3,17 +3,9 @@
 
 
 # static fields
-.field public static final abc_action_bar_home_description:I = 0x7f140003
-
 .field public static final abc_action_bar_up_description:I = 0x7f140004
 
-.field public static final abc_action_menu_overflow_description:I = 0x7f140005
-
 .field public static final abc_action_mode_done:I = 0x7f140006
-
-.field public static final abc_activity_chooser_view_see_all:I = 0x7f140007
-
-.field public static final abc_activitychooserview_choose_application:I = 0x7f140008
 
 .field public static final abc_capital_off:I = 0x7f140009
 
@@ -43,17 +35,11 @@
 
 .field public static final abc_searchview_description_clear:I = 0x7f140016
 
-.field public static final abc_searchview_description_query:I = 0x7f140017
-
 .field public static final abc_searchview_description_search:I = 0x7f140018
 
 .field public static final abc_searchview_description_submit:I = 0x7f140019
 
 .field public static final abc_searchview_description_voice:I = 0x7f14001a
-
-.field public static final abc_shareactionprovider_share_with:I = 0x7f14001b
-
-.field public static final abc_shareactionprovider_share_with_application:I = 0x7f14001c
 
 .field public static final abc_toolbar_collapse_description:I = 0x7f14001d
 
@@ -101,15 +87,11 @@
 
 .field public static final accessibility_take_lasagna_button:I = 0x7f140046
 
-.field public static final accessibility_take_nightsight_button:I = 0x7f140047
-
 .field public static final accessibility_take_photo_button:I = 0x7f140048
 
 .field public static final accessibility_take_photosphere_button:I = 0x7f140049
 
 .field public static final accessibility_take_portrait_button:I = 0x7f14004a
-
-.field public static final accessibility_unlock_to_camera:I = 0x7f14004f
 
 .field public static final all_photos:I = 0x7f14007a
 
@@ -223,8 +205,6 @@
 
 .field public static final edit_with:I = 0x7f14014a
 
-.field public static final exposure_time:I = 0x7f14016e
-
 .field public static final faceretouch_off_option_desc:I = 0x7f140188
 
 .field public static final faceretouch_on_light_option_desc:I = 0x7f14018a
@@ -243,8 +223,6 @@
 
 .field public static final flash_on:I = 0x7f14019a
 
-.field public static final focal_length:I = 0x7f1401a3
-
 .field public static final frequent_faces_info:I = 0x7f1401b2
 
 .field public static final frequent_faces_learn_more:I = 0x7f1401b3
@@ -252,10 +230,6 @@
 .field public static final frequent_faces_off:I = 0x7f1401b4
 
 .field public static final frequent_faces_on:I = 0x7f1401b5
-
-.field public static final frequent_faces_on_notification:I = 0x7f1401b6
-
-.field public static final frequent_faces_try_notification:I = 0x7f1401b7
 
 .field public static final gcam_HDR_plus_enhanced_processing:I = 0x7f1401b8
 

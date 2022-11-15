@@ -69,8 +69,6 @@
 
 .field public static final accessibility_custom_action_9:I = 0x7f0b0031
 
-.field public static final action_container:I = 0x7f0b003e
-
 .field public static final action_divider:I = 0x7f0b0041
 
 .field public static final action_image:I = 0x7f0b0042

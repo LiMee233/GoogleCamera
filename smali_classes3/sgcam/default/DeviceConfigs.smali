@@ -380,12 +380,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_libdirectory_key"
-
-    const-string v8, "/SGCAM/LIB/"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_subjectportrait_key"
 
     const-string v8, "1"

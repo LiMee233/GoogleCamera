@@ -145,259 +145,25 @@
     <public type="array" name="pref_dbl_entryvalues" id="0x7f03003a" />
     <public type="array" name="pref_bitrate_entries" id="0x7f03003b" />
     <public type="array" name="pref_bitrate_entryvalues" id="0x7f03003c" />
-    <public type="array" name="lib_hex_entries" id="0x7f03003d" />
-    <public type="array" name="lib_hdr_range_entries" id="0x7f03003e" />
-    <public type="array" name="lib_hex_lumanoise_entries" id="0x7f03003f" />
-    <public type="array" name="lib_hex_lumanoise_entryvalues" id="0x7f030040" />
-    <public type="array" name="lib_patch3_entries" id="0x7f030041" />
-    <public type="array" name="lib_hex_iso_entries" id="0x7f030042" />
-    <public type="array" name="lib_hex_iso_entryvalues" id="0x7f030043" />
-    <public type="array" name="lib_hex_spatialn2_entries" id="0x7f030044" />
-    <public type="array" name="lib_hex_spatialn2_entryvalues" id="0x7f030045" />
-    <public type="array" name="lib_softsharp_entries" id="0x7f030046" />
-    <public type="array" name="lib_softsharp_entryvalues" id="0x7f030047" />
-    <public type="array" name="lib_hex2_entries" id="0x7f03004a" />
-    <public type="array" name="lib_hex2_entryvalues" id="0x7f03004b" />
-    <public type="array" name="lib_hex_iso1_entries" id="0x7f03004c" />
-    <public type="array" name="lib_hex_iso1_entryvalues" id="0x7f03004d" />
-    <public type="array" name="lib_hex1_entries" id="0x7f03004e" />
-    <public type="array" name="lib_hex1_entryvalues" id="0x7f03004f" />
-    <public type="array" name="finelib_hex1_entries" id="0x7f030050" />
-    <public type="array" name="finelib_hex1_entryvalues" id="0x7f030051" />
-    <public type="array" name="lib_hex_cct_entries" id="0x7f030052" />
-    <public type="array" name="lib_hex_cct_entryvalues" id="0x7f030053" />
-    <public type="array" name="pref_tonecurve_preset_entries" id="0x7f030054" />
-    <public type="array" name="pref_tonecurve_preset_entryvalues" id="0x7f030055" />
-    <public type="array" name="pref_gammacurve_preset_entries" id="0x7f030056" />
-    <public type="array" name="pref_gammacurve_preset_entryvalues" id="0x7f030057" />
     <public type="array" name="pref_sectcurve_preset_entries" id="0x7f030058" />
     <public type="array" name="pref_sectcurve_preset_entryvalues" id="0x7f030059" />
     <public type="array" name="curve_srange_entries" id="0x7f03005a" />
     <public type="array" name="curve_srange_entryvalues" id="0x7f03005b" />
     <public type="array" name="curve_level_entries" id="0x7f03005c" />
     <public type="array" name="curve_level_entryvalues" id="0x7f03005d" />
-    <public type="array" name="pref_curve_mode_entries" id="0x7f03005e" />
-    <public type="array" name="pref_curve_mode_entryvalues" id="0x7f03005f" />
-    <public type="array" name="lib_noisemodelunblock_entries" id="0x7f030060" />
-    <public type="array" name="lib_noisemodelunblock_entryvalues" id="0x7f030061" />
-    <public type="array" name="lib_hex_saturation2_entries" id="0x7f030062" />
-    <public type="array" name="lib_hex_saturation2_entryvalues" id="0x7f030063" />
-    <public type="array" name="lib_hex_saturation3_entries" id="0x7f030064" />
-    <public type="array" name="lib_hex_saturation3_entryvalues" id="0x7f030065" />
-    <public type="array" name="lib_hex_shastaforce_entries" id="0x7f030066" />
-    <public type="array" name="lib_hex_shastaforce_entryvalues" id="0x7f030067" />
-    <public type="array" name="lib_hex_temporaldenoise_entries" id="0x7f030068" />
-    <public type="array" name="lib_hex_temporaldenoise_entryvalues" id="0x7f030069" />
-    <public type="array" name="lib_hex_fixraw16merge_entries" id="0x7f03006a" />
-    <public type="array" name="lib_hex_fixraw16merge_entryvalues" id="0x7f03006b" />
-    <public type="array" name="lib_hex_lightfix2_entries" id="0x7f03006c" />
-    <public type="array" name="lib_hex_lightfix2_entryvalues" id="0x7f03006d" />
-    <public type="array" name="lib_hex_hardjpgquality_entries" id="0x7f03006e" />
-    <public type="array" name="lib_hex_hardjpgquality_entryvalues" id="0x7f03006f" />
-    <public type="array" name="lib_hex_sabresharp_entries" id="0x7f030070" />
-    <public type="array" name="lib_hex_underexpo1_entryvalues" id="0x7f030071" />
-    <public type="array" name="lib_hex_sabresharp2_entries" id="0x7f030072" />
-    <public type="array" name="lib_hex_sabresharp2_entryvalues" id="0x7f030073" />
-    <public type="array" name="lib_hex_sabresharp3_entries" id="0x7f030074" />
-    <public type="array" name="lib_hex_sabresharp3_entryvalues" id="0x7f030075" />
-    <public type="array" name="lib_hex_zipper_entries" id="0x7f030076" />
-    <public type="array" name="lib_hex_sharpradius_entryvalues" id="0x7f030077" />
-    <public type="array" name="lib_hex_softsharp_entries" id="0x7f030078" />
-    <public type="array" name="lib_hex_softsharp_entryvalues" id="0x7f030079" />
-    <public type="array" name="lib_hex_smoothingsabre2_entries" id="0x7f03007a" />
-    <public type="array" name="lib_hex_smoothingsabre_entries" id="0x7f03007b" />
-    <public type="array" name="lib_hex_smoothingsabre_entryvalues" id="0x7f03007c" />
-    <public type="array" name="lib_hex_depth1_entryvalues" id="0x7f03007d" />
-    <public type="array" name="lib_hex_depth1_entries" id="0x7f03007e" />
-    <public type="array" name="lib_hex_depth2_entryvalues" id="0x7f03007f" />
-    <public type="array" name="lib_hex_depth2_entries" id="0x7f030080" />
-    <public type="array" name="lib_hex_sabretext_entries" id="0x7f030081" />
-    <public type="array" name="lib_hex_vignettec_entries" id="0x7f030082" />
-    <public type="array" name="lib_hex_vignettec_entryvalues" id="0x7f030083" />
-    <public type="array" name="lib_hex_expocor_entries" id="0x7f030084" />
-    <public type="array" name="lib_hex_darkenlight_entries" id="0x7f030085" />
-    <public type="array" name="lib_hex_darkenlight_entryvalues" id="0x7f030086" />
-    <public type="array" name="lib_hex_hardmerge_entries" id="0x7f030087" />
-    <public type="array" name="lib_hex_hardmerge_entryvalues" id="0x7f030088" />
-    <public type="array" name="lib_hex_sabrburmerge1_entries" id="0x7f030089" />
-    <public type="array" name="lib_hex_sabrburmerge2_entries" id="0x7f03008a" />
-    <public type="array" name="lib_hex_hdr_rang_entryvalues" id="0x7f03008b" />
-    <public type="array" name="lib_hex_hdr_range_entries" id="0x7f03008c" />
-    <public type="array" name="lib_hex_hdr_range_entryvalues" id="0x7f03008d" />
-    <public type="array" name="lib_hex_lutnoise1_entries" id="0x7f03008e" />
-    <public type="array" name="lib_hex_lutnoise1_entryvalues" id="0x7f03008f" />
-    <public type="array" name="lib_hex_sabrenoiseart_entries" id="0x7f030090" />
-    <public type="array" name="lib_hex_sabrenoiseart_entryvalues" id="0x7f030091" />
-    <public type="array" name="lib_hex_fixnoisesabre_entries" id="0x7f030092" />
-    <public type="array" name="lib_hex_fixnoisesabre_entryvalues" id="0x7f030093" />
-    <public type="array" name="lib_hex_colprocessing_entries" id="0x7f030094" />
-    <public type="array" name="lib_hex_colprocessing_entryvalues" id="0x7f030095" />
-    <public type="array" name="lib_hex_shastamerge_entries" id="0x7f030096" />
-    <public type="array" name="lib_hex_shastamerge_entryvalues" id="0x7f030097" />
-    <public type="array" name="lib_hex_volumeprocessing1_entries" id="0x7f030098" />
-    <public type="array" name="lib_hex_volumeprocessing1_entryvalues" id="0x7f030099" />
-    <public type="array" name="lib_hex_noiseaberr_entries" id="0x7f03009a" />
-    <public type="array" name="lib_hex_noiseaberr_entryvalues" id="0x7f03009b" />
-    <public type="array" name="lib_hex_smoothness_entries" id="0x7f03009c" />
-    <public type="array" name="lib_hex_smoothness_entryvalues" id="0x7f03009d" />
-    <public type="array" name="lib_hex_smoothing_entries" id="0x7f03009e" />
-    <public type="array" name="lib_hex_smoothing_entryvalues" id="0x7f03009f" />
-    <public type="array" name="lib_hex_noisereducta1_entries" id="0x7f0300a0" />
-    <public type="array" name="lib_hex_noisereducta1_entryvalues" id="0x7f0300a1" />
-    <public type="array" name="lib_hex_noisereducta2_entries" id="0x7f0300a2" />
-    <public type="array" name="lib_hex_noisereducta2_entryvalues" id="0x7f0300a3" />
-    <public type="array" name="lib_hex_temporalbin_entries" id="0x7f0300a4" />
-    <public type="array" name="lib_hex_radius_entryvalues" id="0x7f0300a5" />
-    <public type="array" name="lib_hex_radius_entries" id="0x7f0300a6" />
-    <public type="array" name="lib_hex_denoisesize_entryvalues" id="0x7f0300a7" />
-    <public type="array" name="lib_hex_noisemodel_entries" id="0x7f0300a8" />
-    <public type="array" name="lib_hex_vignette_entries" id="0x7f0300a9" />
-    <public type="array" name="lib_hex_vignette_entryvalues" id="0x7f0300aa" />
-    <public type="array" name="lib_hex_clarity_entries" id="0x7f0300ab" />
-    <public type="array" name="lib_hex_clarity_entryvalues" id="0x7f0300ac" />
-    <public type="array" name="lib_hex_contr1_entryvalues" id="0x7f0300ad" />
-    <public type="array" name="lib_hex_contr1_entries" id="0x7f0300ae" />
-    <public type="array" name="lib_hex_contr2_entryvalues" id="0x7f0300af" />
-    <public type="array" name="lib_hex_contr2_entries" id="0x7f0300b0" />
-    <public type="array" name="lib_hex_lighting_entries" id="0x7f0300b1" />
-    <public type="array" name="lib_hex_lighting_entryvalues" id="0x7f0300b2" />
-    <public type="array" name="lib_hex_light_entries" id="0x7f0300b3" />
-    <public type="array" name="lib_hex_light_entryvalues" id="0x7f0300b4" />
-    <public type="array" name="lib_libpatcher_e_entries" id="0x7f0300b5" />
-    <public type="array" name="lib_libpatcher_e_entryvalues" id="0x7f0300b6" />
-    <public type="array" name="lib_hdroverlight_entries" id="0x7f0300b7" />
-    <public type="array" name="lib_hdroverlight_entryvalues" id="0x7f0300b8" />
-    <public type="array" name="lib_contrastblack_entries" id="0x7f0300b9" />
-    <public type="array" name="lib_hex_exposuren_entries" id="0x7f0300ba" />
-    <public type="array" name="lib_hex_exposuren_entryvalues" id="0x7f0300bb" />
-    <public type="array" name="lib_hex_exposuredep_entries" id="0x7f0300bc" />
-    <public type="array" name="lib_hex_exposuredep_entryvalues" id="0x7f0300bd" />
-    <public type="array" name="lib_hex_sabre_entries" id="0x7f0300be" />
-    <public type="array" name="lib_hex_sabre_entryvalues" id="0x7f0300bf" />
-    <public type="array" name="lib_hex_sabre2_entries" id="0x7f0300c0" />
-    <public type="array" name="lib_hex_sabre2_entryvalues" id="0x7f0300c1" />
-    <public type="array" name="lib_hex_sharpradius_entries" id="0x7f0300c2" />
-    <public type="array" name="finelib_hex2_entries" id="0x7f0300c3" />
-    <public type="array" name="finelib_hex2_entryvalues" id="0x7f0300c4" />
-    <public type="array" name="lib_hex_spatialdenmi_entries" id="0x7f0300c5" />
-    <public type="array" name="lib_hex_noisesup_entryvalues" id="0x7f0300c6" />
-    <public type="array" name="lib_global_entries" id="0x7f0300c7" />
-    <public type="array" name="lib_global_entryvalues" id="0x7f0300c8" />
-    <public type="array" name="lib_hex_sharpshastamotion_entries" id="0x7f0300c9" />
-    <public type="array" name="lib_hex_sharpshastamotion_entryvalues" id="0x7f0300ca" />
-    <public type="array" name="lib_hex_sharpnessnoisemodel_entries" id="0x7f0300cb" />
-    <public type="array" name="lib_hex_sharpnessnoisemodel_entryvalues" id="0x7f0300cc" />
-    <public type="array" name="lib_hex_blurpreview_entries" id="0x7f0300cd" />
-    <public type="array" name="lib_hex_blurpreview_entryvalues" id="0x7f0300ce" />
-    <public type="array" name="lib_hex_hdrmodel_entries" id="0x7f0300cf" />
-    <public type="array" name="lib_hex_hdrmodel_entryvalues" id="0x7f0300d0" />
-    <public type="array" name="lib_hex_resampling_entries" id="0x7f0300d1" />
-    <public type="array" name="lib_hex_resampling_entryvalues" id="0x7f0300d2" />
-    <public type="array" name="lib_hex_sharpeningedge_entries" id="0x7f0300d3" />
-    <public type="array" name="lib_hex_lightfix_entryvalues" id="0x7f0300d4" />
-    <public type="array" name="lib_hex_skipmetadatacheck_entryvalues" id="0x7f0300d5" />
-    <public type="array" name="lib_hex_lutnoisefix_entries" id="0x7f0300d6" />
-    <public type="array" name="lib_hex_lutnoisefix_entryvalues" id="0x7f0300d7" />
-    <public type="array" name="lib_hex_appdigainset_entryvalues" id="0x7f0300d8" />
-    <public type="array" name="lib_hex_expocor_entryvalues" id="0x7f0300d9" />
-    <public type="array" name="lib_hex_expocomp_entries" id="0x7f0300da" />
-    <public type="array" name="lib_hex_expocomp_entryvalues" id="0x7f0300db" />
-    <public type="array" name="lib_hex_exposuredarker2_entries" id="0x7f0300dc" />
-    <public type="array" name="lib_hex_exposuredarker2_entryvalues" id="0x7f0300dd" />
-    <public type="array" name="lib_hex_exposuredarker_entries" id="0x7f0300de" />
-    <public type="array" name="lib_hex_exposuredarker_entryvalues" id="0x7f0300df" />
-    <public type="array" name="lib_hex_shastamerge3_entries" id="0x7f0300e0" />
-    <public type="array" name="lib_hex_shastamerge3_entryvalues" id="0x7f0300e1" />
-    <public type="array" name="lib_hex_savmergchrden_entries" id="0x7f0300e2" />
-    <public type="array" name="lib_hex_hotpixelsuppres_entries" id="0x7f0300e3" />
-    <public type="array" name="lib_hex_bayernmodhal1_entries" id="0x7f0300e4" />
-    <public type="array" name="lib_hex_bayernmodhal1_entryvalues" id="0x7f0300e5" />
-    <public type="array" name="lib_hex_shotnoisefactor_entries" id="0x7f0300e6" />
-    <public type="array" name="lib_hex_noisemodelshot_entries" id="0x7f0300e7" />
-    <public type="array" name="lib_hex_noisemodelshot_entryvalues" id="0x7f0300e8" />
-    <public type="array" name="lib_hex_tuncolsatpar_entries" id="0x7f0300e9" />
-    <public type="array" name="lib_hex_bluecor2_entries" id="0x7f0300ea" />
-    <public type="array" name="lib_hex_bluecor2_entryvalues" id="0x7f0300eb" />
-    <public type="array" name="lib_hex_color_entries" id="0x7f0300ec" />
-    <public type="array" name="lib_hex_color_entryvalues" id="0x7f0300ed" />
-    <public type="array" name="lib_hex_contr3a_entries" id="0x7f0300ee" />
-    <public type="array" name="lib_hex_contr3a_entryvalues" id="0x7f0300ef" />
-    <public type="array" name="lib_hex_contr3b_entries" id="0x7f0300f0" />
-    <public type="array" name="lib_hex_contr3b_entryvalues" id="0x7f0300f1" />
-    <public type="array" name="lib_hex_hdreffect_entries" id="0x7f0300f2" />
-    <public type="array" name="lib_hex_hdreffect_entryvalues" id="0x7f0300f3" />
-    <public type="array" name="lib_hex_whitelevel_entries" id="0x7f0300f4" />
-    <public type="array" name="lib_hex_whitelevel_entryvalues" id="0x7f0300f5" />
-    <public type="array" name="lib_hex_shadowtuning_entries" id="0x7f0300f6" />
-    <public type="array" name="lib_hex_shadowtuning_entryvalues" id="0x7f0300f7" />
-    <public type="array" name="lib_hex_softcontrast_entries" id="0x7f0300f8" />
-    <public type="array" name="lib_hex_softcontrast_entryvalues" id="0x7f0300f9" />
-    <public type="array" name="lib_hex_bluecor_entries" id="0x7f0300fa" />
-    <public type="array" name="lib_hex_bluecor_entryvalues" id="0x7f0300fb" />
-    <public type="array" name="lib_hex_hdroverlight_entries" id="0x7f0300fc" />
-    <public type="array" name="lib_hex_hdroverlight_entryvalues" id="0x7f0300fd" />
-    <public type="array" name="lib_hex_softsharpb_entryvalues" id="0x7f0300fe" />
-    <public type="array" name="lib_hex_softsharpc_entryvalues" id="0x7f0300ff" />
-    <public type="array" name="lib_hex_raisrzftuning2_entries" id="0x7f030100" />
     <public type="array" name="dabl_entries" id="0x7f030101" />
     <public type="array" name="dabl_entryvalues" id="0x7f030102" />
-    <public type="array" name="lib_hex_lumadnewa_entries" id="0x7f030103" />
-    <public type="array" name="lib_hex_lumadnewa_entryvalues" id="0x7f030104" />
-    <public type="array" name="lib_hex_lumadnewb_entries" id="0x7f030105" />
-    <public type="array" name="lib_hex_sharpdrad_entries" id="0x7f030106" />
-    <public type="array" name="lib_hex_sharpdrad_entryvalues" id="0x7f030107" />
-    <public type="array" name="lib_hex_lutnoisefix1_entries" id="0x7f030108" />
-    <public type="array" name="pref_libs_entries" id="0x7f03010b" />
-    <public type="array" name="pref_libs_entryvalues" id="0x7f03010c" />
     <public type="array" name="raw_entries" id="0x7f03010d" />
     <public type="array" name="raw_entryvalues" id="0x7f03010e" />
     <public type="array" name="pref_aemodef_entries" id="0x7f03010f" />
     <public type="array" name="pref_aemodef_entryvalues" id="0x7f030110" />
     <public type="array" name="pref_exposure_max_time_entries" id="0x7f030111" />
     <public type="array" name="pref_exposure_max_time_entryvalues" id="0x7f030112" />
-    <public type="array" name="lib_hex_nightexposition_entries" id="0x7f030113" />
-    <public type="array" name="lib_hex_nightexposition_entryvalues" id="0x7f030114" />
-    <public type="array" name="lib_hex_sensorid_entries" id="0x7f030115" />
-    <public type="array" name="lib_hex_sensorid_entryvalues" id="0x7f030116" />
-    <public type="array" name="lib_hex_ldr_entries" id="0x7f030117" />
-    <public type="array" name="lib_hex_ldr_entryvalues" id="0x7f030118" />
-    <public type="array" name="lib_raw_compress_entries" id="0x7f030119" />
-    <public type="array" name="lib_raw_compress_entryvalues" id="0x7f03011a" />
-    <public type="array" name="lib_nightmodegain_entries" id="0x7f03011b" />
-    <public type="array" name="lib_nightmodegain_entryvalues" id="0x7f03011c" />
-    <public type="array" name="lib_hex_shadowcompens_entries" id="0x7f03011d" />
-    <public type="array" name="lib_hex_shadowcompens_entryvalues" id="0x7f03011e" />
-    <public type="array" name="lib_hex_levelluma_preset_entryvalues" id="0x7f03011f" />
-    <public type="array" name="lib_hex_levelluma_preset_entries" id="0x7f030120" />
-    <public type="array" name="lib_hex_initparams_entryvalues" id="0x7f030121" />
-    <public type="array" name="lib_hex_initparams_entries" id="0x7f030122" />
-    <public type="array" name="lib_hex_sharpgainm_entries" id="0x7f030123" />
-    <public type="array" name="lib_hex_sharpgainm_entryvalues" id="0x7f030124" />
-    <public type="array" name="lib_hex_sharpgain_entries" id="0x7f030125" />
-    <public type="array" name="lib_hex_sharpgain_entryvalues" id="0x7f030126" />
-    <public type="array" name="lib_hex_relativetetfactor_entries" id="0x7f030127" />
-    <public type="array" name="lib_hex_relativetetfactor_entryvalues" id="0x7f030128" />
-    <public type="array" name="lib_hex_dframeswithtetm_entries" id="0x7f030129" />
-    <public type="array" name="lib_hex_dframeswithtetm_entryvalues" id="0x7f03012a" />
-    <public type="array" name="lib_hex_dehazed2_entries" id="0x7f03012b" />
-    <public type="array" name="lib_hex_dehazed2_entryvalues" id="0x7f03012c" />
-    <public type="array" name="lib_hex_lasintens_entries" id="0x7f03012d" />
-    <public type="array" name="lib_hex_lasintens_entryvalues" id="0x7f03012e" />
-    <public type="array" name="lib_hex_brightintens_entries" id="0x7f03012f" />
-    <public type="array" name="lib_hex_brightintens_entryvalues" id="0x7f030130" />
     <public type="array" name="pref_exynos_entries" id="0x7f030131" />
     <public type="array" name="pref_exynos_entryvalues" id="0x7f030132" />
     <public type="array" name="pref_curve_mode2_entries" id="0x7f030133" />
     <public type="array" name="pref_curve_mode2_entryvalues" id="0x7f030134" />
     <public type="array" name="pref_disabledenabled_entries" id="0x7f030135" />
-    <public type="array" name="pref_curve_mode3_entries" id="0x7f030136" />
-    <public type="array" name="pref_curve_mode3_entryvalues" id="0x7f030137" />
-    <public type="array" name="lib_hex_sabre3_entries" id="0x7f030138" />
-    <public type="array" name="lib_hex_sabre3_entryvalues" id="0x7f030139" />
-    <public type="array" name="lib_hex_gamma_entries" id="0x7f03013a" />
-    <public type="array" name="lib_hex_gamma_entryvalues" id="0x7f03013b" />
-    <public type="array" name="lib_hex_tone_entries" id="0x7f03013c" />
-    <public type="array" name="lib_hex_tone_entryvalues" id="0x7f03013d" />
     <public type="array" name="pref_slowmofps_entries" id="0x7f03013e" />
     <public type="array" name="pref_slowmofps_entryvalues" id="0x7f03013f" />
     <public type="array" name="pref_slowmofps1_entries" id="0x7f030140" />
@@ -416,10 +182,6 @@
     <public type="array" name="pref_focus_value_entryvalues" id="0x7f03014f" />
     <public type="array" name="pref_set_focus_entries" id="0x7f030150" />
     <public type="array" name="pref_set_focus_entryvalues" id="0x7f030151" />
-    <public type="array" name="lib_hex_sabremotionfix_entries" id="0x7f030154" />
-    <public type="array" name="lib_hex_sabremotionfix_entryvalues" id="0x7f030155" />
-    <public type="array" name="lib_hex_redgreen_entries" id="0x7f030156" />
-    <public type="array" name="lib_hex_redgreen_entryvalues" id="0x7f030157" />
     <public type="array" name="pref_sabre_entries" id="0x7f030158" />
     <public type="array" name="pref_sabre_entryvalues" id="0x7f030159" />
     <public type="array" name="pref_noise_iso_entries" id="0x7f03015a" />
@@ -5265,7 +5027,6 @@
     <public type="drawable" name="quantum_gm_ic_people_white_24" id="0x7f080628" />
     <public type="drawable" name="quantum_ic_keyboard_arrow_down_white_24" id="0x7f080629" />
     <public type="drawable" name="quantum_gm_ic_phone_android_vd_theme_24" id="0x7f08062a" />
-    <public type="drawable" name="quantum_ic_lib_grey_24" id="0x7f08062b" />
     <public type="drawable" name="quantum_gm_ic_photo_camera_gm_grey_24" id="0x7f08062c" />
     <public type="drawable" name="raisr" id="0x7f08062d" />
     <public type="drawable" name="quantum_gm_ic_portrait_vd_theme_24" id="0x7f08062e" />
@@ -5357,7 +5118,6 @@
     <public type="drawable" name="xmlsave" id="0x7f080684" />
     <public type="drawable" name="yuv_large_off" id="0x7f080685" />
     <public type="drawable" name="quantum_ic_panorama_photosphere_white_24" id="0x7f080686" />
-    <public type="drawable" name="baseline_auto_fix_high_white_20" id="0x7f080687" />
     <public type="drawable" name="lib_patcher" id="0x7f080688" />
     <public type="drawable" name="quantum_ic_pause_white_24" id="0x7f080689" />
     <public type="drawable" name="quantum_ic_phone_white_24" id="0x7f08068a" />
@@ -5369,12 +5129,6 @@
     <public type="drawable" name="patcher_icon" id="0x7f080690" />
     <public type="drawable" name="ram_patcher" id="0x7f080691" />
     <public type="drawable" name="toggle_on_off" id="0x7f080692" />
-    <public type="drawable" name="hsl_expocorrect" id="0x7f080693" />
-    <public type="drawable" name="hsl_exposure" id="0x7f080694" />
-    <public type="drawable" name="hsl_lens_1" id="0x7f080695" />
-    <public type="drawable" name="hsl_lens_2" id="0x7f080696" />
-    <public type="drawable" name="hsl_lens_3" id="0x7f080697" />
-    <public type="drawable" name="hsl_lens_4" id="0x7f080698" />
     <public type="drawable" name="remote_control_view_background" id="0x7f080699" />
     <public type="drawable" name="resume_center_circle" id="0x7f08069a" />
     <public type="drawable" name="retouching_edu_option_selected" id="0x7f08069b" />
@@ -5384,8 +5138,6 @@
     <public type="drawable" name="retouching_edu_optionbar" id="0x7f08069f" />
     <public type="drawable" name="retouching_edu_optionbar_legacy" id="0x7f0806a0" />
     <public type="drawable" name="review_image_overlay" id="0x7f0806a1" />
-    <public type="drawable" name="hsl_lens_5" id="0x7f0806a2" />
-    <public type="drawable" name="hsl_lens_front" id="0x7f0806a3" />
     <public type="drawable" name="rounded_rect_grey_bottom" id="0x7f0806a4" />
     <public type="drawable" name="rounded_rect_grey_bottom_inset" id="0x7f0806a5" />
     <public type="drawable" name="rounded_rect_grey_bottom_unselected" id="0x7f0806a6" />
@@ -5396,7 +5148,6 @@
     <public type="drawable" name="rounded_rect_grey_top_inset" id="0x7f0806ab" />
     <public type="drawable" name="scrollbar_vertical_thumb" id="0x7f0806ac" />
     <public type="drawable" name="seekbar_progress" id="0x7f0806ad" />
-    <public type="drawable" name="hsl_lightandshadow" id="0x7f0806ae" />
     <public type="drawable" name="selected_item_background" id="0x7f0806af" />
     <public type="drawable" name="settingslib_progress_horizontal" id="0x7f0806b0" />
     <public type="drawable" name="settingslib_switch_thumb" id="0x7f0806b1" />
@@ -5413,10 +5164,7 @@
     <public type="drawable" name="social_open_close_icon" id="0x7f0806bc" />
     <public type="drawable" name="social_processing_background" id="0x7f0806bd" />
     <public type="drawable" name="hsl_modname" id="0x7f0806be" />
-    <public type="drawable" name="hsl_pat_extra" id="0x7f0806bf" />
     <public type="drawable" name="social_target_placeholder" id="0x7f0806c0" />
-    <public type="drawable" name="hsl_pat_processing" id="0x7f0806c1" />
-    <public type="drawable" name="hsl_patcher" id="0x7f0806c2" />
     <public type="drawable" name="standalone_settings_background" id="0x7f0806c3" />
     <public type="drawable" name="storage_progress" id="0x7f0806c4" />
     <public type="drawable" name="storage_progress_low" id="0x7f0806c5" />
@@ -5434,8 +5182,6 @@
     <public type="drawable" name="timer_3_on_shutter" id="0x7f0806d1" />
     <public type="drawable" name="timer_3_on_shutter_night" id="0x7f0806d2" />
     <public type="drawable" name="timer_option_auto_24px" id="0x7f0806d3" />
-    <public type="drawable" name="hsl_sabre" id="0x7f0806d4" />
-    <public type="drawable" name="hsl_sabrelevel" id="0x7f0806d5" />
     <public type="drawable" name="toast_background" id="0x7f0806d6" />
     <public type="drawable" name="toggle_inner_circle_pressed" id="0x7f0806d7" />
     <public type="drawable" name="toggle_inner_circle_pressed_legacy" id="0x7f0806d8" />
@@ -5448,12 +5194,9 @@
     <public type="drawable" name="tooltip_frame_dark" id="0x7f0806df" />
     <public type="drawable" name="tooltip_frame_light" id="0x7f0806e0" />
     <public type="drawable" name="top_shot_background" id="0x7f0806e1" />
-    <public type="drawable" name="hsl_sharp" id="0x7f0806e2" />
     <public type="drawable" name="value_icon_background" id="0x7f0806e3" />
     <public type="drawable" name="value_icon_background_inner" id="0x7f0806e4" />
-    <public type="drawable" name="hsl_smoothing" id="0x7f0806e5" />
     <public type="drawable" name="viewfinder_rounded_background" id="0x7f0806e6" />
-    <public type="drawable" name="hsl_smoothing_level" id="0x7f0806e7" />
     <public type="drawable" name="quantum_gm_ic_arrow_gm_grey_244" id="0x7f0806e8" />
     <public type="drawable" name="camera_timer" id="0x7f0806e9" />
     <public type="drawable" name="ic_aemode" id="0x7f0806ea" />
@@ -5462,11 +5205,7 @@
     <public type="drawable" name="ic_camera_rear_24" id="0x7f0806ed" />
     <public type="drawable" name="zoom_lock_buttom" id="0x7f0806f6" />
     <public type="drawable" name="zoom_lock_shape" id="0x7f0806f7" />
-    <public type="drawable" name="hsl_curve" id="0x7f0806fb" />
-    <public type="drawable" name="hsl_manual" id="0x7f080707" />
-    <public type="drawable" name="hsl_switch" id="0x7f080712" />
     <public type="drawable" name="enabled_button" id="0x7f080719" />
-    <public type="drawable" name="hsl_pat_processing1" id="0x7f08071a" />
     <public type="drawable" name="enabled_button_urnyx05" id="0x7f08071b" />
     <public type="drawable" name="video_reso" id="0x7f08071c" />
     <public type="drawable" name="abc_1_shortcuts_nightsight" id="0x7f08071d" />
@@ -5513,7 +5252,6 @@
     <public type="drawable" name="hsl_bitrate" id="0x7f0806f3" />
     <public type="drawable" name="hsl_bl" id="0x7f0806f4" />
     <public type="drawable" name="hsl_c2a" id="0x7f0806f5" />
-    <public type="drawable" name="hsl_color" id="0x7f0806f8" />
     <public type="drawable" name="hsl_confimport" id="0x7f0806f9" />
     <public type="drawable" name="hsl_ct" id="0x7f0806fa" />
     <public type="drawable" name="hsl_dcip3" id="0x7f0806fc" />
@@ -5524,7 +5262,6 @@
     <public type="drawable" name="hsl_hdrframe" id="0x7f080701" />
     <public type="drawable" name="hsl_hexagon" id="0x7f080702" />
     <public type="drawable" name="hsl_jpg" id="0x7f080703" />
-    <public type="drawable" name="hsl_ldr" id="0x7f080704" />
     <public type="drawable" name="hsl_leica" id="0x7f080705" />
     <public type="drawable" name="hsl_load" id="0x7f080706" />
     <public type="drawable" name="hsl_manualfocus" id="0x7f080708" />
@@ -5617,7 +5354,6 @@
     <public type="id" name="action_bar_subtitle" id="0x7f0b003b" />
     <public type="id" name="action_bar_title" id="0x7f0b003c" />
     <public type="id" name="action_button" id="0x7f0b003d" />
-    <public type="id" name="LIB" id="0x7f0b003e" />
     <public type="id" name="action_context_bar" id="0x7f0b003f" />
     <public type="id" name="dummy_40" id="0x7f0b0040" />
     <public type="id" name="dummy_41" id="0x7f0b0041" />
@@ -6665,11 +6401,9 @@
     <public type="layout" name="collapsing_toolbar_base_layout" id="0x7f0e0032" />
     <public type="layout" name="cvv_root" id="0x7f0e0035" />
     <public type="layout" name="design_bottom_sheet_dialog" id="0x7f0e0038" />
-    <public type="layout" name="preference_gamma" id="0x7f0e003a" />
     <public type="layout" name="design_layout_tab_icon" id="0x7f0e003b" />
     <public type="layout" name="design_layout_tab_text" id="0x7f0e003c" />
     <public type="layout" name="design_menu_item_action_area" id="0x7f0e003d" />
-    <public type="layout" name="preference_tone" id="0x7f0e003e" />
     <public type="layout" name="design_navigation_menu_item" id="0x7f0e0043" />
     <public type="layout" name="double_tap_bottom_sheet" id="0x7f0e0048" />
     <public type="layout" name="double_tap_bottom_sheet_legacy" id="0x7f0e0049" />
@@ -6812,17 +6546,7 @@
     <public type="layout" name="washington_menu_layout" id="0x7f0e010b" />
     <public type="layout" name="zoom_lock_layout" id="0x7f0e011f" />
     <public type="layout" name="zoom_ui_layout" id="0x7f0e0120" />
-    <public type="layout" name="preference_gamma_2" id="0x7f0e0123" />
-    <public type="layout" name="preference_gamma_3" id="0x7f0e0124" />
-    <public type="layout" name="preference_gamma_4" id="0x7f0e0125" />
-    <public type="layout" name="preference_gamma_5" id="0x7f0e0126" />
-    <public type="layout" name="preference_gamma_front" id="0x7f0e0127" />
     <public type="layout" name="preference_seekbar" id="0x7f0e0128" />
-    <public type="layout" name="preference_tone_2" id="0x7f0e0129" />
-    <public type="layout" name="preference_tone_3" id="0x7f0e012a" />
-    <public type="layout" name="preference_tone_4" id="0x7f0e012b" />
-    <public type="layout" name="preference_tone_5" id="0x7f0e012c" />
-    <public type="layout" name="preference_tone_front" id="0x7f0e012d" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera" id="0x7f110000" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera_launcher" id="0x7f110003" />
     <public type="mipmap" name="adaptiveproduct_pixelcamera_background_color_108" id="0x7f110001" />
@@ -6860,15 +6584,8 @@
     <public type="raw" name="video_pause" id="0x7f13001c" />
     <public type="raw" name="video_start" id="0x7f13001d" />
     <public type="raw" name="video_stop" id="0x7f13001e" />
-    <public type="string" name="hsl_catextra" id="0x7f140000" />
-    <public type="string" name="hsl_catmain" id="0x7f140001" />
-    <public type="string" name="hsl_catsharp" id="0x7f140002" />
-    <public type="string" name="hsl_catexposure" id="0x7f140003" />
     <public type="string" name="abc_action_bar_up_description" id="0x7f140004" />
-    <public type="string" name="hsl_catsabre" id="0x7f140005" />
     <public type="string" name="abc_action_mode_done" id="0x7f140006" />
-    <public type="string" name="hsl_catprocessing" id="0x7f140007" />
-    <public type="string" name="hsl_catdenoise" id="0x7f140008" />
     <public type="string" name="abc_capital_off" id="0x7f140009" />
     <public type="string" name="abc_capital_on" id="0x7f14000a" />
     <public type="string" name="abc_menu_alt_shortcut_label" id="0x7f14000b" />
@@ -6883,19 +6600,15 @@
     <public type="string" name="abc_prepend_shortcut_label" id="0x7f140014" />
     <public type="string" name="abc_search_hint" id="0x7f140015" />
     <public type="string" name="abc_searchview_description_clear" id="0x7f140016" />
-    <public type="string" name="hsl_catlightandshadow" id="0x7f140017" />
     <public type="string" name="abc_searchview_description_search" id="0x7f140018" />
     <public type="string" name="abc_searchview_description_submit" id="0x7f140019" />
     <public type="string" name="abc_searchview_description_voice" id="0x7f14001a" />
-    <public type="string" name="hsl_catleveldenoise" id="0x7f14001b" />
-    <public type="string" name="hsl_catleveldenoise2" id="0x7f14001c" />
     <public type="string" name="abc_toolbar_collapse_description" id="0x7f14001d" />
     <public type="string" name="about_mars_desc" id="0x7f14001e" />
     <public type="string" name="about_mars_desc_2" id="0x7f14001f" />
     <public type="string" name="about_mars_title" id="0x7f140020" />
     <public type="string" name="accessibility_autotimer_start" id="0x7f140021" />
     <public type="string" name="accessibility_autotimer_stop" id="0x7f140022" />
-    <public type="string" name="hsl_catlevelsabre" id="0x7f140023" />
     <public type="string" name="accessibility_back_to_video_description" id="0x7f140024" />
     <public type="string" name="accessibility_cancel_button" id="0x7f140025" />
     <public type="string" name="accessibility_capture_imax_start" id="0x7f140026" />
@@ -6931,18 +6644,12 @@
     <public type="string" name="accessibility_take_catshark_photo_button" id="0x7f140044" />
     <public type="string" name="accessibility_take_catshark_portrait_button" id="0x7f140045" />
     <public type="string" name="accessibility_take_lasagna_button" id="0x7f140046" />
-    <public type="string" name="hsl_lens_1" id="0x7f140047" />
     <public type="string" name="accessibility_take_photo_button" id="0x7f140048" />
     <public type="string" name="accessibility_take_photosphere_button" id="0x7f140049" />
     <public type="string" name="accessibility_take_portrait_button" id="0x7f14004a" />
     <public type="string" name="accessibility_timelapse_record_speed_desc" id="0x7f14004b" />
-    <public type="string" name="hsl_lens_2" id="0x7f14004c" />
-    <public type="string" name="hsl_lens_3" id="0x7f14004d" />
-    <public type="string" name="hsl_lens_4" id="0x7f14004e" />
-    <public type="string" name="hsl_lens_5" id="0x7f14004f" />
     <public type="string" name="accessibility_video_mode_desc" id="0x7f140050" />
     <public type="string" name="accessibility_video_output_length_description" id="0x7f140051" />
-    <public type="string" name="hsl_lens_front" id="0x7f140052" />
     <public type="string" name="hsl_screenpatcher" id="0x7f140053" />
     <public type="string" name="hsl_screenpatcher_desc" id="0x7f140054" />
     <public type="string" name="pref_aemode_6" id="0x7f140055" />
@@ -7021,7 +6728,6 @@
     <public type="string" name="burst_name" id="0x7f14009e" />
     <public type="string" name="pref_exposure_max_time_5" id="0x7f14009f" />
     <public type="string" name="pref_aemode_5" id="0x7f1400a0" />
-    <public type="string" name="hsl_catcolor" id="0x7f1400a1" />
     <public type="string" name="hsl_functionphoto" id="0x7f1400a2" />
     <public type="string" name="hsl_functionphoto_desc" id="0x7f1400a3" />
     <public type="string" name="hsl_screenexposure" id="0x7f1400a4" />
@@ -7218,7 +6924,6 @@
     <public type="string" name="hsl_screenaux" id="0x7f140163" />
     <public type="string" name="hsl_catauxbutton" id="0x7f140164" />
     <public type="string" name="hsl_catmanual" id="0x7f140165" />
-    <public type="string" name="hsl_nightmod" id="0x7f140166" />
     <public type="string" name="hsl_isoexposureastro" id="0x7f140167" />
     <public type="string" name="hsl_isoexposureoneshot" id="0x7f140168" />
     <public type="string" name="hsl_astrodef" id="0x7f140169" />
@@ -7226,13 +6931,10 @@
     <public type="string" name="expand_button_title" id="0x7f14016b" />
     <public type="string" name="hsl_ldrmain" id="0x7f14016c" />
     <public type="string" name="exposure_knob_description" id="0x7f14016d" />
-    <public type="string" name="hsl_ldrexpo" id="0x7f14016e" />
     <public type="string" name="ext_mic_desc" id="0x7f14016f" />
     <public type="string" name="ext_mic_off_acc_desc" id="0x7f140170" />
-    <public type="string" name="hsl_ldrhdr" id="0x7f140171" />
     <public type="string" name="ext_mic_off_option_desc" id="0x7f140172" />
     <public type="string" name="ext_mic_on_acc_desc" id="0x7f140173" />
-    <public type="string" name="hsl_ldrextra" id="0x7f140174" />
     <public type="string" name="ext_mic_on_option_desc" id="0x7f140175" />
     <public type="string" name="ext_mic_options_desc" id="0x7f140176" />
     <public type="string" name="external_bluetooth_mic_connected" id="0x7f140177" />
@@ -7257,7 +6959,6 @@
     <public type="string" name="faceretouch_on_light_option_desc" id="0x7f14018a" />
     <public type="string" name="faceretouch_on_strong_acc_desc" id="0x7f14018b" />
     <public type="string" name="faceretouch_on_strong_option_desc" id="0x7f14018c" />
-    <public type="string" name="hsl_ldrlight" id="0x7f14018d" />
     <public type="string" name="feedback_description_empty" id="0x7f14018e" />
     <public type="string" name="hsl_confimport" id="0x7f14018f" />
     <public type="string" name="first_run_done" id="0x7f140190" />
@@ -7276,10 +6977,6 @@
     <public type="string" name="hsl_libsave" id="0x7f14019d" />
     <public type="string" name="hsl_libload" id="0x7f14019e" />
     <public type="string" name="hsl_infolibsignature" id="0x7f14019f" />
-    <public type="string" name="hsl_curves" id="0x7f1401a0" />
-    <public type="string" name="hsl_tonecurve" id="0x7f1401a1" />
-    <public type="string" name="hsl_gammacurve" id="0x7f1401a2" />
-    <public type="string" name="hsl_enablecurve" id="0x7f1401a3" />
     <public type="string" name="four_by_three" id="0x7f1401a4" />
     <public type="string" name="four_by_three_desc" id="0x7f1401a5" />
     <public type="string" name="fps_24" id="0x7f1401a6" />
@@ -7290,16 +6987,12 @@
     <public type="string" name="fps_60_desc" id="0x7f1401ab" />
     <public type="string" name="fps_auto" id="0x7f1401ac" />
     <public type="string" name="fps_auto_desc" id="0x7f1401ad" />
-    <public type="string" name="hsl_entrymodecurve" id="0x7f1401ae" />
-    <public type="string" name="hsl_entrypresetcurve" id="0x7f1401af" />
     <public type="string" name="fps_option_desc" id="0x7f1401b0" />
     <public type="string" name="fps_options_desc" id="0x7f1401b1" />
     <public type="string" name="frequent_faces_info" id="0x7f1401b2" />
     <public type="string" name="frequent_faces_learn_more" id="0x7f1401b3" />
     <public type="string" name="frequent_faces_off" id="0x7f1401b4" />
     <public type="string" name="frequent_faces_on" id="0x7f1401b5" />
-    <public type="string" name="hsl_curvepoint" id="0x7f1401b6" />
-    <public type="string" name="hsl_curveparametric" id="0x7f1401b7" />
     <public type="string" name="gcam_HDR_plus_enhanced_processing" id="0x7f1401b8" />
     <public type="string" name="hsl_hdrnet" id="0x7f1401b9" />
     <public type="string" name="hsl_tf" id="0x7f1401ba" />

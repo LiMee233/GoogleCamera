@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hsl_catextra">Advanced Settings</string>
-    <string name="hsl_catmain">Main settings</string>
-    <string name="hsl_catsharp">Sharpness</string>
-    <string name="hsl_catexposure">Exposure</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
-    <string name="hsl_catsabre">Sabre</string>
     <string name="abc_action_mode_done">Done</string>
-    <string name="hsl_catprocessing">Processing</string>
-    <string name="hsl_catdenoise">Noise reduction</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_menu_alt_shortcut_label">Alt+</string>
@@ -23,19 +16,15 @@
     <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
-    <string name="hsl_catlightandshadow">Light and Shadow</string>
     <string name="abc_searchview_description_search">Search</string>
     <string name="abc_searchview_description_submit">Submit query</string>
     <string name="abc_searchview_description_voice">Voice search</string>
-    <string name="hsl_catleveldenoise">Subtle levels of noise reduction</string>
-    <string name="hsl_catleveldenoise2">Subtle denoise levels 2</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_mars_desc">Save photos and videos to a private storage space in Google Photos on your device</string>
     <string name="about_mars_desc_2">Easily move photos and videos to Locked Folder or back to your gallery</string>
     <string name="about_mars_title">Keep photos and videos private</string>
     <string name="accessibility_autotimer_start">Start auto-timer</string>
     <string name="accessibility_autotimer_stop">Stop auto-timer</string>
-    <string name="hsl_catlevelsabre">Subtle Saber Levels</string>
     <string name="accessibility_back_to_video_description">Back to normal video mode</string>
     <string name="accessibility_cancel_button">Cancel</string>
     <string name="accessibility_capture_imax_start">Start panorama</string>
@@ -71,18 +60,12 @@
     <string name="accessibility_take_catshark_photo_button">Take Night Sight in Camera</string>
     <string name="accessibility_take_catshark_portrait_button">Take Night Sight in Portrait</string>
     <string name="accessibility_take_lasagna_button">Take Motion mode photo</string>
-    <string name="hsl_lens_1">Main lens</string>
     <string name="accessibility_take_photo_button">Take photo</string>
     <string name="accessibility_take_photosphere_button">Take photosphere</string>
     <string name="accessibility_take_portrait_button">Take portrait</string>
     <string name="accessibility_timelapse_record_speed_desc">Time Lapse %dx speed</string>
-    <string name="hsl_lens_2">Tele lens</string>
-    <string name="hsl_lens_3">Wide lens</string>
-    <string name="hsl_lens_4">ID4 lens</string>
-    <string name="hsl_lens_5">ID5 lens</string>
     <string name="accessibility_video_mode_desc">Normal Video Mode</string>
     <string name="accessibility_video_output_length_description">Output video length %1$s</string>
-    <string name="hsl_lens_front">Front lens</string>
     <string name="hsl_screenpatcher">Photo Processing</string>
     <string name="hsl_screenpatcher_desc">A lot of settings that make changes to the Google camera library</string>
     <string name="pref_aemode_6">Time 32.0s</string>
@@ -163,7 +146,6 @@ Clean your lens for better photo quality."</string>
     <string name="burst_name">Smartburst</string>
     <string name="pref_exposure_max_time_5">Max. Exposure Time</string>
     <string name="pref_aemode_5">ISO 100/Time max</string>
-    <string name="hsl_catcolor">Color</string>
     <string name="hsl_functionphoto">Processing functions</string>
     <string name="hsl_functionphoto_desc">Advanced settings for photo processing functions</string>
     <string name="hsl_screenexposure">Shutter speed and exposure compensation</string>
@@ -360,7 +342,6 @@ Clean your lens for better photo quality."</string>
     <string name="hsl_screenaux">Additional cameras</string>
     <string name="hsl_catauxbutton">Show buttons on viewfinder</string>
     <string name="hsl_catmanual">Manual setup</string>
-    <string name="hsl_nightmod">Night mode</string>
     <string name="hsl_isoexposureastro">Astro Shutter Priority</string>
     <string name="hsl_isoexposureoneshot">Shutter priority Light painting</string>
     <string name="hsl_astrodef">Default Astro</string>
@@ -368,13 +349,10 @@ Clean your lens for better photo quality."</string>
     <string name="expand_button_title">Advanced</string>
     <string name="hsl_ldrmain">Main</string>
     <string name="exposure_knob_description">Exposure knob</string>
-    <string name="hsl_ldrexpo">Exposure</string>
     <string name="ext_mic_desc">External mic</string>
     <string name="ext_mic_off_acc_desc">"Use phone's microphone"</string>
-    <string name="hsl_ldrhdr">HDR</string>
     <string name="ext_mic_off_option_desc">Off</string>
     <string name="ext_mic_on_acc_desc">Use external microphone</string>
-    <string name="hsl_ldrextra">Optional</string>
     <string name="ext_mic_on_option_desc">On</string>
     <string name="ext_mic_options_desc">External microphone options</string>
     <string name="external_bluetooth_mic_connected">Bluetooth mic connected. Tap arrow to change.</string>
@@ -399,7 +377,6 @@ Clean your lens for better photo quality."</string>
     <string name="faceretouch_on_light_option_desc">Subtle</string>
     <string name="faceretouch_on_strong_acc_desc">Face retouching smooth</string>
     <string name="faceretouch_on_strong_option_desc">Smooth</string>
-    <string name="hsl_ldrlight">Light and Shadow</string>
     <string name="feedback_description_empty" />
     <string name="hsl_confimport">Import ready-made configs</string>
     <string name="first_run_done">Done</string>
@@ -418,10 +395,6 @@ Clean your lens for better photo quality."</string>
     <string name="hsl_libsave">Save the library in /Shamim/patchedlibs/</string>
     <string name="hsl_libload">You can load a lib from the /Shamim/libs/ directory. Select (Custom Lib from Dir) and select the lib file</string>
     <string name="hsl_infolibsignature">How to sign a lib?</string>
-    <string name="hsl_curves">Set Curves</string>
-    <string name="hsl_tonecurve">Tone Curve</string>
-    <string name="hsl_gammacurve">Gamma Curve</string>
-    <string name="hsl_enablecurve">Apply Curve</string>
     <string name="four_by_three">Full image (4:3)</string>
     <string name="four_by_three_desc">full image four by three</string>
     <string name="fps_24">24</string>
@@ -432,8 +405,6 @@ Clean your lens for better photo quality."</string>
     <string name="fps_60_desc">60 frames per second</string>
     <string name="fps_auto">Auto</string>
     <string name="fps_auto_desc">Auto frames per second</string>
-    <string name="hsl_entrymodecurve">Select Active Mode</string>
-    <string name="hsl_entrypresetcurve">Select curve preset</string>
     <string name="fps_option_desc">Frames/sec</string>
     <string name="fps_options_desc">Frames per second options</string>
     <string name="frequent_faces_info">"When you take Top Shot photos or touch and hold for Top Shot, Frequent Faces prioritizes the people you photograph most.
@@ -450,8 +421,6 @@ Frequent Faces won’t be available when saving photos and videos to Locked Fold
     <string name="frequent_faces_learn_more">Learn more</string>
     <string name="frequent_faces_off">Off</string>
     <string name="frequent_faces_on">On</string>
-    <string name="hsl_curvepoint">Set start points</string>
-    <string name="hsl_curveparametric">Parametric Curve</string>
     <string name="gcam_HDR_plus_enhanced_processing">Taking HDR+ enhanced photo</string>
     <string name="hsl_hdrnet">HDRNet shooting mode</string>
     <string name="hsl_tf">Tracking focus</string>

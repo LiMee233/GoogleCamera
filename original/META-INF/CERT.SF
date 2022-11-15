@@ -6067,9 +6067,6 @@ Name: res/drawable-ldrtl-xxxhdpi-v4/quantum_ic_keyboard_arrow_up_white
  _24.png
 SHA1-Digest: JtlDnuHkrZ2qCHryC1un8JJ9QW4=
 
-Name: res/drawable-ldrtl-xxxhdpi-v4/quantum_ic_lib_grey_24.png
-SHA1-Digest: CEAPWBgkwb4LqozO4nDwlDmVaKs=
-
 Name: res/drawable-ldrtl-xxxhdpi-v4/quantum_ic_location_on_white_24.pn
  g
 SHA1-Digest: H/Pm+6LB+YRFXJptyK8vEXDI4Fg=
@@ -7436,26 +7433,14 @@ SHA1-Digest: GsE93zxCG4vrTEFLzG3TPy+naZ4=
 Name: res/drawable-xxhdpi-v4/hsl_c2a.png
 SHA1-Digest: l5BXiNX8OYZNRx2LfFQezTHz3bk=
 
-Name: res/drawable-xxhdpi-v4/hsl_color.png
-SHA1-Digest: 4JYn05NHzuuvm3DnKX6Jj4Hc0pg=
-
 Name: res/drawable-xxhdpi-v4/hsl_confimport.png
 SHA1-Digest: 3Alewoi9I5NW8WORnr/X3Y4BgN4=
 
 Name: res/drawable-xxhdpi-v4/hsl_ct.png
 SHA1-Digest: 8n01oqRA1Ho6pae1k96BA/dGYis=
 
-Name: res/drawable-xxhdpi-v4/hsl_curve.png
-SHA1-Digest: q+fxIRQViD4f9f64y23Nooqf6r8=
-
 Name: res/drawable-xxhdpi-v4/hsl_dcip3.png
 SHA1-Digest: 8OKBVi2mbgy/K64ubRA9Cl0CDuA=
-
-Name: res/drawable-xxhdpi-v4/hsl_expocorrect.png
-SHA1-Digest: 8Fj11mROr+9jBO5NVCWybXBasJA=
-
-Name: res/drawable-xxhdpi-v4/hsl_exposure.png
-SHA1-Digest: BHA7cLcI7TFE98IMFN2tZIfhPc4=
 
 Name: res/drawable-xxhdpi-v4/hsl_focusmode.png
 SHA1-Digest: YR9OaxNbDfstyCwOp/YKgRdN7i0=
@@ -7478,38 +7463,11 @@ SHA1-Digest: jgpGrzGWvbsDUrRyleCx61ZXtNo=
 Name: res/drawable-xxhdpi-v4/hsl_jpg.png
 SHA1-Digest: qr70r8eQH+4kvXoiHLAwV/cLhhQ=
 
-Name: res/drawable-xxhdpi-v4/hsl_ldr.png
-SHA1-Digest: zn2BLx9lymwEWnjZFnjIVA29ing=
-
 Name: res/drawable-xxhdpi-v4/hsl_leica.png
 SHA1-Digest: /+WOF97YO4wEzPumipfVhD0NEec=
 
-Name: res/drawable-xxhdpi-v4/hsl_lens_1.png
-SHA1-Digest: B21PC9vz8+JrRETffgMu7t0Tb6k=
-
-Name: res/drawable-xxhdpi-v4/hsl_lens_2.png
-SHA1-Digest: HWtK52oC2u48pxMpWIfK9l+s5YM=
-
-Name: res/drawable-xxhdpi-v4/hsl_lens_3.png
-SHA1-Digest: uSYgTbuvAFy4SbUt9YcgQ8RAmTE=
-
-Name: res/drawable-xxhdpi-v4/hsl_lens_4.png
-SHA1-Digest: ZgoK86noHwk4E7RIKYXxwL+84fQ=
-
-Name: res/drawable-xxhdpi-v4/hsl_lens_5.png
-SHA1-Digest: OB6eMplEBQYji62TZtOzItAnJjs=
-
-Name: res/drawable-xxhdpi-v4/hsl_lens_front.png
-SHA1-Digest: qHz4qyC6Fe3MRgtCcK65Ikjrd4A=
-
-Name: res/drawable-xxhdpi-v4/hsl_lightandshadow.png
-SHA1-Digest: NGzbTaaRG87joqNMVn90e1KVDeM=
-
 Name: res/drawable-xxhdpi-v4/hsl_load.png
 SHA1-Digest: 0DYTGFwoI9scadB7hHlqS1pTo/k=
-
-Name: res/drawable-xxhdpi-v4/hsl_manual.png
-SHA1-Digest: yGwneYH1KgeJDE42c5nBtSewAiE=
 
 Name: res/drawable-xxhdpi-v4/hsl_manualfocus.png
 SHA1-Digest: zZZLYtd51dFn7G0iWIR8N6LiGeQ=
@@ -7522,15 +7480,6 @@ SHA1-Digest: h/NS+2qaeXM1G+82iBwaGFB3xXw=
 
 Name: res/drawable-xxhdpi-v4/hsl_noisemodel.png
 SHA1-Digest: nEZuG7HG/TkR7HnjupT5hXVOhvY=
-
-Name: res/drawable-xxhdpi-v4/hsl_pat_extra.png
-SHA1-Digest: HTqDqeDiXITEGOuCYW51wPkCYoI=
-
-Name: res/drawable-xxhdpi-v4/hsl_pat_processing.png
-SHA1-Digest: rZxcbMEJPxly6oPqtQGymzLZuVQ=
-
-Name: res/drawable-xxhdpi-v4/hsl_patcher.png
-SHA1-Digest: fPU/QfsXYqh1nQYB3/FYeDDN3D4=
 
 Name: res/drawable-xxhdpi-v4/hsl_prefix.png
 SHA1-Digest: Mt+s9RotpEMrXioE9a90UvFAq7s=
@@ -7547,32 +7496,14 @@ SHA1-Digest: 87OdU1xGfC85dEyUit5/8Q0Zd/c=
 Name: res/drawable-xxhdpi-v4/hsl_resvideo.png
 SHA1-Digest: af+jFTkfackWcO2xIX8xt2eo9JY=
 
-Name: res/drawable-xxhdpi-v4/hsl_sabre.png
-SHA1-Digest: 35h0xNmQABdbG4aJ4V25e3vYbjk=
-
-Name: res/drawable-xxhdpi-v4/hsl_sabrelevel.png
-SHA1-Digest: GTGserD7u+4UKu8V1b7H1q8GbIE=
-
 Name: res/drawable-xxhdpi-v4/hsl_save.png
 SHA1-Digest: GJ0btDShXeDfTyIdsdjTXCxhBHc=
-
-Name: res/drawable-xxhdpi-v4/hsl_sharp.png
-SHA1-Digest: 3Xx/C3aC4wijW7PXFzIBCWf9rhE=
-
-Name: res/drawable-xxhdpi-v4/hsl_smoothing.png
-SHA1-Digest: My/2MhJbJKbs7+tcqf/Epc3hYNY=
-
-Name: res/drawable-xxhdpi-v4/hsl_smoothing_level.png
-SHA1-Digest: XOMZxL1K1cEfEbPx6SexEzjj9dU=
 
 Name: res/drawable-xxhdpi-v4/hsl_standart.png
 SHA1-Digest: 0Ra4qVjOYRiOBQpQWwlRiA6gK0M=
 
 Name: res/drawable-xxhdpi-v4/hsl_style.png
 SHA1-Digest: uaIEzpk80Np1mXBXiyDziJQdYnQ=
-
-Name: res/drawable-xxhdpi-v4/hsl_switch.png
-SHA1-Digest: 4eLidFFs6V36rf+k4lkDi+Sf5tg=
 
 Name: res/drawable-xxhdpi-v4/hsl_theme.png
 SHA1-Digest: RkAwVCVEs84C9lTY6nsc4JMSyiQ=
@@ -11701,9 +11632,6 @@ SHA1-Digest: sHBx04pqcHy0d4SBMw6V6Ct6DXI=
 Name: res/drawable/awwide.png
 SHA1-Digest: BCv/MY7tYRqP8589EjOptYDFuJU=
 
-Name: res/drawable/baseline_auto_fix_high_white_20.png
-SHA1-Digest: cn7KVLP8/xXPwlC/d8FAkbkPCRA=
-
 Name: res/drawable/baseline_camera_white_20.png
 SHA1-Digest: lenw8Kw8MpkAxNfTxnTgJsg4roE=
 
@@ -12147,74 +12075,11 @@ SHA1-Digest: fJHLIaPh0dQHaLsfKvSHKBsYtY0=
 Name: res/drawable/hevc.png
 SHA1-Digest: C8QRxhKZCx3zgytKKLfh6tBcV3g=
 
-Name: res/drawable/hsl_curve.png
-SHA1-Digest: nxMVKC5rN8zLmMf8mmpNpsngerQ=
-
-Name: res/drawable/hsl_expocorrect.png
-SHA1-Digest: YCZKZA4PbDQfl56roeF+kfYXieM=
-
-Name: res/drawable/hsl_exposure.png
-SHA1-Digest: 4nD5IjplvEJnNsFM/UNLnJh2kuQ=
-
-Name: res/drawable/hsl_lens_1.png
-SHA1-Digest: ZIoJPTaafTZjZg/pGTtvK/gFiJw=
-
-Name: res/drawable/hsl_lens_2.png
-SHA1-Digest: l40KYyJ3c9Eu+525B5hH7wehjWI=
-
-Name: res/drawable/hsl_lens_3.png
-SHA1-Digest: Eh8FlSUpU5VpW3w9v0uA11Okw0U=
-
-Name: res/drawable/hsl_lens_4.png
-SHA1-Digest: 4oRhkQwTI+hwCIN4nlKByOuFyBU=
-
-Name: res/drawable/hsl_lens_5.png
-SHA1-Digest: TruhmdK4Bdk09ZNMBdowhv5zooc=
-
-Name: res/drawable/hsl_lens_front.png
-SHA1-Digest: /l7txEP0Oc/kBOfWfdioWSoAY5A=
-
-Name: res/drawable/hsl_lightandshadow.png
-SHA1-Digest: cWD4ifw4fGZJNsOWbOuhVK9ZvuY=
-
-Name: res/drawable/hsl_manual.png
-SHA1-Digest: IzWv+z5vWVtuLrWTo8Wb8Reuezo=
-
 Name: res/drawable/hsl_mod.png
 SHA1-Digest: WTymaFaQTs+pdKqWKKHmcdLZxOg=
 
 Name: res/drawable/hsl_modname.png
 SHA1-Digest: cSf6v9ykJ98hanmNxBGmwdjBf8k=
-
-Name: res/drawable/hsl_pat_extra.png
-SHA1-Digest: qLB/Neif0CyOLA0OK7fU9VbBcis=
-
-Name: res/drawable/hsl_pat_processing.png
-SHA1-Digest: IGFyeG2KQJAmxTwCFJwCRmLiwIw=
-
-Name: res/drawable/hsl_pat_processing1.png
-SHA1-Digest: BfBFLIPZQjIralzpQheN3CMo0/g=
-
-Name: res/drawable/hsl_patcher.png
-SHA1-Digest: sLj+I3TGCgy0ccY+OODlt4Q+4+g=
-
-Name: res/drawable/hsl_sabre.png
-SHA1-Digest: es+wrQ4bkLaY1S6aJkKXXyF+izQ=
-
-Name: res/drawable/hsl_sabrelevel.png
-SHA1-Digest: M6Vo3/PQGZNiVcnBYGniAtUA5Ns=
-
-Name: res/drawable/hsl_sharp.png
-SHA1-Digest: ZSeE4tIVOSvDr+wUaqqbzJsjHHo=
-
-Name: res/drawable/hsl_smoothing.png
-SHA1-Digest: /7v6MEd9G7L6KCWrCrEu3aHNtjY=
-
-Name: res/drawable/hsl_smoothing_level.png
-SHA1-Digest: RvMYPnEsaUlywE74HDrAf2WoXx8=
-
-Name: res/drawable/hsl_switch.png
-SHA1-Digest: UnI68CqgxnuPW+9scX5pRJtkMcU=
 
 Name: res/drawable/ic_4k_24px.xml
 SHA1-Digest: CV/fBYYn1jsY7g/RfoHgq6Nkj8g=
@@ -13339,9 +13204,6 @@ SHA1-Digest: gW7QJbY4QLmU8kY4JE/Zk7+UE64=
 Name: res/drawable/quantum_ic_keyboard_arrow_up_white_24.png
 SHA1-Digest: SJjO7A23rqGtWVfdv0fN57HxSuU=
 
-Name: res/drawable/quantum_ic_lib_grey_24.png
-SHA1-Digest: xkjpAIfFvd5Ol7Nhn99rzdMtZA8=
-
 Name: res/drawable/quantum_ic_location_on_white_24.png
 SHA1-Digest: CfABKsXbZ+B5k8PNd83jjL0O4c4=
 
@@ -14187,24 +14049,6 @@ SHA1-Digest: Sq5cmRlIxqqy//q4wZA1T3hjrFc=
 Name: res/layout/preference_dropdown_material.xml
 SHA1-Digest: HSBx0fUm5SpCYIXKwHDKuv4tGq4=
 
-Name: res/layout/preference_gamma.xml
-SHA1-Digest: IxkVQnxpj6HIqZnfMZPFDGz685c=
-
-Name: res/layout/preference_gamma_2.xml
-SHA1-Digest: EyiEI8VT6g96k9VUzDlAn8e/3+w=
-
-Name: res/layout/preference_gamma_3.xml
-SHA1-Digest: +BRs78mbZv6wk1e+kNjacfFAG20=
-
-Name: res/layout/preference_gamma_4.xml
-SHA1-Digest: Db14IJeB2cxP7ChReiSK8GYVq50=
-
-Name: res/layout/preference_gamma_5.xml
-SHA1-Digest: Bo3TTpdBFwsU7Dp13nztiiCrRXE=
-
-Name: res/layout/preference_gamma_front.xml
-SHA1-Digest: xPzZb6QUliVtteiBUxfA70HuYpA=
-
 Name: res/layout/preference_list_fragment.xml
 SHA1-Digest: pDAQ2NiTG5sGgGJPaMO2Emgp0Co=
 
@@ -14225,24 +14069,6 @@ SHA1-Digest: NE0HzV/O+//zbXxGmhHSU0hgmKs=
 
 Name: res/layout/preference_storage_status_legacy.xml
 SHA1-Digest: z7CgTd/Vl+j+qMY7QhNwmhKW390=
-
-Name: res/layout/preference_tone.xml
-SHA1-Digest: LBRxnFrzzD+ezAw4lD1ymCHxGpU=
-
-Name: res/layout/preference_tone_2.xml
-SHA1-Digest: z4r+hg9GFVy8SNPqcTBGemkZjeM=
-
-Name: res/layout/preference_tone_3.xml
-SHA1-Digest: PkhHL2oVkqRJEr2cjrQ3EhEnY2A=
-
-Name: res/layout/preference_tone_4.xml
-SHA1-Digest: qCWj8jR+bmKnnioyabgLnlQtj0k=
-
-Name: res/layout/preference_tone_5.xml
-SHA1-Digest: HYSNy9kvuwg+LP9tc+Vm/r47u7k=
-
-Name: res/layout/preference_tone_front.xml
-SHA1-Digest: FK+eQlrOr3NTuIB2hsfqynH7LVw=
 
 Name: res/layout/preference_updates.xml
 SHA1-Digest: g9VEEBDXoDI2CoUG6alD422L2Hw=

@@ -399,10 +399,6 @@
 
 .field public static final timer_3_on_shutter_night:I = 0x7f0806d2
 
-.field public static final tmp_ic_photo_camera_front_grey600_24:I = 0x7f0806d4
-
-.field public static final tmp_ic_video_camera_front_gm_grey:I = 0x7f0806d5
-
 .field public static final toggle_inner_circle_pressed:I = 0x7f0806d7
 
 .field public static final toggle_inner_circle_pressed_legacy:I = 0x7f0806d8
@@ -422,8 +418,6 @@
 .field public static final tooltip_frame_dark:I = 0x7f0806df
 
 .field public static final tooltip_frame_light:I = 0x7f0806e0
-
-.field public static final video_switch_icon:I = 0x7f0806e5
 
 .field public static final zoom_lock_buttom:I = 0x7f0806f6
 

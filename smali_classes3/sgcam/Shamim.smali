@@ -2677,14 +2677,6 @@
 
     sput v0, Lsgcam/Shamim;->GetSubjectPortrait:I
 
-    const-string v0, "pref_libdirectory_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lsgcam/Shamim;->LibDirectory:Ljava/lang/String;
-
     # Now do not read value from preference.
 
     const/16 v0, 0xa    # DEC: 10

@@ -59,7 +59,7 @@
 
     iget-object v0, p0, Llii;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/SDE/LibPatcher;->loadLibX(Ljava/lang/String;)V
+    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
