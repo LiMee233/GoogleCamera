@@ -398,18 +398,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_frames_ns_key"
-
-    const-string v8, "-1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_frames_hdr_key"
-
-    const-string v8, "-1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_mf_near_key"
 
     const-string v8, "14.29"

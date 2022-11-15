@@ -4801,10 +4801,6 @@
     const/4 v2, -0x1
 
     :goto_2
-    invoke-static {v2}, Lsgcam/Shamim;->HDRenhFames(I)I
-
-    move-result v2
-
     iget-wide v5, v4, Lcom/google/googlex/gcam/BuildPayloadBurstSpecOptions;->a:J
 
     invoke-static {v5, v6, v4, v2}, Lcom/google/googlex/gcam/GcamModuleJNI;->BuildPayloadBurstSpecOptions_max_frame_count_set(JLcom/google/googlex/gcam/BuildPayloadBurstSpecOptions;I)V
