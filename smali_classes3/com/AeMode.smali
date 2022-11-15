@@ -113,77 +113,9 @@
 .method public static getLimitMaxTime()F
     .locals 2
 
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_exposure_max_front_key"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_exposure_max_back_key"
-
-    invoke-static {v0}, Lcom/SDE/LensValue;->SetLensValueBack(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    const/4 v1, 0x1
-
-    if-eq v0, v1, :cond_2
-
-    const/4 v1, 0x2
-
-    if-eq v0, v1, :cond_3
-
-    const/4 v1, 0x3
-
-    if-eq v0, v1, :cond_4
-
-    const/4 v1, 0x4
-
-    if-eq v0, v1, :cond_5
-
     sget v0, Lcom/AeMode;->shotMaxTime:F
 
-    :goto_1
     return v0
-
-    :cond_1
-    const v0, 0x43960000    # 300.0f
-
-    goto :goto_1
-
-    :cond_2
-    const v0, 0x43fa0000    # 500.0f
-
-    goto :goto_1
-
-    :cond_3
-    const v0, 0x447a0000    # 1000.0f
-
-    goto :goto_1
-
-    :cond_4
-    const v0, 0x453b8000    # 3000.0f
-
-    goto :goto_1
-
-    :cond_5
-    sget v0, Lcom/AeMode;->shotMaxTime:F
-
-    const v1, 0x3f2147ae    # 0.63f
-
-    mul-float/2addr v0, v1
-
-    goto :goto_1
 .end method
 
 .method public static isoTimeFParametrs(I)V

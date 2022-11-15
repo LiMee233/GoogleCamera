@@ -2637,14 +2637,6 @@
 
     sput v0, Lsgcam/Shamim;->FocusTracking:I
 
-    const-string v0, "pref_aemode_front_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->Aemodef:I
-
     const-string v0, "pref_originial_reso_key"
 
     invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
@@ -2694,6 +2686,8 @@
     sput v0, Lsgcam/Shamim;->P3:I
 
     sput v0, Lsgcam/Shamim;->Get48Mp:I
+
+    sput v0, Lsgcam/Shamim;->Aemodef:I
 
     const/4 v0, 0x1
 

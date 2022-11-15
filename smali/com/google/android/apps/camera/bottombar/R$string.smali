@@ -99,19 +99,11 @@
 
 .field public static final app_name:I = 0x7f14007d
 
-.field public static final auto:I = 0x7f14008e
-
-.field public static final auto_flash_indicator_chip:I = 0x7f14008f
-
 .field public static final beta_label_text:I = 0x7f140093
-
-.field public static final burst_date_content_description:I = 0x7f14009c
 
 .field public static final burst_description:I = 0x7f14009d
 
 .field public static final burst_name:I = 0x7f14009e
-
-.field public static final burst_process_done:I = 0x7f14009f
 
 .field public static final camera_active_back:I = 0x7f1400c2
 

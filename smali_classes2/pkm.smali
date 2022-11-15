@@ -6070,67 +6070,6 @@
 
     move-result v6
 
-    const-string v8, "pref_enable_aemode"
-
-    invoke-static {v8}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v8
-
-    if-eqz v8, :cond_2
-
-    sget v8, Lsgcam/Shamim;->Front:I
-
-    if-nez v8, :cond_1
-
-    const-string v8, "pref_aemode_back_key"
-
-    invoke-static {v8}, Lcom/SDE/LensValue;->SetLensValueBack(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-static {v8}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v8
-
-    if-eqz v8, :cond_2
-
-    sput v4, Lcom/AeMode;->sGetDesired_exposure_time_ms:F
-
-    sput v5, Lcom/AeMode;->sGetDesired_analog_gain:F
-
-    sput v6, Lcom/AeMode;->sGetDesired_digital_gain:F
-
-    invoke-static {v8}, Lcom/AeMode;->isoTimeParametrs(I)V
-
-    sget v4, Lcom/AeMode;->sGetDesired_exposure_time_ms:F
-
-    sget v5, Lcom/AeMode;->sGetDesired_analog_gain:F
-
-    sget v6, Lcom/AeMode;->sGetDesired_digital_gain:F
-
-    goto :goto_0
-
-    :cond_1
-    sget v8, Lsgcam/Shamim;->Aemodef:I
-
-    if-eqz v8, :cond_2
-
-    sput v4, Lcom/AeMode;->sGetDesired_exposure_time_ms:F
-
-    sput v5, Lcom/AeMode;->sGetDesired_analog_gain:F
-
-    sput v6, Lcom/AeMode;->sGetDesired_digital_gain:F
-
-    invoke-static {v8}, Lcom/AeMode;->isoTimeFParametrs(I)V
-
-    sget v4, Lcom/AeMode;->sGetDesired_exposure_time_ms:F
-
-    sget v5, Lcom/AeMode;->sGetDesired_analog_gain:F
-
-    sget v6, Lcom/AeMode;->sGetDesired_digital_gain:F
-
-    :cond_2
-    :goto_0
     sget-object v7, Landroid/hardware/camera2/CaptureRequest;->CONTROL_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
     const/4 v8, 0x1

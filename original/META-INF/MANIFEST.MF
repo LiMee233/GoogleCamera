@@ -11769,9 +11769,6 @@ SHA1-Digest: jjPsH8VJzRDZXEjP17uzb91WK2o=
 Name: res/drawable/camera_front_back_animation.xml
 SHA1-Digest: xBgotjO/qDR8ZfgcCm8T9P1Xkk4=
 
-Name: res/drawable/camera_timer.xml
-SHA1-Digest: LxxAP9TsWW0UZ7fwG8ghVY+TT6c=
-
 Name: res/drawable/catshark_toggle_on_background.xml
 SHA1-Digest: HT+MqGIPTpCjLONZF8m5sNYc+zI=
 
@@ -12084,9 +12081,6 @@ SHA1-Digest: /2hM1q0/at17cfU+oWv9JmvtQLU=
 Name: res/drawable/ic_8k_24px.xml
 SHA1-Digest: dJxdSCFKVCax/sH2WI9pyo3uWyk=
 
-Name: res/drawable/ic_aemode.xml
-SHA1-Digest: 3YAHq+LtSI40ejewHk79e0zZFRs=
-
 Name: res/drawable/ic_afae_lock_24px.xml
 SHA1-Digest: GuhH7brGGc9FOZs4WPlMHHABFxE=
 
@@ -12137,12 +12131,6 @@ SHA1-Digest: Z0cjts0ZL6DFBnu6CmIvAVrRTHE=
 
 Name: res/drawable/ic_camera.xml
 SHA1-Digest: PqzMgOHxTZpmYDzu2pFpVeA5+M8=
-
-Name: res/drawable/ic_camera_front_24.xml
-SHA1-Digest: T/oazAVSfJ4WS5j6zfbUvVUGB68=
-
-Name: res/drawable/ic_camera_rear_24.xml
-SHA1-Digest: BZGBvdhFGH4DioLLcAES1JsONtw=
 
 Name: res/drawable/ic_camera_thumbnail.xml
 SHA1-Digest: Gc5Jid8ykWddLtt1pmWdaC4Z2aI=

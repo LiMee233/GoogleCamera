@@ -1025,26 +1025,8 @@
 
     move-result v5
 
-    const-string v6, "pref_ae_target_fps_key"
-
-    invoke-static {v6}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v6
-
-    if-eqz v6, :cond_6
-
-    const-string v6, "pref_ae_target_fps_value_key"
-
-    invoke-static {v6}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v6
-
-    goto :goto_6
-
-    :cond_6
     const/16 v6, 0x1e
 
-    :goto_6
     if-gt v5, v6, :cond_5
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z

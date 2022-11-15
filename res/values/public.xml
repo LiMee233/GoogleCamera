@@ -131,8 +131,6 @@
     <public type="array" name="pref_awb_entryvalues" id="0x7f03002c" />
     <public type="array" name="pref_grgb_entries" id="0x7f03002d" />
     <public type="array" name="pref_grgb_entryvalues" id="0x7f03002e" />
-    <public type="array" name="pref_aemode_entries" id="0x7f03002f" />
-    <public type="array" name="pref_aemode_entryvalues" id="0x7f030030" />
     <public type="array" name="exposure_entryvalues" id="0x7f030031" />
     <public type="array" name="exposure_entries" id="0x7f030032" />
     <public type="array" name="pref_noise_model_entries" id="0x7f030033" />
@@ -155,10 +153,6 @@
     <public type="array" name="dabl_entryvalues" id="0x7f030102" />
     <public type="array" name="raw_entries" id="0x7f03010d" />
     <public type="array" name="raw_entryvalues" id="0x7f03010e" />
-    <public type="array" name="pref_aemodef_entries" id="0x7f03010f" />
-    <public type="array" name="pref_aemodef_entryvalues" id="0x7f030110" />
-    <public type="array" name="pref_exposure_max_time_entries" id="0x7f030111" />
-    <public type="array" name="pref_exposure_max_time_entryvalues" id="0x7f030112" />
     <public type="array" name="pref_exynos_entries" id="0x7f030131" />
     <public type="array" name="pref_exynos_entryvalues" id="0x7f030132" />
     <public type="array" name="pref_curve_mode2_entries" id="0x7f030133" />
@@ -5196,11 +5190,7 @@
     <public type="drawable" name="value_icon_background_inner" id="0x7f0806e4" />
     <public type="drawable" name="viewfinder_rounded_background" id="0x7f0806e6" />
     <public type="drawable" name="quantum_gm_ic_arrow_gm_grey_244" id="0x7f0806e8" />
-    <public type="drawable" name="camera_timer" id="0x7f0806e9" />
-    <public type="drawable" name="ic_aemode" id="0x7f0806ea" />
     <public type="drawable" name="ic_aux_category" id="0x7f0806eb" />
-    <public type="drawable" name="ic_camera_front_24" id="0x7f0806ec" />
-    <public type="drawable" name="ic_camera_rear_24" id="0x7f0806ed" />
     <public type="drawable" name="zoom_lock_buttom" id="0x7f0806f6" />
     <public type="drawable" name="zoom_lock_shape" id="0x7f0806f7" />
     <public type="drawable" name="enabled_button" id="0x7f080719" />
@@ -6650,27 +6640,8 @@
     <public type="string" name="accessibility_video_output_length_description" id="0x7f140051" />
     <public type="string" name="hsl_screenpatcher" id="0x7f140053" />
     <public type="string" name="hsl_screenpatcher_desc" id="0x7f140054" />
-    <public type="string" name="pref_aemode_6" id="0x7f140055" />
-    <public type="string" name="pref_aemode_7" id="0x7f140056" />
-    <public type="string" name="pref_aemode_8" id="0x7f140057" />
-    <public type="string" name="pref_aemode_9" id="0x7f140058" />
-    <public type="string" name="pref_aemode_10" id="0x7f140059" />
-    <public type="string" name="pref_aemode_11" id="0x7f14005a" />
-    <public type="string" name="pref_aemode_12" id="0x7f14005b" />
-    <public type="string" name="pref_aemode_13" id="0x7f14005c" />
-    <public type="string" name="pref_aemode_14" id="0x7f14005d" />
-    <public type="string" name="pref_aemode_15" id="0x7f14005e" />
-    <public type="string" name="pref_aemode_16" id="0x7f14005f" />
-    <public type="string" name="pref_aemode_17" id="0x7f140060" />
-    <public type="string" name="pref_aemode_18" id="0x7f140061" />
-    <public type="string" name="pref_aemode_19" id="0x7f140062" />
-    <public type="string" name="pref_aemode_20" id="0x7f140063" />
-    <public type="string" name="pref_aemode_21" id="0x7f140064" />
-    <public type="string" name="pref_aemode_22" id="0x7f140065" />
-    <public type="string" name="pref_aemode_23" id="0x7f140066" />
     <public type="string" name="advice_dirty_lens" id="0x7f140067" />
     <public type="string" name="advice_dirty_lens_popup_text" id="0x7f140068" />
-    <public type="string" name="pref_aemode_24" id="0x7f140069" />
     <public type="string" name="advice_scene_distance_message" id="0x7f14006a" />
     <public type="string" name="ae_af_lock_label" id="0x7f14006b" />
     <public type="string" name="af_ae_lock" id="0x7f14006c" />
@@ -6682,13 +6653,9 @@
     <public type="string" name="af_off_near_acc_desc" id="0x7f140072" />
     <public type="string" name="af_off_near_desc" id="0x7f140073" />
     <public type="string" name="af_on_acc_desc" id="0x7f140074" />
-    <public type="string" name="pref_aemode_25" id="0x7f140075" />
     <public type="string" name="af_on_option_desc" id="0x7f140076" />
-    <public type="string" name="pref_aemode_26" id="0x7f140077" />
     <public type="string" name="af_option_desc" id="0x7f140078" />
-    <public type="string" name="pref_aemode_27" id="0x7f140079" />
     <public type="string" name="pref_aemode_title" id="0x7f14007a" />
-    <public type="string" name="pref_aemode_0" id="0x7f14007b" />
     <public type="string" name="pref_aemodef_0" id="0x7f14007c" />
     <public type="string" name="app_name" id="0x7f14007d" />
     <public type="string" name="appbar_scrolling_view_behavior" id="0x7f14007e" />
@@ -6706,12 +6673,8 @@
     <public type="string" name="pref_exposure_max_time_title" id="0x7f14008a" />
     <public type="string" name="astrophotography_edu_title" id="0x7f14008b" />
     <public type="string" name="astrophotography_suggestion_text" id="0x7f14008c" />
-    <public type="string" name="pref_exposure_max_time_0" id="0x7f14008d" />
-    <public type="string" name="pref_exposure_max_time_1" id="0x7f14008e" />
-    <public type="string" name="pref_exposure_max_time_2" id="0x7f14008f" />
     <public type="string" name="autotimer_tutorial_body" id="0x7f140090" />
     <public type="string" name="autotimer_tutorial_title" id="0x7f140091" />
-    <public type="string" name="pref_exposure_max_time_3" id="0x7f140092" />
     <public type="string" name="beta_label_text" id="0x7f140093" />
     <public type="string" name="bottom_center" id="0x7f140094" />
     <public type="string" name="bottom_left" id="0x7f140095" />
@@ -6721,11 +6684,8 @@
     <public type="string" name="brightness_ev_announcement" id="0x7f140099" />
     <public type="string" name="brightness_knob_accessibility_description" id="0x7f14009a" />
     <public type="string" name="brightness_knob_tooltip_description" id="0x7f14009b" />
-    <public type="string" name="pref_exposure_max_time_4" id="0x7f14009c" />
     <public type="string" name="burst_description" id="0x7f14009d" />
     <public type="string" name="burst_name" id="0x7f14009e" />
-    <public type="string" name="pref_exposure_max_time_5" id="0x7f14009f" />
-    <public type="string" name="pref_aemode_5" id="0x7f1400a0" />
     <public type="string" name="hsl_functionphoto" id="0x7f1400a2" />
     <public type="string" name="hsl_functionphoto_desc" id="0x7f1400a3" />
     <public type="string" name="hsl_screenexposure" id="0x7f1400a4" />
