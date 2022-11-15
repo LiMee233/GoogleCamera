@@ -4758,23 +4758,6 @@
     return-void
 .end method
 
-.method public static getNoiseVfMode(I)I
-    .locals 1
-
-    sget-object v0, Ldct;->dddNF:Lddh;
-
-    invoke-static {v0}, Lsgcam/Shamim;->GetDevSettIntValue(Lddh;)I
-
-    move-result v0
-
-    if-ltz v0, :cond_0
-
-    return v0
-
-    :cond_0
-    return p0
-.end method
-
 .method public static getSensorInfoColorFilter(I)I
     .locals 1
 

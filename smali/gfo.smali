@@ -160,11 +160,7 @@
     :pswitch_6
     sget-object v0, Landroid/hardware/camera2/CaptureRequest;->NOISE_REDUCTION_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
-    const/4 v1, 0x0
-
-    invoke-static {v1}, Lsgcam/Shamim;->getNoiseVfMode(I)I
-
-    move-result v1
+    const/4 v1, 0x2
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

@@ -133,8 +133,6 @@
 
 .field public static final dddN:Lddh;
 
-.field public static final dddNF:Lddh;
-
 .field public static final e:Lddh;
 
 .field public static final f:Lddh;
@@ -2010,56 +2008,6 @@
 
     invoke-direct {v0}, Lddg;-><init>()V
 
-    const-string v1, "c2api.viewfinder_noise_reduction_mode"
-
-    iput-object v1, v0, Lddg;->a:Ljava/lang/String;
-
-    const/4 v1, -0x1
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v2
-
-    const/16 v3, 0x0
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v3
-
-    const/16 v4, 0x1
-
-    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v4
-
-    const/16 v5, 0x2
-
-    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v5
-
-    const/16 v6, 0x3
-
-    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v6
-
-    invoke-static {v2, v3, v4, v5, v6}, Looz;->L(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Looz;
-
-    move-result-object v3
-
-    iput-object v3, v0, Lddg;->c:Looz;
-
-    invoke-virtual {v0}, Lddg;->a()Lddh;
-
-    move-result-object v0
-
-    sput-object v0, Ldct;->dddNF:Lddh;
-
-    new-instance v0, Lddg;
-
-    invoke-direct {v0}, Lddg;-><init>()V
-
     const-string v1, "camera.white_level_main"
 
     iput-object v1, v0, Lddg;->a:Ljava/lang/String;
@@ -2823,16 +2771,6 @@
     invoke-interface {p0, v0, v4}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
 
     sget-object v0, Ldct;->dddN:Lddh;
-
-    const/4 v3, -0x1
-
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v4
-
-    invoke-interface {p0, v0, v4}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
-
-    sget-object v0, Ldct;->dddNF:Lddh;
 
     const/4 v3, -0x1
 
