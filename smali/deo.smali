@@ -1412,26 +1412,8 @@
 
     sget-object v5, Lddw;->g:Lddf;
 
-    const-string v10, "pref_enable_zoom_portrait_key"
+    const v10, 0x3fc00000    # 1.5f
 
-    invoke-static {v10}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v10
-
-    if-eqz v10, :cond_6
-
-    const-string v10, "pref_zoom_portrait_key"
-
-    invoke-static {v10}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v10
-
-    goto :goto_1
-
-    :cond_6
-    const/high16 v10, 0x3f800000    # 1.0f
-
-    :goto_1
     invoke-static {v10}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v7

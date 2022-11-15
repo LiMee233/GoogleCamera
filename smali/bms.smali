@@ -43,8 +43,6 @@
 
     invoke-interface {v0}, Ldde;->b()V
 
-    invoke-interface {v1}, Lbnl;->o()V
-
     return-void
 
     :pswitch_0

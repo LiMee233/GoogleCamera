@@ -416,12 +416,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_enable_motionphoto"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_mf_near_key"
 
     const-string v8, "14.29"
@@ -466,19 +460,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->GoogleAux()Z
-
-    move-result v10
-
-    if-nez v10, :cond_13
-
-    const-string v7, "pref_hexagon_key"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    :cond_13
     const v5, 0x1
 
     sget-object v3, Lddd;->d:Lddf;
@@ -770,11 +751,7 @@
 
     invoke-virtual {v0, v3, v15}, Ldeo;->s(Lddf;Z)V
 
-    const-string v15, "pref_enable_motionphoto"
-
-    invoke-static {v15}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v15
+    const/4 v15, 0x1
 
     sget-object v3, Lddq;->i:Lddf;
 
@@ -850,23 +827,7 @@
 .end method
 
 .method public static NokiaGetDefaults()V
-    .locals 12
-
-    sget-object v4, Lsgcam/Shamim;->GetClass:Ldeo;
-
-    const/4 v7, 0x1
-
-    const/4 v8, 0x0
-
-    const-string v5, "pref_hexagon_key"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    sget-object v5, Lddw;->y:Lddf;
-
-    invoke-interface {v4, v5, v8}, Lddj;->s(Lddf;Z)V
+    .locals 0
 
     return-void
 .end method
@@ -957,12 +918,6 @@
     const/4 v7, 0x1
 
     const/4 v8, 0x0
-
-    const-string v5, "pref_sunbugFix_key"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "pref_frame_base_index_key"
 

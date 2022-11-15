@@ -164,36 +164,8 @@
     return-object v0
 
     :pswitch_4
-    const-string v1, "tf_af_key"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-gtz v1, :cond_0
-
-    iget-object v0, p0, Lcbe;->a:Lqkb;
-
-    check-cast v0, Lgjn;
-
-    invoke-virtual {v0}, Lgjn;->a()Lghw;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Llwc;->E()Z
-
-    move-result v0
-
-    if-eq v2, v0, :cond_0
-
     const/4 v1, 0x4
 
-    goto :goto_0
-
-    :cond_0
-    nop
-
-    :goto_0
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0

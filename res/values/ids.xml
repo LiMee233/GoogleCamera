@@ -789,7 +789,6 @@
     <item type="id" name="shading" />
     <item type="id" name="ldr" />
     <item type="id" name="upscaling" />
-    <item type="id" name="Aperture" />
     <item type="id" name="GRAPHbutton" />
     <item type="id" name="graphView" />
     <item type="id" name="seekbar1" />

@@ -282,16 +282,6 @@
         <item>@string/preference_volume_key_volume</item>
         <item>@string/preference_volume_key_off</item>
     </string-array>
-    <string-array name="pref_auto_ns_entries">
-        <item>OFF</item>
-        <item>AUTO</item>
-        <item>always</item>
-    </string-array>
-    <string-array name="pref_auto_ns_entryvalues">
-        <item>-1</item>
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="mv_entries">
         <item>640x480</item>
         <item>1280x720</item>
@@ -11730,16 +11720,6 @@
         <item>4.0 (ON)</item>
         <item>Off (as in library)</item>
     </string-array>
-    <string-array name="pref_samsung_entries">
-        <item>Auto</item>
-        <item>Fix enable</item>
-        <item>Fix disable</item>
-    </string-array>
-    <string-array name="pref_samsung_entryvalues">
-        <item>0</item>
-        <item>-1</item>
-        <item>1</item>
-    </string-array>
     <string-array name="pref_libs_entries">
         <item>Google</item>
         <item>Custom Lib from Dir</item>
@@ -12819,14 +12799,6 @@
         <item>12</item>
         <item>13</item>
         <item>14</item>
-    </string-array>
-    <string-array name="pref_lvhdr_entries">
-        <item>Live hdr mode</item>
-        <item>Live hdr level</item>
-    </string-array>
-    <string-array name="pref_lvhdr_entryvalues">
-        <item>0</item>
-        <item>1</item>
     </string-array>
     <string-array name="pref_sensorid_key_entries">
         <item>Auto</item>

@@ -78,14 +78,6 @@
 .method public static d(ZZZ[J)Landroid/content/Intent;
     .locals 3
 
-    const-string v0, "pref_photos_gallery_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-eqz v0, :cond_5
-
     const-string v0, "com.google.android.apps.photos.api.secure_mode_ids"
 
     const-string v1, "com.google.android.apps.photos.api.secure_mode"
@@ -160,88 +152,6 @@
     nop
 
     const-string p1, "com.google.android.apps.photos"
-
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    invoke-virtual {p0, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    return-object p0
-
-    :cond_5
-    const-string v0, "com.google.android.apps.photos.api.secure_mode_ids"
-
-    const-string v1, "com.google.android.apps.photos.api.secure_mode"
-
-    const/4 v2, 0x1
-
-    if-eqz p1, :cond_7
-
-    if-eqz p0, :cond_6
-
-    new-instance p0, Landroid/content/Intent;
-
-    const-string p1, "com.google.android.apps.photos.mars.api.ACTION_REVIEW_SECURE"
-
-    invoke-direct {p0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-
-    goto :goto_2
-
-    :cond_6
-    new-instance p0, Landroid/content/Intent;
-
-    const-string p1, "com.google.android.apps.photos.mars.api.ACTION_REVIEW"
-
-    invoke-direct {p0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    :goto_2
-    array-length p1, p3
-
-    if-eqz p1, :cond_9
-
-    invoke-virtual {p0, v0, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[J)Landroid/content/Intent;
-
-    goto :goto_3
-
-    :cond_7
-    if-eqz p0, :cond_8
-
-    new-instance p0, Landroid/content/Intent;
-
-    const-string p1, "com.google.android.apps.photos.action.SECURE_REVIEW"
-
-    invoke-direct {p0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
-
-    array-length p1, p3
-
-    if-eqz p1, :cond_9
-
-    invoke-virtual {p0, v0, p3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;[J)Landroid/content/Intent;
-
-    goto :goto_3
-
-    :cond_8
-    new-instance p0, Landroid/content/Intent;
-
-    const-string p1, "com.android.camera.action.REVIEW"
-
-    invoke-direct {p0, p1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    :cond_9
-    :goto_3
-    if-eqz p2, :cond_a
-
-    const/high16 p1, 0x10000000
-
-    invoke-virtual {p0, p1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    :cond_a
-    nop
-
-    sget-object p1, Laap;->AppsPhotosGallery:Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 

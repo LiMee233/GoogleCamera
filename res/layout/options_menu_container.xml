@@ -46,9 +46,6 @@
     <FrameLayout android:id="@id/AWBbutton" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <com.custom.AWB4 android:textSize="9.0sp" android:layout_gravity="center|right|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="120.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
     </FrameLayout>
-    <FrameLayout android:id="@id/Aperture" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.custom.Aperture android:textSize="9.0sp" android:layout_gravity="center|left|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="13.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
-    </FrameLayout>
     <FrameLayout android:id="@id/LIB" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <com.custom.LIB7 android:textSize="9.0sp" android:layout_gravity="center|left|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="120.0dip" android:layout_marginTop="13.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
     </FrameLayout>

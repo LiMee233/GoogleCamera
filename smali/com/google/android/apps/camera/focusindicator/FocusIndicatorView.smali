@@ -1257,32 +1257,6 @@
     return p1
 .end method
 
-.method public final o()V
-    .locals 2
-
-    iget-object v0, p0, Lcom/google/android/apps/camera/focusindicator/FocusIndicatorView;->d:Landroid/widget/TextView;
-
-    const-string v1, "pref_af_data_show_key"
-
-    invoke-static {v1}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const/16 v1, 0x8
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v1, 0x0
-
-    :goto_0
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
-
-    return-void
-.end method
-
 .method protected final onLayout(ZIIII)V
     .locals 0
 

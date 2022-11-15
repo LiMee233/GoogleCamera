@@ -94,17 +94,8 @@
 .method public final d(I)V
     .locals 2
 
-    const-string v0, "pref_camera_lightroom_key"
+    const/4 v0, 0x0
 
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const/4 p1, 0x1
-
-    :cond_0
     iget-wide v0, p0, Lcom/google/googlex/gcam/GeometricCalibration;->a:J
 
     invoke-static {v0, v1, p0, p1}, Lcom/google/googlex/gcam/GcamModuleJNI;->GeometricCalibration_quality_set(JLcom/google/googlex/gcam/GeometricCalibration;I)V

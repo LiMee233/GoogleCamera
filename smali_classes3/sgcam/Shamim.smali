@@ -2641,30 +2641,6 @@
 
     sput v0, Lsgcam/Shamim;->FocusTracking:I
 
-    const-string v0, "pref_sunbugFix_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->GetSunlightFix:I
-
-    const-string v0, "pref_erasedots_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->EraseDots:I
-
-    const-string v0, "pref_48m_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->Get48Mp:I
-
     const-string v0, "pref_aemode_front_key"
 
     invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
@@ -2689,14 +2665,6 @@
 
     sput v0, Lsgcam/Shamim;->SunlightFix:I
 
-    const-string v0, "pref_auto_ns_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->AutoNs:I
-
     const-string v0, "pref_color_key"
 
     invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
@@ -2704,22 +2672,6 @@
     move-result v0
 
     sput v0, Lsgcam/Shamim;->Color:I
-
-    const-string v0, "pref_p3_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->P3:I
-
-    const-string/jumbo v0, "pref_hexagon_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->Hexagon:I
 
     const-string/jumbo v0, "pref_subjectportrait_key"
 
@@ -2750,6 +2702,22 @@
     const/16 v0, 0xa    # DEC: 10
 
     sput v0, Lsgcam/Shamim;->Zoom:I
+
+    const/4 v0, 0x0
+
+    sput v0, Lsgcam/Shamim;->EraseDots:I
+
+    sput v0, Lsgcam/Shamim;->GetSunlightFix:I
+
+    sput v0, Lsgcam/Shamim;->AutoNs:I
+
+    sput v0, Lsgcam/Shamim;->P3:I
+
+    sput v0, Lsgcam/Shamim;->Get48Mp:I
+
+    const/4 v0, 0x1
+
+    sput v0, Lsgcam/Shamim;->Hexagon:I
 
     return-void
 .end method
@@ -3522,67 +3490,19 @@
 .end method
 
 .method public static HdrRawFixFirst()I
-    .locals 9
+    .locals 1
 
-    const-string v0, "pref_samsungfix_key"
+    const/16 v0, 0x26
 
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    const v1, 0x0
-
-    if-lt v0, v1, :cond_1
-
-    if-gt v0, v1, :cond_0
-
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->HdrRawFix()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    :cond_0
-    const/16 v5, 0x26
-
-    return v5
-
-    :cond_1
-    const/16 v5, 0x20
-
-    return v5
+    return v0
 .end method
 
 .method public static HdrRawFixSecond()I
-    .locals 9
+    .locals 1
 
-    const-string v0, "pref_samsungfix_key"
+    const/16 v0, 0x20
 
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    const v1, 0x0
-
-    if-lt v0, v1, :cond_1
-
-    if-gt v0, v1, :cond_0
-
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->HdrRawFix()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    :cond_0
-    const/16 v5, 0x20
-
-    return v5
-
-    :cond_1
-    const/16 v5, 0x23
-
-    return v5
+    return v0
 .end method
 
 .method public static LogWriteToFile(Ljava/lang/String;Ljava/lang/String;)V
@@ -5688,28 +5608,6 @@
     invoke-static {v1}, Lsgcam/Shamim;->ShowToastDirect(Ljava/lang/String;)V
 
     return-void
-.end method
-
-.method public static setAperture()F
-    .locals 3
-
-    const-string v2, "pref_aperture"
-
-    invoke-static {v2}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const/high16 v0, 0x3fc00000    # 1.5f
-
-    goto :goto_0
-
-    :cond_0
-    const v0, 0x4019999a    # 2.4f
-
-    :goto_0
-    return v0
 .end method
 
 .method public static setColorTransform()V

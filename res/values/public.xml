@@ -119,8 +119,6 @@
     <public type="array" name="pref_qjpg_entryvalues" id="0x7f03001e" />
     <public type="array" name="pref_volume_action_entries" id="0x7f03001f" />
     <public type="array" name="pref_volume_action_entryvalues" id="0x7f030020" />
-    <public type="array" name="pref_auto_ns_entries" id="0x7f030021" />
-    <public type="array" name="pref_auto_ns_entryvalues" id="0x7f030022" />
     <public type="array" name="mv_entries" id="0x7f030023" />
     <public type="array" name="storage_saver_settings_changed" id="0x7f030024" />
     <public type="array" name="storage_saver_settings_changed_detail" id="0x7f030025" />
@@ -349,8 +347,6 @@
     <public type="array" name="lib_hex_sharpdrad_entries" id="0x7f030106" />
     <public type="array" name="lib_hex_sharpdrad_entryvalues" id="0x7f030107" />
     <public type="array" name="lib_hex_lutnoisefix1_entries" id="0x7f030108" />
-    <public type="array" name="pref_samsung_entries" id="0x7f030109" />
-    <public type="array" name="pref_samsung_entryvalues" id="0x7f03010a" />
     <public type="array" name="pref_libs_entries" id="0x7f03010b" />
     <public type="array" name="pref_libs_entryvalues" id="0x7f03010c" />
     <public type="array" name="raw_entries" id="0x7f03010d" />
@@ -414,8 +410,6 @@
     <public type="array" name="pref_slow8x_entryvalues" id="0x7f030147" />
     <public type="array" name="upscale_type_ent" id="0x7f030148" />
     <public type="array" name="upscale_type_val" id="0x7f030149" />
-    <public type="array" name="pref_lvhdr_entries" id="0x7f03014a" />
-    <public type="array" name="pref_lvhdr_entryvalues" id="0x7f03014b" />
     <public type="array" name="pref_sensorid_key_entries" id="0x7f03014c" />
     <public type="array" name="pref_sensorid_key_entryvalues" id="0x7f03014d" />
     <public type="array" name="pref_focus_value_entries" id="0x7f03014e" />
@@ -6529,7 +6523,6 @@
     <public type="id" name="shading" id="0x7f0b03c5" />
     <public type="id" name="ldr" id="0x7f0b03c6" />
     <public type="id" name="upscaling" id="0x7f0b03c7" />
-    <public type="id" name="Aperture" id="0x7f0b03c8" />
     <public type="id" name="GRAPHbutton" id="0x7f0b03c9" />
     <public type="id" name="graphView" id="0x7f0b03ca" />
     <public type="id" name="seekbar1" id="0x7f0b03cb" />
