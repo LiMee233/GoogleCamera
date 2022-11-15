@@ -1317,34 +1317,6 @@
         <item>5</item>
         <item>6</item>
     </string-array>
-    <string-array name="switch_entries">
-        <item>Open settings</item>
-        <item>Video resolution</item>
-        <item>Color transmission</item>
-        <item>Maximum brightness</item>
-        <item>Exposure</item>
-        <item>Noise modeler</item>
-        <item>Miui gallery</item>
-        <item>Open additional setting</item>
-        <item>Open developer setting</item>
-        <item>Open advance setting</item>
-        <item>Upscaling resolution</item>
-        <item>Open libpatcher setting</item>
-    </string-array>
-    <string-array name="switch_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-    </string-array>
     <string-array name="pref_slow4x_entries">
         <item>Auto</item>
         <item>120 fps</item>

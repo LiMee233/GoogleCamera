@@ -168,8 +168,6 @@
     <public type="array" name="pref_slowmofps_entryvalues" id="0x7f03013f" />
     <public type="array" name="pref_slowmofps1_entries" id="0x7f030140" />
     <public type="array" name="pref_slowmofps1_entryvalues" id="0x7f030141" />
-    <public type="array" name="switch_entries" id="0x7f030142" />
-    <public type="array" name="switch_entryvalues" id="0x7f030143" />
     <public type="array" name="pref_slow4x_entries" id="0x7f030144" />
     <public type="array" name="pref_slow4x_entryvalues" id="0x7f030145" />
     <public type="array" name="pref_slow8x_entries" id="0x7f030146" />
