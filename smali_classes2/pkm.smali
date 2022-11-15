@@ -4749,13 +4749,6 @@
 
     move-result-object v0
 
-    if-eqz v3, :cond_22
-
-    invoke-static {v0, v3}, Lsgcam/Shamim;->GetCorrectionDBL([F[F)[F
-
-    move-result-object v0
-
-    :cond_22
     new-instance v4, Lcom/google/googlex/gcam/FloatArray4;
 
     invoke-direct {v4}, Lcom/google/googlex/gcam/FloatArray4;-><init>()V

@@ -973,70 +973,7 @@
 .end method
 
 .method public static GetBlackLevel(Llvn;Llzs;)[F
-    .locals 10
-
-    const-string v0, "pref_black_level_key"
-
-    invoke-static {v0}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_BLACK_LEVEL_PATTERN:Landroid/hardware/camera2/CameraCharacteristics$Key;
-
-    invoke-interface {p0, v1}, Llvn;->l(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/hardware/camera2/params/BlackLevelPattern;
-
-    if-eqz v1, :cond_1
-
-    const/4 v2, 0x4
-
-    new-array v3, v2, [F
-
-    const/4 v6, 0x0
-
-    :goto_0
-    if-ge v6, v2, :cond_0
-
-    rem-int/lit8 v2, v6, 0x2
-
-    div-int/lit8 v4, v6, 0x2
-
-    invoke-virtual {v1, v2, v4}, Landroid/hardware/camera2/params/BlackLevelPattern;->getOffsetForIndex(II)I
-
-    move-result v2
-
-    int-to-float v2, v2
-
-    aput v2, v3, v6
-
-    add-int/lit8 v6, v6, 0x1
-
-    const/4 v2, 0x4
-
-    goto :goto_0
-
-    :cond_0
-    return-object v3
-
-    :cond_1
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_2
-
-    return-object v0
-
-    :pswitch_0
+    .locals 7
     sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_BLACK_LEVEL_PATTERN:Landroid/hardware/camera2/CameraCharacteristics$Key;
 
     invoke-interface {p0, v1}, Llvn;->l(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
@@ -1051,14 +988,14 @@
 
     new-array v3, v2, [F
 
-    const/4 v6, 0x0
+    const/4 v5, 0x0
 
     :goto_1
-    if-ge v6, v2, :cond_2
+    if-ge v5, v2, :cond_2
 
-    rem-int/lit8 v2, v6, 0x2
+    rem-int/lit8 v2, v5, 0x2
 
-    div-int/lit8 v4, v6, 0x2
+    div-int/lit8 v4, v5, 0x2
 
     invoke-virtual {v1, v2, v4}, Landroid/hardware/camera2/params/BlackLevelPattern;->getOffsetForIndex(II)I
 
@@ -1066,9 +1003,9 @@
 
     int-to-float v2, v2
 
-    aput v2, v3, v6
+    aput v2, v3, v5
 
-    add-int/lit8 v6, v6, 0x1
+    add-int/lit8 v5, v5, 0x1
 
     const/4 v2, 0x4
 
@@ -1082,303 +1019,16 @@
 
     new-array v0, v0, [F
 
-    fill-array-data v0, :array_2
-
-    return-object v0
-
-    :pswitch_1
-    sget-object v1, Landroid/hardware/camera2/CaptureResult;->SENSOR_DYNAMIC_BLACK_LEVEL:Landroid/hardware/camera2/CaptureResult$Key;
-
-    invoke-interface {p1, v1}, Llzs;->d(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, [F
-
-    if-eqz v1, :cond_4
-
-    return-object v1
-
-    :cond_4
-    sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_BLACK_LEVEL_PATTERN:Landroid/hardware/camera2/CameraCharacteristics$Key;
-
-    invoke-interface {p0, v1}, Llvn;->l(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/hardware/camera2/params/BlackLevelPattern;
-
-    if-eqz v1, :cond_6
-
-    const/4 v2, 0x4
-
-    new-array v3, v2, [F
-
-    const/4 v6, 0x0
-
-    :goto_2
-    if-ge v6, v2, :cond_5
-
-    rem-int/lit8 v2, v6, 0x2
-
-    div-int/lit8 v4, v6, 0x2
-
-    invoke-virtual {v1, v2, v4}, Landroid/hardware/camera2/params/BlackLevelPattern;->getOffsetForIndex(II)I
-
-    move-result v2
-
-    int-to-float v2, v2
-
-    aput v2, v3, v6
-
-    add-int/lit8 v6, v6, 0x1
-
-    const/4 v2, 0x4
-
-    goto :goto_2
-
-    :cond_5
-    return-object v3
-
-    :cond_6
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_2
-
-    return-object v0
-
-    :pswitch_2
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
     fill-array-data v0, :array_0
 
     return-object v0
 
-    :pswitch_3
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_1
-
-    return-object v0
-
-    :pswitch_4
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_2
-
-    return-object v0
-
-    :pswitch_5
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_3
-
-    return-object v0
-
-    :pswitch_6
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_4
-
-    return-object v0
-
-    :pswitch_7
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_5
-
-    return-object v0
-
-    :pswitch_8
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_6
-
-    return-object v0
-
-    :pswitch_9
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_7
-
-    return-object v0
-
-    :pswitch_a
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    fill-array-data v0, :array_8
-
-    return-object v0
-
-    :pswitch_b
-    const/4 v0, 0x4
-
-    new-array v0, v0, [F
-
-    const-string v1, "bl0_key"
-
-    invoke-static {v1}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v1
-
-    const/16 v2, 0x0
-
-    aput v1, v0, v2
-
-    const-string v1, "bl1_key"
-
-    invoke-static {v1}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v1
-
-    const/16 v2, 0x1
-
-    aput v1, v0, v2
-
-    const-string v1, "bl2_key"
-
-    invoke-static {v1}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v1
-
-    const/16 v2, 0x2
-
-    aput v1, v0, v2
-
-    const-string v1, "bl3_key"
-
-    invoke-static {v1}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v1
-
-    const/16 v2, 0x3
-
-    aput v1, v0, v2
-
-    return-object v0
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-        :pswitch_5
-        :pswitch_6
-        :pswitch_7
-        :pswitch_8
-        :pswitch_9
-        :pswitch_a
-        :pswitch_b
-    .end packed-switch
-
     :array_0
     .array-data 4
-        0x0
-        0x0
-        0x0
-        0x0
-    .end array-data
-
-    :array_1
-    .array-data 4
         0x41800000    # 16.0f
         0x41800000    # 16.0f
         0x41800000    # 16.0f
         0x41800000    # 16.0f
-    .end array-data
-
-    :array_2
-    .array-data 4
-        0x42800000    # 64.0f
-        0x42800000    # 64.0f
-        0x42800000    # 64.0f
-        0x42800000    # 64.0f
-    .end array-data
-
-    :array_3
-    .array-data 4
-        0x42a00000    # 80.0f
-        0x42a00000    # 80.0f
-        0x42a00000    # 80.0f
-        0x42a00000    # 80.0f
-    .end array-data
-
-    :array_4
-    .array-data 4
-        0x42c80000    # 100.0f
-        0x42c80000    # 100.0f
-        0x42c80000    # 100.0f
-        0x42c80000    # 100.0f
-    .end array-data
-
-    :array_5
-    .array-data 4
-        0x43800000    # 256.0f
-        0x43800000    # 256.0f
-        0x43800000    # 256.0f
-        0x43800000    # 256.0f
-    .end array-data
-
-    :array_6
-    .array-data 4
-        0x427f70a4    # 63.86f
-        0x427fb852    # 63.93f
-        0x427fb852    # 63.93f
-        0x428047ae    # 64.14f
-    .end array-data
-
-    :array_7
-    .array-data 4
-        0x42800000    # 64.0f
-        0x42806666    # 64.2f
-        0x42803333    # 64.1f
-        0x42800000    # 64.0f
-    .end array-data
-
-    :array_8
-    .array-data 4
-        0x4281999a    # 64.8f
-        0x427ccccd    # 63.2f
-        0x427ccccd    # 63.2f
-        0x42793333    # 62.3f
     .end array-data
 .end method
 
@@ -1606,52 +1256,6 @@
         :pswitch_3
         :pswitch_4
     .end packed-switch
-.end method
-
-.method public static GetCorrectionDBL([F[F)[F
-    .locals 6
-
-    const/4 v0, 0x4
-
-    const-string v1, "pref_dbl_key"
-
-    invoke-static {v1}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v1}, Lcom/Fix/Pref;->getFloatValue(Ljava/lang/String;)F
-
-    move-result v1
-
-    const/high16 v2, 0x447a0000    # 1000.0f
-
-    div-float/2addr v1, v2
-
-    new-array v2, v0, [F
-
-    :goto_0
-    add-int/lit8 v0, v0, -0x1
-
-    if-ltz v0, :cond_0
-
-    aget v3, p1, v0
-
-    aget v4, p0, v0
-
-    aget v5, p0, v0
-
-    sub-float v3, v4, v3
-
-    mul-float/2addr v3, v1
-
-    sub-float v3, v5, v3
-
-    aput v3, v2, v0
-
-    goto :goto_0
-
-    :cond_0
-    return-object v2
 .end method
 
 .method public static GetDefaultDouble(Ljava/lang/String;D)V

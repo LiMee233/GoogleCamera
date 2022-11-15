@@ -137,10 +137,6 @@
     <public type="array" name="pref_noise_model_entryvalues" id="0x7f030034" />
     <public type="array" name="pref_nightmode_entries" id="0x7f030035" />
     <public type="array" name="pref_nightmode_entryvalues" id="0x7f030036" />
-    <public type="array" name="black_level_entries" id="0x7f030037" />
-    <public type="array" name="black_level_entryvalues" id="0x7f030038" />
-    <public type="array" name="pref_dbl_entries" id="0x7f030039" />
-    <public type="array" name="pref_dbl_entryvalues" id="0x7f03003a" />
     <public type="array" name="pref_bitrate_entries" id="0x7f03003b" />
     <public type="array" name="pref_bitrate_entryvalues" id="0x7f03003c" />
     <public type="array" name="pref_sectcurve_preset_entries" id="0x7f030058" />
@@ -4764,7 +4760,6 @@
     <public type="drawable" name="ic_minus_24px" id="0x7f080523" />
     <public type="drawable" name="hdrnet" id="0x7f080524" />
     <public type="drawable" name="hevc" id="0x7f080525" />
-    <public type="drawable" name="ic_blacklevel" id="0x7f080526" />
     <public type="drawable" name="ic_brush" id="0x7f080527" />
     <public type="drawable" name="ic_button_icon_1" id="0x7f080528" />
     <public type="drawable" name="ic_button_icon_2" id="0x7f080529" />
