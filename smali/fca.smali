@@ -3321,66 +3321,6 @@
 
     invoke-virtual {v1, v2}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    const-string v1, "pref_config_name_fast_option_available_key"
-
-    invoke-virtual {p0, v1}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Lxxx;
-
-    invoke-direct {v2, v0}, Lxxx;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    const-string v1, "pref_deleted_settings_option_available_key"
-
-    invoke-virtual {p0, v1}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Ltsp;
-
-    invoke-direct {v2, v0}, Ltsp;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    const-string v1, "pref_shareconfig_key"
-
-    invoke-virtual {p0, v1}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Ldzr2;
-
-    invoke-direct {v2, v0}, Ldzr2;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    const-string v1, "pref_open_key"
-
-    invoke-virtual {p0, v1}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Lzzz;
-
-    invoke-direct {v2, v0}, Lzzz;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
-    const-string v1, "pref_open_lib_key"
-
-    invoke-virtual {p0, v1}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v1
-
-    new-instance v2, Lloadlib;
-
-    invoke-direct {v2, v0}, Lloadlib;-><init>(Landroid/app/Activity;)V
-
-    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
-
     const-string v0, "pref_dnd_access_needed"
 
     invoke-virtual {p0, v0}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;

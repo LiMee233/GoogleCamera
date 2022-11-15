@@ -1,15 +1,6 @@
 .class public Lcom/google/android/apps/camera/bottombar/BottomBar;
 .super Landroid/widget/LinearLayout;
 
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/apps/camera/bottombar/DLock$GestureListener;
-    }
-.end annotation
-
-
 # static fields
 .field public static data_folder:Ljava/lang/String;
 
@@ -38,10 +29,6 @@
 .field public d_tap:I
 
 .field private decision:Ljcc;
-
-.field public final f$1:Ljava/io/File;
-
-.field gestureDetector:Landroid/view/GestureDetector;
 
 .field private hideNavBar:Z
 
@@ -131,44 +118,6 @@
     iput-boolean v2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->isDoubleClick:Z
 
     iput-object p1, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->appContext:Landroid/content/Context;
-
-    new-instance v0, Landroid/view/GestureDetector;
-
-    new-instance v1, Lcom/google/android/apps/camera/bottombar/DLock$GestureListener;
-
-    const/4 v2, 0x0
-
-    invoke-direct {v1, p0, v2}, Lcom/google/android/apps/camera/bottombar/DLock$GestureListener;-><init>(Lcom/google/android/apps/camera/bottombar/BottomBar;Lcom/google/android/apps/camera/bottombar/DLock$GestureListener;)V
-
-    invoke-direct {v0, p1, v1}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
-
-    iput-object v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->gestureDetector:Landroid/view/GestureDetector;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-static {p1}, Lcom/google/android/apps/camera/bottombar/BottomBar;->x(Landroid/content/Context;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v1, Ljava/io/File;
-
-    invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    iput-object v1, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->f$1:Ljava/io/File;
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -673,34 +622,6 @@
 
     return-object p1
 .end method
-
-.method public static x(Landroid/content/Context;)Ljava/lang/String;
-    .locals 3
-
-    invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
-
-    move-result-object v0
-
-    const-string v1, "config_path"
-
-    const-string v2, ""
-
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    sget-object v0, Lsgcam/Shamim;->Directory:Ljava/lang/String;
-
-    :cond_0
-    return-object v0
-.end method
-
 
 # virtual methods
 .method public changeSideButtons(Landroid/view/View;Landroid/view/View;Z)V
@@ -1298,38 +1219,6 @@
     invoke-direct {p0}, Lcom/google/android/apps/camera/bottombar/BottomBar;->adjustPadding()V
 
     return-void
-.end method
-
-.method public onTouchEvent(Landroid/view/MotionEvent;)Z
-    .locals 3
-
-    iget-object v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->appContext:Landroid/content/Context;
-
-    const-string v1, "custom_tracker"
-
-    const/4 v2, 0x0
-
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-
-    move-result-object v0
-
-    const-string v1, "double_tap"
-
-    const/4 v2, 0x1
-
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v2
-
-    iput v2, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->d_tap:I
-
-    iget-object v0, p0, Lcom/google/android/apps/camera/bottombar/BottomBar;->gestureDetector:Landroid/view/GestureDetector;
-
-    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
-
-    move-result v0
-
-    return v0
 .end method
 
 .method public setClickable(Z)V

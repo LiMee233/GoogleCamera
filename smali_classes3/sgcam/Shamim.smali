@@ -21,8 +21,6 @@
 
 .field public static Date:I
 
-.field public static Directory:Ljava/lang/String;
-
 .field public static EraseDots:I
 
 .field public static Exynos:I
@@ -103,8 +101,6 @@
     invoke-static {}, Lsgcam/Shamim;->GetPreferenceKey()V
 
     invoke-static {}, Lsgcam/Shamim;->setColorTransform()V
-
-    invoke-static {}, Lsgcam/Shamim;->createAutoPath()V
 
     invoke-static {}, Lsgcam/Shamim;->getAuxLensInfo()V
 
@@ -2681,14 +2677,6 @@
 
     sput v0, Lsgcam/Shamim;->GetSubjectPortrait:I
 
-    const-string v0, "pref_con_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lsgcam/Shamim;->Directory:Ljava/lang/String;
-
     const-string v0, "pref_libdirectory_key"
 
     invoke-static {v0}, Lcom/Fix/Pref;->getStringValue(Ljava/lang/String;)Ljava/lang/String;
@@ -4332,82 +4320,6 @@
     const/16 v5, 0x78
 
     return v5
-.end method
-
-.method public static createAutoPath()V
-    .locals 4
-
-    new-instance v1, Ljava/io/File;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    sget-object v3, Lsgcam/Shamim;->LibDirectory:Ljava/lang/String;
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Ljava/io/File;->exists()Z
-
-    move-result v2
-
-    if-nez v2, :cond_0
-
-    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
-
-    :cond_0
-    new-instance v1, Ljava/io/File;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    sget-object v3, Lsgcam/Shamim;->Directory:Ljava/lang/String;
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Ljava/io/File;->exists()Z
-
-    move-result v2
-
-    if-nez v2, :cond_1
-
-    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
-
-    :cond_1
-    return-void
 .end method
 
 .method public static getApplicationContext()Landroid/content/Context;

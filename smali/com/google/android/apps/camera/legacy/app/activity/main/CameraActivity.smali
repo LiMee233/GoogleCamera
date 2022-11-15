@@ -1224,8 +1224,6 @@
 
     invoke-virtual {v0, v3, v1, v2, v4}, Lijq;->k(Ljava/lang/Enum;JLijp;)V
 
-    invoke-virtual {v0, p0}, Lcom/google/android/apps/camera/stats/timing/CameraActivityTiming;->warnAndPromptFornickname(Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;)V
-
     iget-object v0, p0, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->p:Lbxj;
 
     invoke-virtual {v0}, Lbxj;->b()Llic;
