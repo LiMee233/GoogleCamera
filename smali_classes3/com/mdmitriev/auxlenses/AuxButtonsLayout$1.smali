@@ -38,7 +38,7 @@
 
     if-nez v0, :cond_0
 
-    const-wide/16 v0, 0x1f4
+    const-wide/16 v0, 0x96
 
     invoke-static {v0, v1}, Ljava/lang/Thread;->sleep(J)V
 
