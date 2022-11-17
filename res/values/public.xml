@@ -4760,6 +4760,7 @@
     <public type="drawable" name="ic_minus_24px" id="0x7f080523" />
     <public type="drawable" name="hdrnet" id="0x7f080524" />
     <public type="drawable" name="hevc" id="0x7f080525" />
+    <public type="drawable" name="camera_timer" id="0x7f080526" />
     <public type="drawable" name="ic_brush" id="0x7f080527" />
     <public type="drawable" name="ic_button_icon_1" id="0x7f080528" />
     <public type="drawable" name="ic_button_icon_2" id="0x7f080529" />
@@ -5014,6 +5015,7 @@
     <public type="drawable" name="quantum_gm_ic_people_white_24" id="0x7f080628" />
     <public type="drawable" name="quantum_ic_keyboard_arrow_down_white_24" id="0x7f080629" />
     <public type="drawable" name="quantum_gm_ic_phone_android_vd_theme_24" id="0x7f08062a" />
+    <public type="drawable" name="hsl_sabre" id="0x7f08062b" />
     <public type="drawable" name="quantum_gm_ic_photo_camera_gm_grey_24" id="0x7f08062c" />
     <public type="drawable" name="raisr" id="0x7f08062d" />
     <public type="drawable" name="quantum_gm_ic_portrait_vd_theme_24" id="0x7f08062e" />

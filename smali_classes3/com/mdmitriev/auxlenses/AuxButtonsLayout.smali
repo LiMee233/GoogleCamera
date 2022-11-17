@@ -271,7 +271,7 @@
 .method public AuxName()V
     .locals 2
 
-    const-string v0, "1×"
+    const-string v0, "1\u00d7"
 
     iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameMain:Ljava/lang/String;
 
@@ -282,6 +282,7 @@
     const-string v0, "2"
 
     iput-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameWide:Ljava/lang/String;
+
     return-void
 .end method
 
@@ -454,9 +455,9 @@
 
     if-eq p1, v2, :cond_0
 
-    const/4 v3, 0x2
+    const/4 p0, 0x2
 
-    if-eq p1, v3, :cond_0
+    if-eq p1, p0, :cond_0
 
     goto :goto_0
 

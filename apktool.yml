@@ -959,7 +959,7 @@ usesFramework:
   ids:
   - 1
   tag: null
-version: 2.6.1
+version: 2.6.2-8749e2-SNAPSHOT
 versionInfo:
   versionCode: '64764928'
   versionName: 8.4.400.423370569.19

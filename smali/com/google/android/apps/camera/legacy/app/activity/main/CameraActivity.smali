@@ -1283,6 +1283,8 @@
 
     return-void
 
+    nop
+
     :pswitch_data_0
     .packed-switch 0x2
         :pswitch_1

@@ -1972,49 +1972,49 @@
 
     move-result v5
 
-    if-eqz v5, :cond_7
+    if-eqz v5, :cond_6
 
     invoke-static {v0, v0, v4}, Lew;->i(Lddi;Ldde;Ldeh;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_1
+
+    :cond_6
+    invoke-virtual/range {p1 .. p1}, Llzf;->d()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_7
+
+    invoke-static {v0, v0}, Ldad;->a(Lddi;Ldde;)V
+
+    goto/16 :goto_1
 
     :cond_7
-    invoke-virtual/range {p1 .. p1}, Llzf;->d()Z
+    invoke-virtual/range {p1 .. p1}, Llzf;->f()Z
 
     move-result v5
 
     if-eqz v5, :cond_8
 
-    invoke-static {v0, v0}, Ldad;->a(Lddi;Ldde;)V
+    invoke-static {v0, v0, v1}, Let;->I(Lddi;Ldde;Llzf;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_1
 
     :cond_8
-    invoke-virtual/range {p1 .. p1}, Llzf;->f()Z
+    invoke-virtual/range {p1 .. p1}, Llzf;->e()Z
 
     move-result v5
 
     if-eqz v5, :cond_9
 
-    invoke-static {v0, v0, v1}, Let;->I(Lddi;Ldde;Llzf;)V
-
-    goto/16 :goto_2
-
-    :cond_9
-    invoke-virtual/range {p1 .. p1}, Llzf;->e()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_a
-
     invoke-static {v0, v0, v1, v4}, Lew;->h(Lddi;Ldde;Llzf;Ldeh;)V
 
-    goto/16 :goto_2
+    goto/16 :goto_1
 
-    :cond_a
+    :cond_9
     iget-boolean v5, v1, Llzf;->f:Z
 
-    if-eqz v5, :cond_b
+    if-eqz v5, :cond_a
 
     sget-object v3, Ldcr;->e:Lddf;
 
@@ -2342,79 +2342,79 @@
 
     invoke-virtual {v0, v3, v8}, Ldeo;->s(Lddf;Z)V
 
-    goto :goto_2
+    goto :goto_1
+
+    :cond_a
+    invoke-virtual/range {p1 .. p1}, Llzf;->g()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_b
+
+    invoke-static {v0, v0, v1, v4}, Let;->H(Lddi;Ldde;Llzf;Ldeh;)V
+
+    goto :goto_1
 
     :cond_b
-    invoke-virtual/range {p1 .. p1}, Llzf;->g()Z
+    invoke-virtual/range {p1 .. p1}, Llzf;->h()Z
 
     move-result v5
 
     if-eqz v5, :cond_c
 
-    invoke-static {v0, v0, v1, v4}, Let;->H(Lddi;Ldde;Llzf;Ldeh;)V
+    invoke-static {v0, v0, v1, v4, v3}, Leu;->g(Lddi;Ldde;Llzf;Ldeh;Lhwv;)V
 
-    goto :goto_2
+    goto :goto_1
 
     :cond_c
-    invoke-virtual/range {p1 .. p1}, Llzf;->h()Z
-
-    move-result v5
+    iget-boolean v5, v1, Llzf;->i:Z
 
     if-eqz v5, :cond_d
 
-    invoke-static {v0, v0, v1, v4, v3}, Leu;->g(Lddi;Ldde;Llzf;Ldeh;Lhwv;)V
-
-    goto :goto_2
-
-    :cond_d
-    iget-boolean v5, v1, Llzf;->i:Z
-
-    if-eqz v5, :cond_e
-
     invoke-static {v0, v0, v1, v4}, Leu;->f(Lddi;Ldde;Llzf;Ldeh;)V
 
-    goto :goto_2
+    goto :goto_1
 
-    :cond_e
+    :cond_d
     invoke-virtual/range {p1 .. p1}, Llzf;->i()Z
 
     move-result v5
 
-    if-eqz v5, :cond_f
+    if-eqz v5, :cond_e
 
     invoke-static {v0, v0, v1, v4, v3}, Lfw;->k(Lddi;Ldde;Llzf;Ldeh;Lhwv;)V
 
-    goto :goto_2
+    goto :goto_1
 
-    :cond_f
+    :cond_e
     iget-boolean v5, v1, Llzf;->m:Z
 
-    if-eqz v5, :cond_10
+    if-eqz v5, :cond_f
 
     invoke-static {v0, v0, v1, v4, v3}, Lew;->g(Lddi;Ldde;Llzf;Ldeh;Lhwv;)V
 
-    goto :goto_2
+    goto :goto_1
 
-    :cond_10
+    :cond_f
     iget-boolean v3, v1, Llzf;->a:Z
 
-    if-eqz v3, :cond_11
+    if-eqz v3, :cond_10
 
     invoke-static {v0, v0, v4}, Ldad;->b(Lddi;Ldde;Ldeh;)V
 
-    goto :goto_2
+    goto :goto_1
 
-    :cond_11
+    :cond_10
     iget-boolean v3, v1, Llzf;->b:Z
 
-    if-eqz v3, :cond_12
+    if-eqz v3, :cond_11
 
     sget-object v3, Lddk;->at:Lddf;
 
     invoke-virtual {v0, v3, v8}, Ldeo;->s(Lddf;Z)V
 
-    :cond_12
-    :goto_2
+    :cond_11
+    :goto_1
     sget-object v3, Lddk;->o:Lddh;
 
     sget-object v4, Lddk;->at:Lddf;
@@ -2423,56 +2423,56 @@
 
     move-result v4
 
-    if-nez v4, :cond_13
+    if-nez v4, :cond_12
 
     const/4 v6, -0x1
 
-    goto :goto_3
+    goto :goto_2
 
-    :cond_13
+    :cond_12
     iget-boolean v4, v1, Llzf;->k:Z
 
-    if-nez v4, :cond_17
+    if-nez v4, :cond_16
 
     iget-boolean v1, v1, Llzf;->j:Z
 
-    if-eqz v1, :cond_14
+    if-eqz v1, :cond_13
 
     const/4 v6, 0x3
 
-    goto :goto_3
+    goto :goto_2
+
+    :cond_13
+    iget-boolean v1, v2, Llze;->e:Z
+
+    if-nez v1, :cond_14
+
+    invoke-static {}, Lcom/google/android/camera/experimental2017/ExperimentalKeys;->getLibraryVersion()I
+
+    move-result v1
+
+    if-gt v1, v13, :cond_14
+
+    const/4 v6, 0x0
+
+    goto :goto_2
 
     :cond_14
     iget-boolean v1, v2, Llze;->e:Z
 
     if-nez v1, :cond_15
 
-    invoke-static {}, Lcom/google/android/camera/experimental2017/ExperimentalKeys;->getLibraryVersion()I
-
-    move-result v1
-
-    if-gt v1, v13, :cond_15
-
-    const/4 v6, 0x0
-
-    goto :goto_3
+    goto :goto_2
 
     :cond_15
-    iget-boolean v1, v2, Llze;->e:Z
-
-    if-nez v1, :cond_16
-
-    goto :goto_3
-
-    :cond_16
     const/4 v6, 0x2
 
-    goto :goto_3
+    goto :goto_2
 
-    :cond_17
+    :cond_16
     const/4 v6, 0x3
 
-    :goto_3
+    :goto_2
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1

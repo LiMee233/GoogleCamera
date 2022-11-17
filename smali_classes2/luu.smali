@@ -441,7 +441,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_5
+    if-eqz v1, :cond_0
 
     sget-object p1, Landroid/hardware/camera2/CaptureRequest;->SHADING_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
@@ -457,7 +457,7 @@
 
     invoke-virtual {v0, p1, p0}, Llux;->b(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)V
 
-    :cond_5
+    :cond_0
     sget-object p1, Landroid/hardware/camera2/CaptureRequest;->CONTROL_AE_ANTIBANDING_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
     const-string v1, "pref_antibanding_key"
@@ -483,27 +483,27 @@
     :catch_0
     move-exception p1
 
-    goto :goto_1
+    goto :goto_0
 
     :catch_1
     move-exception p1
 
-    goto :goto_1
+    goto :goto_0
 
     :catch_2
     move-exception p1
 
-    goto :goto_1
+    goto :goto_0
 
     :catch_3
     move-exception p1
 
-    goto :goto_1
+    goto :goto_0
 
     :catch_4
     move-exception p1
 
-    :goto_1
+    :goto_0
     new-instance v0, Lllt;
 
     invoke-direct {v0, p1}, Lllt;-><init>(Ljava/lang/Throwable;)V

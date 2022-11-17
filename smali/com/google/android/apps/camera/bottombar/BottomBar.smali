@@ -1,6 +1,7 @@
 .class public Lcom/google/android/apps/camera/bottombar/BottomBar;
 .super Landroid/widget/LinearLayout;
 
+
 # static fields
 .field public static data_folder:Ljava/lang/String;
 
@@ -622,6 +623,7 @@
 
     return-object p1
 .end method
+
 
 # virtual methods
 .method public changeSideButtons(Landroid/view/View;Landroid/view/View;Z)V

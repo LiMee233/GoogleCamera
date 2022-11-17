@@ -445,7 +445,7 @@
 
     sget-object v2, Llwb;->a:Llwb;
 
-    if-ne v1, v2, :cond_c
+    if-ne v1, v2, :cond_b
 
     invoke-interface {v0}, Lqkb;->get()Ljava/lang/Object;
 
@@ -453,7 +453,7 @@
 
     check-cast v0, Lgxk;
 
-    goto/16 :goto_a
+    goto/16 :goto_9
 
     :pswitch_0
     iget-object v0, p0, Lgcb;->b:Lqkb;
@@ -1007,7 +1007,7 @@
 
     move-result v4
 
-    if-eqz v4, :cond_7
+    if-eqz v4, :cond_6
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -1033,7 +1033,7 @@
 
     goto :goto_5
 
-    :cond_7
+    :cond_6
     new-instance v0, Lcdg;
 
     const/16 v4, 0xd
@@ -1046,7 +1046,7 @@
 
     move-result v0
 
-    if-nez v0, :cond_8
+    if-nez v0, :cond_7
 
     nop
 
@@ -1062,7 +1062,7 @@
 
     return-object v0
 
-    :cond_8
+    :cond_7
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
     const-string v1, "No fps range with upper value at or below 30fps."
@@ -1184,7 +1184,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_9
+    if-eqz v2, :cond_8
 
     invoke-virtual {v1}, Loix;->c()Ljava/lang/Object;
 
@@ -1196,13 +1196,13 @@
 
     move-result v1
 
-    if-eqz v1, :cond_9
+    if-eqz v1, :cond_8
 
     invoke-virtual {v0}, Loix;->g()Z
 
     move-result v1
 
-    if-eqz v1, :cond_9
+    if-eqz v1, :cond_8
 
     invoke-virtual {v0}, Loix;->c()Ljava/lang/Object;
 
@@ -1220,12 +1220,12 @@
 
     move-result-object v0
 
-    goto :goto_7
+    goto :goto_6
 
-    :cond_9
+    :cond_8
     sget-object v0, Loic;->a:Loic;
 
-    :goto_7
+    :goto_6
     return-object v0
 
     :pswitch_11
@@ -1243,7 +1243,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_a
+    if-eqz v1, :cond_9
 
     invoke-interface {v0}, Lqkb;->get()Ljava/lang/Object;
 
@@ -1251,14 +1251,14 @@
 
     check-cast v0, Lger;
 
-    goto :goto_8
+    goto :goto_7
 
-    :cond_a
+    :cond_9
     new-instance v0, Lgeb;
 
     invoke-direct {v0}, Lgeb;-><init>()V
 
-    :goto_8
+    :goto_7
     invoke-static {v0}, Lqly;->aj(Ljava/lang/Object;)V
 
     return-object v0
@@ -1284,33 +1284,35 @@
 
     move-result v0
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_a
 
     iget-boolean v0, v3, Lnex;->a:Z
 
-    if-eqz v0, :cond_b
+    if-eqz v0, :cond_a
 
-    goto :goto_9
+    goto :goto_8
 
-    :cond_b
+    :cond_a
     const/4 v1, 0x0
 
-    :goto_9
+    :goto_8
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
     return-object v0
 
-    :cond_c
+    :cond_b
     invoke-static {}, Lgvn;->a()Lgxu;
 
     move-result-object v0
 
-    :goto_a
+    :goto_9
     invoke-static {v0}, Lqly;->aj(Ljava/lang/Object;)V
 
     return-object v0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x0

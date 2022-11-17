@@ -974,6 +974,7 @@
 
 .method public static GetBlackLevel(Llvn;Llzs;)[F
     .locals 7
+
     sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->SENSOR_BLACK_LEVEL_PATTERN:Landroid/hardware/camera2/CameraCharacteristics$Key;
 
     invoke-interface {p0, v1}, Llvn;->l(Landroid/hardware/camera2/CameraCharacteristics$Key;)Ljava/lang/Object;
@@ -982,7 +983,7 @@
 
     check-cast v1, Landroid/hardware/camera2/params/BlackLevelPattern;
 
-    if-eqz v1, :cond_3
+    if-eqz v1, :cond_1
 
     const/4 v2, 0x4
 
@@ -990,8 +991,8 @@
 
     const/4 v5, 0x0
 
-    :goto_1
-    if-ge v5, v2, :cond_2
+    :goto_0
+    if-ge v5, v2, :cond_0
 
     rem-int/lit8 v2, v5, 0x2
 
@@ -1009,12 +1010,12 @@
 
     const/4 v2, 0x4
 
-    goto :goto_1
+    goto :goto_0
 
-    :cond_2
+    :cond_0
     return-object v3
 
-    :cond_3
+    :cond_1
     const/4 v0, 0x4
 
     new-array v0, v0, [F
@@ -1022,6 +1023,8 @@
     fill-array-data v0, :array_0
 
     return-object v0
+
+    nop
 
     :array_0
     .array-data 4
@@ -2026,7 +2029,6 @@
 
     move-result-object v1
 
-    # Set default stream for video and slow motion mode of all lens
     const-string v2, "pref_operation_mode_motion_key_front"
 
     invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -2091,14 +2093,12 @@
 
     if-nez v3, :cond_0
 
-    # For which preference is not existing, this will return 0.
-    # So we can delete useless preferences.
     const/4 v1, 0x0
 
     goto :goto_0
 
     :cond_0
-    const v1, 0xf004    # DEC: 61444 (EISV2)
+    const v1, 0xf004
 
     :goto_0
     return v1
@@ -2273,9 +2273,7 @@
 
     sput v0, Lsgcam/Shamim;->GetSubjectPortrait:I
 
-    # Now do not read value from preference.
-
-    const/16 v0, 0xa    # DEC: 10
+    const/16 v0, 0xa
 
     sput v0, Lsgcam/Shamim;->Zoom:I
 

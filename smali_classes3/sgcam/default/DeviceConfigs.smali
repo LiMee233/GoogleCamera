@@ -600,7 +600,7 @@
 
     move-result v10
 
-    if-nez v10, :cond_14
+    if-nez v10, :cond_13
 
     sget-object v3, Lddk;->aR:Lddf;
 
@@ -630,7 +630,7 @@
 
     invoke-virtual {v0, v3, v15}, Ldeo;->s(Lddf;Z)V
 
-    :cond_14
+    :cond_13
     sget-object v3, Ldcz;->c:Lddf;
 
     invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
@@ -739,7 +739,7 @@
 
     move-result v15
 
-    if-eqz v15, :cond_15
+    if-eqz v15, :cond_14
 
     invoke-static {}, Lsgcam/Shamim;->getSlowmoFps()I
 
@@ -753,14 +753,14 @@
 
     invoke-interface {v0, v3, v15}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
 
-    :cond_15
+    :cond_14
     const-string v15, "pref_enable_resolation_key"
 
     invoke-static {v15}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
 
     move-result v15
 
-    if-eqz v15, :cond_16
+    if-eqz v15, :cond_15
 
     invoke-static {}, Lsgcam/Shamim;->getFrontVideoResolations()I
 
@@ -786,7 +786,7 @@
 
     invoke-interface {v0, v3, v15}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
 
-    :cond_16
+    :cond_15
     return-void
 .end method
 

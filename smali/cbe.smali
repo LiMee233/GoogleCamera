@@ -75,11 +75,11 @@
 
     move-result v0
 
-    if-eq v2, v0, :cond_2
+    if-eq v2, v0, :cond_1
 
     const/4 v1, 0x1
 
-    goto/16 :goto_2
+    goto/16 :goto_1
 
     :pswitch_0
     iget-object v0, p0, Lcbe;->a:Lqkb;
@@ -191,7 +191,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_1
+    if-eqz v1, :cond_0
 
     sget-object v1, Lddk;->t:Lddh;
 
@@ -209,20 +209,20 @@
 
     move-result v0
 
-    goto :goto_1
+    goto :goto_0
 
-    :cond_1
+    :cond_0
     const/16 v0, 0x3c
 
-    :goto_1
+    :goto_0
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     return-object v0
 
-    :cond_2
-    :goto_2
+    :cond_1
+    :goto_1
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0

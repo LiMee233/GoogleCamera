@@ -359,6 +359,8 @@
     goto :goto_1
 .end method
 
+
+# virtual methods
 .method public final GetAllPreferenceScreen(Landroid/preference/Preference;)V
     .locals 2
 
@@ -2992,8 +2994,6 @@
     invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     :goto_0
-
-
     iget-object p1, p0, Lfca;->a:Lfcd;
 
     iget-object p1, p1, Lfcd;->m:Ljava/util/List;
@@ -3097,7 +3097,7 @@
     move-result-object v5
 
     :cond_4
-    :goto_d
+    :goto_1
     invoke-interface {v5}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v6
@@ -3140,7 +3140,7 @@
 
     invoke-virtual {v6, v3}, Lcom/google/android/apps/camera/ui/preference/KeyListenerPreference;->b(Ljava/lang/String;)V
 
-    goto :goto_d
+    goto :goto_1
 
     :cond_5
     iget-object p1, p0, Lfca;->g:Ljava/util/HashMap;
@@ -3197,7 +3197,7 @@
     move-result-object p2
 
     :cond_7
-    :goto_e
+    :goto_2
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
@@ -3237,7 +3237,7 @@
 
     invoke-virtual {v1, v3}, Lcom/google/android/apps/camera/ui/preference/KeyListenerPreference;->b(Ljava/lang/String;)V
 
-    goto :goto_e
+    goto :goto_2
 
     :cond_9
     iget-object p2, p0, Lfca;->g:Ljava/util/HashMap;
@@ -3245,7 +3245,6 @@
     invoke-virtual {p2, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     :cond_a
-    :goto_f
     sget p1, Lsgcam/Shamim;->HdrProcessing:I
 
     if-nez p1, :cond_b

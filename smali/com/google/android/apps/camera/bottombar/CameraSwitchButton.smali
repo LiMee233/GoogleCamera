@@ -56,7 +56,7 @@
 
     instance-of v1, v0, Landroid/graphics/drawable/RippleDrawable;
 
-    if-eqz v1, :cond_c
+    if-eqz v1, :cond_0
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
 
@@ -90,7 +90,7 @@
 
     invoke-virtual {p0, v0}, Lcom/google/android/apps/camera/bottombar/CameraSwitchButton;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    :cond_c
+    :cond_0
     return-void
 .end method
 

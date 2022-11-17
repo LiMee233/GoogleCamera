@@ -1058,7 +1058,7 @@
 
     move-result v10
 
-    if-eqz v3, :cond_7
+    if-eqz v3, :cond_0
 
     new-instance v13, Ljjt;
 
@@ -1080,9 +1080,9 @@
 
     invoke-direct/range {v3 .. v12}, Ljjt;-><init>(Lcom/google/android/apps/camera/ui/shutterbutton/ShutterButton;Landroid/os/Handler;Loix;Ljtw;Lcom/google/android/apps/camera/ui/shutterbutton/ShutterButtonProgressOverlay;ZZLjrf;Lkaq;)V
 
-    goto :goto_1
+    goto :goto_0
 
-    :cond_7
+    :cond_0
     new-instance v13, Ljlf;
 
     iget-object v0, v0, Ljnq;->f:Lcom/google/android/apps/camera/bottombar/BottomBar;
@@ -1107,7 +1107,7 @@
 
     invoke-direct/range {v3 .. v11}, Ljlf;-><init>(Lcom/google/android/apps/camera/ui/shutterbutton/ShutterButton;Landroid/os/Handler;Loix;Ljtw;ZZLjrf;Lkaq;)V
 
-    :goto_1
+    :goto_0
     return-object v13
 
     :pswitch_7
@@ -1261,6 +1261,8 @@
     invoke-direct/range {v1 .. v8}, Livx;-><init>(Landroid/view/WindowManager;Lj$/util/function/Consumer;Lbue;Lhue;Llap;Ldde;Lbqg;)V
 
     return-object v0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x0
