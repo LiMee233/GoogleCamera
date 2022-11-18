@@ -139,12 +139,6 @@
 .method public static b(Llvn;)Z
     .locals 5
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->isXiaomi12()Z
-
-    move-result v1
-
-    if-nez v1, :cond_2
-
     sget-object v0, Landroid/hardware/camera2/CameraCharacteristics;->REQUEST_AVAILABLE_CAPABILITIES:Landroid/hardware/camera2/CameraCharacteristics$Key;
 
     sget-object v1, Lear;->b:[I
@@ -181,23 +175,6 @@
 
     :cond_1
     return v1
-
-    :cond_2
-    sget-object v0, Landroid/hardware/camera2/CameraCharacteristics;->REQUEST_AVAILABLE_CAPABILITIES:Landroid/hardware/camera2/CameraCharacteristics$Key;
-
-    sget-object v1, Lear;->b:[I
-
-    invoke-interface {p0, v0, v1}, Llvn;->m(Landroid/hardware/camera2/CameraCharacteristics$Key;Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, [I
-
-    array-length v0, p0
-
-    const/4 v1, 0x1
-
-    const/4 v2, 0x0
 
     :goto_1
     if-ge v2, v0, :cond_4

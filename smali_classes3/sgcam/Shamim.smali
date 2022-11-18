@@ -2125,63 +2125,12 @@
 .method public static GetRawFormatFix()[I
     .locals 5
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->GoogleAux()Z
-
-    move-result v3
-
-    if-nez v3, :cond_1
-
-    const-string v3, "pref_raw_key"
-
-    invoke-static {v3}, Lcom/SDE/LensValue;->SetLensValueWithFront(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v3
-
-    const/4 v4, 0x1
-
-    if-ne v3, v4, :cond_0
-
-    const/4 v0, 0x1
-
-    new-array v0, v0, [I
-
-    const/4 v1, 0x0
-
-    const/16 v2, 0x25
-
-    aput v2, v0, v1
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v4, 0x2
-
-    if-ne v3, v4, :cond_1
-
-    const/4 v0, 0x1
-
-    new-array v0, v0, [I
-
-    const/4 v1, 0x0
-
-    const/16 v2, 0x20
-
-    aput v2, v0, v1
-
-    goto :goto_0
-
-    :cond_1
     const/4 v0, 0x3
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_0
 
-    :goto_0
     return-object v0
 
     nop

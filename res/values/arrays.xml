@@ -1037,16 +1037,6 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="raw_entries">
-        <item>AUTO(Default)</item>
-        <item>RAW10</item>
-        <item>RAW16</item>
-    </string-array>
-    <string-array name="raw_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="pref_exynos_entries">
         <item>Auto</item>
         <item>Fix enable</item>

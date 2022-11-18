@@ -85,17 +85,6 @@
     goto/16 :goto_0
 
     :cond_0
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->isnokia()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_1
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->NokiaGetDefaults()V
-
-    goto/16 :goto_0
-
-    :cond_1
     invoke-static {}, Lsgcam/default/DeviceCodeNames;->isOnePlus()Z
 
     move-result v10
@@ -173,105 +162,6 @@
     goto :goto_0
 
     :cond_8
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->Mi12UltraDevice()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_9
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->Xiaomi12UltraGetDefaults()V
-
-    goto :goto_0
-
-    :cond_9
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->SamsungM52()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_a
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->SamsungM52GetDefaults()V
-
-    goto :goto_0
-
-    :cond_a
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->isXiaomi12()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_b
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->Xiaomi12GetDefaults()V
-
-    goto :goto_0
-
-    :cond_b
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->RedmiNote7()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_c
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->RedmiNote7GetDefaults()V
-
-    goto :goto_0
-
-    :cond_c
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->RedmiNote10()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_d
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->RedmiNote10GetDefaults()V
-
-    goto :goto_0
-
-    :cond_d
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->Mi10TPro()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_e
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->Mi10TProGetDefaults()V
-
-    goto :goto_0
-
-    :cond_e
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->Miatoll()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_f
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->MiatollGetDefaults()V
-
-    goto :goto_0
-
-    :cond_f
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->PocoX3()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_10
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->PocoX3GetDefaults()V
-
-    goto :goto_0
-
-    :cond_10
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->ZFOLD4()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_11
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->ZFOLD4Defaults()V
-
-    goto :goto_0
-
-    :cond_11
     invoke-static {}, Lsgcam/default/DeviceCodeNames;->Pixel7Pro()Z
 
     move-result v10
@@ -746,24 +636,6 @@
     return-void
 .end method
 
-.method public static Mi10TProGetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static MiatollGetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static NokiaGetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
 .method public static OnePlus7GetDefaults()V
     .locals 12
 
@@ -1008,24 +880,6 @@
     return-void
 .end method
 
-.method public static PocoX3GetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static RedmiNote10GetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static RedmiNote7GetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
 .method public static Rn8GetDefaults()V
     .locals 12
 
@@ -1038,12 +892,6 @@
     sget-object v5, Lddp;->e:Lddf;
 
     invoke-interface {v4, v5, v7}, Lddj;->s(Lddf;Z)V
-
-    return-void
-.end method
-
-.method public static SamsungM52GetDefaults()V
-    .locals 0
 
     return-void
 .end method
@@ -1126,66 +974,6 @@
     const-string v5, "pref_img_key_5"
 
     const-string v6, "3"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static Xiaomi12GetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static Xiaomi12UltraGetDefaults()V
-    .locals 0
-
-    return-void
-.end method
-
-.method public static ZFOLD4Defaults()V
-    .locals 12
-
-    sget-object v4, Lsgcam/Shamim;->GetClass:Ldeo;
-
-    const/4 v7, 0x1
-
-    const/4 v8, 0x0
-
-    const-string v5, "pref_raw_key_front"
-
-    const-string v6, "2"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_raw_key_main"
-
-    const-string v6, "2"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_raw_key_tele"
-
-    const-string v6, "2"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_raw_key_wide"
-
-    const-string v6, "2"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_raw_key_id4"
-
-    const-string v6, "2"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_raw_key_id5"
-
-    const-string v6, "2"
 
     invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 

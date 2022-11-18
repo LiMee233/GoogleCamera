@@ -143,8 +143,6 @@
     <public type="array" name="curve_level_entryvalues" id="0x7f03005d" />
     <public type="array" name="dabl_entries" id="0x7f030101" />
     <public type="array" name="dabl_entryvalues" id="0x7f030102" />
-    <public type="array" name="raw_entries" id="0x7f03010d" />
-    <public type="array" name="raw_entryvalues" id="0x7f03010e" />
     <public type="array" name="pref_exynos_entries" id="0x7f030131" />
     <public type="array" name="pref_exynos_entryvalues" id="0x7f030132" />
     <public type="array" name="pref_curve_mode2_entries" id="0x7f030133" />
