@@ -34,19 +34,9 @@
 
 # virtual methods
 .method public onClick(Landroid/view/View;)V
-    .locals 5
-
-    sget v0, Lsgcam/Shamim;->NonRestartVfB:I
-
-    if-eqz v0, :cond_0
+    .locals 4
 
     invoke-static {}, Lsgcam/Shamim;->onRestart()V
 
-    goto :goto_0
-
-    :cond_0
-    invoke-static {}, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->ReInit()V
-
-    :goto_0
     return-void
 .end method

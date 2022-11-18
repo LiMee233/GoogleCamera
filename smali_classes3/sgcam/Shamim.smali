@@ -63,8 +63,6 @@
 
 .field public static LibDirectory:Ljava/lang/String;
 
-.field public static NonRestartVfB:I
-
 .field public static OriginalReso:I
 
 .field public static P3:I
@@ -2216,14 +2214,6 @@
 
 .method public static GetPreferenceKey()V
     .locals 1
-
-    const-string v0, "pref_non_restart_vf_button_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->NonRestartVfB:I
 
     const-string v0, "pref_zoom_ui_key"
 
@@ -4956,7 +4946,7 @@
 
     if-nez v0, :cond_0
 
-    const-wide/16 v0, 0x1f4
+    const-wide/16 v0, 0x96
 
     invoke-static {v0, v1}, Ljava/lang/Thread;->sleep(J)V
 
