@@ -93,15 +93,11 @@
     <public type="array" name="android_wear_capabilities" id="0x7f030000" />
     <public type="array" name="model_entries" id="0x7f030001" />
     <public type="array" name="model_entryvalues" id="0x7f030002" />
-    <public type="array" name="pref_c2aa_entries" id="0x7f030003" />
     <public type="array" name="com_google_android_gms_fonts_certs" id="0x7f030004" />
     <public type="array" name="com_google_android_gms_fonts_certs_dev" id="0x7f030005" />
     <public type="array" name="com_google_android_gms_fonts_certs_prod" id="0x7f030006" />
-    <public type="array" name="pref_c2a_entries" id="0x7f030007" />
-    <public type="array" name="pref_c2a_entryvalues" id="0x7f030008" />
     <public type="array" name="fix_resolution_entries" id="0x7f030009" />
     <public type="array" name="fix_resolution_entryvalues" id="0x7f03000a" />
-    <public type="array" name="pref_c2aa_entryvalues" id="0x7f03000b" />
     <public type="array" name="pref_merge_entries" id="0x7f03000c" />
     <public type="array" name="pref_merge_entryvalues" id="0x7f03000d" />
     <public type="array" name="pref_antibanding_entries" id="0x7f03000e" />

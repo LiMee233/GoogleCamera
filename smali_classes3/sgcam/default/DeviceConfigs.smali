@@ -616,9 +616,7 @@
 
     invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
 
-    invoke-static {}, Lsgcam/Shamim;->GetC2api()I
-
-    move-result v15
+    const/4 v15, 0x0
 
     sget-object v3, Lddp;->e:Lddf;
 

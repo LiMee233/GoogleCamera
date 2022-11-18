@@ -230,9 +230,7 @@
 
     invoke-direct {v9, v4}, Lgmb;-><init>(Lghw;)V
 
-    invoke-static {}, Lsgcam/Shamim;->GetViewfinderFormate()I
-
-    move-result v10
+    const/16 v10, 0x23
 
     :try_start_1
     invoke-static {v4, v3, v10}, Lgse;->a(Llvn;Llie;I)Lgse;

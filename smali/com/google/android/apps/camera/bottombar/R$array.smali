@@ -7,8 +7,6 @@
 
 .field public static final camera_id_entryvalues:I = 0x7f030002
 
-.field public static final pref_camera_flashmode_entryvalues:I = 0x7f03000b
-
 .field public static final pref_camera_focusmode_default_array:I = 0x7f03000c
 
 .field public static final pref_camera_focusmode_entryvalues:I = 0x7f03000d

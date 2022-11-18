@@ -193,12 +193,6 @@
 
     invoke-direct {v8, v0}, Ljava/util/EnumMap;-><init>(Ljava/lang/Class;)V
 
-    invoke-static {}, Lsgcam/Shamim;->GetC2api()I
-
-    move-result v0
-
-    if-nez v0, :cond_c
-
     sget-object v0, Lhdq;->i:Lhdq;
 
     invoke-interface {v2}, Lqkb;->get()Ljava/lang/Object;
@@ -608,7 +602,6 @@
         0xc -> :sswitch_0
     .end sparse-switch
 
-    :cond_c
     invoke-virtual {v1}, Ljrj;->ordinal()I
 
     move-result v0
