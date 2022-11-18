@@ -959,23 +959,11 @@
 
     invoke-direct {p3, v0, v1, v2, v3}, Lgtk;-><init>(Lgtu;III)V
 
-    new-instance v5, Lgtk;
-
-    sget-object v0, Lgtu;->shhh:Lgtu;
-
-    const v1, 0x7f080722
-
-    const v2, 0x7f14053d
-
-    const v3, 0x7f14053e
-
-    invoke-direct {v5, v0, v1, v2, v3}, Lgtk;-><init>(Lgtu;III)V
-
     const v0, 0x7f1404ff
 
     const v1, 0x7f140502
 
-    invoke-static {p2, p3, v5}, Looh;->o(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Looh;
+    invoke-static {p2, p3}, Looh;->n(Ljava/lang/Object;Ljava/lang/Object;)Looh;
 
     move-result-object p2
 

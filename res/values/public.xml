@@ -5198,7 +5198,6 @@
     <public type="drawable" name="abc_1_shortcuts_nightsight" id="0x7f08071d" />
     <public type="drawable" name="abc_1_shortcuts_portrait" id="0x7f08071e" />
     <public type="drawable" name="ic_shortcuts_setting" id="0x7f08071f" />
-    <public type="drawable" name="ic_8k_24px" id="0x7f080722" />
     <public type="drawable" name="abc_ab_share_pack_mtrl_alpha" id="0x7f0803f2" />
     <public type="drawable" name="abc_cab_background_top_mtrl_alpha" id="0x7f080403" />
     <public type="drawable" name="abc_ic_commit_search_api_mtrl_alpha" id="0x7f08040a" />
@@ -7532,8 +7531,6 @@
     <public type="string" name="zoom_minus_desc" id="0x7f14053a" />
     <public type="string" name="zoom_plus_desc" id="0x7f14053b" />
     <public type="string" name="string_7f14053c" id="0x7f14053c" />
-    <public type="string" name="8k" id="0x7f14053d" />
-    <public type="string" name="8kk" id="0x7f14053e" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f150000" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f150001" />
     <public type="style" name="AlertDialogBodyText.BigTitle.Centered" id="0x7f150002" />

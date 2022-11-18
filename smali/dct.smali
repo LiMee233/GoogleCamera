@@ -17,8 +17,6 @@
 
 .field public static final DDDE:Lddf;
 
-.field public static final DDsh:Lddf;
-
 .field public static final E:Lddf;
 
 .field public static final F:Lddf;
@@ -1155,20 +1153,6 @@
     move-result-object v0
 
     sput-object v0, Ldct;->SATURATION:Lddf;
-
-    new-instance v0, Lddg;
-
-    invoke-direct {v0}, Lddg;-><init>()V
-
-    const-string v3, "camcorder.8k_enabled"
-
-    iput-object v3, v0, Lddg;->a:Ljava/lang/String;
-
-    invoke-virtual {v0}, Lddg;->f()Lddf;
-
-    move-result-object v0
-
-    sput-object v0, Ldct;->DDsh:Lddf;
 
     new-instance v0, Lddg;
 
@@ -2407,10 +2391,6 @@
     invoke-interface {p0, v0, v3}, Lddj;->s(Lddf;Z)V
 
     sget-object v0, Ldct;->DDDE:Lddf;
-
-    invoke-interface {p0, v0, v2}, Lddj;->s(Lddf;Z)V
-
-    sget-object v0, Ldct;->DDsh:Lddf;
 
     invoke-interface {p0, v0, v2}, Lddj;->s(Lddf;Z)V
 

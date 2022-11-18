@@ -983,6 +983,4 @@ Frequent Faces won’t be available when saving photos and videos to Locked Fold
     <string name="zoom_minus_desc">Zoom out</string>
     <string name="zoom_plus_desc">Zoom in</string>
     <string name="string_7f14053c">Unable to switch lens. There is a photo processing. Try again later.</string>
-    <string name="8k">8K (Ultra-high resolution)</string>
-    <string name="8kk">8K Ultra high resolution</string>
 </resources>
