@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:id="@id/options_menu_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/options_menu_top_bar_size" android:layout_alignParentTop="true">
         <FrameLayout android:layout_gravity="center" android:id="@id/minibar_container" android:paddingLeft="@dimen/options_icon_side_padding" android:paddingRight="@dimen/options_icon_side_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <include layout="@layout/minibar" />
@@ -24,30 +24,25 @@
     <FrameLayout android:id="@id/astro_time" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <za.defcomk.prorec.cust5.RotSeek android:layout_gravity="bottom|center|right" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="65.0dip" android:layout_height="120.0dip" android:layout_marginRight="67.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
     </FrameLayout>
-    <FrameLayout android:id="@id/aux_butt_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.mdmitriev.auxlenses.AuxButtonsLayout android:theme="@style/CameraX" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="7.0dip" android:backgroundTint="@null">
-            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <LinearLayout android:orientation="horizontal" android:background="@drawable/rectang" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                    <Button android:theme="@style/CameraX" android:textSize="@dimen/zoom_knob_text_size" android:textColor="#ffffffff" android:id="@id/AuxButton5" android:background="@drawable/main_button" android:visibility="gone" android:layout_width="34.899994dip" android:layout_height="34.899994dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:textAllCaps="?android:windowOverscan" android:textAlignment="center" android:backgroundTint="@null" android:paddingHorizontal="0.0dip" android:paddingVertical="0.0dip" />
-                    <Button android:theme="@style/CameraX" android:textSize="@dimen/zoom_knob_text_size" android:textColor="#ffffffff" android:id="@id/AuxButtonWide" android:background="@drawable/main_button" android:visibility="gone" android:layout_width="34.899994dip" android:layout_height="34.899994dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:textAllCaps="?android:windowOverscan" android:textAlignment="center" android:backgroundTint="@null" android:paddingHorizontal="0.0dip" android:paddingVertical="0.0dip" />
-                    <Button android:theme="@style/CameraX" android:textSize="@dimen/zoom_knob_text_size" android:textColor="#ffffffff" android:id="@id/AuxButtonMain" android:background="@drawable/main_button" android:visibility="gone" android:layout_width="34.899994dip" android:layout_height="34.899994dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:textAllCaps="?android:windowOverscan" android:textAlignment="center" android:backgroundTint="@null" android:paddingHorizontal="0.0dip" android:paddingVertical="0.0dip" />
-                    <Button android:theme="@style/CameraX" android:textSize="@dimen/zoom_knob_text_size" android:textColor="#ffffffff" android:id="@id/AuxButtonTele" android:background="@drawable/main_button" android:visibility="gone" android:layout_width="34.899994dip" android:layout_height="34.899994dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:textAllCaps="?android:windowOverscan" android:textAlignment="center" android:backgroundTint="@null" android:paddingHorizontal="0.0dip" android:paddingVertical="0.0dip" />
-                    <Button android:theme="@style/CameraX" android:textSize="@dimen/zoom_knob_text_size" android:textColor="#ffffffff" android:id="@id/AuxButtonInfinity" android:background="@drawable/main_button" android:visibility="gone" android:layout_width="34.899994dip" android:layout_height="34.899994dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="3.0dip" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:textAllCaps="?android:windowOverscan" android:textAlignment="center" android:backgroundTint="@null" android:paddingHorizontal="0.0dip" android:paddingVertical="0.0dip" />
-                </LinearLayout>
-            </LinearLayout>
-        </com.mdmitriev.auxlenses.AuxButtonsLayout>
-    </FrameLayout>
-    <FrameLayout android:id="@id/shading" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.custom.Shading7 android:textSize="9.0sp" android:layout_gravity="center|right|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-    </FrameLayout>
-    <FrameLayout android:id="@id/ldr" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.custom.ToggleButton4 android:textSize="9.0sp" android:layout_gravity="center|right|top" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="67.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-    </FrameLayout>
+
+    <!-- From Right -->
     <FrameLayout android:id="@id/AWBbutton" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.custom.AWB4 android:textSize="9.0sp" android:layout_gravity="center|right|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="120.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.custom.AWB4 android:textSize="0sp" android:layout_gravity="center|right|top" android:foreground="@drawable/ic_viewfinder_custom_button_awb" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginTop="0.655dip" android:layout_marginRight="0.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
     </FrameLayout>
     <FrameLayout android:id="@id/upscaling" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.custom.HiRes7 android:textSize="9.0sp" android:layout_gravity="center|left|top" android:background="#ff4a4a4a" android:layout_width="33.0dip" android:layout_height="33.0dip" android:layout_marginLeft="67.0dip" android:layout_marginTop="13.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <com.custom.Shading7 android:textSize="0sp" android:layout_gravity="center|right|top" android:foreground="@drawable/ic_viewfinder_custom_button_shading" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginTop="0.655dip" android:layout_marginRight="50.8884dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/shading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.custom.HiRes7 android:textSize="0sp" android:layout_gravity="center|right|top" android:foreground="@drawable/ic_viewfinder_custom_button_hires" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginTop="0.655dip" android:layout_marginRight="101.7768dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </FrameLayout>
+
+    <!-- From Left -->
+    <FrameLayout android:id="@id/aux_butt_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mdmitriev.auxlenses.AuxButtonsLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/AuxButtonWide" android:foreground="@drawable/ic_viewfinder_custom_button_lens_macro" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.655dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <Button android:id="@id/AuxButtonMain" android:foreground="@drawable/ic_viewfinder_custom_button_lens_main" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginLeft="50.8884dip" android:layout_marginTop="0.655dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <Button android:id="@id/AuxButtonTele" android:foreground="@drawable/ic_viewfinder_custom_button_lens_wide" android:layout_width="53.5439dip" android:layout_height="53.5439dip" android:layout_marginLeft="101.7768dip" android:layout_marginTop="0.655dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </com.mdmitriev.auxlenses.AuxButtonsLayout>
     </FrameLayout>
     <RelativeLayout android:id="@id/options_menu_middle_bar" android:layout_width="fill_parent" android:layout_height="@dimen/options_menu_top_bar_size" android:layout_below="@id/options_menu_top_bar" />
     <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/overlap_with_top_bar" android:layout_below="@id/options_menu_top_bar" android:layout_alignParentBottom="true">

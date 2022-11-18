@@ -256,7 +256,7 @@
 
     move-result-object v3
 
-    const-string v4, "main_button"
+    const-string v4, "ic_viewfinder_custom_button_background_disabled"
 
     const-string v5, "drawable"
 
@@ -293,7 +293,7 @@
 
     move-result-object v3
 
-    const-string v4, "enabled_button"
+    const-string v4, "ic_viewfinder_custom_button_background_enabled"
 
     const-string v5, "drawable"
 
@@ -330,7 +330,7 @@
 
     move-result-object v3
 
-    const-string v4, "enabled_button"
+    const-string v4, "ic_viewfinder_custom_button_background_enabled"
 
     const-string v5, "drawable"
 
@@ -367,7 +367,7 @@
 
     move-result-object v3
 
-    const-string v4, "enabled_button"
+    const-string v4, "ic_viewfinder_custom_button_background_enabled"
 
     const-string v5, "drawable"
 

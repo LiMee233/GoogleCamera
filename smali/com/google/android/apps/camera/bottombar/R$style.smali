@@ -17,8 +17,6 @@
 
 .field public static final Animation_AppCompat_DropDownUp:I = 0x7f150007
 
-.field public static final Animation_AppCompat_Tooltip:I = 0x7f150008
-
 .field public static final Base_AlertDialog_AppCompat:I = 0x7f15000e
 
 .field public static final Base_AlertDialog_AppCompat_Light:I = 0x7f15000f

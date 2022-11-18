@@ -3,7 +3,6 @@
     <item type="id" name="AuxButtonTele" />
     <item type="id" name="AuxButtonWide" />
     <item type="id" name="AuxButtonSpace" />
-    <item type="id" name="AuxButton5" />
     <item type="id" name="AWBbutton" />
     <item type="id" name="slider_exposure" />
     <item type="id" name="accessibility_action_clickable_span" />
@@ -42,7 +41,6 @@
     <item type="id" name="slider_iso" />
     <item type="id" name="slider_focus" />
     <item type="id" name="AuxButtonMain" />
-    <item type="id" name="AuxButtonInfinity" />
     <item type="id" name="action_bar" />
     <item type="id" name="action_bar_activity_content" />
     <item type="id" name="action_bar_container" />

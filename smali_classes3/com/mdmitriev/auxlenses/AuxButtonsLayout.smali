@@ -3,9 +3,6 @@
 
 
 # instance fields
-.field public buttonName5:Ljava/lang/String;
-
-.field public buttonNameInfinity:Ljava/lang/String;
 
 .field public buttonNameMain:Ljava/lang/String;
 
@@ -22,10 +19,6 @@
         }
     .end annotation
 .end field
-
-.field public idButton5:I
-
-.field public idButtonInfinity:I
 
 .field public idButtonMain:I
 
@@ -78,22 +71,6 @@
 
     iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonWide:I
 
-    const-string v0, "AuxButtonInfinity"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonInfinity:I
-
-    const-string v0, "AuxButton5"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButton5:I
-
     return-void
 .end method
 
@@ -137,22 +114,6 @@
     move-result v0
 
     iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonWide:I
-
-    const-string v0, "AuxButtonInfinity"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonInfinity:I
-
-    const-string v0, "AuxButton5"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButton5:I
 
     return-void
 .end method
@@ -198,22 +159,6 @@
 
     iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonWide:I
 
-    const-string v0, "AuxButtonInfinity"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonInfinity:I
-
-    const-string v0, "AuxButton5"
-
-    invoke-virtual {p0, v0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByID(Ljava/lang/String;)I
-
-    move-result v0
-
-    iput v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButton5:I
-
     return-void
 .end method
 
@@ -244,16 +189,6 @@
 
     goto :goto_0
 
-    :pswitch_3
-    const-string v0, "pref_camera_picturesize_4th_key"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_camera_picturesize_5th_key"
-
-    goto :goto_0
-
     nop
 
     :pswitch_data_0
@@ -261,8 +196,6 @@
         :pswitch_0
         :pswitch_1
         :pswitch_2
-        :pswitch_3
-        :pswitch_4
     .end packed-switch
 .end method
 
@@ -362,24 +295,6 @@
     goto :goto_0
 
     :cond_2
-    iget v1, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonInfinity:I
-
-    if-ne v1, p1, :cond_3
-
-    const/4 v0, 0x3
-
-    goto :goto_0
-
-    :cond_3
-    iget v1, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButton5:I
-
-    if-ne v1, p1, :cond_4
-
-    const/4 v0, 0x4
-
-    goto :goto_0
-
-    :cond_4
     :goto_0
     const-string p1, "pref_aux_key"
 
@@ -393,7 +308,11 @@
 .end method
 
 .method public getBackground(IILjava/lang/String;)Landroid/widget/Button;
-    .locals 4
+    .locals 7
+
+    invoke-virtual {p0}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->getContext()Landroid/content/Context;
+
+    move-result-object v5
 
     invoke-virtual {p0, p2}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->findViewById(I)Landroid/view/View;
 
@@ -405,35 +324,49 @@
 
     if-ne v1, p1, :cond_0
 
-    const-string v1, "#dd000000"
+    const-string v2, "ic_viewfinder_custom_button_background_enabled"
 
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    const v3, 0x7f06088b
 
-    move-result v1
+    invoke-static {v5, v3}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
-    const-string v2, "enabled_button1"
+    move-result-object v3
+
+    const v4, 0x7f06088c
+
+    invoke-static {v5, v4}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+
+    move-result-object v4
 
     goto :goto_0
 
     :cond_0
-    const-string v1, "#ddffffff"
+    const-string v2, "ic_viewfinder_custom_button_background_disabled"
 
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    invoke-static {p0}, Lmin;->dT(Landroid/view/View;)I
 
-    move-result v1
+    move-result v3
 
-    const-string v2, "main_button1"
+    invoke-static {v3}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
+
+    move-result-object v3
+
+    const v4, 0x7f06088d
+
+    invoke-static {v5, v4}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+
+    move-result-object v4
 
     :goto_0
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
-
     invoke-virtual {p0, v2}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->GetButtonByDrawable(Ljava/lang/String;)I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundResource(I)V
 
-    invoke-virtual {v0, p3}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Landroid/widget/Button;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+
+    invoke-virtual {v0, v4}, Landroid/widget/Button;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
 
     invoke-virtual {p0, p1}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->getVisibilityById(I)I
 
@@ -513,34 +446,6 @@
     iget v2, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonWide:I
 
     iget-object v3, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameWide:Ljava/lang/String;
-
-    invoke-virtual {p0, v1, v2, v3}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->getBackground(IILjava/lang/String;)Landroid/widget/Button;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    iget-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttons:Ljava/util/List;
-
-    const/4 v1, 0x3
-
-    iget v2, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButtonInfinity:I
-
-    iget-object v3, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonNameInfinity:Ljava/lang/String;
-
-    invoke-virtual {p0, v1, v2, v3}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->getBackground(IILjava/lang/String;)Landroid/widget/Button;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    iget-object v0, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttons:Ljava/util/List;
-
-    const/4 v1, 0x4
-
-    iget v2, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->idButton5:I
-
-    iget-object v3, p0, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->buttonName5:Ljava/lang/String;
 
     invoke-virtual {p0, v1, v2, v3}, Lcom/mdmitriev/auxlenses/AuxButtonsLayout;->getBackground(IILjava/lang/String;)Landroid/widget/Button;
 

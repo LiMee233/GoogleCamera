@@ -2578,6 +2578,9 @@
     <public type="color" name="zoom_toggle_button_background_color" id="0x7f06087d" />
     <public type="color" name="zoom_toggle_button_background_color_legacy" id="0x7f06087e" />
     <public type="color" name="settingslib_switch_track_on" id="0x7f06080a" />
+    <public type="color" name="gm3_enabled_button_background_color" id="0x7f06088b" />
+    <public type="color" name="gm3_enabled_button_foreground_color" id="0x7f06088c" />
+    <public type="color" name="gm3_main_button_foreground_color" id="0x7f06088d" />
     <public type="dimen" name="P20_long_shot_transit_radius" id="0x7f070001" />
     <public type="dimen" name="P20_photo_button_inner_radius" id="0x7f070002" />
     <public type="dimen" name="P20_photo_button_press_radius" id="0x7f070004" />
@@ -4835,7 +4838,7 @@
     <public type="drawable" name="large_processing_indicator" id="0x7f080570" />
     <public type="drawable" name="large_processing_indicator_animation" id="0x7f080571" />
     <public type="drawable" name="lpbutton" id="0x7f080572" />
-    <public type="drawable" name="main_button" id="0x7f080573" />
+    <public type="drawable" name="ic_viewfinder_custom_button_background_disabled" id="0x7f080573" />
     <public type="drawable" name="locked_folder_dark" id="0x7f080574" />
     <public type="drawable" name="mains" id="0x7f080575" />
     <public type="drawable" name="long_exposure_animation" id="0x7f080576" />
@@ -5032,7 +5035,6 @@
     <public type="drawable" name="quantum_gm_ic_settings_vd_theme_24" id="0x7f080639" />
     <public type="drawable" name="quantum_gm_ic_settings_white_24" id="0x7f08063a" />
     <public type="drawable" name="quantum_gm_ic_share_black_24" id="0x7f08063b" />
-    <public type="drawable" name="rectang" id="0x7f08063c" />
     <public type="drawable" name="quantum_gm_ic_sim_card_black_24" id="0x7f08063d" />
     <public type="drawable" name="quantum_gm_ic_slow_motion_video_vd_theme_24" id="0x7f08063e" />
     <public type="drawable" name="quantum_gm_ic_slow_motion_video_white_18" id="0x7f08063f" />
@@ -5190,14 +5192,12 @@
     <public type="drawable" name="ic_aux_category" id="0x7f0806eb" />
     <public type="drawable" name="zoom_lock_buttom" id="0x7f0806f6" />
     <public type="drawable" name="zoom_lock_shape" id="0x7f0806f7" />
-    <public type="drawable" name="enabled_button" id="0x7f080719" />
+    <public type="drawable" name="ic_viewfinder_custom_button_background_enabled" id="0x7f080719" />
     <public type="drawable" name="enabled_button_urnyx05" id="0x7f08071b" />
     <public type="drawable" name="video_reso" id="0x7f08071c" />
     <public type="drawable" name="abc_1_shortcuts_nightsight" id="0x7f08071d" />
     <public type="drawable" name="abc_1_shortcuts_portrait" id="0x7f08071e" />
     <public type="drawable" name="ic_shortcuts_setting" id="0x7f08071f" />
-    <public type="drawable" name="enabled_button1" id="0x7f080720" />
-    <public type="drawable" name="main_button1" id="0x7f080721" />
     <public type="drawable" name="ic_8k_24px" id="0x7f080722" />
     <public type="drawable" name="abc_ab_share_pack_mtrl_alpha" id="0x7f0803f2" />
     <public type="drawable" name="abc_cab_background_top_mtrl_alpha" id="0x7f080403" />
@@ -5287,7 +5287,6 @@
     <public type="id" name="AuxButtonWide" id="0x7f0b0007" />
     <public type="id" name="SHIFT" id="0x7f0b0008" />
     <public type="id" name="AuxButtonSpace" id="0x7f0b0009" />
-    <public type="id" name="AuxButton5" id="0x7f0b000a" />
     <public type="id" name="AWBbutton" id="0x7f0b000b" />
     <public type="id" name="SYM" id="0x7f0b000c" />
     <public type="id" name="TOP_END" id="0x7f0b000d" />
@@ -5330,7 +5329,6 @@
     <public type="id" name="slider_iso" id="0x7f0b0032" />
     <public type="id" name="slider_focus" id="0x7f0b0033" />
     <public type="id" name="AuxButtonMain" id="0x7f0b0034" />
-    <public type="id" name="AuxButtonInfinity" id="0x7f0b0035" />
     <public type="id" name="action_bar" id="0x7f0b0036" />
     <public type="id" name="action_bar_activity_content" id="0x7f0b0037" />
     <public type="id" name="action_bar_container" id="0x7f0b0038" />
@@ -6242,7 +6240,6 @@
     <public type="id" name="zoom_ui_full" id="0x7f0b03c3" />
     <public type="id" name="zoom_ui_seekbar" id="0x7f0b03c4" />
     <public type="id" name="shading" id="0x7f0b03c5" />
-    <public type="id" name="ldr" id="0x7f0b03c6" />
     <public type="id" name="upscaling" id="0x7f0b03c7" />
     <public type="id" name="GRAPHbutton" id="0x7f0b03c9" />
     <public type="id" name="graphView" id="0x7f0b03ca" />
@@ -7545,7 +7542,6 @@
     <public type="style" name="AlertDialogTitleText.BigTitle.Centered" id="0x7f150005" />
     <public type="style" name="Animation.AppCompat.Dialog" id="0x7f150006" />
     <public type="style" name="Animation.AppCompat.DropDownUp" id="0x7f150007" />
-    <public type="style" name="CameraX" id="0x7f150008" />
     <public type="style" name="Animation.MaterialComponents.BottomSheetDialog" id="0x7f15000a" />
     <public type="style" name="AutotimerTutorial" id="0x7f15000b" />
     <public type="style" name="AutotimerTutorial.Body" id="0x7f15000c" />

@@ -130,7 +130,7 @@
 
     move-result-object v3
 
-    const-string v4, "main_button"
+    const-string v4, "ic_viewfinder_custom_button_background_disabled"
 
     const-string v5, "drawable"
 
@@ -144,25 +144,23 @@
 
     invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setBackgroundResource(I)V
 
-    sget-object v1, Lddk;->RRRS:Lddf;
+    invoke-static {p0}, Lmin;->dT(Landroid/view/View;)I
 
-    invoke-static {v1}, Lsgcam/Shamim;->GetDevSettStringValue(Lddf;)Ljava/lang/String;
+    move-result v0
 
-    move-result-object v1
+    invoke-static {v0}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    move-result-object v0
 
-    move-result v1
+    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
-    invoke-virtual {p0, v1}, Lcom/custom/Shading7;->setTextColor(I)V
+    const v0, 0x7f06088d
 
-    sget-object v1, Lddk;->RRRS41:Lddf;
+    invoke-static {p1, v0}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
-    invoke-static {v1}, Lsgcam/Shamim;->GetDevSettStringValue(Lddf;)Ljava/lang/String;
+    move-result-object v0
 
-    move-result-object v1
-
-    invoke-virtual {p0, v1}, Lcom/custom/Shading7;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
 
     goto :goto_0
 
@@ -171,7 +169,7 @@
 
     move-result-object v3
 
-    const-string v4, "enabled_button"
+    const-string v4, "ic_viewfinder_custom_button_background_enabled"
 
     const-string v5, "drawable"
 
@@ -185,25 +183,21 @@
 
     invoke-virtual {p0, v1}, Lcom/custom/Shading7;->setBackgroundResource(I)V
 
-    sget-object v1, Lddk;->RRRR:Lddf;
+    const v0, 0x7f06088b
 
-    invoke-static {v1}, Lsgcam/Shamim;->GetDevSettStringValue(Lddf;)Ljava/lang/String;
+    invoke-static {p1, v0}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
-    move-result v1
+    const v0, 0x7f06088c
 
-    invoke-virtual {p0, v1}, Lcom/custom/Shading7;->setTextColor(I)V
+    invoke-static {p1, v0}, Ljr;->a(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
-    sget-object v1, Lddk;->RRRS4:Lddf;
+    move-result-object v0
 
-    invoke-static {v1}, Lsgcam/Shamim;->GetDevSettStringValue(Lddf;)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {p0, v1}, Lcom/custom/Shading7;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
 
     goto :goto_0
 
@@ -216,25 +210,6 @@
     .end packed-switch
 .end method
 
-.method public getVisibility()V
-    .locals 2
-
-    const-string v1, "pref_show_manual_button8"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const/16 v0, 0x8
-
-    invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setVisibility(I)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public init(Landroid/content/Context;)V
     .locals 1
 
@@ -245,8 +220,6 @@
     move-result v0
 
     sput v0, Lcom/custom/Shading7;->SelState:I
-
-    invoke-virtual {p0}, Lcom/custom/Shading7;->getVisibility()V
 
     invoke-virtual {p0, p1}, Lcom/custom/Shading7;->UpdateUi(Landroid/content/Context;)V
 

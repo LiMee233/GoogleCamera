@@ -28,10 +28,6 @@
     </style>
     <style name="Animation.AppCompat.Dialog" parent="@style/Base.Animation.AppCompat.Dialog" />
     <style name="Animation.AppCompat.DropDownUp" parent="@style/Base.Animation.AppCompat.DropDownUp" />
-    <style name="CameraX">
-        <item name="android:backgroundTint">@null</item>
-        <item name="backgroundTint">@null</item>
-    </style>
     <style name="Animation.MaterialComponents.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
         <item name="android:windowEnterAnimation">@anim/mtrl_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
