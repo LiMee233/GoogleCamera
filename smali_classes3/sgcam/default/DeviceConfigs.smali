@@ -320,12 +320,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_upscale_key_id5"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_notification_log_ber"
 
     const-string v8, "#ff430303"
@@ -341,36 +335,6 @@
     const-string v7, "pref_notificationlog_berviewer_txt"
 
     const-string v8, "#fff5f5f5"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_upscale_key_id4"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_upscale_key_tele"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_upscale_key_wide"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_upscale_key"
-
-    const-string v8, "1"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_upscale_key_front"
-
-    const-string v8, "1"
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 

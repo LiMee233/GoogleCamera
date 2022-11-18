@@ -1121,38 +1121,6 @@
         <item>-1</item>
         <item>1</item>
     </string-array>
-    <string-array name="upscale_type_ent">
-        <item>1.50x of sensor size</item>
-        <item>1.75x of sensor size</item>
-        <item>2.00x of sensor size</item>
-        <item>2.25x of sensor size</item>
-        <item>2.50x of sensor size</item>
-        <item>2.75x of sensor size</item>
-        <item>3.00x of sensor size</item>
-        <item>3.25x of sensor size</item>
-        <item>3.50x of sensor size</item>
-        <item>3.62x of sensor size</item>
-        <item>3.75x of sensor size</item>
-        <item>4.00x of sensor size</item>
-        <item>4.25x of sensor size</item>
-        <item>Input manual value</item>
-    </string-array>
-    <string-array name="upscale_type_val">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-    </string-array>
     <string-array name="pref_sensorid_key_entries">
         <item>Auto</item>
         <item>Main Lens (0)</item>

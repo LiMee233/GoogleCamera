@@ -1839,144 +1839,15 @@
 .end method
 
 .method public static GetMultiplicationMethod()I
-    .locals 12
+    .locals 1
 
-    sget v1, Lsgcam/Shamim;->GetRegister:I
+    sget v0, Lsgcam/Shamim;->GetRegister:I
 
-    invoke-static {}, Lsgcam/Shamim;->GetUpscalingPreference()I
+    mul-int/lit16 v0, v0, 0x2
 
-    move-result v2
+    div-int/lit16 v0, v0, 0x1
 
-    packed-switch v2, :pswitch_data_0
-
-    mul-int/lit16 v1, v1, 0x3
-
-    div-int/lit16 v1, v1, 0x2
-
-    :goto_0
-    return v1
-
-    :pswitch_0
-    mul-int/lit16 v1, v1, 0x3
-
-    div-int/lit16 v1, v1, 0x2
-
-    goto :goto_0
-
-    :pswitch_1
-    mul-int/lit16 v1, v1, 0xe
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_2
-    mul-int/lit16 v1, v1, 0x2
-
-    div-int/lit16 v1, v1, 0x1
-
-    goto :goto_0
-
-    :pswitch_3
-    mul-int/lit16 v1, v1, 0x12
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_4
-    mul-int/lit16 v1, v1, 0x14
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_5
-    mul-int/lit16 v1, v1, 0x16
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_6
-    mul-int/lit16 v1, v1, 0x3
-
-    div-int/lit16 v1, v1, 0x1
-
-    goto :goto_0
-
-    :pswitch_7
-    mul-int/lit16 v1, v1, 0x1a
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_8
-    mul-int/lit16 v1, v1, 0x1c
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_9
-    mul-int/lit16 v1, v1, 0x1d
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_a
-    mul-int/lit16 v1, v1, 0x1e
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_b
-    mul-int/lit16 v1, v1, 0x4
-
-    div-int/lit16 v1, v1, 0x1
-
-    goto :goto_0
-
-    :pswitch_c
-    mul-int/lit16 v1, v1, 0x22
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    :pswitch_d
-    invoke-static {}, Lsgcam/Shamim;->GetUpscaling7Preference()I
-
-    move-result v0
-
-    mul-int/2addr v1, v0
-
-    div-int/lit16 v1, v1, 0x8
-
-    goto :goto_0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x1
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-        :pswitch_5
-        :pswitch_6
-        :pswitch_7
-        :pswitch_8
-        :pswitch_9
-        :pswitch_a
-        :pswitch_b
-        :pswitch_c
-        :pswitch_d
-    .end packed-switch
+    return v0
 .end method
 
 .method public static GetOpmodeIntValue()I
@@ -2590,7 +2461,7 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "pref_upscale_key_front"
+    const/4 v0, 0x0
 
     goto :goto_0
 
@@ -2604,33 +2475,19 @@
     packed-switch v0, :pswitch_data_0
 
     :pswitch_0
-    const-string v0, "pref_upscale_key"
+    const/4 v0, 0x1
 
     goto :goto_0
 
     :pswitch_1
-    const-string v0, "pref_upscale_key_tele"
+    const/4 v0, 0x0
 
     goto :goto_0
 
     :pswitch_2
-    const-string v0, "pref_upscale_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_upscale_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_upscale_key_id5"
+    const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
     return v0
 
     nop
@@ -2640,132 +2497,6 @@
         :pswitch_0
         :pswitch_1
         :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
-.end method
-
-.method public static GetUpscaling7Preference()I
-    .locals 1
-
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_manual_upscale_type_key_front"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :pswitch_0
-    const-string v0, "pref_manual_upscale_type_key"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_manual_upscale_type_key_tele"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_manual_upscale_type_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_manual_upscale_type_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_manual_upscale_type_key_id5"
-
-    :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    return v0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
-.end method
-
-.method public static GetUpscalingPreference()I
-    .locals 1
-
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_upscale_type_key_front"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :pswitch_0
-    const-string v0, "pref_upscale_type_key"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_upscale_type_key_tele"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_upscale_type_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_upscale_type_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_upscale_type_key_id5"
-
-    :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    return v0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
     .end packed-switch
 .end method
 
