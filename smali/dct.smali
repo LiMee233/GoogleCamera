@@ -2632,7 +2632,7 @@
 
     sget-object v0, Ldct;->j:Lddh;
 
-    const/4 v3, 0x3
+    const/4 v3, 0x0
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
