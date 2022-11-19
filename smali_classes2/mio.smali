@@ -28,12 +28,6 @@
 .method public static a(Landroid/app/Activity;)V
     .locals 2
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->MnFix()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
     sget-object v0, Lmio;->a:[I
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;

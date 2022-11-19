@@ -182,12 +182,6 @@
 .method public final d(Lhcj;)Ljava/util/Set;
     .locals 2
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->GoogleAuxIndividually()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
     iget-object v0, p1, Lhcj;->b:Looh;
 
     invoke-virtual {v0}, Looh;->toArray()[Ljava/lang/Object;
@@ -231,37 +225,6 @@
     move-result-object v0
 
     return-object v0
-
-    :cond_0
-    sget-object v0, Lkdb;->a:Landroid/hardware/camera2/CaptureRequest$Key;
-
-    iget v1, p1, Lhcj;->a:I
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Lmin;->be(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)Llno;
-
-    move-result-object v0
-
-    sget-object v1, Lkdb;->b:Landroid/hardware/camera2/CaptureRequest$Key;
-
-    iget-object p1, p1, Lhcj;->b:Looh;
-
-    invoke-static {p1}, Loxc;->Z(Ljava/util/Collection;)[F
-
-    move-result-object p1
-
-    invoke-static {v1, p1}, Lmin;->be(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)Llno;
-
-    move-result-object p1
-
-    invoke-static {v0, p1}, Looz;->I(Ljava/lang/Object;Ljava/lang/Object;)Looz;
-
-    move-result-object p1
-
-    return-object p1
 .end method
 
 .method public final e(Z)V

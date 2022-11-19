@@ -336,12 +336,6 @@
 
     if-gt v0, v1, :cond_0
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->SkipCaptureResult()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
     :cond_0
     const/16 v5, 0x0
 

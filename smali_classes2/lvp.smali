@@ -61,30 +61,12 @@
 
     move-result v0
 
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->GoogleAux()Z
-
-    move-result v4
-
-    if-eqz v0, :cond_0
-
-    if-eqz v4, :cond_0
-
-    check-cast v1, Llwg;
-
-    invoke-virtual {v1}, Llwg;->a()Llwf;
-
-    move-result-object v0
-
-    goto :goto_0
-
-    :cond_0
     check-cast v2, Llvz;
 
     invoke-virtual {v2}, Llvz;->a()Llvy;
 
     move-result-object v0
 
-    :goto_0
     return-object v0
 .end method
 
