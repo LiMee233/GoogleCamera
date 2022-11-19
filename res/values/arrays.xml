@@ -989,16 +989,6 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <string-array name="pref_exynos_entries">
-        <item>Auto</item>
-        <item>Fix enable</item>
-        <item>Fix disable</item>
-    </string-array>
-    <string-array name="pref_exynos_entryvalues">
-        <item>0</item>
-        <item>-1</item>
-        <item>1</item>
-    </string-array>
     <string-array name="pref_curve_mode2_entries">
         <item>Preset</item>
         <item>Manual</item>

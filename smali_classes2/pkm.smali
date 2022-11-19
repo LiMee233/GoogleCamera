@@ -5680,12 +5680,6 @@
 
     move-object/from16 v1, p1
 
-    invoke-static {}, Lsgcam/Shamim;->Exynos()I
-
-    move-result v2
-
-    if-nez v2, :cond_4
-
     sget-object v0, Landroid/hardware/camera2/CaptureResult;->STATISTICS_LENS_SHADING_CORRECTION_MAP:Landroid/hardware/camera2/CaptureResult$Key;
 
     invoke-interface {v1, v0}, Llzs;->d(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
@@ -5832,13 +5826,6 @@
 
     :cond_3
     return-object v11
-
-    :cond_4
-    invoke-static {v1}, Lcom/SpatialGainMapValue;->getSpatialGainMap(Llzs;)Lcom/google/googlex/gcam/SpatialGainMap;
-
-    move-result-object v2
-
-    return-object v2
 .end method
 
 .method public final u(Lcom/google/googlex/gcam/FrameRequest;Llzs;Lgzs;)V
