@@ -1091,9 +1091,7 @@
 
     move-result v0
 
-    invoke-static {}, Lsgcam/Shamim;->SlowMotion8x()I
-
-    move-result v2
+    const/16 v2, 0xf0
 
     if-ne v0, v2, :cond_d
 

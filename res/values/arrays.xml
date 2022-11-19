@@ -337,42 +337,6 @@
         <item>2</item>
         <item>1</item>
     </string-array>
-    <string-array name="pref_bitrate_entries">
-        <item>Auto</item>
-        <item>5 Mbps</item>
-        <item>10 Mbps</item>
-        <item>15 Mbps</item>
-        <item>20 Mbps</item>
-        <item>30 Mbps</item>
-        <item>40 Mbps</item>
-        <item>50 Mbps</item>
-        <item>60 Mbps</item>
-        <item>70 Mbps</item>
-        <item>80 Mbps</item>
-        <item>90 Mbps</item>
-        <item>100 Mbps</item>
-        <item>110 Mbps</item>
-        <item>120 Mbps</item>
-        <item>130 Mbps</item>
-    </string-array>
-    <string-array name="pref_bitrate_entryvalues">
-        <item>0</item>
-        <item>5000000</item>
-        <item>10000000</item>
-        <item>15000000</item>
-        <item>20000000</item>
-        <item>30000000</item>
-        <item>40000000</item>
-        <item>50000000</item>
-        <item>60000000</item>
-        <item>70000000</item>
-        <item>80000000</item>
-        <item>90000000</item>
-        <item>100000000</item>
-        <item>110000000</item>
-        <item>120000000</item>
-        <item>130000000</item>
-    </string-array>
     <string-array name="pref_sectcurve_preset_entries">
         <item>Google Stock</item>
         <item>r0m10 - R1_01_Final</item>
@@ -580,58 +544,6 @@
     <string-array name="pref_disabledenabled_entries">
         <item>Disabled</item>
         <item>Enabled</item>
-    </string-array>
-    <string-array name="pref_slowmofps_entries">
-        <item>AUTO</item>
-        <item>30 FPS</item>
-        <item>60 FPS</item>
-        <item>120 FPS</item>
-        <item>240 FPS</item>
-    </string-array>
-    <string-array name="pref_slowmofps_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="pref_slowmofps1_entries">
-        <item>144p</item>
-        <item>288p</item>
-        <item>480p</item>
-        <item>720p</item>
-        <item>1080p</item>
-        <item>2160p</item>
-        <item>Manual input</item>
-    </string-array>
-    <string-array name="pref_slowmofps1_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
-    <string-array name="pref_slow4x_entries">
-        <item>Auto</item>
-        <item>120 fps</item>
-        <item>240fps</item>
-    </string-array>
-    <string-array name="pref_slow4x_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>-1</item>
-    </string-array>
-    <string-array name="pref_slow8x_entries">
-        <item>Auto</item>
-        <item>120 fps</item>
-        <item>240fps</item>
-    </string-array>
-    <string-array name="pref_slow8x_entryvalues">
-        <item>0</item>
-        <item>-1</item>
-        <item>1</item>
     </string-array>
     <string-array name="pref_focus_value_entries">
         <item>10</item>

@@ -4575,14 +4575,6 @@
 .method public static bD(Llvq;Llel;)Lleq;
     .locals 4
 
-    const-string v0, "pref_enable_manual_videohfrprofile_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
     iget p1, p1, Llel;->e:I
 
     invoke-static {p1}, Lsgcam/CamcorderProfile;->getProfilehasHfr(I)Z
@@ -4618,31 +4610,10 @@
     move-result-object p0
 
     return-object p0
-
-    :cond_1
-    iget p1, p1, Llel;->e:I
-
-    invoke-static {p1}, Lsgcam/CamcorderProfile;->getProfileHfrManual(I)Llep;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Llep;->a()Lleq;
-
-    move-result-object p0
-
-    return-object p0
 .end method
 
 .method public static bE(Llvq;Llen;)Lleq;
     .locals 4
-
-    const-string v0, "pref_enable_manual_videoprofile_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-nez v0, :cond_1
 
     iget p1, p1, Llen;->k:I
 
@@ -4674,17 +4645,6 @@
     move-result-object p0
 
     :goto_0
-    invoke-virtual {p0}, Llep;->a()Lleq;
-
-    move-result-object p0
-
-    return-object p0
-
-    :cond_1
-    invoke-static {}, Lsgcam/CamcorderProfile;->getManualProfile()Llep;
-
-    move-result-object p0
-
     invoke-virtual {p0}, Llep;->a()Lleq;
 
     move-result-object p0

@@ -196,25 +196,9 @@
 
     const/16 v14, 0xb
 
-    const-string v15, "pref_manualVideo_resoHeight_key"
+    const v15, 0x10e0
 
-    invoke-static {v15}, Lcom/SDE/LensValue;->SetLensValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v15
-
-    invoke-static {v15}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v15
-
-    const-string v4, "pref_manualVideo_resoWidth_key"
-
-    invoke-static {v4}, Lcom/SDE/LensValue;->SetLensValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v4
+    const v4, 0x1e00
 
     invoke-direct {v6, v10, v14, v15, v4}, Lldz;-><init>(Ljava/lang/String;III)V
 

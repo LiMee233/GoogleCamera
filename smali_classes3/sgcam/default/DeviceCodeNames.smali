@@ -580,50 +580,6 @@
     return v1
 .end method
 
-.method public static SlowMotion4x()Z
-    .locals 5
-
-    sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v1, "OnePlus7"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    :cond_0
-    return v1
-.end method
-
-.method public static SlowMotion8x()Z
-    .locals 5
-
-    sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v1, "lavender"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v1, "fog"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    :cond_0
-    return v1
-.end method
-
 .method public static SonyDevice()Z
     .locals 3
 
@@ -800,40 +756,6 @@
     sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
 
     const-string v0, "OnePlus7"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    const/4 v0, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x1
-
-    :goto_0
-    return v0
-.end method
-
-.method public static isOnePlus9()Z
-    .locals 3
-
-    sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v0, "OnePlus8Pro"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_0
-
-    sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
-
-    const-string v0, "OnePlus8"
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

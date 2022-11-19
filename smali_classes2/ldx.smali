@@ -144,15 +144,11 @@
 
     const/4 v15, 0x6
 
-    invoke-static {}, Lsgcam/Shamim;->SlowMotion4x()I
-
-    move-result v16
+    const/16 v16, 0x78
 
     const/16 v17, 0x1e
 
-    invoke-static {}, Lsgcam/Shamim;->SlowMotion4x()I
-
-    move-result v18
+    const/16 v18, 0x78
 
     move-object v13, v5
 
@@ -166,13 +162,9 @@
 
     const/4 v9, 0x7
 
-    invoke-static {}, Lsgcam/Shamim;->SlowMotion8x()I
+    const/16 v10, 0xf0
 
-    move-result v10
-
-    invoke-static {}, Lsgcam/Shamim;->SlowMotion8x()I
-
-    move-result v12
+    const/16 v12, 0xf0
 
     move-object v7, v13
 

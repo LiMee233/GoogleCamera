@@ -101,17 +101,6 @@
     goto/16 :goto_0
 
     :cond_3
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->isOnePlus9()Z
-
-    move-result v10
-
-    if-eqz v10, :cond_4
-
-    invoke-static {}, Lsgcam/default/DeviceConfigs;->OnePlus9GetDefaults()V
-
-    goto/16 :goto_0
-
-    :cond_4
     invoke-static {}, Lsgcam/default/DeviceCodeNames;->OppoVivoRealme()Z
 
     move-result v10
@@ -180,18 +169,6 @@
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v7, "pref_back_video_resolation_key"
-
-    const-string v8, "4"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_front_video_resolation_key"
-
-    const-string v8, "4"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v7, "pref_camera_kepler_enabled_key"
 
     const-string v8, "0"
@@ -255,26 +232,6 @@
     const-string v7, "pref_camera_hdrplus_option_available_key"
 
     const-string v8, "0"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_manualVideo_resoHeight_key"
-
-    invoke-static {v7}, Lcom/SDE/LensValue;->SetLensValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    const-string v8, "7680"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_manualVideo_resoWidth_key"
-
-    invoke-static {v7}, Lcom/SDE/LensValue;->SetLensValue(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v7
-
-    const-string v8, "4320"
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -573,60 +530,6 @@
 
     invoke-virtual {v0, v3, v15}, Ldeo;->s(Lddf;Z)V
 
-    const-string v15, "pref_enable_fps_selections_key"
-
-    invoke-static {v15}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v15
-
-    if-eqz v15, :cond_14
-
-    invoke-static {}, Lsgcam/Shamim;->getSlowmoFps()I
-
-    move-result v15
-
-    invoke-static {v15}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v15
-
-    sget-object v3, Ldct;->b:Lddh;
-
-    invoke-interface {v0, v3, v15}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
-
-    :cond_14
-    const-string v15, "pref_enable_resolation_key"
-
-    invoke-static {v15}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v15
-
-    if-eqz v15, :cond_15
-
-    invoke-static {}, Lsgcam/Shamim;->getFrontVideoResolations()I
-
-    move-result v15
-
-    invoke-static {v15}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v15
-
-    sget-object v3, Ldct;->f:Lddh;
-
-    invoke-interface {v0, v3, v15}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
-
-    invoke-static {}, Lsgcam/Shamim;->getBackVideoResolations()I
-
-    move-result v15
-
-    invoke-static {v15}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v15
-
-    sget-object v3, Ldct;->g:Lddh;
-
-    invoke-interface {v0, v3, v15}, Lddj;->o(Lddh;Ljava/lang/Integer;)V
-
-    :cond_15
     return-void
 .end method
 
@@ -638,18 +541,6 @@
     const/4 v7, 0x1
 
     const/4 v8, 0x0
-
-    const-string v5, "pref_enable_fps_selections_key"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_slowmo_fps_key"
-
-    const-string v6, "240"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "pref_model_key"
 
@@ -684,30 +575,6 @@
     return-void
 .end method
 
-.method public static OnePlus9GetDefaults()V
-    .locals 12
-
-    sget-object v4, Lsgcam/Shamim;->GetClass:Ldeo;
-
-    const/4 v7, 0x1
-
-    const/4 v8, 0x0
-
-    const-string v5, "pref_enable_fps_selections_key"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_slowmo_fps_key"
-
-    const-string v6, "240"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
 .method public static OnePlusGetDefaults()V
     .locals 12
 
@@ -720,18 +587,6 @@
     const-string v5, "pref_frame_base_index_key"
 
     const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_enable_fps_selections_key"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_slowmo_fps_key"
-
-    const-string v6, "240"
 
     invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 

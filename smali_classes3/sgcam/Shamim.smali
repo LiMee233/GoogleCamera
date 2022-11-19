@@ -1628,68 +1628,6 @@
     .end packed-switch
 .end method
 
-.method public static GetFpsPreference()I
-    .locals 1
-
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_slowmo_fps_key_front"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :pswitch_0
-    const-string v0, "pref_slowmo_fps_key"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_slowmo_fps_key_tele"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_slowmo_fps_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_slowmo_fps_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_slowmo_fps_key_id5"
-
-    :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    return v0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
-.end method
-
 .method public static GetMaximumFocus()F
     .locals 9
 
@@ -2339,57 +2277,6 @@
     .end packed-switch
 .end method
 
-.method public static GetVideoPreference()I
-    .locals 1
-
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :pswitch_0
-    const-string v0, "pref_back_video_resolation_key"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_back_video_resolation_key_tele"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_back_video_resolation_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_back_video_resolation_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_back_video_resolation_key_id5"
-
-    :goto_0
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    return v0
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
-.end method
-
 .method public static HdrRawFixFirst()I
     .locals 1
 
@@ -2733,70 +2620,6 @@
     return-void
 .end method
 
-.method public static SlowMotion4x()I
-    .locals 10
-
-    const-string v0, "pref_4xslowmotion_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    const v1, 0x0
-
-    if-lt v0, v1, :cond_1
-
-    if-gt v0, v1, :cond_0
-
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->SlowMotion4x()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    :cond_0
-    const/16 v5, 0x78
-
-    return v5
-
-    :cond_1
-    const/16 v5, 0xf0
-
-    return v5
-.end method
-
-.method public static SlowMotion8x()I
-    .locals 10
-
-    const-string v0, "pref_8xslowmotion_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    const v1, 0x0
-
-    if-lt v0, v1, :cond_1
-
-    if-gt v0, v1, :cond_0
-
-    invoke-static {}, Lsgcam/default/DeviceCodeNames;->SlowMotion8x()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    :cond_0
-    const/16 v5, 0xf0
-
-    return v5
-
-    :cond_1
-    const/16 v5, 0x78
-
-    return v5
-.end method
-
 .method public static getApplicationContext()Landroid/content/Context;
     .locals 3
 
@@ -2939,69 +2762,6 @@
     return-void
 .end method
 
-.method public static getBackVideoResolations()I
-    .locals 1
-
-    invoke-static {}, Lsgcam/Shamim;->GetVideoPreference()I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    const v0, 0x438
-
-    :goto_0
-    return v0
-
-    :pswitch_0
-    const v0, 0x90
-
-    goto :goto_0
-
-    :pswitch_1
-    const v0, 0x120
-
-    goto :goto_0
-
-    :pswitch_2
-    const v0, 0x1e0
-
-    goto :goto_0
-
-    :pswitch_3
-    const v0, 0x2d0
-
-    goto :goto_0
-
-    :pswitch_4
-    const v0, 0x438
-
-    goto :goto_0
-
-    :pswitch_5
-    const v0, 0x870
-
-    goto :goto_0
-
-    :pswitch_6
-    const v0, 0x10e0
-
-    goto :goto_0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-        :pswitch_5
-        :pswitch_6
-    .end packed-switch
-.end method
-
 .method public static getEdgeMode(I)I
     .locals 1
 
@@ -3133,71 +2893,6 @@
     invoke-static {p0, v1}, Lsgcam/Shamim;->LogWriteToFile(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
-.end method
-
-.method public static getFrontVideoResolations()I
-    .locals 1
-
-    const-string v0, "pref_front_video_resolation_key"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    const v0, 0x438
-
-    :goto_0
-    return v0
-
-    :pswitch_0
-    const v0, 0x90
-
-    goto :goto_0
-
-    :pswitch_1
-    const v0, 0x120
-
-    goto :goto_0
-
-    :pswitch_2
-    const v0, 0x1e0
-
-    goto :goto_0
-
-    :pswitch_3
-    const v0, 0x2d0
-
-    goto :goto_0
-
-    :pswitch_4
-    const v0, 0x438
-
-    goto :goto_0
-
-    :pswitch_5
-    const v0, 0x870
-
-    goto :goto_0
-
-    :pswitch_6
-    const v0, 0x10e0
-
-    goto :goto_0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-        :pswitch_5
-        :pswitch_6
-    .end packed-switch
 .end method
 
 .method public static getISONm(Llzo;)I
@@ -3618,57 +3313,6 @@
 
     :cond_1
     return p0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
-.end method
-
-.method public static getSlowmoFps()I
-    .locals 1
-
-    invoke-static {}, Lsgcam/Shamim;->GetFpsPreference()I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    const v0, 0x0
-
-    :goto_0
-    return v0
-
-    :pswitch_0
-    const v0, 0x0
-
-    goto :goto_0
-
-    :pswitch_1
-    const v0, 0x1e
-
-    goto :goto_0
-
-    :pswitch_2
-    const v0, 0x3c
-
-    goto :goto_0
-
-    :pswitch_3
-    const v0, 0x78
-
-    goto :goto_0
-
-    :pswitch_4
-    const v0, 0xf0
-
-    goto :goto_0
 
     nop
 

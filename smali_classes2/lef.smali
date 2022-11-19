@@ -48,8 +48,6 @@
 
     if-ne v0, v1, :cond_0
 
-    const-string v2, "pref_bitrate_time_lapse_key"
-
     goto :goto_0
 
     :cond_0
@@ -57,25 +55,7 @@
 
     sget-object v1, Ljrj;->f:Ljrj;
 
-    if-ne v0, v1, :cond_1
-
-    const-string v2, "pref_bitrate_slow_motion_key"
-
-    goto :goto_0
-
-    :cond_1
-    const-string/jumbo v2, "pref_bitrate_option_available_key"
-
     :goto_0
-    invoke-static {v2}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    move p3, v2
-
-    :cond_2
     iput p3, p0, Llef;->h:I
 
     if-eqz p4, :cond_3
