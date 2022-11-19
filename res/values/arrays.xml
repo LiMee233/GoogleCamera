@@ -1111,36 +1111,6 @@
         <item>-1</item>
         <item>1</item>
     </string-array>
-    <string-array name="pref_sensorid_key_entries">
-        <item>Auto</item>
-        <item>Main Lens (0)</item>
-        <item>Front Lens (1)</item>
-        <item>Front Wide Lens (2)</item>
-        <item>Front Logical Lens (3)</item>
-        <item>Rear Telephoto Lens (4)</item>
-        <item>Rear Logical Lens (5)</item>
-        <item>Front Infrared Lens (6)</item>
-        <item>Rear Telephoto Binned Lens (7)</item>
-        <item>Rear Wide Lens (8)</item>
-        <item>Rear Wide Binned Lens (9)</item>
-        <item>Rear Binned Lens (10)</item>
-        <item>Rear Remosaicked Lens (11)</item>
-    </string-array>
-    <string-array name="pref_sensorid_key_entryvalues">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-    </string-array>
     <string-array name="pref_focus_value_entries">
         <item>10</item>
         <item>15</item>

@@ -156,8 +156,6 @@
     <public type="array" name="pref_slow4x_entryvalues" id="0x7f030145" />
     <public type="array" name="pref_slow8x_entries" id="0x7f030146" />
     <public type="array" name="pref_slow8x_entryvalues" id="0x7f030147" />
-    <public type="array" name="pref_sensorid_key_entries" id="0x7f03014c" />
-    <public type="array" name="pref_sensorid_key_entryvalues" id="0x7f03014d" />
     <public type="array" name="pref_focus_value_entries" id="0x7f03014e" />
     <public type="array" name="pref_focus_value_entryvalues" id="0x7f03014f" />
     <public type="array" name="pref_set_focus_entries" id="0x7f030150" />
