@@ -3061,54 +3061,6 @@
 .method public final j(Llzs;)Lcom/google/googlex/gcam/AwbInfo;
     .locals 14
 
-    sget-object v0, Landroid/hardware/camera2/CaptureResult;->SENSOR_NEUTRAL_COLOR_POINT:Landroid/hardware/camera2/CaptureResult$Key;
-
-    invoke-interface {p1, v0}, Llzo;->d(Landroid/hardware/camera2/CaptureResult$Key;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    const/4 v0, 0x3
-
-    new-array v1, v0, [F
-
-    check-cast v3, [Landroid/util/Rational;
-
-    const/4 v0, 0x0
-
-    aget-object v7, v3, v0
-
-    invoke-virtual {v7}, Landroid/util/Rational;->floatValue()F
-
-    move-result v7
-
-    aput v7, v1, v0
-
-    const/4 v0, 0x1
-
-    aget-object v8, v3, v0
-
-    invoke-virtual {v8}, Landroid/util/Rational;->floatValue()F
-
-    move-result v8
-
-    aput v8, v1, v0
-
-    const/4 v0, 0x2
-
-    aget-object v9, v3, v0
-
-    invoke-virtual {v9}, Landroid/util/Rational;->floatValue()F
-
-    move-result v9
-
-    aput v9, v1, v0
-
-    sput v7, Lcom/juliantsependa/ColorTune;->WB1:F
-
-    sput v8, Lcom/juliantsependa/ColorTune;->WB2:F
-
-    sput v9, Lcom/juliantsependa/ColorTune;->WB3:F
-
     new-instance v6, Lcom/google/googlex/gcam/AwbInfo;
 
     invoke-static {}, Lcom/google/googlex/gcam/GcamModuleJNI;->new_AwbInfo__SWIG_0()J
@@ -3142,12 +3094,6 @@
     new-instance v5, Lcom/google/googlex/gcam/FloatArray4;
 
     invoke-direct {v5}, Lcom/google/googlex/gcam/FloatArray4;-><init>()V
-
-    invoke-static {}, Lsgcam/Shamim;->AwbGainSelections()I
-
-    move-result v7
-
-    if-nez v7, :cond_2
 
     sget-object v1, Landroid/hardware/camera2/CaptureResult;->COLOR_CORRECTION_GAINS:Landroid/hardware/camera2/CaptureResult$Key;
 
@@ -3201,18 +3147,6 @@
     goto :goto_1
 
     :cond_1
-    goto :goto_2
-
-    :cond_2
-    invoke-static {p1, v5}, Lsgcam/Shamim;->GetAwbGain(Llzo;Lcom/google/googlex/gcam/FloatArray4;)Lcom/google/googlex/gcam/FloatArray4;
-
-    move-result-object v5
-
-    :goto_2
-    const/4 v8, 0x4
-
-    const/high16 v10, 0x3f800000    # 1.0f
-
     iget-wide v0, v6, Lcom/google/googlex/gcam/AwbInfo;->a:J
 
     iget-wide v3, v5, Lcom/google/googlex/gcam/FloatArray4;->a:J
@@ -3285,10 +3219,6 @@
     move-object v5, v9
 
     :goto_3
-    invoke-static {v5, p1}, Lcom/Fix/ColorTransform;->getPseudoCT(Lcom/google/googlex/gcam/FloatArray9;Llzs;)Lcom/google/googlex/gcam/FloatArray9;
-
-    move-result-object v5
-
     iget-wide v0, v6, Lcom/google/googlex/gcam/AwbInfo;->a:J
 
     iget-wide v3, v5, Lcom/google/googlex/gcam/FloatArray9;->a:J

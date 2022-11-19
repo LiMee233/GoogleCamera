@@ -15,10 +15,6 @@
 
 .field public static Color:I
 
-.field public static ColorTransform:I
-
-.field public static ColorTransformFront:I
-
 .field public static Date:I
 
 .field public static EraseDots:I
@@ -95,8 +91,6 @@
     invoke-static {}, Lsgcam/Shamim;->getApplicationContext()Landroid/content/Context;
 
     invoke-static {}, Lsgcam/Shamim;->GetPreferenceKey()V
-
-    invoke-static {}, Lsgcam/Shamim;->setColorTransform()V
 
     invoke-static {}, Lsgcam/Shamim;->getAuxLensInfo()V
 
@@ -255,70 +249,6 @@
     move-result-object v1
 
     return-object v1
-.end method
-
-.method public static AwbGainSelections()I
-    .locals 1
-
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const-string v0, "pref_fix_awbgains_key_1"
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    const-string v0, "pref_fix_awbgains_key_0"
-
-    goto :goto_0
-
-    :pswitch_0
-    const-string v0, "pref_fix_awbgains_key_0"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_fix_awbgains_key_2"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_fix_awbgains_key_3"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_fix_awbgains_key_4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_fix_awbgains_key_5"
-
-    :goto_0
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    return v0
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
 .end method
 
 .method public static CaptureResultSwich()I
@@ -3442,71 +3372,4 @@
     invoke-static {v1}, Lsgcam/Shamim;->ShowToastDirect(Ljava/lang/String;)V
 
     return-void
-.end method
-
-.method public static setColorTransform()V
-    .locals 2
-
-    const-string v0, "pref_color_transform_key_front"
-
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->ColorTransformFront:I
-
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    const-string v0, "pref_color_transform_key_main"
-
-    goto :goto_0
-
-    :pswitch_0
-    const-string v0, "pref_color_transform_key_main"
-
-    goto :goto_0
-
-    :pswitch_1
-    const-string v0, "pref_color_transform_key_tele"
-
-    goto :goto_0
-
-    :pswitch_2
-    const-string v0, "pref_color_transform_key_wide"
-
-    goto :goto_0
-
-    :pswitch_3
-    const-string v0, "pref_color_transform_key_id4"
-
-    goto :goto_0
-
-    :pswitch_4
-    const-string v0, "pref_color_transform_key_id5"
-
-    :goto_0
-    invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->ColorTransform:I
-
-    return-void
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-        :pswitch_3
-        :pswitch_4
-    .end packed-switch
 .end method

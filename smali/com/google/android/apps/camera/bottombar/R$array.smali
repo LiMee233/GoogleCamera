@@ -11,13 +11,9 @@
 
 .field public static final pref_camera_jpeg_quality_entryvalues:I = 0x7f03000f
 
-.field public static final pref_camera_pano_orientation_entryvalues:I = 0x7f030010
-
 .field public static final pref_camera_picturesize_entries:I = 0x7f030011
 
 .field public static final pref_camera_picturesize_entryvalues:I = 0x7f030012
-
-.field public static final pref_camera_scenemode_entryvalues:I = 0x7f030013
 
 .field public static final pref_double_tap_action_entries:I = 0x7f030014
 

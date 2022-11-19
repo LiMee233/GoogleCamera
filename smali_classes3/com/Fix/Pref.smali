@@ -30,10 +30,6 @@
 
     sput v0, Lcom/Fix/Pref;->sAuxKey:I
 
-    new-instance p0, Lcom/Fix/ColorTransformKeys;
-
-    invoke-direct {p0, v0}, Lcom/Fix/ColorTransformKeys;-><init>(I)V
-
     return-void
 .end method
 

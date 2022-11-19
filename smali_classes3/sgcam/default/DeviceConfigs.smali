@@ -11,58 +11,6 @@
     return-void
 .end method
 
-.method public static FogGetDefaults()V
-    .locals 12
-
-    sget-object v4, Lsgcam/Shamim;->GetClass:Ldeo;
-
-    const/4 v7, 0x1
-
-    const/4 v8, 0x0
-
-    sget-object v5, Ldct;->q:Lddf;
-
-    invoke-interface {v4, v5, v8}, Lddj;->s(Lddf;Z)V
-
-    const-string v5, "pref_fix_awbgains_key_1"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_fix_awbgains_key_0"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_fix_awbgains_key_2"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_fix_awbgains_key_3"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_fix_awbgains_key_4"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_fix_awbgains_key_5"
-
-    const-string v6, "1"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
-.end method
-
 .method public static GetDefaults()V
     .locals 22
 
