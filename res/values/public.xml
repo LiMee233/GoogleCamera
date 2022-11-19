@@ -96,8 +96,6 @@
     <public type="array" name="com_google_android_gms_fonts_certs" id="0x7f030004" />
     <public type="array" name="com_google_android_gms_fonts_certs_dev" id="0x7f030005" />
     <public type="array" name="com_google_android_gms_fonts_certs_prod" id="0x7f030006" />
-    <public type="array" name="fix_resolution_entries" id="0x7f030009" />
-    <public type="array" name="fix_resolution_entryvalues" id="0x7f03000a" />
     <public type="array" name="pref_merge_entries" id="0x7f03000c" />
     <public type="array" name="pref_merge_entryvalues" id="0x7f03000d" />
     <public type="array" name="pref_antibanding_entries" id="0x7f03000e" />

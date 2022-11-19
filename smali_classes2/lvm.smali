@@ -1542,48 +1542,6 @@
     return-object p1
 
     :cond_0
-    const-string p0, "fix_resolution_key"
-
-    invoke-static {p0}, Lcom/SDE/LensValue;->SetLensValue1(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {p0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result p0
-
-    if-eqz p0, :cond_1
-
-    invoke-virtual {v0, p1}, Landroid/hardware/camera2/params/StreamConfigurationMap;->getOutputSizes(I)[Landroid/util/Size;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p0}, Landroid/hardware/camera2/params/StreamConfigurationMap;->getOutputSizes(I)[Landroid/util/Size;
-
-    move-result-object p0
-
-    invoke-static {p1, p0}, Lsgcam/Shamim;->GetResolation([Landroid/util/Size;[Landroid/util/Size;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    :cond_1
-    invoke-virtual {v0, p1}, Landroid/hardware/camera2/params/StreamConfigurationMap;->getOutputSizes(I)[Landroid/util/Size;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lmin;->bu([Landroid/util/Size;)Ljava/util/List;
-
-    move-result-object p1
-
-    return-object p1
-
-    sget v1, Lsgcam/Shamim;->Get48Mp:I
-
-    if-nez v1, :cond_2
-
-    :cond_2
     invoke-virtual {v0, p1}, Landroid/hardware/camera2/params/StreamConfigurationMap;->getOutputSizes(I)[Landroid/util/Size;
 
     move-result-object p1

@@ -2111,8 +2111,6 @@
 
     sput v0, Lsgcam/Shamim;->P3:I
 
-    sput v0, Lsgcam/Shamim;->Get48Mp:I
-
     sput v0, Lsgcam/Shamim;->Aemodef:I
 
     const/4 v0, 0x1
