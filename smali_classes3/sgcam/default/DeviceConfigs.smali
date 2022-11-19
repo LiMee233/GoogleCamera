@@ -254,7 +254,7 @@
 
     const-string v7, "pref_camera_hdrplus_option_available_key"
 
-    const-string v8, "1"
+    const-string v8, "0"
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
