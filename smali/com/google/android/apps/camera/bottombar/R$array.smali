@@ -37,8 +37,6 @@
 
 .field public static final pref_volume_action_entryvalues:I = 0x7f030020
 
-.field public static final toybox_hfr_mode_rates:I = 0x7f030027
-
 .field public static final video_flash_descriptions:I = 0x7f030029
 
 

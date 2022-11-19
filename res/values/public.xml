@@ -113,14 +113,10 @@
     <public type="array" name="pref_volume_action_entryvalues" id="0x7f030020" />
     <public type="array" name="storage_saver_settings_changed" id="0x7f030024" />
     <public type="array" name="storage_saver_settings_changed_detail" id="0x7f030025" />
-    <public type="array" name="pref_awb_entries" id="0x7f030027" />
     <public type="array" name="trusted_certificates" id="0x7f030028" />
     <public type="array" name="libs_entries" id="0x7f030029" />
     <public type="array" name="libs_entryvalues" id="0x7f03002a" />
     <public type="array" name="libs_name_entryvalues" id="0x7f03002b" />
-    <public type="array" name="pref_awb_entryvalues" id="0x7f03002c" />
-    <public type="array" name="pref_grgb_entries" id="0x7f03002d" />
-    <public type="array" name="pref_grgb_entryvalues" id="0x7f03002e" />
     <public type="array" name="exposure_entryvalues" id="0x7f030031" />
     <public type="array" name="exposure_entries" id="0x7f030032" />
     <public type="array" name="pref_nightmode_entries" id="0x7f030035" />

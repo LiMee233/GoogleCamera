@@ -2918,7 +2918,9 @@
 
     invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    sget v2, Lcom/SDE/Awb;->awbArr_GR_GB:F
+    const v2, 0x1
+
+    int-to-float v2, v2
 
     invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
