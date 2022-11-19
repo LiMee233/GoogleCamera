@@ -769,42 +769,6 @@
 
     const/4 v8, 0x0
 
-    const-string v5, "pref_device_key_front"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_tele"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_wide"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id4"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id5"
-
-    const-string v6, "17"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
     const-string v5, "pref_model_key_front"
 
     const-string v6, "17"
@@ -828,42 +792,6 @@
     const/4 v7, 0x1
 
     const/4 v8, 0x0
-
-    const-string v5, "pref_device_key_front"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_tele"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_wide"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id4"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id5"
-
-    const-string v6, "21"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "pref_model_key_front"
 
@@ -904,42 +832,6 @@
     const/4 v7, 0x1
 
     const/4 v8, 0x0
-
-    const-string v5, "pref_device_key_front"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_tele"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_wide"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id4"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key_id5"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v5, "pref_device_key"
-
-    const-string v6, "4"
-
-    invoke-static {v5, v6}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v5, "pref_img_key_front"
 

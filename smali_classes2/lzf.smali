@@ -452,15 +452,13 @@
 
     const-string v0, "Google"
 
-    invoke-static {}, Lsgcam/Shamim;->SetInterface()Ljava/lang/String;
-
-    move-result-object v1
-
     sget-object v2, Landroid/os/Build;->FINGERPRINT:Ljava/lang/String;
 
     invoke-static {v0}, Llzf;->j(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
+
+    const-string v1, "walleye"
 
     invoke-static {v1}, Llzf;->j(Ljava/lang/String;)Ljava/lang/String;
 
