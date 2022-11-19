@@ -100,10 +100,6 @@
 
     invoke-static {}, Lsgcam/Shamim;->getAuxLensInfo()V
 
-    new-instance v0, Lsgcam/NoiseModels;
-
-    invoke-direct {v0}, Lsgcam/NoiseModels;-><init>()V
-
     return-void
 .end method
 

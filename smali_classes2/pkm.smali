@@ -4492,19 +4492,6 @@
 
     move-result-object v3
 
-    invoke-static {}, Lsgcam/NoiseModels;->NoiseModelSelector()I
-
-    move-result v6
-
-    invoke-static {v6}, Lsgcam/NoiseModels;->mode(I)V
-
-    if-eqz v6, :cond_20
-
-    invoke-static {v11, v2}, Lsgcam/NoiseModels;->j(Llvn;Llzo;)Ljava/lang/Object;
-
-    move-result-object v3
-
-    :cond_20
     check-cast v3, [Landroid/util/Pair;
 
     invoke-static {v3, v2}, Lsgcam/Shamim;->getNoiseModelerLog([Landroid/util/Pair;Llzs;)V
