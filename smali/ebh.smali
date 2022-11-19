@@ -2904,17 +2904,11 @@
 
     move-result v12
 
-    invoke-static {}, Lsgcam/Shamim;->getMerge()I
-
-    move-result v12
+    const/4 v12, 0x1
 
     iget-wide v6, v3, Lcom/google/googlex/gcam/ShotParams;->a:J
 
     invoke-static {v6, v7, v3, v12}, Lcom/google/googlex/gcam/GcamModuleJNI;->ShotParams_merge_method_override_set(JLcom/google/googlex/gcam/ShotParams;I)V
-
-    invoke-static {v5}, Lsgcam/Shamim;->setSabre(I)I
-
-    move-result v5
 
     iget-wide v6, v3, Lcom/google/googlex/gcam/ShotParams;->a:J
 

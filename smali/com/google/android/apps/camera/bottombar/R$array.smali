@@ -7,10 +7,6 @@
 
 .field public static final camera_id_entryvalues:I = 0x7f030002
 
-.field public static final pref_camera_focusmode_default_array:I = 0x7f03000c
-
-.field public static final pref_camera_focusmode_entryvalues:I = 0x7f03000d
-
 .field public static final pref_camera_hdrplus_entryvalues:I = 0x7f03000e
 
 .field public static final pref_camera_jpeg_quality_entryvalues:I = 0x7f03000f
