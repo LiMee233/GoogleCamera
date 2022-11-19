@@ -24,13 +24,9 @@
 .method static constructor <clinit>()V
     .locals 6
 
-    invoke-static {}, Lsgcam/Shamim;->getMotionWeight()I
+    const/16 v0, 0x500
 
-    move-result v0
-
-    invoke-static {}, Lsgcam/Shamim;->getMotionHeight()I
-
-    move-result v1
+    const/16 v1, 0x3c0
 
     invoke-static {v0, v1}, Llie;->h(II)Llie;
 

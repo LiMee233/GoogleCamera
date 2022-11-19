@@ -111,10 +111,8 @@
     <public type="array" name="pref_qjpg_entryvalues" id="0x7f03001e" />
     <public type="array" name="pref_volume_action_entries" id="0x7f03001f" />
     <public type="array" name="pref_volume_action_entryvalues" id="0x7f030020" />
-    <public type="array" name="mv_entries" id="0x7f030023" />
     <public type="array" name="storage_saver_settings_changed" id="0x7f030024" />
     <public type="array" name="storage_saver_settings_changed_detail" id="0x7f030025" />
-    <public type="array" name="mv_entryvalues" id="0x7f030026" />
     <public type="array" name="pref_awb_entries" id="0x7f030027" />
     <public type="array" name="trusted_certificates" id="0x7f030028" />
     <public type="array" name="libs_entries" id="0x7f030029" />
