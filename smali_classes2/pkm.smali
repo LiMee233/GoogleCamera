@@ -1921,9 +1921,7 @@
 
     invoke-static {v2, v3, v8, v0}, Lcom/google/googlex/gcam/GcamModuleJNI;->StaticMetadata_model_set(JLcom/google/googlex/gcam/StaticMetadata;Ljava/lang/String;)V
 
-    invoke-static {}, Lsgcam/Shamim;->SetHDRInterface()Ljava/lang/String;
-
-    move-result-object v0
+    const-string v0, "redfin"
 
     iget-wide v2, v8, Lcom/google/googlex/gcam/StaticMetadata;->a:J
 
