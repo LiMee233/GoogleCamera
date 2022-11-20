@@ -234,45 +234,6 @@
     :try_start_0
     iget-object v0, p0, Lluu;->a:Landroid/hardware/camera2/CameraDevice;
 
-    invoke-static {}, Lsgcam/Shamim;->GetOpmodeIntValue()I
-
-    move-result v3
-
-    const-string v1, "Working opmode value:- "
-
-    invoke-static {v1, v3}, Lsgcam/logcat/Logcatgenerator;->GetIntegerTypeValue(Ljava/lang/String;I)V
-
-    if-eqz v3, :cond_0
-
-    const-string v1, "Class: luu"
-
-    const-string v2, "Using createCustomCaptureSession"
-
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    invoke-static {p1}, Lmin;->aT(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object v2
-
-    new-instance v4, Llva;
-
-    invoke-direct {v4, p2}, Llva;-><init>(Llzk;)V
-
-    const/4 v1, 0x0
-
-    move-object/from16 v5, p3
-
-    invoke-virtual/range {v0 .. v5}, Landroid/hardware/camera2/CameraDevice;->createCustomCaptureSession(Landroid/hardware/camera2/params/InputConfiguration;Ljava/util/List;ILandroid/hardware/camera2/CameraCaptureSession$StateCallback;Landroid/os/Handler;)V
-
-    goto :goto_0
-
-    :cond_0
-    const-string v1, "Class: luu"
-
-    const-string v2, "Using createCaptureSessionByOutputConfigurations"
-
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
     invoke-static {p1}, Lmin;->aT(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1

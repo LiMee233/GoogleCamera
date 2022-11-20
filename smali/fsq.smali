@@ -136,31 +136,17 @@
     return-object v0
 
     :pswitch_2
-    new-instance v4, Ljava/lang/StringBuilder;
+    iget-object v0, p0, Lfsq;->a:Lqkb;
 
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    check-cast v0, Lemo;
 
-    invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+    invoke-virtual {v0}, Lemo;->a()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v0
 
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0}, Landroid/content/Context;->getExternalCacheDir()Ljava/io/File;
 
-    move-result-object v4
-
-    const-string v5, "/SGCAM/"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    new-instance v0, Ljava/io/File;
-
-    invoke-direct {v0, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    move-result-object v0
 
     invoke-static {v0}, Loix;->h(Ljava/lang/Object;)Loix;
 

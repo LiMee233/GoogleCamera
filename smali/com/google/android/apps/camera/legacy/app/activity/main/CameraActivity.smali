@@ -217,17 +217,6 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 21
 
-    sget-object v0, Ldct;->LOG12:Lddf;
-
-    invoke-static {v0}, Lsgcam/Shamim;->GetDevSettBooleanValue(Lddf;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {}, Lsgcam/logcat/Logcatgenerator;->RunLog()V
-
-    :cond_0
     move-object/from16 v1, p0
 
     const v2, 0x64
@@ -267,12 +256,6 @@
     invoke-virtual/range {p0 .. p0}, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v4
-
-    invoke-static {}, Lsgcam/crash/crashHandler;->getInstance()Lsgcam/crash/crashHandler;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v4}, Lsgcam/crash/crashHandler;->init(Landroid/content/Context;)V
 
     check-cast v4, Lcom/google/android/apps/camera/legacy/app/app/CameraApp;
 

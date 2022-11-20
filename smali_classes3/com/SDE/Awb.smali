@@ -35,8 +35,6 @@
 
     sget v2, Lcom/SDE/Awb;->awbArr_len:I
 
-    invoke-static {v0, v1, v2}, Lsgcam/Shamim;->getAwbLog([F[FI)V
-
     new-instance v8, Lcom/google/googlex/gcam/QcIlluminantVector;
 
     invoke-direct {v8}, Lcom/google/googlex/gcam/QcIlluminantVector;-><init>()V

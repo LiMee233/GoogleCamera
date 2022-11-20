@@ -58,8 +58,6 @@
 
     invoke-static {p1, p2}, Lobm;->ar(ZLjava/lang/Object;)V
 
-    invoke-static {}, Lsgcam/Shamim;->DeviceInfo()V
-
     return-void
 .end method
 
@@ -4415,8 +4413,6 @@
     move-result-object v3
 
     check-cast v3, [Landroid/util/Pair;
-
-    invoke-static {v3, v2}, Lsgcam/Shamim;->getNoiseModelerLog([Landroid/util/Pair;Llzs;)V
 
     new-instance v6, Lcom/google/googlex/gcam/FloatVector;
 

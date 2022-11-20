@@ -117,10 +117,6 @@
 
     move-result-object v4
 
-    const-string v5, "Back Cam ID"
-
-    invoke-static {v5, v4}, Lsgcam/logcat/Logcatgenerator;->GetStringTypeValue(Ljava/lang/String;Ljava/lang/String;)V
-
     invoke-static {v4}, Llvq;->b(Ljava/lang/String;)Llvq;
 
     move-result-object v4
@@ -130,10 +126,6 @@
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v4
-
-    const-string v5, "Front Cam ID"
-
-    invoke-static {v5, v4}, Lsgcam/logcat/Logcatgenerator;->GetStringTypeValue(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-static {v4}, Llvq;->b(Ljava/lang/String;)Llvq;
 
