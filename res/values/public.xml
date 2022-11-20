@@ -114,8 +114,6 @@
     <public type="array" name="libs_entries" id="0x7f030029" />
     <public type="array" name="libs_entryvalues" id="0x7f03002a" />
     <public type="array" name="libs_name_entryvalues" id="0x7f03002b" />
-    <public type="array" name="exposure_entryvalues" id="0x7f030031" />
-    <public type="array" name="exposure_entries" id="0x7f030032" />
     <public type="array" name="pref_nightmode_entries" id="0x7f030035" />
     <public type="array" name="pref_nightmode_entryvalues" id="0x7f030036" />
     <public type="array" name="pref_sectcurve_preset_entries" id="0x7f030058" />

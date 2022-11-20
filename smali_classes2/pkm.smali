@@ -2991,12 +2991,6 @@
 .method public final a(I)F
     .locals 3
 
-    invoke-static {p1}, Lsgcam/Shamim;->GetAeCompension(I)I
-
-    move-result v0
-
-    add-int/2addr p1, v0
-
     iget-object v0, p0, Lpkm;->a:Llvn;
 
     sget-object v1, Landroid/hardware/camera2/CameraCharacteristics;->CONTROL_AE_COMPENSATION_STEP:Landroid/hardware/camera2/CameraCharacteristics$Key;
