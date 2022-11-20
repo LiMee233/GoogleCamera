@@ -202,20 +202,7 @@
 
     iget-boolean p1, p1, Lhlu;->a:Z
 
-    if-eqz p2, :cond_1
-
     :cond_0
-    const-string p2, "pref_force_astro_front"
-
-    invoke-static {p2}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result p2
-
-    iput-boolean p2, p0, Leal;->h:Z
-
-    goto :goto_0
-
-    :cond_1
     const/4 p2, 0x1
 
     iput-boolean p2, p0, Leal;->h:Z

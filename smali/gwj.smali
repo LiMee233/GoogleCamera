@@ -60,8 +60,6 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {}, Lsgcam/Shamim;->NightFocusCorrection()V
-
     sget-object v0, Lhtd;->a:Lhtd;
 
     invoke-virtual {p1}, Lhtd;->ordinal()I
@@ -83,17 +81,17 @@
     goto :goto_0
 
     :cond_1
-    sget v2, Lsgcam/Shamim;->ValueOfNearToggle:F
+    const/high16 v2, 0x41640000    # 14.25f
 
     goto :goto_0
 
     :cond_2
-    sget v2, Lsgcam/Shamim;->ValueOfFarToggle:F
+    const/high16 v2, 0x3fc20000    # 1.515625f
 
     goto :goto_0
 
     :cond_3
-    sget v2, Lsgcam/Shamim;->ValueOfInfinityToggle:F
+    const/high16 v2, 0x00000000    # 0.0f
 
     :goto_0
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
