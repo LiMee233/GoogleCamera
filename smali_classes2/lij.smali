@@ -155,6 +155,9 @@
     :try_start_1
     invoke-virtual {p1}, Llii;->b()V
 
+    new-instance v0, Lcom/eszdman/rampatcher/PatcherSession;
+
+    invoke-direct {v0, v1, v2}, Lcom/eszdman/rampatcher/PatcherSession;-><init>(Ljava/util/Map;Ljava/util/Map;)V
     :try_end_1
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_1 .. :try_end_1} :catch_0
 
