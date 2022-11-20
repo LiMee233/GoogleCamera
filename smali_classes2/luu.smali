@@ -445,11 +445,7 @@
 
     sget-object p1, Landroid/hardware/camera2/CaptureRequest;->SHADING_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
-    const-string v1, "pref_shading_mode_value_key"
-
-    invoke-static {v1}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
+    const/4 v1, 0x0
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -460,11 +456,7 @@
     :cond_0
     sget-object p1, Landroid/hardware/camera2/CaptureRequest;->CONTROL_AE_ANTIBANDING_MODE:Landroid/hardware/camera2/CaptureRequest$Key;
 
-    const-string v1, "pref_antibanding_key"
-
-    invoke-static {v1}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
-
-    move-result v1
+    const/4 v1, 0x3
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

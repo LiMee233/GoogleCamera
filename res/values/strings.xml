@@ -712,6 +712,8 @@ Frequent Faces won’t be available when saving photos and videos to Locked Fold
     <string name="pref_dnd_access_needed_title">Do Not Disturb access needed</string>
     <string name="pref_exposure_control">Exposure</string>
     <string name="pref_exposure_control_summary">Adjust brightness and shadows</string>
+    <string name="pref_focus_tracking">Focus tracking</string>
+    <string name="pref_focus_tracking_summary">Track the selected subject after tapping-focus.</string>
     <string name="pref_free_up_space">Free up space</string>
     <string name="pref_free_up_space_summary">Clean up storage on this device. This will take you to Files app.</string>
     <string name="pref_gestures_summary">%1$s, %2$s</string>

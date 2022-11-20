@@ -96,16 +96,12 @@
     <public type="array" name="com_google_android_gms_fonts_certs" id="0x7f030004" />
     <public type="array" name="com_google_android_gms_fonts_certs_dev" id="0x7f030005" />
     <public type="array" name="com_google_android_gms_fonts_certs_prod" id="0x7f030006" />
-    <public type="array" name="pref_antibanding_entries" id="0x7f03000e" />
-    <public type="array" name="pref_antibanding_entryvalues" id="0x7f03000f" />
     <public type="array" name="pref_camera_picturesize_entries" id="0x7f030011" />
     <public type="array" name="pref_camera_picturesize_entryvalues" id="0x7f030012" />
     <public type="array" name="pref_double_tap_action_entries" id="0x7f030014" />
     <public type="array" name="pref_double_tap_entryvalues" id="0x7f030015" />
     <public type="array" name="pref_grid_mode_entries" id="0x7f030016" />
     <public type="array" name="pref_grid_mode_entryvalues" id="0x7f030017" />
-    <public type="array" name="pref_qjpg_entries" id="0x7f03001d" />
-    <public type="array" name="pref_qjpg_entryvalues" id="0x7f03001e" />
     <public type="array" name="pref_volume_action_entries" id="0x7f03001f" />
     <public type="array" name="pref_volume_action_entryvalues" id="0x7f030020" />
     <public type="array" name="storage_saver_settings_changed" id="0x7f030024" />
@@ -114,8 +110,6 @@
     <public type="array" name="libs_entries" id="0x7f030029" />
     <public type="array" name="libs_entryvalues" id="0x7f03002a" />
     <public type="array" name="libs_name_entryvalues" id="0x7f03002b" />
-    <public type="array" name="pref_nightmode_entries" id="0x7f030035" />
-    <public type="array" name="pref_nightmode_entryvalues" id="0x7f030036" />
     <public type="array" name="pref_sectcurve_preset_entries" id="0x7f030058" />
     <public type="array" name="pref_sectcurve_preset_entryvalues" id="0x7f030059" />
     <public type="array" name="curve_srange_entries" id="0x7f03005a" />
@@ -4587,7 +4581,6 @@
     <public type="drawable" name="front_back_switch_button" id="0x7f0804a3" />
     <public type="drawable" name="front_back_switch_button_animation" id="0x7f0804a4" />
     <public type="drawable" name="color_filter_grgb" id="0x7f0804a5" />
-    <public type="drawable" name="color_transform" id="0x7f0804a6" />
     <public type="drawable" name="gleam_animated_vector" id="0x7f0804a7" />
     <public type="drawable" name="gm3_appbar_background" id="0x7f0804a8" />
     <public type="drawable" name="gm3_popupmenu_background_overlay" id="0x7f0804a9" />
@@ -4906,7 +4899,6 @@
     <public type="drawable" name="quantum_gm_ic_sabre_gm_grey_24" id="0x7f0805e9" />
     <public type="drawable" name="quantum_gm_ic_camera_alt_vd_theme_24" id="0x7f0805ea" />
     <public type="drawable" name="quantum_gm_ic_camera_alt_white_24" id="0x7f0805eb" />
-    <public type="drawable" name="quantum_gm_ic_settings_black_24" id="0x7f0805ec" />
     <public type="drawable" name="quantum_gm_ic_camera_front_black_24" id="0x7f0805ed" />
     <public type="drawable" name="quantum_gm_ic_center_focus_strong_white_24" id="0x7f0805ee" />
     <public type="drawable" name="quantum_gm_ic_clear_grey600_36" id="0x7f0805ef" />

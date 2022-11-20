@@ -7,10 +7,6 @@
 
 .field public static final camera_id_entryvalues:I = 0x7f030002
 
-.field public static final pref_camera_hdrplus_entryvalues:I = 0x7f03000e
-
-.field public static final pref_camera_jpeg_quality_entryvalues:I = 0x7f03000f
-
 .field public static final pref_camera_picturesize_entries:I = 0x7f030011
 
 .field public static final pref_camera_picturesize_entryvalues:I = 0x7f030012
@@ -24,10 +20,6 @@
 .field public static final pref_grid_mode_entryvalues:I = 0x7f030017
 
 .field public static final pref_video_effect_entryvalues:I = 0x7f03001c
-
-.field public static final pref_video_encoding_entryvalues:I = 0x7f03001d
-
-.field public static final pref_video_quality_entryvalues:I = 0x7f03001e
 
 .field public static final pref_volume_action_entries:I = 0x7f03001f
 

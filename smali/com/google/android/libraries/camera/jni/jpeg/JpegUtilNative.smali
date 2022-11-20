@@ -324,9 +324,7 @@
 
     move-result v20
 
-    invoke-static {}, Lsgcam/Shamim;->getJPGQuality()I
-
-    move-result v22
+    const/16 v22, 0x5f
 
     move-object/from16 v0, p3
 

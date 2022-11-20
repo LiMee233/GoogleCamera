@@ -1618,14 +1618,6 @@
 
     sput v0, Lsgcam/Shamim;->SunlightFix:I
 
-    const-string v0, "pref_color_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    sput v0, Lsgcam/Shamim;->Color:I
-
     const-string/jumbo v0, "pref_subjectportrait_key"
 
     invoke-static {v0}, Lcom/Fix/Pref;->MenuValue(Ljava/lang/String;)I
@@ -1649,6 +1641,8 @@
     sput v0, Lsgcam/Shamim;->P3:I
 
     sput v0, Lsgcam/Shamim;->Aemodef:I
+
+    sput v0, Lsgcam/Shamim;->Color:I
 
     const/4 v0, 0x1
 
@@ -2567,25 +2561,6 @@
         :pswitch_4
         :pswitch_5
     .end packed-switch
-.end method
-
-.method public static getJPGQuality()I
-    .locals 5
-
-    const-string v0, "pref_qjpg_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return v0
-
-    :cond_0
-    const/16 v3, 0x5f
-
-    return v3
 .end method
 
 .method public static getNoiseMode(I)I

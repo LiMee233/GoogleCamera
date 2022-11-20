@@ -503,6 +503,8 @@
     <string name="pref_dnd_access_needed_title">需要“勿扰”权限</string>
     <string name="pref_exposure_control">曝光</string>
     <string name="pref_exposure_control_summary">调节亮度和阴影</string>
+    <string name="pref_focus_tracking">对焦追踪</string>
+    <string name="pref_focus_tracking_summary">点按对焦后追踪所选对象。</string>
     <string name="pref_free_up_space">释放空间</string>
     <string name="pref_free_up_space_summary">清理此设备上的存储空间。系统会将您转到谷歌文件极客应用。</string>
     <string name="pref_gestures_summary">%1$s，%2$s</string>
