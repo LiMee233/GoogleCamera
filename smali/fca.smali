@@ -1096,27 +1096,6 @@
     goto :goto_5
 
     :cond_c
-    const-string v5, "pref_category_developer"
-
-    invoke-interface {v1, v5}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    move-result v6
-
-    if-nez v6, :cond_d
-
-    invoke-virtual {v0, v5}, Lfca;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
-
-    move-result-object v5
-
-    check-cast v5, Landroid/preference/PreferenceScreen;
-
-    iget-object v6, v0, Lfca;->a:Lfcd;
-
-    iget-object v6, v6, Lfcd;->a:Ldjg;
-
-    invoke-virtual {v6, v5}, Ldjg;->a(Landroid/preference/PreferenceScreen;)V
-
-    :cond_d
     const-string v5, "pref_category_social_share"
 
     invoke-interface {v1, v5}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
@@ -2479,10 +2458,6 @@
     const-string v1, "pref_category_gestures"
 
     invoke-direct {p0, v1}, Lfca;->g(Ljava/lang/String;)V
-
-    const-string v2, "pref_category_developer"
-
-    invoke-direct {p0, v2}, Lfca;->g(Ljava/lang/String;)V
 
     const-string v2, "pref_category_social_share"
 

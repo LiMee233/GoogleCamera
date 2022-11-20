@@ -410,10 +410,6 @@
 
     invoke-direct {p0, v1}, Lfbm;->ap(Ljava/lang/String;)V
 
-    const-string v2, "pref_category_developer"
-
-    invoke-direct {p0, v2}, Lfbm;->ap(Ljava/lang/String;)V
-
     const-string v2, "pref_category_social_share"
 
     invoke-direct {p0, v2}, Lfbm;->ap(Ljava/lang/String;)V
@@ -1665,25 +1661,6 @@
     invoke-interface {v3, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_8
-    iget-object v3, v0, Lfbp;->a:Ldde;
-
-    invoke-interface {v3}, Ldde;->f()V
-
-    iget-object v3, v0, Lfbp;->u:Ljava/util/List;
-
-    const-string v6, "pref_category_developer"
-
-    if-nez v7, :cond_9
-
-    iget-object v3, v0, Lfbp;->u:Ljava/util/List;
-
-    sget-object v7, Lhtt;->q:Lhuj;
-
-    iget-object v7, v7, Lhuj;->a:Ljava/lang/String;
-
-    invoke-interface {v3, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    :cond_9
     iget-object v3, v0, Lfbp;->a:Ldde;
 
     sget-object v7, Ldct;->o:Lddf;

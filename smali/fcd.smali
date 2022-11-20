@@ -352,17 +352,6 @@
 
     iget-object v0, p0, Lfcd;->m:Ljava/util/List;
 
-    const-string v1, "pref_category_developer"
-
-    if-nez v4, :cond_8
-
-    iget-object v0, p0, Lfcd;->m:Ljava/util/List;
-
-    sget-object v1, Lhtt;->q:Lhuj;
-
-    iget-object v1, v1, Lhuj;->a:Ljava/lang/String;
-
-    :cond_8
     iget-object v0, p0, Lfcd;->q:Ldde;
 
     sget-object v1, Ldct;->o:Lddf;

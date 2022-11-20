@@ -62,6 +62,5 @@
         <Preference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/setting_google_feedback" android:key="pref_launch_feedback">
             <intent android:action="android.intent.action.VIEW" android:data="https://github.com/LiMee233/GoogleCamera/issues" />
         </Preference>
-        <PreferenceScreen android:layout="@layout/preference_with_margin" android:title="@string/pref_developer_settings" android:key="pref_category_developer" />
     </PreferenceCategory>
 </PreferenceScreen>

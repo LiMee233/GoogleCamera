@@ -50,19 +50,6 @@
 .method public static f(Lfjr;Landroidx/preference/Preference;)V
     .locals 2
 
-    iget-object v0, p1, Landroidx/preference/Preference;->t:Ljava/lang/String;
-
-    const-string v1, "pref_category_developer"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    return-void
-
-    :cond_0
     instance-of v0, p1, Landroidx/preference/PreferenceGroup;
 
     if-eqz v0, :cond_1
