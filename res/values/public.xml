@@ -5132,9 +5132,6 @@
     <public type="drawable" name="zoom_lock_shape" id="0x7f0806f7" />
     <public type="drawable" name="ic_viewfinder_custom_button_background_enabled" id="0x7f080719" />
     <public type="drawable" name="enabled_button_urnyx05" id="0x7f08071b" />
-    <public type="drawable" name="abc_1_shortcuts_nightsight" id="0x7f08071d" />
-    <public type="drawable" name="abc_1_shortcuts_portrait" id="0x7f08071e" />
-    <public type="drawable" name="ic_shortcuts_setting" id="0x7f08071f" />
     <public type="drawable" name="abc_ab_share_pack_mtrl_alpha" id="0x7f0803f2" />
     <public type="drawable" name="abc_cab_background_top_mtrl_alpha" id="0x7f080403" />
     <public type="drawable" name="abc_ic_commit_search_api_mtrl_alpha" id="0x7f08040a" />
@@ -6902,9 +6899,6 @@
     <public type="string" name="grid_mode_golden_ratio" id="0x7f1401d2" />
     <public type="string" name="grid_mode_off" id="0x7f1401d3" />
     <public type="string" name="grid_mode_three_by_three" id="0x7f1401d4" />
-    <public type="string" name="accessibility_take_nightsight_button" id="0x7f1401d5" />
-    <public type="string" name="shortcut_opensett_long_label" id="0x7f1401d6" />
-    <public type="string" name="shortcut_opensett_short_label" id="0x7f1401d7" />
     <public type="string" name="pref_camera_double_tap_action_title12" id="0x7f1401d8" />
     <public type="string" name="hdr_desc" id="0x7f1401db" />
     <public type="string" name="hdr_enhanced" id="0x7f1401dc" />

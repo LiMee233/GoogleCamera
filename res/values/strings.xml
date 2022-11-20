@@ -420,9 +420,6 @@ Frequent Faces won’t be available when saving photos and videos to Locked Fold
     <string name="grid_mode_golden_ratio">Golden ratio</string>
     <string name="grid_mode_off">No grid</string>
     <string name="grid_mode_three_by_three">3 x 3</string>
-    <string name="accessibility_take_nightsight_button">Take night</string>
-    <string name="shortcut_opensett_long_label">Open settings</string>
-    <string name="shortcut_opensett_short_label">Settings</string>
     <string name="pref_camera_double_tap_action_title12">Double-tap action</string>
     <string name="hdr_desc">HDR+</string>
     <string name="hdr_enhanced">Enhanced</string>
