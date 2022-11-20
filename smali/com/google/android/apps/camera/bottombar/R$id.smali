@@ -81,8 +81,6 @@
 
 .field public static final accessibility_custom_action_9:I = 0x7f0b0031
 
-.field public static final action0:I = 0x7f0b0032
-
 .field public static final action_bar:I = 0x7f0b0036
 
 .field public static final action_bar_activity_content:I = 0x7f0b0037
@@ -90,8 +88,6 @@
 .field public static final action_bar_container:I = 0x7f0b0038
 
 .field public static final action_bar_root:I = 0x7f0b0039
-
-.field public static final action_bar_spinner:I = 0x7f0b003a
 
 .field public static final action_bar_subtitle:I = 0x7f0b003b
 

@@ -608,22 +608,6 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v2, 0x7f0b000f
-
-    invoke-virtual {p0, v2}, Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;->getFrameLayoutResourceId(I)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-
-    const v2, 0x7f0b0032
-
-    invoke-virtual {p0, v2}, Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;->getFrameLayoutResourceId(I)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-
     goto :goto_0
 
     :cond_0
@@ -663,48 +647,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    const v2, 0x7f0b000f
-
-    invoke-virtual {p0, v2}, Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;->getFrameLayoutResourceId(I)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-
-    const v2, 0x7f0b0032
-
-    invoke-virtual {p0, v2}, Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;->getFrameLayoutResourceId(I)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-
     :goto_0
-    goto :goto_1
-
-    :goto_1
-    sget-object v7, Lsgcam/Shamim;->GetClass:Ljrj;
-
-    sget-object v8, Ljrj;->m:Ljrj;
-
-    if-ne v7, v8, :cond_1
-
-    const v1, 0x0
-
-    goto :goto_2
-
-    :cond_1
-    const v1, 0x8
-
-    :goto_2
-    const v2, 0x7f0b03ce
-
-    invoke-virtual {p0, v2}, Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;->getFrameLayoutResourceId(I)Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-
     return-void
 .end method
 

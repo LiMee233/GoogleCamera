@@ -17,12 +17,6 @@
     </com.google.android.apps.camera.ui.widget.TracedFrameLayout>
     <FrameLayout android:id="@id/uncovered_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:gca_box="uncoveredPreview">
         <include layout="@layout/evcomp" />
-        <FrameLayout android:id="@id/slider_focus" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <za.defcomk.prorec.cust6.RotSeek android:layout_gravity="bottom|center|left" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="65.0dip" android:layout_height="120.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
-        </FrameLayout>
-        <FrameLayout android:id="@id/slider_sat" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <za.defcomk.prorec.cust4.RotSeek android:layout_gravity="bottom|center|left" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="65.0dip" android:layout_height="120.0dip" android:layout_marginBottom="155.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
-        </FrameLayout>
         <ViewStub android:id="@id/chameleon_ui_stub" android:layout="@layout/chameleon_ui" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="270.0dip" android:layout_marginBottom="190.0dip" />
         <ImageView android:layout_gravity="center_vertical" android:id="@id/video_animation_indicator_icon" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/ic_burst_mode_white_36dp" />
         <com.google.android.apps.camera.ui.widget.TracedFrameLayout android:id="@id/smarts_ui_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent">

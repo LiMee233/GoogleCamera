@@ -60,8 +60,6 @@
 
     invoke-static {}, Lsgcam/Shamim;->DeviceInfo()V
 
-    invoke-static {}, Lsgcam/Shamim;->GetAemode()V
-
     return-void
 .end method
 
@@ -5764,29 +5762,6 @@
 
     move-result v4
 
-    invoke-static {}, Lcom/custom/slider;->getEXPTGT()Ljava/lang/Long;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/Long;->longValue()J
-
-    move-result-wide v6
-
-    long-to-float v6, v6
-
-    float-to-int v7, v6
-
-    if-eqz v7, :cond_0
-
-    const v5, 0x49742400    # 1000000.0f
-
-    move v4, v6
-
-    div-float/2addr v4, v5
-
-    invoke-virtual {v0, v4}, Lcom/google/googlex/gcam/FrameRequest;->b(F)V
-
-    :cond_0
     invoke-virtual/range {p1 .. p1}, Lcom/google/googlex/gcam/FrameRequest;->a()F
 
     move-result v5

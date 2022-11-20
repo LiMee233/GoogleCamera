@@ -129,10 +129,6 @@
     <public type="array" name="pref_curve_mode2_entries" id="0x7f030133" />
     <public type="array" name="pref_curve_mode2_entryvalues" id="0x7f030134" />
     <public type="array" name="pref_disabledenabled_entries" id="0x7f030135" />
-    <public type="array" name="pref_focus_value_entries" id="0x7f03014e" />
-    <public type="array" name="pref_focus_value_entryvalues" id="0x7f03014f" />
-    <public type="array" name="pref_set_focus_entries" id="0x7f030150" />
-    <public type="array" name="pref_set_focus_entryvalues" id="0x7f030151" />
     <public type="attr" name="ConstraintRotate" id="0x7f040000" />
     <public type="attr" name="dummy_1" id="0x7f040001" />
     <public type="attr" name="dummy_2" id="0x7f040002" />
@@ -4675,7 +4671,6 @@
     <public type="drawable" name="fix" id="0x7f0804f5" />
     <public type="drawable" name="ic_evc_brightness_24px" id="0x7f0804f6" />
     <public type="drawable" name="ic_evc_shadow_24px" id="0x7f0804f7" />
-    <public type="drawable" name="fix_resolution" id="0x7f0804f8" />
     <public type="drawable" name="fixsolnce" id="0x7f0804f9" />
     <public type="drawable" name="ic_face_deblur_24dp" id="0x7f0804fa" />
     <public type="drawable" name="ic_faceretouch_off" id="0x7f0804fb" />
@@ -5247,7 +5242,6 @@
     <public type="id" name="SYM" id="0x7f0b000c" />
     <public type="id" name="TOP_END" id="0x7f0b000d" />
     <public type="id" name="TOP_START" id="0x7f0b000e" />
-    <public type="id" name="slider_exposure" id="0x7f0b000f" />
     <public type="id" name="accelerate" id="0x7f0b0010" />
     <public type="id" name="accessibility_action_clickable_span" id="0x7f0b0011" />
     <public type="id" name="accessibility_custom_action_0" id="0x7f0b0012" />
@@ -5282,14 +5276,11 @@
     <public type="id" name="accessibility_custom_action_7" id="0x7f0b002f" />
     <public type="id" name="accessibility_custom_action_8" id="0x7f0b0030" />
     <public type="id" name="accessibility_custom_action_9" id="0x7f0b0031" />
-    <public type="id" name="slider_iso" id="0x7f0b0032" />
-    <public type="id" name="slider_focus" id="0x7f0b0033" />
     <public type="id" name="AuxButtonMain" id="0x7f0b0034" />
     <public type="id" name="action_bar" id="0x7f0b0036" />
     <public type="id" name="action_bar_activity_content" id="0x7f0b0037" />
     <public type="id" name="action_bar_container" id="0x7f0b0038" />
     <public type="id" name="action_bar_root" id="0x7f0b0039" />
-    <public type="id" name="slider_sat" id="0x7f0b003a" />
     <public type="id" name="action_bar_subtitle" id="0x7f0b003b" />
     <public type="id" name="action_bar_title" id="0x7f0b003c" />
     <public type="id" name="action_button" id="0x7f0b003d" />
@@ -6201,7 +6192,6 @@
     <public type="id" name="graphView" id="0x7f0b03ca" />
     <public type="id" name="seekbar1" id="0x7f0b03cb" />
     <public type="id" name="aux_butt_horizontal" id="0x7f0b03cc" />
-    <public type="id" name="astro_time" id="0x7f0b03ce" />
     <public type="integer" name="abc_config_activityDefaultDur" id="0x7f0c0000" />
     <public type="integer" name="abc_config_activityShortDur" id="0x7f0c0001" />
     <public type="integer" name="accessibility_social_handle_close_timeout" id="0x7f0c0002" />

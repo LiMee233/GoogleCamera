@@ -3168,20 +3168,6 @@
 
     :cond_11
     :goto_c
-    iget-wide v1, v3, Lcom/google/googlex/gcam/ShotParams;->a:J
-
-    invoke-static {}, Lza/lol;->AstroTimeMode()Ljava/lang/Integer;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/Integer;->intValue()I
-
-    move-result v4
-
-    int-to-float v4, v4
-
-    invoke-static {v1, v2, v3, v4}, Lcom/google/googlex/gcam/GcamModuleJNI;->ShotParams_tripod_max_exposure_time_ms_set(JLcom/google/googlex/gcam/ShotParams;F)V
-
     iget-object v1, v0, Lebh;->m:Leac;
 
     iget-object v2, v1, Leac;->a:Ldde;

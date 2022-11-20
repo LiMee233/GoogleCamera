@@ -4,7 +4,6 @@
     <item type="id" name="AuxButtonWide" />
     <item type="id" name="AuxButtonSpace" />
     <item type="id" name="AWBbutton" />
-    <item type="id" name="slider_exposure" />
     <item type="id" name="accessibility_action_clickable_span" />
     <item type="id" name="accessibility_custom_action_0" />
     <item type="id" name="accessibility_custom_action_1" />
@@ -38,14 +37,11 @@
     <item type="id" name="accessibility_custom_action_7" />
     <item type="id" name="accessibility_custom_action_8" />
     <item type="id" name="accessibility_custom_action_9" />
-    <item type="id" name="slider_iso" />
-    <item type="id" name="slider_focus" />
     <item type="id" name="AuxButtonMain" />
     <item type="id" name="action_bar" />
     <item type="id" name="action_bar_activity_content" />
     <item type="id" name="action_bar_container" />
     <item type="id" name="action_bar_root" />
-    <item type="id" name="slider_sat" />
     <item type="id" name="action_bar_subtitle" />
     <item type="id" name="action_bar_title" />
     <item type="id" name="action_button" />
@@ -790,5 +786,4 @@
     <item type="id" name="graphView" />
     <item type="id" name="seekbar1" />
     <item type="id" name="aux_butt_horizontal" />
-    <item type="id" name="astro_time" />
 </resources>

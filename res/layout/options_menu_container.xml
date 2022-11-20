@@ -15,15 +15,6 @@
             </LinearLayout>
         </FrameLayout>
     </FrameLayout>
-    <FrameLayout android:id="@id/slider_exposure" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <za.defcomk.prorec.cust.RotSeek android:layout_gravity="bottom|center|left" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="70.0dip" android:layout_height="120.0dip" android:layout_marginBottom="365.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
-    </FrameLayout>
-    <FrameLayout android:id="@id/slider_iso" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <za.defcomk.prorec.cust2.RotSeek android:layout_gravity="bottom|center|left" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="70.0dip" android:layout_height="120.0dip" android:layout_marginBottom="240.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
-    </FrameLayout>
-    <FrameLayout android:id="@id/astro_time" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <za.defcomk.prorec.cust5.RotSeek android:layout_gravity="bottom|center|right" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="65.0dip" android:layout_height="120.0dip" android:layout_marginRight="67.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:contextClickable="true" />
-    </FrameLayout>
 
     <!-- From Right -->
     <FrameLayout android:id="@id/AWBbutton" android:layout_width="fill_parent" android:layout_height="fill_parent">
