@@ -60,6 +60,6 @@
     <PreferenceCategory android:title="@string/setting_google_help_and_feedback" android:key="pref_category_help_and_feedback">
         <Preference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/setting_google_feedback" android:key="pref_launch_feedback" />
         <Preference android:icon="@drawable/quantum_gm_ic_help_outline_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/setting_google_help" android:key="pref_launch_help" />
-        <PreferenceScreen android:icon="@drawable/quantum_gm_ic_developer_mode_gm_grey_24" android:layout="@layout/preference_with_margin" android:title="@string/pref_developer_settings" android:key="pref_category_developer" />
+        <PreferenceScreen android:layout="@layout/preference_with_margin" android:title="@string/pref_developer_settings" android:key="pref_category_developer" />
     </PreferenceCategory>
 </PreferenceScreen>

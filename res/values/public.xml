@@ -4731,7 +4731,6 @@
     <public type="drawable" name="ic_cleanup_noise" id="0x7f08053d" />
     <public type="drawable" name="ic_photobooth_mode" id="0x7f08053e" />
     <public type="drawable" name="ic_photosphere_processing" id="0x7f08053f" />
-    <public type="drawable" name="ic_donate_24" id="0x7f080540" />
     <public type="drawable" name="ic_play" id="0x7f080541" />
     <public type="drawable" name="ic_play_arrow" id="0x7f080542" />
     <public type="drawable" name="ic_playground_dark_24" id="0x7f080543" />
@@ -4739,7 +4738,6 @@
     <public type="drawable" name="ic_ratio_full" id="0x7f080545" />
     <public type="drawable" name="ic_ratio_standard" id="0x7f080546" />
     <public type="drawable" name="ic_raw_off_gm2_24px" id="0x7f080547" />
-    <public type="drawable" name="ic_logo_camera_24" id="0x7f080548" />
     <public type="drawable" name="ic_raw_on_gm2_24px" id="0x7f080549" />
     <public type="drawable" name="ic_raw_on_gm2_grey_24px" id="0x7f08054a" />
     <public type="drawable" name="ic_recording_on_blue_circle" id="0x7f08054b" />
@@ -4749,9 +4747,7 @@
     <public type="drawable" name="ic_reset_outlines_inset" id="0x7f08054f" />
     <public type="drawable" name="ic_resume_pause" id="0x7f080550" />
     <public type="drawable" name="ic_resume_pause_animation" id="0x7f080551" />
-    <public type="drawable" name="ic_maintainer_24" id="0x7f080552" />
     <public type="drawable" name="ic_selfie" id="0x7f080553" />
-    <public type="drawable" name="ic_news_24" id="0x7f080554" />
     <public type="drawable" name="ic_tutorial" id="0x7f080555" />
     <public type="drawable" name="idlens" id="0x7f080556" />
     <public type="drawable" name="idname" id="0x7f080557" />
@@ -4904,7 +4900,6 @@
     <public type="drawable" name="quantum_gm_ic_clear_grey600_36" id="0x7f0805ef" />
     <public type="drawable" name="quantum_gm_ic_close_white_24" id="0x7f0805f0" />
     <public type="drawable" name="quantum_gm_ic_shadow_gm_grey_24" id="0x7f0805f1" />
-    <public type="drawable" name="quantum_gm_ic_developer_mode_gm_grey_24" id="0x7f0805f2" />
     <public type="drawable" name="quantum_gm_ic_share_white_24" id="0x7f0805f3" />
     <public type="drawable" name="quantum_gm_ic_do_not_disturb_white_24" id="0x7f0805f4" />
     <public type="drawable" name="quantum_gm_ic_dogfood_vd_theme_24" id="0x7f0805f5" />
@@ -6274,13 +6269,11 @@
     <public type="interpolator" name="mtrl_linear" id="0x7f0d001d" />
     <public type="interpolator" name="mtrl_linear_out_slow_in" id="0x7f0d001e" />
     <public type="layout" name="abc_action_bar_title_item" id="0x7f0e0000" />
-    <public type="layout" name="preference_about" id="0x7f0e0001" />
     <public type="layout" name="abc_action_menu_item_layout" id="0x7f0e0002" />
     <public type="layout" name="abc_action_menu_layout" id="0x7f0e0003" />
     <public type="layout" name="abc_action_mode_bar" id="0x7f0e0004" />
     <public type="layout" name="abc_action_mode_close_item_material" id="0x7f0e0005" />
     <public type="layout" name="preference_aboutAdrita" id="0x7f0e0006" />
-    <public type="layout" name="preference_about_info" id="0x7f0e0007" />
     <public type="layout" name="abc_alert_dialog_button_bar_material" id="0x7f0e0008" />
     <public type="layout" name="abc_alert_dialog_material" id="0x7f0e0009" />
     <public type="layout" name="abc_alert_dialog_title_material" id="0x7f0e000a" />
@@ -6300,7 +6293,6 @@
     <public type="layout" name="abc_search_dropdown_item_icons_2line" id="0x7f0e0018" />
     <public type="layout" name="abc_search_view" id="0x7f0e0019" />
     <public type="layout" name="abc_select_dialog_material" id="0x7f0e001a" />
-    <public type="layout" name="preference_updates" id="0x7f0e001b" />
     <public type="layout" name="li_row_textview" id="0x7f0e001c" />
     <public type="layout" name="activity_main" id="0x7f0e0020" />
     <public type="layout" name="autotimer_tutorial_layout" id="0x7f0e0023" />

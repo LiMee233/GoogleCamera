@@ -285,8 +285,6 @@
 
 .field public static final ic_photobooth_mode:I = 0x7f08053e
 
-.field public static final ic_photosphere_selected_24dp:I = 0x7f080540
-
 .field public static final ic_play:I = 0x7f080541
 
 .field public static final ic_play_arrow:I = 0x7f080542

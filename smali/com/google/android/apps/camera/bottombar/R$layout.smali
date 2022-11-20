@@ -17,8 +17,6 @@
 
 .field public static final abc_activity_chooser_view:I = 0x7f0e0006
 
-.field public static final abc_activity_chooser_view_list_item:I = 0x7f0e0007
-
 .field public static final abc_alert_dialog_button_bar_material:I = 0x7f0e0008
 
 .field public static final abc_alert_dialog_material:I = 0x7f0e0009
@@ -56,8 +54,6 @@
 .field public static final abc_search_view:I = 0x7f0e0019
 
 .field public static final abc_select_dialog_material:I = 0x7f0e001a
-
-.field public static final abc_tooltip:I = 0x7f0e001b
 
 .field public static final activity_main:I = 0x7f0e0020
 
