@@ -1123,17 +1123,13 @@
 
     move-result-object v1
 
-    invoke-static {}, Lsgcam/Shamim;->HdrRawFixFirst()I
-
-    move-result v2
+    const/16 v2, 0x26
 
     invoke-interface {p0, v2}, Llvn;->x(I)Ljava/util/List;
 
     move-result-object v3
 
-    invoke-static {}, Lsgcam/Shamim;->HdrRawFixSecond()I
-
-    move-result v4
+    const/16 v4, 0x20
 
     invoke-interface {p0, v4}, Llvn;->x(I)Ljava/util/List;
 

@@ -117,48 +117,6 @@
     return-void
 .end method
 
-.method public static putInt(Ljava/lang/String;I)V
-    .locals 1
-
-    sget-object v0, Lcom/hdrindicator/AgcUtil;->sharedPreferences:Landroid/content/SharedPreferences;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    move-result-object v0
-
-    invoke-interface {v0, p0, p1}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    :cond_0
-    return-void
-.end method
-
-.method public static putString(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 1
-
-    sget-object v0, Lcom/hdrindicator/AgcUtil;->sharedPreferences:Landroid/content/SharedPreferences;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-
-    move-result-object v0
-
-    invoke-interface {v0, p0, p1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    :cond_0
-    return-void
-.end method
-
 .method public static sHdrProcessTime(I)V
     .locals 7
 
@@ -218,62 +176,4 @@
     :cond_1
     :goto_0
     return-void
-.end method
-
-.method public static viewWithMargin(Landroid/view/View;IIII)Landroid/view/View;
-    .locals 5
-
-    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    new-instance v1, Landroid/widget/FrameLayout;
-
-    invoke-direct {v1, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
-
-    new-instance v2, Landroid/widget/FrameLayout$LayoutParams;
-
-    const/4 v3, -0x1
-
-    const/4 v4, -0x2
-
-    invoke-direct {v2, v3, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
-
-    int-to-float v3, p1
-
-    invoke-static {v0, v3}, Lcom/hdrindicator/AgcUtil;->dp2px(Landroid/content/Context;F)I
-
-    move-result v3
-
-    iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
-
-    int-to-float v3, p3
-
-    invoke-static {v0, v3}, Lcom/hdrindicator/AgcUtil;->dp2px(Landroid/content/Context;F)I
-
-    move-result v3
-
-    iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
-
-    int-to-float v3, p2
-
-    invoke-static {v0, v3}, Lcom/hdrindicator/AgcUtil;->dp2px(Landroid/content/Context;F)I
-
-    move-result v3
-
-    iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
-
-    int-to-float v3, p4
-
-    invoke-static {v0, v3}, Lcom/hdrindicator/AgcUtil;->dp2px(Landroid/content/Context;F)I
-
-    move-result v3
-
-    iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
-
-    invoke-virtual {p0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    invoke-virtual {v1, p0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
-
-    return-object v1
 .end method

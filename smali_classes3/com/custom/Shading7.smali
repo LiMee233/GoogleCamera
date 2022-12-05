@@ -152,7 +152,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
     const v0, 0x7f06088d
 
@@ -160,7 +160,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
 
     goto :goto_0
 
@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
     const v0, 0x7f06088c
 
@@ -197,7 +197,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/custom/AWB4;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Lcom/custom/Shading7;->setForegroundTintList(Landroid/content/res/ColorStateList;)V
 
     goto :goto_0
 
