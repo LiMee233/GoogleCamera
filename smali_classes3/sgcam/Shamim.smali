@@ -19,17 +19,17 @@
 
 .field public static Front:I
 
-.field public static GetClass:Landroid/hardware/camera2/CameraDevice;
-
-.field public static GetClass:Ldeo;
-
-.field public static GetClass:Ljrj;
-
-.field public static GetClass:Llvn;
-
 .field public static GetISO:I
 
 .field public static GetISOsystem:I
+
+.field public static GetInstance:Landroid/hardware/camera2/CameraDevice;
+
+.field public static GetInstance:Ldeo;
+
+.field public static GetInstance:Ljrj;
+
+.field public static GetInstance:Llvn;
 
 .field public static GetMode:I
 
@@ -48,6 +48,8 @@
 .field public static P3:I
 
 .field public static Prefix:Ljava/lang/String;
+
+.field public static RestartSetting:I
 
 .field public static SunlightFix:I
 
@@ -191,6 +193,107 @@
     return-object v1
 .end method
 
+.method public static GetAstroModeValues()Lonw;
+    .locals 10
+
+    sget-object v1, Lgtu;->N:Lgtu;
+
+    const v2, 0x1
+
+    invoke-static {v2}, Lhlr;->g(I)I
+
+    move-result v2
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    sget-object v3, Lgtu;->M:Lgtu;
+
+    const v4, 0x2
+
+    invoke-static {v4}, Lhlr;->g(I)I
+
+    move-result v4
+
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v4
+
+    sget-object v5, Lgtu;->sshh:Lgtu;
+
+    const v6, 0x3
+
+    invoke-static {v6}, Lhlr;->g(I)I
+
+    move-result v6
+
+    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v6
+
+    invoke-static/range {v1 .. v6}, Lonw;->d(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lonw;
+
+    move-result-object v7
+
+    return-object v7
+.end method
+
+.method public static GetBackPressedRestart(Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;)V
+    .locals 7
+
+    sget v1, Lsgcam/Shamim;->RestartSetting:I
+
+    if-eqz v1, :cond_0
+
+    iget-object v0, p0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->w:Lfca;
+
+    invoke-virtual {v0}, Lfca;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/preference/PreferenceScreen;->getKey()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "prefscreen_top"
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    new-instance v0, Landroid/content/Intent;
+
+    const-class v1, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;
+
+    invoke-static {}, Lsgcam/Shamim;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    invoke-direct {v0, v2, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    const v1, 0x8000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    const/high16 v1, 0x10000000
+
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    invoke-static {v0}, Lsgcam/Shamim;->GetEachModeIndividually(Landroid/content/Intent;)V
+
+    invoke-virtual {v2, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+
+    const/4 v2, 0x0
+
+    invoke-static {v2}, Ljava/lang/System;->exit(I)V
+
+    :cond_0
+    return-void
+.end method
+
 .method public static GetBlackLevel(Llvn;Llzs;)[F
     .locals 7
 
@@ -308,7 +411,7 @@
 .method public static GetDevSettBooleanValue(Lddf;)Z
     .locals 8
 
-    sget-object v7, Lsgcam/Shamim;->GetClass:Ldeo;
+    sget-object v7, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     invoke-virtual {v7, p0}, Ldeo;->k(Lddf;)Z
 
@@ -320,7 +423,7 @@
 .method public static GetDevSettIntValue(Lddh;)I
     .locals 8
 
-    sget-object v7, Lsgcam/Shamim;->GetClass:Ldeo;
+    sget-object v7, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     invoke-virtual {v7, p0}, Ldeo;->a(Lddh;)Loix;
 
@@ -433,6 +536,26 @@
     return v0
 .end method
 
+.method public static GetNightMode()I
+    .locals 10
+
+    sget-object v0, Lsgcam/Shamim;->GetInstance:Ljrj;
+
+    sget-object v1, Ljrj;->m:Ljrj;
+
+    if-ne v0, v1, :cond_0
+
+    const v5, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const v5, 0x0
+
+    :goto_0
+    return v5
+.end method
+
 .method public static GetOpmodeIntValue()I
     .locals 9
 
@@ -522,7 +645,7 @@
 .method public static GetOpmodePref()Ljava/lang/String;
     .locals 9
 
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v2, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v3, Ljrj;->b:Ljrj;
 
@@ -533,7 +656,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v2, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v3, Ljrj;->c:Ljrj;
 
@@ -544,7 +667,7 @@
     goto :goto_0
 
     :cond_1
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v2, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v3, Ljrj;->f:Ljrj;
 
@@ -555,7 +678,7 @@
     goto :goto_0
 
     :cond_2
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v2, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v3, Ljrj;->m:Ljrj;
 
@@ -566,7 +689,7 @@
     goto :goto_0
 
     :cond_3
-    sget-object v2, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v2, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v3, Ljrj;->g:Ljrj;
 
@@ -718,52 +841,6 @@
     .end array-data
 .end method
 
-.method public static GetUpscaling1Preference()I
-    .locals 1
-
-    sget v0, Lsgcam/Shamim;->Front:I
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x0
-
-    goto :goto_0
-
-    :cond_0
-    const-string v0, "pref_aux_key"
-
-    invoke-static {v0}, Lsgcam/Shamim;->MenuValue(Ljava/lang/String;)I
-
-    move-result v0
-
-    packed-switch v0, :pswitch_data_0
-
-    :pswitch_0
-    const/4 v0, 0x1
-
-    goto :goto_0
-
-    :pswitch_1
-    const/4 v0, 0x0
-
-    goto :goto_0
-
-    :pswitch_2
-    const/4 v0, 0x0
-
-    :goto_0
-    return v0
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x0
-        :pswitch_0
-        :pswitch_1
-        :pswitch_2
-    .end packed-switch
-.end method
-
 .method public static HdrRawFixFirst()I
     .locals 1
 
@@ -825,6 +902,25 @@
     const/4 v1, 0x0
 
     return v1
+.end method
+
+.method public static PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
+    .locals 8
+
+    const-string v1, ""
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string v1, "Empty(auto)"
+
+    return-object v1
+
+    :cond_0
+    return-object p0
 .end method
 
 .method public static ShowToastDirect(Ljava/lang/String;)V

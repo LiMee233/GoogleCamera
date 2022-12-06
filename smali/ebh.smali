@@ -2408,7 +2408,7 @@
 
     iget-wide v4, v3, Lcom/google/googlex/gcam/ShotParams;->a:J
 
-    sget-object v11, Lsgcam/Shamim;->GetClass:Ldeo;
+    sget-object v11, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     sget-object v12, Ldcx;->shh:Lddf;
 
@@ -4289,7 +4289,7 @@
     :cond_0
     const/4 v8, 0x0
 
-    sget-object v13, Lsgcam/Shamim;->GetClass:Landroid/hardware/camera2/CameraDevice;
+    sget-object v13, Lsgcam/Shamim;->GetInstance:Landroid/hardware/camera2/CameraDevice;
 
     invoke-virtual {v13}, Landroid/hardware/camera2/CameraDevice;->getId()Ljava/lang/String;
 

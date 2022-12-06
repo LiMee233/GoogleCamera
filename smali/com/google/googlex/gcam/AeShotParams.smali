@@ -231,21 +231,29 @@
 .method public final i(I)V
     .locals 5
 
-    sget v2, Lsgcam/Shamim;->OriginalReso:I
+    sget-object v2, Ldct;->upsc:Lddf;
 
-    if-eqz v2, :cond_1
-
-    sput p1, Lsgcam/Shamim;->GetRegister:I
-
-    invoke-static {}, Lsgcam/Shamim;->GetUpscaling1Preference()I
+    invoke-static {v2}, Lsgcam/Shamim;->GetDevSettBooleanValue(Lddf;)Z
 
     move-result v2
 
+    if-nez v2, :cond_1
+
+    sget v2, Lsgcam/Shamim;->OriginalReso:I
+
     if-eqz v2, :cond_0
+
+    sput p1, Lsgcam/Shamim;->GetRegister:I
 
     invoke-static {}, Lsgcam/Shamim;->GetMultiplicationMethod()I
 
     move-result p1
+
+    iget-wide v0, p0, Lcom/google/googlex/gcam/AeShotParams;->a:J
+
+    invoke-static {v0, v1, p0, p1}, Lcom/google/googlex/gcam/GcamModuleJNI;->AeShotParams_target_height_set(JLcom/google/googlex/gcam/AeShotParams;I)V
+
+    goto :goto_0
 
     :cond_0
     iget-wide v0, p0, Lcom/google/googlex/gcam/AeShotParams;->a:J
@@ -253,27 +261,36 @@
     invoke-static {v0, v1, p0, p1}, Lcom/google/googlex/gcam/GcamModuleJNI;->AeShotParams_target_height_set(JLcom/google/googlex/gcam/AeShotParams;I)V
 
     :cond_1
+    :goto_0
     return-void
 .end method
 
 .method public final j(I)V
     .locals 5
 
-    sget v2, Lsgcam/Shamim;->OriginalReso:I
+    sget-object v2, Ldct;->upsc:Lddf;
 
-    if-eqz v2, :cond_1
-
-    sput p1, Lsgcam/Shamim;->GetRegister:I
-
-    invoke-static {}, Lsgcam/Shamim;->GetUpscaling1Preference()I
+    invoke-static {v2}, Lsgcam/Shamim;->GetDevSettBooleanValue(Lddf;)Z
 
     move-result v2
 
+    if-nez v2, :cond_1
+
+    sget v2, Lsgcam/Shamim;->OriginalReso:I
+
     if-eqz v2, :cond_0
+
+    sput p1, Lsgcam/Shamim;->GetRegister:I
 
     invoke-static {}, Lsgcam/Shamim;->GetMultiplicationMethod()I
 
     move-result p1
+
+    iget-wide v0, p0, Lcom/google/googlex/gcam/AeShotParams;->a:J
+
+    invoke-static {v0, v1, p0, p1}, Lcom/google/googlex/gcam/GcamModuleJNI;->AeShotParams_target_width_set(JLcom/google/googlex/gcam/AeShotParams;I)V
+
+    goto :goto_0
 
     :cond_0
     iget-wide v0, p0, Lcom/google/googlex/gcam/AeShotParams;->a:J
@@ -281,6 +298,7 @@
     invoke-static {v0, v1, p0, p1}, Lcom/google/googlex/gcam/GcamModuleJNI;->AeShotParams_target_width_set(JLcom/google/googlex/gcam/AeShotParams;I)V
 
     :cond_1
+    :goto_0
     return-void
 .end method
 

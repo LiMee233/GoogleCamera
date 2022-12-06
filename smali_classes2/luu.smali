@@ -17,7 +17,7 @@
 
     iput-object p1, p0, Lluu;->a:Landroid/hardware/camera2/CameraDevice;
 
-    sput-object p1, Lsgcam/Shamim;->GetClass:Landroid/hardware/camera2/CameraDevice;
+    sput-object p1, Lsgcam/Shamim;->GetInstance:Landroid/hardware/camera2/CameraDevice;
 
     return-void
 .end method

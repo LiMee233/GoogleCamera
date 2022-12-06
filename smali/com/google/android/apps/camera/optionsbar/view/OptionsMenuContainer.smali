@@ -566,7 +566,7 @@
 .method public final getVisibityButtons()V
     .locals 9
 
-    sget-object v7, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v7, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v8, Ljrj;->p:Ljrj;
 

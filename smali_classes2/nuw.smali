@@ -634,6 +634,12 @@
 
     invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
+    sget-object v0, Lgtu;->sshh:Lgtu;
+
+    sget-object v1, Lpcz;->sshh:Lpcz;
+
+    invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
     sget-object v0, Lgtu;->B:Lgtu;
 
     sget-object v1, Lpcz;->Y:Lpcz;

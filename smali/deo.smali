@@ -43,7 +43,7 @@
 
     invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lsgcam/Shamim;->GetClass:Ldeo;
+    sput-object v0, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     new-instance v4, Ljava/util/HashMap;
 
@@ -534,7 +534,7 @@
 
     sget-object v5, Lddl;->M:Lddf;
 
-    const/4 v14, 0x0
+    const v14, 0x0
 
     invoke-static {v14}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -667,6 +667,10 @@
     invoke-interface {v0, v5, v14}, Lddj;->r(Lddf;Ljava/lang/Float;)V
 
     sget-object v5, Lddl;->aa:Lddf;
+
+    invoke-interface {v0, v5, v8}, Lddj;->s(Lddf;Z)V
+
+    sget-object v5, Lddl;->aaa:Lddf;
 
     invoke-interface {v0, v5, v8}, Lddj;->s(Lddf;Z)V
 

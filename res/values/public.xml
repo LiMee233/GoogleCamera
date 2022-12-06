@@ -6587,6 +6587,8 @@
     <public type="string" name="astro_line_2" id="0x7f140085" />
     <public type="string" name="astro_off_acc_desc" id="0x7f140086" />
     <public type="string" name="astro_off_desc" id="0x7f140087" />
+    <public type="string" name="astro_on_acc_desc" id="0x7f14053f" />
+    <public type="string" name="astro_on_desc" id="0x7f140540" />
     <public type="string" name="astro_option_desc" id="0x7f140088" />
     <public type="string" name="astro_photo_url" id="0x7f140089" />
     <public type="string" name="pref_exposure_max_time_title" id="0x7f14008a" />

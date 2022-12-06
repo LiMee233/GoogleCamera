@@ -88,7 +88,7 @@
 
     sget-object v3, Lkac;->a:Lkac;
 
-    const v2, 0x3f800000    # 1.0f
+    const v2, 0x3f1d70a4    # 0.615f
 
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 

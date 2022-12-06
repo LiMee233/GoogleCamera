@@ -411,7 +411,7 @@
 
     move-result v14
 
-    if-eqz v14, :cond_12
+    if-eqz v14, :cond_10
 
     iget-object v14, v0, Leax;->f:Lelx;
 
@@ -421,7 +421,7 @@
 
     instance-of v14, v14, Lecm;
 
-    if-eqz v14, :cond_12
+    if-eqz v14, :cond_10
 
     invoke-virtual/range {p2 .. p2}, Loix;->g()Z
 
@@ -514,7 +514,7 @@
 
     iget-object v11, v1, Lecp;->a:Lcom/google/googlex/gcam/InterleavedImageU8;
 
-    if-eqz v11, :cond_11
+    if-eqz v11, :cond_f
 
     sget-object v4, Lech;->a:Ljava/lang/String;
 
@@ -738,45 +738,31 @@
 
     sget v7, Lsgcam/Shamim;->OriginalReso:I
 
-    if-eqz v7, :cond_10
+    if-eqz v7, :cond_e
 
     sput v0, Lsgcam/Shamim;->GetRegister:I
-
-    invoke-static {}, Lsgcam/Shamim;->GetUpscaling1Preference()I
-
-    move-result v7
-
-    if-eqz v7, :cond_e
 
     invoke-static {}, Lsgcam/Shamim;->GetMultiplicationMethod()I
 
     move-result v0
 
-    :cond_e
     iget-wide v2, v9, Lcom/google/googlex/gcam/PortraitRequest;->a:J
 
     invoke-static {v2, v3, v9, v0}, Lcom/google/googlex/gcam/GcamModuleJNI;->PortraitRequest_output_width_set(JLcom/google/googlex/gcam/PortraitRequest;I)V
 
     sput v1, Lsgcam/Shamim;->GetRegister:I
 
-    invoke-static {}, Lsgcam/Shamim;->GetUpscaling1Preference()I
-
-    move-result v7
-
-    if-eqz v7, :cond_f
-
     invoke-static {}, Lsgcam/Shamim;->GetMultiplicationMethod()I
 
     move-result v1
 
-    :cond_f
     iget-wide v2, v9, Lcom/google/googlex/gcam/PortraitRequest;->a:J
 
     invoke-static {v2, v3, v9, v1}, Lcom/google/googlex/gcam/GcamModuleJNI;->PortraitRequest_output_height_set(JLcom/google/googlex/gcam/PortraitRequest;I)V
 
     goto :goto_5
 
-    :cond_10
+    :cond_e
     iget-wide v2, v9, Lcom/google/googlex/gcam/PortraitRequest;->a:J
 
     invoke-static {v2, v3, v9, v0}, Lcom/google/googlex/gcam/GcamModuleJNI;->PortraitRequest_output_width_set(JLcom/google/googlex/gcam/PortraitRequest;I)V
@@ -896,7 +882,7 @@
 
     return-object v0
 
-    :cond_11
+    :cond_f
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "RGB for portrait processing unavailable"
@@ -905,27 +891,27 @@
 
     throw v0
 
-    :cond_12
+    :cond_10
     const/4 v0, 0x1
 
-    if-eq v3, v0, :cond_14
+    if-eq v3, v0, :cond_12
 
-    if-ne v4, v7, :cond_13
+    if-ne v4, v7, :cond_11
 
-    if-ne v5, v6, :cond_13
+    if-ne v5, v6, :cond_11
 
     goto :goto_6
 
-    :cond_13
+    :cond_11
     move-object/from16 v3, p0
 
     goto/16 :goto_9
 
-    :cond_14
+    :cond_12
     :goto_6
     iget-boolean v3, v1, Ldzs;->d:Z
 
-    if-eqz v3, :cond_18
+    if-eqz v3, :cond_16
 
     move-object/from16 v3, p0
 
@@ -935,13 +921,13 @@
 
     move-result v4
 
-    if-eqz v4, :cond_19
+    if-eqz v4, :cond_17
 
     invoke-virtual/range {p2 .. p2}, Loix;->g()Z
 
     move-result v4
 
-    if-nez v4, :cond_15
+    if-nez v4, :cond_13
 
     sget-object v0, Leab;->e:Leab;
 
@@ -951,7 +937,7 @@
 
     return-object v0
 
-    :cond_15
+    :cond_13
     invoke-virtual/range {p2 .. p2}, Loix;->c()Ljava/lang/Object;
 
     move-result-object v4
@@ -960,7 +946,7 @@
 
     iget-object v5, v4, Lecp;->a:Lcom/google/googlex/gcam/InterleavedImageU8;
 
-    if-eqz v5, :cond_16
+    if-eqz v5, :cond_14
 
     iget-object v5, v3, Leax;->j:Lecr;
 
@@ -970,7 +956,7 @@
 
     goto :goto_8
 
-    :cond_16
+    :cond_14
     iget-object v15, v4, Lecp;->c:Landroid/hardware/HardwareBuffer;
 
     invoke-virtual {v15}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -983,13 +969,13 @@
 
     sget-object v7, Leca;->c:Leca;
 
-    if-ne v6, v7, :cond_17
+    if-ne v6, v7, :cond_15
 
     const/16 v17, 0x1
 
     goto :goto_7
 
-    :cond_17
+    :cond_15
     const/16 v17, 0x0
 
     :goto_7
@@ -1092,18 +1078,18 @@
 
     goto :goto_a
 
-    :cond_18
+    :cond_16
     move-object/from16 v3, p0
 
-    :cond_19
+    :cond_17
     :goto_9
-    if-eqz v10, :cond_1b
+    if-eqz v10, :cond_19
 
     invoke-virtual/range {p2 .. p2}, Loix;->g()Z
 
     move-result v4
 
-    if-nez v4, :cond_1a
+    if-nez v4, :cond_18
 
     sget-object v0, Leab;->d:Leab;
 
@@ -1113,7 +1099,7 @@
 
     return-object v0
 
-    :cond_1a
+    :cond_18
     invoke-virtual/range {p2 .. p2}, Loix;->c()Ljava/lang/Object;
 
     move-result-object v4
@@ -1166,12 +1152,12 @@
 
     goto :goto_a
 
-    :cond_1b
+    :cond_19
     invoke-virtual/range {p2 .. p2}, Loix;->g()Z
 
     move-result v4
 
-    if-eqz v4, :cond_1c
+    if-eqz v4, :cond_1a
 
     iget-object v4, v3, Leax;->i:Ldkp;
 
@@ -1193,7 +1179,7 @@
 
     invoke-virtual {v4, v5, v6}, Ldkp;->d(Lhso;Lhlq;)V
 
-    :cond_1c
+    :cond_1a
     move-object/from16 v5, p2
 
     :goto_a
@@ -1215,7 +1201,7 @@
 
     move-result v4
 
-    if-eqz v4, :cond_1d
+    if-eqz v4, :cond_1b
 
     invoke-virtual {v5}, Loix;->c()Ljava/lang/Object;
 
@@ -1225,7 +1211,7 @@
 
     iget-object v4, v4, Lecp;->c:Landroid/hardware/HardwareBuffer;
 
-    if-eqz v4, :cond_1d
+    if-eqz v4, :cond_1b
 
     iget-object v4, v3, Leax;->j:Lecr;
 
@@ -1273,14 +1259,14 @@
 
     move-result-object v5
 
-    :cond_1d
-    if-eqz v11, :cond_21
+    :cond_1b
+    if-eqz v11, :cond_1f
 
     invoke-virtual {v5}, Loix;->g()Z
 
     move-result v4
 
-    if-nez v4, :cond_1e
+    if-nez v4, :cond_1c
 
     sget-object v0, Leab;->c:Leab;
 
@@ -1290,7 +1276,7 @@
 
     return-object v0
 
-    :cond_1e
+    :cond_1c
     invoke-virtual {v5}, Loix;->c()Ljava/lang/Object;
 
     move-result-object v4
@@ -1299,13 +1285,13 @@
 
     iget-object v5, v4, Lecp;->c:Landroid/hardware/HardwareBuffer;
 
-    if-nez v5, :cond_1f
+    if-nez v5, :cond_1d
 
     const/4 v9, 0x1
 
     goto :goto_b
 
-    :cond_1f
+    :cond_1d
     const/4 v9, 0x0
 
     :goto_b
@@ -1313,7 +1299,7 @@
 
     iget-object v0, v4, Lecp;->a:Lcom/google/googlex/gcam/InterleavedImageU8;
 
-    if-eqz v0, :cond_20
+    if-eqz v0, :cond_1e
 
     invoke-static {v4}, Lecr;->c(Lecp;)Lecp;
 
@@ -1321,7 +1307,7 @@
 
     goto :goto_c
 
-    :cond_20
+    :cond_1e
     :goto_c
     iget-object v0, v3, Leax;->j:Lecr;
 
@@ -1331,18 +1317,18 @@
 
     move-result-object v5
 
-    :cond_21
+    :cond_1f
     invoke-virtual {v5}, Loix;->g()Z
 
     move-result v0
 
-    if-nez v0, :cond_23
+    if-nez v0, :cond_21
 
-    if-nez v12, :cond_22
+    if-nez v12, :cond_20
 
     goto :goto_d
 
-    :cond_22
+    :cond_20
     sget-object v0, Leab;->c:Leab;
 
     invoke-static {v0}, Loix;->i(Ljava/lang/Object;)Loix;
@@ -1351,17 +1337,17 @@
 
     return-object v0
 
-    :cond_23
+    :cond_21
     :goto_d
     invoke-virtual {v5}, Loix;->g()Z
 
     move-result v0
 
-    if-eqz v0, :cond_24
+    if-eqz v0, :cond_22
 
     iget-boolean v0, v1, Ldzs;->h:Z
 
-    if-eqz v0, :cond_24
+    if-eqz v0, :cond_22
 
     iget-object v0, v3, Leax;->j:Lecr;
 
@@ -1383,15 +1369,15 @@
 
     goto :goto_e
 
-    :cond_24
+    :cond_22
     :goto_e
-    if-eqz v13, :cond_27
+    if-eqz v13, :cond_25
 
     invoke-virtual {v5}, Loix;->g()Z
 
     move-result v0
 
-    if-nez v0, :cond_25
+    if-nez v0, :cond_23
 
     sget-object v0, Leab;->c:Leab;
 
@@ -1401,7 +1387,7 @@
 
     return-object v0
 
-    :cond_25
+    :cond_23
     invoke-virtual {v5}, Loix;->c()Ljava/lang/Object;
 
     move-result-object v0
@@ -1410,13 +1396,13 @@
 
     iget-object v1, v0, Lecp;->a:Lcom/google/googlex/gcam/InterleavedImageU8;
 
-    if-eqz v1, :cond_26
+    if-eqz v1, :cond_24
 
     invoke-static {v0}, Lecr;->c(Lecp;)Lecp;
 
     move-result-object v0
 
-    :cond_26
+    :cond_24
     iget-object v1, v3, Leax;->c:Lecf;
 
     invoke-virtual {v2}, Loix;->c()Ljava/lang/Object;
@@ -1435,12 +1421,12 @@
 
     return-object v0
 
-    :cond_27
+    :cond_25
     invoke-virtual {v5}, Loix;->g()Z
 
     move-result v0
 
-    if-nez v0, :cond_28
+    if-nez v0, :cond_26
 
     sget-object v0, Leab;->b:Leab;
 
@@ -1450,7 +1436,7 @@
 
     return-object v0
 
-    :cond_28
+    :cond_26
     invoke-virtual {v5}, Loix;->c()Ljava/lang/Object;
 
     move-result-object v0
@@ -1459,11 +1445,11 @@
 
     iget-object v1, v0, Lecp;->b:Ledm;
 
-    if-nez v1, :cond_2b
+    if-nez v1, :cond_29
 
     iget-object v1, v0, Lecp;->a:Lcom/google/googlex/gcam/InterleavedImageU8;
 
-    if-eqz v1, :cond_2a
+    if-eqz v1, :cond_28
 
     iget-object v4, v3, Leax;->c:Lecf;
 
@@ -1489,7 +1475,7 @@
 
     move-result v7
 
-    if-eqz v7, :cond_29
+    if-eqz v7, :cond_27
 
     invoke-virtual {v6}, Lcom/google/googlex/gcam/ShotMetadata;->b()I
 
@@ -1521,7 +1507,7 @@
 
     goto :goto_f
 
-    :cond_29
+    :cond_27
     const/4 v8, 0x0
 
     :goto_f
@@ -1585,7 +1571,7 @@
 
     return-object v0
 
-    :cond_2a
+    :cond_28
     new-instance v0, Ljava/lang/IllegalStateException;
 
     const-string v1, "Requested JPEG and still got uncompressed callback."
@@ -1594,7 +1580,7 @@
 
     throw v0
 
-    :cond_2b
+    :cond_29
     iget-object v1, v3, Leax;->c:Lecf;
 
     invoke-virtual {v2}, Loix;->c()Ljava/lang/Object;

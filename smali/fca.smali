@@ -3226,7 +3226,7 @@
 
     const/4 p0, 0x1
 
-    sput-boolean p0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+    sput p0, Lsgcam/Shamim;->RestartSetting:I
 
     :cond_b
     return-void

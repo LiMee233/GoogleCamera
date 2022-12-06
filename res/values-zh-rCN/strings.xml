@@ -89,6 +89,8 @@
     <string name="astro_line_2">快门图标将从月亮变为星星。点按该图标。</string>
     <string name="astro_off_acc_desc">将天体摄影功能设为关闭</string>
     <string name="astro_off_desc">关闭</string>
+    <string name="astro_on_acc_desc">将天体摄影功能设为开启</string>
+    <string name="astro_on_desc">开启</string>
     <string name="astro_option_desc">天体摄影功能选项</string>
     <string name="astrophotography_edu_title">天体摄影功能</string>
     <string name="astrophotography_suggestion_text">试试天体摄影功能</string>

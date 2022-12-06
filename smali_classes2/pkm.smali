@@ -42,7 +42,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sput-object p1, Lsgcam/Shamim;->GetClass:Llvn;
+    sput-object p1, Lsgcam/Shamim;->GetInstance:Llvn;
 
     iput-object p1, p0, Lpkm;->a:Llvn;
 

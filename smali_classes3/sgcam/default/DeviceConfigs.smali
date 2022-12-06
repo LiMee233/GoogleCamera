@@ -14,7 +14,7 @@
 .method public static GetDefaults()V
     .locals 22
 
-    sget-object v0, Lsgcam/Shamim;->GetClass:Ldeo;
+    sget-object v0, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     const-string v7, "pref_camera_selfie_mirror_key"
 
@@ -37,24 +37,6 @@
     const-string v7, "pref_micro_mode"
 
     const-string v8, "0"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_notification_log_ber"
-
-    const-string v8, "#ff430303"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_notificationlog_berviewer_background"
-
-    const-string v8, "#ff4c0000"
-
-    invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v7, "pref_notificationlog_berviewer_txt"
-
-    const-string v8, "#fff5f5f5"
 
     invoke-static {v7, v8}, Lsgcam/Shamim;->GetDefaultString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -226,6 +208,10 @@
 
     invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
 
+    sget-object v3, Lddk;->ad:Lddf;
+
+    invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
+
     const v5, 0x0
 
     sget-object v3, Lddw;->y:Lddf;
@@ -299,6 +285,10 @@
     invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
 
     sget-object v3, Ldct;->aa:Lddf;
+
+    invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
+
+    sget-object v3, Lddl;->D:Lddf;
 
     invoke-virtual {v0, v3, v5}, Ldeo;->s(Lddf;Z)V
 

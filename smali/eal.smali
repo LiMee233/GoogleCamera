@@ -202,11 +202,14 @@
 
     iget-boolean p1, p1, Lhlu;->a:Z
 
+    if-eqz p1, :cond_1
+
     :cond_0
-    const/4 p2, 0x1
+    iput-boolean v0, p0, Leal;->h:Z
 
-    iput-boolean p2, p0, Leal;->h:Z
+    const/4 p2, 0x0
 
+    :cond_1
     :goto_0
     iget-object p1, p0, Leal;->k:Ljava/util/List;
 
@@ -253,6 +256,43 @@
     const/4 p2, 0x0
 
     :cond_4
+    iget-object p1, p0, Leal;->m:Lhue;
+
+    sget-object v1, Lhtt;->W:Lhuk;
+
+    invoke-interface {p1, v1}, Lhue;->c(Lhtr;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Integer;
+
+    const/4 p3, 0x3
+
+    invoke-static {p3}, Lhlr;->g(I)I
+
+    move-result v1
+
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Ljava/lang/Integer;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_9
+
+    invoke-static {}, Lsgcam/Shamim;->GetNightMode()I
+
+    move-result v0
+
+    iput-boolean v0, p0, Leal;->h:Z
+
+    const/4 p2, 0x0
+
+    const/4 v0, 0x0
+
+    :cond_9
     iget-object p1, p0, Leal;->o:Llcm;
 
     invoke-interface {p1}, Llcm;->fA()Ljava/lang/Object;
@@ -751,7 +791,7 @@
 
     move-result p1
 
-    const v0, 0x3f666666    # 0.9f
+    const v0, 0x3e4ccccd    # 0.2f
 
     mul-float p1, p1, v0
 
@@ -767,14 +807,14 @@
 
     const/4 v4, 0x1
 
-    const/4 v5, 0x0
+    const/4 v5, 0x1
 
     goto :goto_0
 
     :cond_0
-    if-eqz p3, :cond_1
+    if-nez p3, :cond_1
 
-    const/4 v4, 0x0
+    const/4 v4, 0x1
 
     const/4 v5, 0x1
 

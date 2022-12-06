@@ -125,6 +125,8 @@
 
 .field public static final enum shhh:Lgtu;
 
+.field public static final enum sshh:Lgtu;
+
 .field public static final enum t:Lgtu;
 
 .field public static final enum u:Lgtu;
@@ -918,7 +920,17 @@
 
     sput-object v2, Lgtu;->shhh:Lgtu;
 
+    new-instance v2, Lgtu;
+
+    const-string v6, "ASTRO_ON"
+
     const/16 v4, 0x43
+
+    invoke-direct {v2, v6, v4}, Lgtu;-><init>(Ljava/lang/String;I)V
+
+    sput-object v2, Lgtu;->sshh:Lgtu;
+
+    const/16 v4, 0x44
 
     new-array v4, v4, [Lgtu;
 
@@ -1191,6 +1203,12 @@
     const/16 v0, 0x42
 
     sget-object v2, Lgtu;->shhh:Lgtu;
+
+    aput-object v2, v4, v0
+
+    const/16 v0, 0x43
+
+    sget-object v2, Lgtu;->sshh:Lgtu;
 
     aput-object v2, v4, v0
 

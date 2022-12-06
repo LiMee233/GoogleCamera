@@ -500,13 +500,11 @@
 
     check-cast v1, Ldde;
 
-    sget-object v2, Lddl;->aa:Lddf;
+    sget-object v2, Lddl;->aaa:Lddf;
 
     invoke-interface {v1, v2}, Ldde;->k(Lddf;)Z
 
     move-result v1
-
-    const v1, 0x0
 
     if-eqz v1, :cond_0
 
@@ -1183,6 +1181,8 @@
     invoke-static {v1, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
     return-object v1
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x0

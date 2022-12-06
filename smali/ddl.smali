@@ -61,6 +61,8 @@
 
 .field public static final aa:Lddf;
 
+.field public static final aaa:Lddf;
+
 .field public static final ab:Lddf;
 
 .field public static final ac:Lddf;
@@ -1007,6 +1009,20 @@
     move-result-object v0
 
     sput-object v0, Lddl;->aa:Lddf;
+
+    new-instance v0, Lddg;
+
+    invoke-direct {v0}, Lddg;-><init>()V
+
+    const-string v1, "camera.catshark_freezefix"
+
+    iput-object v1, v0, Lddg;->a:Ljava/lang/String;
+
+    invoke-virtual {v0}, Lddg;->f()Lddf;
+
+    move-result-object v0
+
+    sput-object v0, Lddl;->aaa:Lddf;
 
     new-instance v0, Lddg;
 

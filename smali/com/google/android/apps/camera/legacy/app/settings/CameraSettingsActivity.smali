@@ -3,8 +3,6 @@
 
 
 # static fields
-.field public static isrestart:Z
-
 .field public static final o:Loue;
 
 .field public static p:Z
@@ -19,14 +17,14 @@
 
 .field private final v:Ljava/lang/Object;
 
-.field private w:Lfca;
+.field public w:Lfca;
 
 .field private x:Z
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 1
+    .locals 5
 
     const-string v0, "com/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity"
 
@@ -36,9 +34,9 @@
 
     sput-object v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->o:Loue;
 
-    const/4 v0, 0x0
+    const/4 v1, 0x0
 
-    sput-boolean v0, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+    sput v1, Lsgcam/Shamim;->RestartSetting:I
 
     return-void
 .end method
@@ -144,39 +142,29 @@
 .method public final onBackPressed()V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->getIntent()Landroid/content/Intent;
 
-    move-result-object v2
+    move-result-object v0
 
-    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
+    invoke-virtual {v0}, Landroid/content/Intent;->getFlags()I
 
-    sget-boolean v1, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->isrestart:Z
+    move-result v0
 
-    if-eqz v1, :cond_0
+    const/high16 v1, 0x2000000
 
-    new-instance v0, Landroid/content/Intent;
+    and-int/2addr v0, v1
 
-    const-class v1, Lcom/google/android/apps/camera/legacy/app/activity/main/CameraActivity;
+    if-eqz v0, :cond_0
 
-    invoke-direct {v0, v2, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    const/4 v0, -0x1
 
-    const v1, 0x8000
-
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    const/high16 v1, 0x10000000
-
-    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
-
-    invoke-static {v0}, Lsgcam/Shamim;->GetEachModeIndividually(Landroid/content/Intent;)V
-
-    invoke-virtual {v2, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-
-    const/4 v2, 0x0
-
-    invoke-static {v2}, Ljava/lang/System;->exit(I)V
+    invoke-virtual {p0, v0}, Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;->setResult(I)V
 
     :cond_0
+    invoke-super {p0}, Letc;->onBackPressed()V
+
+    invoke-static {p0}, Lsgcam/Shamim;->GetBackPressedRestart(Lcom/google/android/apps/camera/legacy/app/settings/CameraSettingsActivity;)V
+
     return-void
 .end method
 

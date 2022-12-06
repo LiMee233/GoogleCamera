@@ -169,6 +169,8 @@
 
 .field public static final enum shhh:Lpcz;
 
+.field public static final enum sshh:Lpcz;
+
 .field public static final enum t:Lpcz;
 
 .field public static final enum u:Lpcz;
@@ -1204,7 +1206,19 @@
 
     sput-object v2, Lpcz;->shhh:Lpcz;
 
+    new-instance v2, Lpcz;
+
+    const-string v6, "ASTRO_ON"
+
+    const/16 v8, 0x4d
+
     const/16 v4, 0x4d
+
+    invoke-direct {v2, v6, v8, v4}, Lpcz;-><init>(Ljava/lang/String;II)V
+
+    sput-object v2, Lpcz;->sshh:Lpcz;
+
+    const/16 v4, 0x4e
 
     new-array v4, v4, [Lpcz;
 
@@ -1517,6 +1531,12 @@
     sget-object v2, Lpcz;->shhh:Lpcz;
 
     const/16 v0, 0x4c
+
+    aput-object v2, v4, v0
+
+    sget-object v2, Lpcz;->sshh:Lpcz;
+
+    const/16 v0, 0x4d
 
     aput-object v2, v4, v0
 

@@ -84,7 +84,7 @@
 
     iput-boolean p5, p0, Ljbt;->f:Z
 
-    sget-object p6, Lsgcam/Shamim;->GetClass:Ldeo;
+    sget-object p6, Lsgcam/Shamim;->GetInstance:Ldeo;
 
     sget-object p1, Ldcx;->sh:Lddf;
 

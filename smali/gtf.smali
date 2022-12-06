@@ -679,27 +679,7 @@
 
     iput-object v9, v0, Lgtf;->aN:Lolo;
 
-    sget-object v9, Lgtu;->N:Lgtu;
-
-    invoke-static {v6}, Lhlr;->g(I)I
-
-    move-result v6
-
-    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v6
-
-    sget-object v11, Lgtu;->M:Lgtu;
-
-    invoke-static {v7}, Lhlr;->g(I)I
-
-    move-result v7
-
-    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v7
-
-    invoke-static {v9, v6, v11, v7}, Lonw;->c(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lonw;
+    invoke-static {}, Lsgcam/Shamim;->GetAstroModeValues()Lonw;
 
     move-result-object v6
 
@@ -4875,7 +4855,7 @@
 
     check-cast v0, Ljrj;
 
-    sput-object v0, Lsgcam/Shamim;->GetClass:Ljrj;
+    sput-object v0, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     iget-object v3, v1, Lgtf;->aV:Lcom/google/android/apps/camera/optionsbar/view/OptionsMenuContainer;
 

@@ -153,6 +153,10 @@
 
     invoke-virtual {v1, v0}, Landroid/preference/ListPreference;->setValue(Ljava/lang/String;)V
 
+    invoke-static {v0}, Lsgcam/Shamim;->PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
     invoke-virtual {v1, v0}, Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     :cond_2
@@ -655,6 +659,10 @@
 
     move-result-object v1
 
+    invoke-static {v1}, Lsgcam/Shamim;->PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
     invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     new-instance v1, LDeveloperSettings2;
@@ -754,6 +762,10 @@
 
     move-result-object v1
 
+    invoke-static {v1}, Lsgcam/Shamim;->PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
     invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     new-instance v1, LDeveloperSettings2;
@@ -833,7 +845,11 @@
 
     invoke-virtual {v0, p3}, Landroid/preference/EditTextPreference;->setText(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p3}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-static {p3}, Lsgcam/Shamim;->PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     new-instance v1, LDeveloperSettings2;
 
@@ -929,6 +945,10 @@
     move-result-wide v2
 
     invoke-static {v2, v3}, Ljava/lang/Long;->toString(J)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lsgcam/Shamim;->PreventEmptySummery(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

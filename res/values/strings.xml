@@ -98,6 +98,8 @@ Clean your lens for better photo quality."</string>
     <string name="astro_line_2">The shutter will change from a moon to stars. Tap it.</string>
     <string name="astro_off_acc_desc">Astrophotography Off</string>
     <string name="astro_off_desc">Off</string>
+    <string name="astro_on_acc_desc">Astrophotography On</string>
+    <string name="astro_on_desc">On</string>
     <string name="astro_option_desc">Astrophotography options</string>
     <string name="astro_photo_url">https://www.gstatic.com/aiux/gca/astro/astro_edu.jpg</string>
     <string name="pref_exposure_max_time_title">Max. Exposure Time</string>

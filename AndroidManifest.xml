@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.limee.android.Camera" platformBuildVersionCode="31" platformBuildVersionName="12">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.limee.android.Camera" platformBuildVersionCode="33" platformBuildVersionName="13">
     <original-package android:name="com.android.camera2"/>
     <uses-feature android:name="android.hardware.camera.level.full" android:required="true"/>
     <uses-feature android:name="android.hardware.location" android:required="false"/>

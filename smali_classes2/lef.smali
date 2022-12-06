@@ -42,7 +42,7 @@
 
     iput-object p2, p0, Llef;->b:Lldz;
 
-    sget-object v0, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v0, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v1, Ljrj;->n:Ljrj;
 
@@ -51,7 +51,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v0, Lsgcam/Shamim;->GetClass:Ljrj;
+    sget-object v0, Lsgcam/Shamim;->GetInstance:Ljrj;
 
     sget-object v1, Ljrj;->f:Ljrj;
 

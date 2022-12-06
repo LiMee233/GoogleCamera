@@ -199,6 +199,8 @@
 
 .field public static final ay:Lddf;
 
+.field public static final aya:Lddf;
+
 .field public static final az:Lddf;
 
 .field public static final b:Lddh;
@@ -1625,6 +1627,12 @@
     const-string v2, "mn_settings_enabled"
 
     iput-object v2, v0, Lddg;->a:Ljava/lang/String;
+
+    invoke-virtual {v0}, Lddg;->f()Lddf;
+
+    move-result-object v0
+
+    sput-object v0, Lddk;->aya:Lddf;
 
     new-instance v0, Lddg;
 
@@ -3848,6 +3856,12 @@
     sget-object p2, Lddk;->ay:Lddf;
 
     const p1, 0x1
+
+    invoke-interface {p0, p2, p1}, Lddj;->s(Lddf;Z)V
+
+    sget-object p2, Lddk;->aya:Lddf;
+
+    const p1, 0x0
 
     invoke-interface {p0, p2, p1}, Lddj;->s(Lddf;Z)V
 
